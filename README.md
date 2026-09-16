@@ -8,10 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-PROFILE">LinkedIn</a> ·
-  <a href="https://YOUR-SITE.notion.site">Notion portfolio</a> ·
-  <a href="https://medium.com/@YOUR-HANDLE">Medium</a> ·
-  <a href="https://YOUR-HANDLE.substack.com">Substack</a> ·
+  <a href="https://http://www.linkedin.com/in/olushegun-s">LinkedIn</a> ·
+  <a href="https://rb.gy/bvvh4a">Notion portfolio</a> ·
   <a href="templates/">Free templates</a>
 </p>
 
