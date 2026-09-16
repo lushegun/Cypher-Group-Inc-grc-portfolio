@@ -1,0 +1,7 @@
+Condition,Action,Owner,Timescale
+Sign-off outstanding at 5 business days,Automated reminder to the individual,Head of People and Operations,Day 5
+Sign-off outstanding at 10 business days,Escalate to line manager,Head of People and Operations,Day 10
+Sign-off outstanding at 15 business days,Escalate to CTO; access to Confidential systems suspended,Chief Technology Officer,Day 15
+MFA not enrolled at 1 business day after account creation,Access to Confidential and Restricted systems suspended,IT Operations Manager,Day 1
+Training outstanding at 10 business days from start date,Escalate to line manager,Head of People and Operations,Day 10
+Leaver recorded,"Row archived, not deleted; retained 2 years as evidence",Head of People and Operations,Same day

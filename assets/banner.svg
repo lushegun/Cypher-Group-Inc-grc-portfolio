@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="GRC Portfolio: Governance, Risk and Compliance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#13315C"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="18" fill="url(#grid)"/>
+  <g transform="translate(1040 150)" fill="none" stroke="#8DA9C4" stroke-opacity="0.55">
+    <path d="M0 -92 L78 -62 L78 6 C78 56 44 86 0 102 C-44 86 -78 56 -78 6 L-78 -62 Z" stroke-width="3"/>
+    <path d="M-30 4 L-8 28 L34 -22" stroke="#5FD4A0" stroke-opacity="0.9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="64" y="86" fill="#8DA9C4" font-size="18" font-weight="600" letter-spacing="4">GOVERNANCE · RISK · COMPLIANCE</text>
+    <text x="64" y="150" fill="#FFFFFF" font-size="54" font-weight="700">GRC Portfolio</text>
+    <text x="64" y="192" fill="#D6E2EE" font-size="22">One fictional SaaS company. One security programme, built end to end.</text>
+    <g font-size="15" font-weight="600">
+      <rect x="64" y="222" width="190" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#8DA9C4" stroke-opacity="0.5"/>
+      <text x="159" y="244" fill="#FFFFFF" text-anchor="middle">ISO/IEC 27001:2022</text>
+      <rect x="266" y="222" width="130" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#8DA9C4" stroke-opacity="0.5"/>
+      <text x="331" y="244" fill="#FFFFFF" text-anchor="middle">NIST CSF 2.0</text>
+      <rect x="408" y="222" width="150" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#8DA9C4" stroke-opacity="0.5"/>
+      <text x="483" y="244" fill="#FFFFFF" text-anchor="middle">NIST SP 800-30</text>
+      <rect x="570" y="222" width="80" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#8DA9C4" stroke-opacity="0.5"/>
+      <text x="610" y="244" fill="#FFFFFF" text-anchor="middle">SOC 2</text>
+      <rect x="662" y="222" width="82" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.10" stroke="#8DA9C4" stroke-opacity="0.5"/>
+      <text x="703" y="244" fill="#FFFFFF" text-anchor="middle">GDPR</text>
+      <rect x="756" y="222" width="150" height="34" rx="17" fill="#5FD4A0" fill-opacity="0.18" stroke="#5FD4A0" stroke-opacity="0.8"/>
+      <text x="831" y="244" fill="#FFFFFF" text-anchor="middle">AI governance</text>
+    </g>
+  </g>
+</svg>

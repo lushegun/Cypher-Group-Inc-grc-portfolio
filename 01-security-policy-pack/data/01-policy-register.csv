@@ -1,0 +1,6 @@
+Policy ID,Policy name,Version,Owner,Approver,Effective,Last review,Next review,Sign-off required,Percentage acknowledged (%),Location
+CGI-POL-001,Acceptable Use Policy,1.0,Head of People and Operations,CEO,2026-09-15,2026-09-01,2027-09-01,Yes,60,"Internal wiki, Policies"
+CGI-POL-002,Password and MFA Policy,1.0,CTO,CEO,2026-09-15,2026-09-01,2027-09-01,Yes,60,"Internal wiki, Policies"
+CGI-POL-003,Onboarding and Offboarding Access Control Policy,1.0,CTO,CEO,2026-09-15,2026-09-01,2027-09-01,Managers only,100,"Internal wiki, Policies"
+CGI-POL-004,Data Classification Policy,1.0,CTO,CEO,2026-09-15,2026-09-01,2027-09-01,Yes,60,"Internal wiki, Policies"
+CGI-POL-005,Incident Reporting Policy,1.0,CTO,CEO,2026-09-15,2026-09-01,2027-09-01,Yes,60,"Internal wiki, Policies"

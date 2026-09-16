@@ -1,0 +1,6 @@
+Employee ID,Name,Department,Start Date,AUP Sign-off Status,AUP Sign-off Date,Policy Pack Version Acknowledged,MFA Verification,MFA Factor Type,Training Completion (Yes/No),Training Completion Date,Next Annual Re-acknowledgement Due,Line Manager,Last Updated
+CGI-014,Priya Raman,Engineering,2023-02-06,Signed,2026-09-02,1.0,Verified,Hardware Key,Yes,2026-09-02,2027-09-02,Jerry Olugboye,2026-09-02
+CGI-027,Tomas Whitfield,IT Operations,2024-05-13,Signed,2026-09-02,1.0,Verified,Hardware Key,Yes,2026-09-02,2027-09-02,Priya Raman,2026-09-02
+CGI-039,Amara Boateng,Customer Success,2024-11-04,Signed,2026-09-04,1.0,Verified,Authenticator App,Yes,2026-09-04,2027-09-04,Jerry Olugboye,2026-09-04
+CGI-045,Jonas Keller,Finance,2025-08-18,Pending,Not Applicable,Not Applicable,Verified,Authenticator App,No,Not Applicable,Not Applicable,Jerry Olugboye,2026-09-05
+CGI-050,Lena Fischer,Sales,2026-09-15,Not Started,Not Applicable,Not Applicable,Not Enrolled,Not Applicable,No,Not Applicable,Not Applicable,Amara Boateng,2026-09-05
