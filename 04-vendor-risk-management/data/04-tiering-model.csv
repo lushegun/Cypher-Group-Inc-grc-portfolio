@@ -1,0 +1,18 @@
+﻿Vendor ID,Vendor Name,D Data exposure,A Availability dependency,C Connectivity/privilege,R Replaceability,Factor Total,Escalation Triggers Fired,Assigned Tier,Assessment Depth,Review Cadence
+CGI-VEN-001,Amazon Web Services (AWS),3,3,3,3,12,"T1-a, T1-b, T1-c, T1-d, T1-e",1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-002,GitHub (Microsoft),2,2,3,3,10,"T1-c, T1-e",1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-003,Google Workspace,2,3,2,3,10,"T1-d, T1-e",1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-004,Slack (Salesforce),2,2,2,2,8,T1-e,1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-005,Stripe,3,2,1,2,8,"T1-a, T1-e",1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-006,Auth0 (Okta),2,3,2,3,10,"T1-b, T1-d, T1-e",1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-007,Datadog,2,1,3,2,8,"T1-b, T1-c",1,Full 74-question VSQ + assurance artifact review + DPA review + data-flow review,12 months
+CGI-VEN-008,HubSpot,2,1,1,2,6,-,2,VSQ Lite (24 weighted questions) + assurance artifact + DPA review,18 months
+CGI-VEN-009,Zendesk,2,2,1,1,6,-,2,VSQ Lite (24 weighted questions) + assurance artifact + DPA review,18 months
+CGI-VEN-010,Personio,2,1,1,2,6,-,2,VSQ Lite (24 weighted questions) + assurance artifact + DPA review,18 months
+CGI-VEN-011,Notion,2,1,0,1,4,-,2,VSQ Lite (24 weighted questions) + assurance artifact + DPA review,18 months
+CGI-VEN-012,Otter.ai,2,0,1,0,3,T2-f,2,VSQ Lite (24 weighted questions) + assurance artifact + DPA review,18 months
+CGI-VEN-013,Grammarly Business,2,0,1,0,3,T2-f,2,VSQ Lite (24 weighted questions) + assurance artifact + DPA review,18 months
+CGI-VEN-014,Figma,1,1,0,1,3,-,3,Register entry + 6-question attestation + DPA confirmation,24 months
+CGI-VEN-015,Calendly,2,0,1,0,3,-,3,Register entry + 6-question attestation + DPA confirmation,24 months
+CGI-VEN-016,Miro,1,0,0,0,1,-,3,Register entry + 6-question attestation + DPA confirmation,24 months
+CGI-VEN-017,Atlassian Statuspage,0,1,0,0,1,-,3,Register entry + 6-question attestation + DPA confirmation,24 months
