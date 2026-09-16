@@ -39,7 +39,7 @@
 | 01 | **[Startup Security Policy Pack](01-security-policy-pack/)** | Policy writing · framework mapping · policy governance | 5 policies · 38 ISO 27001 Annex A controls mapped · exception register · sign-off tracker | Published |
 | 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 risks · aggregate exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs |  Published |
 | 03 | NIST CSF 2.0 Gap Assessment & Maturity Scorecard | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations |  Next |
-| 04 | Third-Party / Vendor Risk Management Programme | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 completed assessments | ⏳ Next |
+| 04 | Third-Party / Vendor Risk Management Programme | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 completed assessments |  Next |
 | 05 | ISO/IEC 27001:2022 Readiness & Statement of Applicability | ISMS scoping · SoA · internal audit | — |  In progress |
 | 06 | SOC 2 Type II Readiness & Audit Workpapers | Control testing · evidence · sampling | — |  Planned |
 | 07 | AWS Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — |  Planned |
