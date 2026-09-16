@@ -1,0 +1,4 @@
+Exception ID,Policy,Requirement excepted,Business justification,Compensating control,Approved by,Approval date,Expiry date,Status
+EXC-001,CGI-POL-002,4.3.5 prohibition on SMS as an MFA factor,Legacy billing portal supports SMS only; migration planned Q1 2027,Access limited to two named finance users; login alerting enabled; monthly access review,Priya Raman,2026-09-03,2027-03-03,Open
+EXC-002,CGI-POL-003,4.5.2 four-hour access revocation,Contractor engaged through an agency portal Cypher does not administer directly,Agency contractually required to revoke within 24 hours and confirm in writing; sponsor verifies,Priya Raman,2026-09-03,2027-09-03,Open
+EXC-003,CGI-POL-004,4.2 prohibition on Restricted data (payment metadata) on removable media,Annual financial audit requires an encrypted drive handover to external auditors,AES-256 encrypted drive; courier tracked; drive returned and wiped within 10 business days; logged,Priya Raman,2026-09-04,2026-12-31,Open
