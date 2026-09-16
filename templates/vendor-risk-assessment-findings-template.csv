@@ -1,0 +1,2 @@
+﻿Assessment ID,Finding ID,Severity,Finding,Question(s),Evidence,Risk if Unaddressed,Linked Risk ID,Remediation Action,Owner (Job Title),Due Date,Cost,Verification Evidence,Status
+[VRA-YYYY-nnn],[F-001],[Critical/High/Medium/Low/Observation],"[What is true, stated as a fact]",[VQ-nn],[What was or was not produced],[Business consequence],[R-/VR-id],[Verb-first action],[Job title],[YYYY-MM-DD],[Nil / amount],[Artifact that proves it],[Open/Closed]
