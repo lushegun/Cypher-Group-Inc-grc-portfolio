@@ -1,0 +1,8 @@
+KRI ID,Indicator,Related risk,Source,Threshold (green / amber / red),Reporting cadence,Owner
+KRI-01,Percentage of accounts with a phishing-resistant MFA factor enrolled,"R-001, R-005",CGI-POL-002 §6.2 quarterly MFA coverage report,≥ 95% / 80–94% / < 80%,Quarterly,IT Operations Manager
+KRI-02,Policy acknowledgement rate across all personnel,"R-001, R-003",CGI-TRK-001,100% / 90–99% / < 90%,Monthly,Head of People and Operations
+KRI-03,Mean time to revoke all access after effective termination time,R-003,CGI-POL-003 §4.5.2 offboarding checklists,≤ 4 hours / 4–24 hours / > 24 hours,Quarterly,IT Operations Manager
+KRI-04,Percentage of endpoints with security patches applied within 14 days,R-002,Endpoint management reporting (TP-05),≥ 95% / 85–94% / < 85%,Monthly,IT Operations Manager
+KRI-05,Number of AWS resources failing the configuration baseline,R-005,AWS Config (TP-09),0 / 1–3 / > 3,Monthly,Chief Technology Officer
+KRI-06,Count of orphaned accounts identified in the monthly reconciliation,R-003,CGI-POL-003 §4.7.3,0 / 1–2 / > 2,Monthly,IT Operations Manager
+KRI-07,Open critical or high vulnerabilities past their remediation SLA,R-004,CGI-POL-008 once approved (TP-08),0 / 1–2 / > 2,Monthly,Chief Technology Officer

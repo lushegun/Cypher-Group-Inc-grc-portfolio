@@ -1,0 +1,6 @@
+Gap ID,Gap,Risks affected,Consequence for scoring,Closure action
+CG-01,"No backup, recovery, RPO/RTO or restore-testing obligation anywhere in CGI-POL-001 to 005.",R-002,Residual impact held at 4; cannot fall to 3 without evidenced restore capability.,TP-03
+CG-02,"No secure development, code review, change management or vulnerability management policy.",R-004,Residual likelihood held at 3; the existing controls do not address authorisation logic defects.,"TP-07, TP-08"
+CG-03,No cloud configuration baseline and no automated configuration monitoring or drift detection.,R-005,"Residual likelihood held at 3; all coverage is preventive and administrative, with no detective control.","TP-09, TP-10"
+CG-04,Security awareness training is mandated at induction only (CGI-POL-003 §4.3.6); no recurring programme or simulation exists.,"R-001, R-003",Contributes to the partial control-effectiveness discount applied across the register.,TP-02
+CG-05,No data loss prevention tooling; monitoring under CGI-POL-001 §4.10.1 is metadata-level only.,R-003,Residual impact held at 3; exfiltration is reconstructed after the fact rather than interrupted.,TP-06
