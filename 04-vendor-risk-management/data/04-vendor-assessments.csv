@@ -1,0 +1,4 @@
+﻿Assessment ID,Vendor,Tier,Questions Applied,Met / Partial / Not Met / N/A,Weighted Deduction,Maximum,Weighted Score,Findings,Inherent,Residual,Decision
+VRA-2026-002,Slack (CGI-VEN-004),1,74,41 / 14 / 17 / 2,98.5,282,65%,9 (5 Crit/High),12 High,12 High,FAIL — remediate or exit
+VRA-2026-001,AWS (CGI-VEN-001),1,74,62 / 9 / 3 / 0,32,288,89%,4 (1 High),10 High,8 Medium,PASS WITH CONDITIONS
+VRA-2026-003,Calendly (CGI-VEN-015),3,6,5 / 1 / 0 / 0,2.5,30,92%,1 observation,4 Low,4 Low,ACCEPTED — documented justification
