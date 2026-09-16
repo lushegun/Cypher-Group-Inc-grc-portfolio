@@ -1,0 +1,8 @@
+﻿KRI ID,Indicator,Target,Escalation Threshold,Owner (Job Title),Frequency
+KRI-V1,Percentage of vendors in the inventory with an executed DPA,100%,< 95%,Chief Technology Officer,Monthly
+KRI-V2,Percentage of Tier 1 vendors with a completed assessment within cadence,100%,< 100%,Chief Technology Officer,Quarterly
+KRI-V3,Percentage of Tier 1 assurance artifacts within period or bridged,100%,< 90%,Chief Technology Officer,Quarterly
+KRI-V4,Number of vendors discovered outside the onboarding workflow (shadow IT) per quarter,0,> 1,Finance Manager,Quarterly
+KRI-V5,Percentage of Tier 1 vendors federated to SSO with automated deprovisioning,100%,< 100%,IT Operations Manager,Quarterly
+KRI-V6,"Mean days from vendor request to onboarding decision, Tier 1",<= 15,> 25,Chief Technology Officer,Quarterly
+KRI-V7,Number of Tier 1 vendors with no documented exit plan,0,>= 1,Chief Executive Officer,Semi-annual
