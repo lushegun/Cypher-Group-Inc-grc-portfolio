@@ -471,7 +471,7 @@ channel**, and why this becomes risk **VR-002**.
 
 ### 2.6 How vendor findings map back to CGI-RSK-001
 
-The prompt for this work required every vendor finding either to tie to an existing risk or to be declared
+The method requires every vendor finding either to tie to an existing risk or to be declared
 new. Applying the **"would the existing risk's controls have prevented this?"** test from §1.7:
 
 | Vendor finding | Existing CGI-RSK-001 risk it touches | Would that risk's controls have caught it? | Verdict |

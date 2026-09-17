@@ -1,0 +1,94 @@
+﻿Control,Title,Theme,In CGI-GAP-001 mapping (Y/N),CGI-GAP-001 mapped under,Applicable Y/N,Related CGI-GAP-001 Category (this SoA),Implementation status
+A.5.1,Policies for information security,Organizational,Y,GV.OC; GV.RM; GV.PO,Y,GV.PO; GV.OC; GV.RM,Partial
+A.5.2,Information security roles and responsibilities,Organizational,Y,GV.RR,Y,GV.RR,Partial
+A.5.3,Segregation of duties,Organizational,Y,GV.RR,Y,GV.RR,Partial
+A.5.4,Management responsibilities,Organizational,Y,GV.OC; GV.RM; GV.RR,Y,GV.RR; GV.RM; GV.OC,Partial
+A.5.5,Contact with authorities,Organizational,Y,RS.CO; RC.CO,Y,RS.CO; RC.CO,Partial
+A.5.6,Contact with special interest groups,Organizational,Y,RS.CO; RC.CO,Y,RS.CO; RC.CO,Not started
+A.5.7,Threat intelligence,Organizational,Y,ID.RA,Y,ID.RA; PR.PS,Not started
+A.5.8,Information security in project management,Organizational,N,-,Y,PR.PS,Not started
+A.5.9,Inventory of information and other associated assets,Organizational,Y,ID.AM,Y,ID.AM,Partial
+A.5.10,Acceptable use of information and other associated assets,Organizational,Y,ID.AM,Y,ID.AM; GV.PO,Partial
+A.5.11,Return of assets,Organizational,N,-,Y,PR.AA,Partial
+A.5.12,Classification of information,Organizational,Y,ID.AM; PR.DS,Y,ID.AM; PR.DS,Partial
+A.5.13,Labelling of information,Organizational,Y,ID.AM,Y,ID.AM,Partial
+A.5.14,Information transfer,Organizational,Y,PR.DS,Y,PR.DS,Partial
+A.5.15,Access control,Organizational,Y,PR.AA,Y,PR.AA,Partial
+A.5.16,Identity management,Organizational,Y,PR.AA,Y,PR.AA,Partial
+A.5.17,Authentication information,Organizational,Y,PR.AA,Y,PR.AA,Partial
+A.5.18,Access rights,Organizational,Y,PR.AA,Y,PR.AA,Partial
+A.5.19,Information security in supplier relationships,Organizational,Y,GV.SC,Y,GV.SC,Partial
+A.5.20,Addressing information security within supplier agreements,Organizational,Y,GV.SC,Y,GV.SC,Partial
+A.5.21,Managing information security in the ICT supply chain,Organizational,Y,GV.SC,Y,GV.SC,Partial
+A.5.22,"Monitoring, review and change management of supplier services",Organizational,Y,GV.SC,Y,GV.SC,Partial
+A.5.23,Information security for use of cloud services,Organizational,Y,GV.SC,Y,GV.SC; PR.IR,Partial
+A.5.24,Information security incident management planning and preparation,Organizational,Y,RS.MA; RS.CO,Y,RS.MA; RS.CO,Partial
+A.5.25,Assessment and decision on information security events,Organizational,Y,DE.AE,Y,DE.AE,Partial
+A.5.26,Response to information security incidents,Organizational,Y,RS.MA; RS.MI,Y,RS.MA; RS.MI,Partial
+A.5.27,Learning from information security incidents,Organizational,Y,ID.IM; RS.AN,Y,ID.IM; RS.AN,Partial
+A.5.28,Collection of evidence,Organizational,Y,RS.AN,Y,RS.AN,Partial
+A.5.29,Information security during disruption,Organizational,Y,RC.RP; RC.CO,Y,RC.RP; RC.CO,Partial
+A.5.30,ICT readiness for business continuity,Organizational,Y,RC.RP,Y,RC.RP,Partial
+A.5.31,"Legal, statutory, regulatory and contractual requirements",Organizational,Y,GV.OC,Y,GV.OC,Partial
+A.5.32,Intellectual property rights,Organizational,N,-,Y,-,Not started
+A.5.33,Protection of records,Organizational,N,-,Y,RS.AN,Not started
+A.5.34,Privacy and protection of PII,Organizational,N,-,Y,GV.OC; PR.DS,Partial
+A.5.35,Independent review of information security,Organizational,Y,GV.OV,Y,GV.OV,Not started
+A.5.36,"Compliance with policies, rules and standards for information security",Organizational,Y,GV.PO; GV.OV,Y,GV.PO; GV.OV,Partial
+A.5.37,Documented operating procedures,Organizational,Y,GV.PO,Y,GV.PO,Partial
+A.6.1,Screening,People,N,-,Y,GV.RR,Partial
+A.6.2,Terms and conditions of employment,People,N,-,Y,GV.RR,Not started
+A.6.3,"Information security awareness, education and training",People,Y,PR.AT,Y,PR.AT,Partial
+A.6.4,Disciplinary process,People,N,-,Y,GV.PO,Not started
+A.6.5,Responsibilities after termination or change of employment,People,N,-,Y,PR.AA,Partial
+A.6.6,Confidentiality or non-disclosure agreements,People,N,-,Y,GV.RR,Not started
+A.6.7,Remote working,People,N,-,Y,GV.PO; PR.AA,Partial
+A.6.8,Information security event reporting,People,Y,PR.AT; RS.CO,Y,PR.AT; RS.CO,Partial
+A.7.1,Physical security perimeters,Physical,N,-,Y,-,Not started
+A.7.2,Physical entry,Physical,N,-,Y,-,Not started
+A.7.3,"Securing offices, rooms and facilities",Physical,N,-,Y,-,Not started
+A.7.4,Physical security monitoring,Physical,N,-,N,-,N/A - excluded
+A.7.5,Protecting against physical and environmental threats,Physical,N,-,Y,-,Not started
+A.7.6,Working in secure areas,Physical,N,-,N,-,N/A - excluded
+A.7.7,Clear desk and clear screen,Physical,N,-,Y,-,Partial
+A.7.8,Equipment siting and protection,Physical,N,-,Y,-,Not started
+A.7.9,Security of assets off-premises,Physical,N,-,Y,ID.AM,Partial
+A.7.10,Storage media,Physical,N,-,Y,PR.DS,Partial
+A.7.11,Supporting utilities,Physical,N,-,N,-,N/A - excluded
+A.7.12,Cabling security,Physical,N,-,N,-,N/A - excluded
+A.7.13,Equipment maintenance,Physical,N,-,Y,-,Not started
+A.7.14,Secure disposal or re-use of equipment,Physical,N,-,Y,ID.AM,Not started
+A.8.1,User endpoint devices,Technological,Y,ID.AM,Y,ID.AM,Partial
+A.8.2,Privileged access rights,Technological,Y,PR.AA,Y,PR.AA,Partial
+A.8.3,Information access restriction,Technological,N,-,Y,PR.PS; PR.AA,Not started
+A.8.4,Access to source code,Technological,N,-,Y,PR.PS,Not started
+A.8.5,Secure authentication,Technological,Y,PR.AA,Y,PR.AA,Partial
+A.8.6,Capacity management,Technological,N,-,Y,-,Not started
+A.8.7,Protection against malware,Technological,Y,RS.MI,Y,RS.MI,Not started
+A.8.8,Management of technical vulnerabilities,Technological,Y,ID.RA; PR.PS,Y,PR.PS; ID.RA,Not started
+A.8.9,Configuration management,Technological,Y,PR.PS; PR.IR,Y,PR.PS; PR.IR,Not started
+A.8.10,Information deletion,Technological,Y,PR.DS,Y,PR.DS,Partial
+A.8.11,Data masking,Technological,Y,PR.DS,Y,PR.DS,Not started
+A.8.12,Data leakage prevention,Technological,Y,PR.DS; DE.CM,Y,PR.DS; DE.CM,Not started
+A.8.13,Information backup,Technological,Y,PR.IR; RC.RP,Y,PR.IR; RC.RP,Partial
+A.8.14,Redundancy of information processing facilities,Technological,Y,PR.IR,Y,PR.IR,Not started
+A.8.15,Logging,Technological,Y,DE.CM; DE.AE; RS.AN,Y,DE.CM; DE.AE; RS.AN,Partial
+A.8.16,Monitoring activities,Technological,Y,DE.CM; DE.AE,Y,DE.CM; DE.AE,Not started
+A.8.17,Clock synchronization,Technological,N,-,Y,DE.CM; RS.AN,Not started
+A.8.18,Use of privileged utility programs,Technological,N,-,Y,PR.AA,Not started
+A.8.19,Installation of software on operational systems,Technological,N,-,Y,PR.PS,Not started
+A.8.20,Networks security,Technological,Y,PR.IR,Y,PR.IR,Not started
+A.8.21,Security of network services,Technological,N,-,Y,PR.IR,Not started
+A.8.22,Segregation of networks,Technological,Y,PR.IR,Y,PR.IR,Not started
+A.8.23,Web filtering,Technological,N,-,Y,PR.PS,Not started
+A.8.24,Use of cryptography,Technological,Y,PR.DS,Y,PR.DS,Not started
+A.8.25,Secure development life cycle,Technological,Y,PR.PS,Y,PR.PS,Not started
+A.8.26,Application security requirements,Technological,N,-,Y,PR.PS,Not started
+A.8.27,Secure system architecture and engineering principles,Technological,N,-,Y,PR.IR,Not started
+A.8.28,Secure coding,Technological,Y,PR.PS,Y,PR.PS,Not started
+A.8.29,Security testing in development and acceptance,Technological,Y,PR.PS,Y,PR.PS,Not started
+A.8.30,Outsourced development,Technological,N,-,N,-,N/A - excluded
+A.8.31,"Separation of development, test and production environments",Technological,Y,PR.PS,Y,PR.PS,Not started
+A.8.32,Change management,Technological,Y,PR.PS,Y,PR.PS,Not started
+A.8.33,Test information,Technological,N,-,Y,PR.DS,Not started
+A.8.34,Protection of information systems during audit testing,Technological,N,-,Y,-,Not started

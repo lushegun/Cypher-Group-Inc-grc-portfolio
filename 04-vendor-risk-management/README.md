@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [← 03 CSF Gap Assessment](../03-nist-csf-gap-assessment/)
+[← Portfolio home](../README.md) · [← 03 CSF Gap Assessment](../03-nist-csf-gap-assessment/) · [Next: 05 ISO 27001 SoA →](../05-iso27001-readiness-soa/)
 
 # 04 · Third-Party / Vendor Risk Management Programme
 
@@ -75,4 +75,4 @@
 
 ---
 
-[← 03 CSF Gap Assessment](../03-nist-csf-gap-assessment/) · [Portfolio home](../README.md)
+[← 03 CSF Gap Assessment](../03-nist-csf-gap-assessment/) · [Portfolio home](../README.md) · [Next: 05 ISO 27001 SoA →](../05-iso27001-readiness-soa/)

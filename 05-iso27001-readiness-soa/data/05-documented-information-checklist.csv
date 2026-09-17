@@ -1,0 +1,28 @@
+﻿Ref,Documented information,Required by,Status (Have/Partial/Missing),What Cypher Group Inc. already has,What is missing,Owner (job title),Due
+DI-01,ISMS scope,Clause 4.3,Partial,CGI-ISO-001 section 2 (draft),CEO approval,Chief Executive Officer,31 Oct 2026
+DI-02,Information security policy,Clause 5.2,Missing,None at ISMS level (CGI-POL-001 to -005 are topic-specific),Top-level ISMS policy,Chief Executive Officer,31 Oct 2026
+DI-03,"Risk assessment process, including acceptance criteria",Clause 6.1.2,Partial,CGI-RSK-001 methodology and thresholds,Risk acceptance criteria and appetite (GAP-002),Chief Executive Officer,31 Oct 2026
+DI-04,Risk treatment process,Clause 6.1.3,Partial,"CGI-RSK-001 treatment strategies (Mitigate, Transfer, Accept, Avoid)",Link to SoA and residual-acceptance step,Chief Technology Officer,30 Nov 2026
+DI-05,Statement of Applicability,Clause 6.1.3 d),Partial,"CGI-ISO-001 section 3 (draft v1.0, 93 controls)",CEO approval,Chief Executive Officer,30 Nov 2026
+DI-06,Risk treatment plan,Clause 6.1.3 e); 8.3,Partial,CGI-RSK-001 TP-01 to TP-10; CGI-GAP-001 REC-01 to REC-18; CGI-TPR-001 R1-R8 and C1-C4; CGI-ISO-001 section 7,One consolidated plan approved by the risk owners,Chief Executive Officer,30 Nov 2026
+DI-07,Information security objectives,Clause 6.2,Missing,None (the KRIs are inputs),Objectives with measures and dates,Chief Technology Officer,30 Nov 2026
+DI-08,Evidence of competence,Clause 7.2 d),Missing,None,Competence matrix and records,Head of People and Operations,31 Mar 2027
+DI-09,Documented information the organisation decides is necessary,Clause 7.5.1 b),Partial,CGI policy document control blocks,Document register and control procedure,Chief Technology Officer,31 Dec 2026
+DI-10,Operational planning and control records,Clause 8.1,Partial,CGI-TPR-001 workflow and records,Records for the other RTP processes,Chief Technology Officer,31 Mar 2027
+DI-11,Results of risk assessments,Clause 8.2,Have,CGI-RSK-001 v1.0 and v1.1 (VR-001 to VR-009 addendum),Next scheduled run,Chief Technology Officer,31 Oct 2026
+DI-12,Results of risk treatment,Clause 8.3,Partial,CGI-TPR-001 (CG-06 closed); ACC-001; ACC-V01; AVD-001,Evidence for each RTP action,Chief Technology Officer,31 Mar 2027
+DI-13,Monitoring and measurement results,Clause 9.1,Partial,KRI-V1 measured once (65%),Quarterly results for all KRIs and objectives,Chief Technology Officer,31 Mar 2027
+DI-14,Audit programme and audit results,Clause 9.2.2,Missing,None,"Programme, plan and report",Chief Executive Officer,31 May 2027
+DI-15,Management review results,Clause 9.3.3,Missing,None,Minutes of two reviews before Stage 1,Chief Executive Officer,30 Jun 2027
+DI-16,"Nonconformities, actions taken and corrective action results",Clause 10.2,Missing,None (EXC register is not an NC log),NC and corrective action log,Chief Technology Officer,31 Dec 2026
+DI-17,Topic-specific policies,A.5.1,Partial,CGI-POL-001 to -005,"CGI-POL-006 Backup, -007 Secure Development, -008 Vulnerability Management; cryptography standard",Chief Technology Officer,31 Mar 2027
+DI-18,Inventory of information and other associated assets,A.5.9,Partial,CGI-TPR-001 vendor inventory (17),Asset and SaaS inventory (REC-05),IT Operations Manager,31 Mar 2027
+DI-19,Rules for acceptable use,A.5.10 (control text says documented),Have,CGI-POL-001 v1.0,Acknowledgement to 100%,Head of People and Operations,31 Dec 2026
+DI-20,"Legal, statutory, regulatory and contractual requirements",A.5.31 (control text says documented),Missing,None,Obligations register,Chief Executive Officer,31 Oct 2026
+DI-21,Documented operating procedures,A.5.37 (control text says documented),Missing,None beneath the policies,Runbooks (REC-12),IT Operations Manager,30 Jun 2027
+DI-22,Confidentiality or non-disclosure agreements,A.6.6 (control text says documented),Missing,None on file,Signed NDAs,Head of People and Operations,31 Dec 2026
+DI-23,"Configurations, including security configurations",A.8.9 (control text says documented),Missing,None,CIS-based baseline (REC-11),IT Operations Manager,30 Jun 2027
+DI-24,Incident management plan and procedures,A.5.24 / A.5.26 (auditor-expected),Have,CGI-POL-005 v1.0,Exercise record; runbooks,Chief Technology Officer,30 Jun 2027
+DI-25,ICT continuity plan with RTO and RPO,A.5.30 (auditor-expected),Missing,None,CGI-POL-006 and restore test (REC-03),IT Operations Manager,15 Dec 2026
+DI-26,Supplier security procedure and supplier register,A.5.19 to A.5.22 (auditor-expected),Have,CGI-TPR-001 v1.0; CGI-TPR-002,Review records on cadence,Chief Technology Officer,30 Sep 2027
+DI-27,Record of processing activities,"GDPR Art. 30 (legal, via A.5.34)",Missing,None (out of scope in CGI-GAP-001),Article 30 record,Chief Technology Officer,31 Dec 2026
