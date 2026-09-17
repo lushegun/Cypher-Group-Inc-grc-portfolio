@@ -1,0 +1,19 @@
+﻿REC,Recommendation (CGI-GAP-001),GAP quarter,ISO clause / control served,Latest date ISO needs it,Conflict?,Resolution
+REC-01,MFA to 100%; retire ACC-001,Q4 2026,A.5.17; A.8.5,Before Stage 1,No,Keep.
+REC-02,First quarterly privileged access review,Q4 2026,A.5.18; A.8.2,4 quarterly records by Stage 2,No,"Keep; the Dec 2026, Mar, Jun and Sep 2027 reviews give four samples."
+REC-03,Restore test; CGI-POL-006 with RTO/RPO,Q4 2026,A.8.13; A.5.30,Before Stage 1,No,Keep; same work as VRA-2026-001 C4 (15 Dec 2026) - do not run it twice.
+REC-04,Acknowledgement 60% -> 100%; joiner gate,Q4 2026,A.5.1; A.5.4; 7.3,Before Stage 1,No,Keep.
+REC-05,Asset and SaaS inventory,Q1 2027,A.5.9; A.5.12; A.5.13; A.8.1,Before Stage 1,No,"Keep. Note: REC-15 was delivered before its REC-05 dependency; the vendor inventory is an input, not a substitute."
+REC-06,CGI-POL-007; branch protection with peer review,Q1 2027,A.8.25; A.8.28; A.8.31; A.8.32; A.8.3; A.8.4,Operating for 2+ quarters before Stage 2,No - but a hard deadline,Keep Q1 2027 and treat it as immovable: any slip moves the certificate date.
+REC-07,"CloudTrail, central logs, alerting",Q1 2027,A.8.15; A.8.16; A.8.17; A.5.28,Before Stage 1,No,Keep.
+REC-08,CGI-POL-008; authenticated scanning,Q1 2027,A.8.8; A.5.7,Operating for 2+ quarters before Stage 2,No,Keep.
+REC-09,Awareness curriculum; phishing simulation,Q1 2027,A.6.3; 7.3,Before Stage 1,No,Keep.
+REC-10,Quarterly security review with the CEO,Q1 2027,9.3; 9.1,MR #1 by Mar 2027,PARTIAL (RC-02),"The REC-10 agenda (KRIs, scorecard, TP status) is not a full clause 9.3 review. Extend it to the 9.3.2 a) to g) inputs and minute it as the management review."
+REC-11,CIS AWS baseline; posture monitoring,Q2 2027,A.8.9; A.8.20; A.8.21,Before Stage 2,No - tight,"Keep Q2 2027; it gives only one quarter of evidence before Stage 2. Start in April, not June."
+REC-12,SEV1 tabletop; lessons learned,Q2 2027,A.5.24; A.5.26; A.5.27; A.6.8,Before Stage 1,No,Keep; schedule the tabletop in April 2027 so lessons feed MR #2.
+REC-13,Risk appetite; assessment cadence,Q2 2027,6.1.2 a) acceptance criteria,Before SoA and RTP approval (Nov 2026),YES (RC-01),"Pull forward to 31 Oct 2026 as ISO-05. Remove the REC-10 dependency: the CEO approves directly, and the approval is ratified at MR #1."
+REC-14,Customer recovery communication pack; status page,Q2 2027,A.5.29; A.5.5,Before Stage 2,No,Keep; CGI-VEN-017 onboarding under way.
+REC-15,Tiered vendor inventory; DPAs; section 4.2 amendment,Q2 2027,A.5.19 to A.5.23,Delivered,STATUS CHANGE (RC-05),"Delivered 15 Sep 2026 by CGI-TPR-001, three quarters early. The outstanding DPAs and section 4.2 approval move to ISO-09."
+REC-16,SAST in CI; annual penetration test,Q3 2027,A.8.29; A.8.3,RTP-dated at Stage 2 is acceptable,No,Keep; run the test in Aug 2027 so the report is available at Stage 2.
+REC-17,Data egress and DLP monitoring,Q3 2027,A.8.12; A.8.10,RTP-dated at Stage 2 is acceptable,No,Keep.
+REC-18,Segmentation; production boundary; shared-responsibility boundary,Q4 2027,A.8.22; A.8.27; A.5.23,Boundary needed for scope (Oct 2026),YES (RC-04),"Split: the shared-responsibility boundary moves to ISO-02 (Oct 2026); segmentation remediation stays in Q4 2027 in the RTP, with R-005 residual accepted under ISO-05."
