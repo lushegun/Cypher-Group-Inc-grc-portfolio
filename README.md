@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-PROFILE">LinkedIn</a> ·
-  <a href="https://YOUR-SITE.notion.site">Notion portfolio</a> ·
-  <a href="https://medium.com/@YOUR-HANDLE">Medium</a> ·
-  <a href="https://YOUR-HANDLE.substack.com">Substack</a> ·
-  <a href="templates/">Free templates</a>
+  <b>Shola O. Olugboye</b> · GRC Analyst · ISO/IEC 27001 · Risk · Third-Party Risk · AI Governance<br>
+  <a href="https://www.linkedin.com/in/olushegun-s">LinkedIn</a> ·
+  <a href="https://app.notion.com/p/Cypher-Group-Inc-GRC-Project-hub-0a07ea37b633473d9a74cf24a3ada0ec">Notion project hub</a> ·
+  <a href="templates/">Free templates</a> ·
+  <a href="https://github.com/lushegun/Cypher-Group-Inc-grc-portfolio/releases/latest">Download everything</a>
 </p>
 
 <p align="center">
@@ -110,11 +110,16 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 
 ## About me
 
-I am moving into Governance, Risk and Compliance from an analytical background (MSc Applied Economics). My focus is practical security governance for growing companies — with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.
+I'm **Shola O. Olugboye** (artefacts in this repository are signed **"O.S"**, the assessor and author on every document). I build practical security governance for growing companies, with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.
 
-**Open to:** GRC Analyst · Information Security Analyst · IT Audit · Security Compliance roles — Germany / EU, UK and remote.
-**Contact:** [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
+I bring 15+ years across IT support, HR and people operations, IT and security-systems project delivery, and manufacturing quality control, where joiner–mover–leaver access, audits and corrective actions were part of the job. This portfolio applies ISO/IEC 27001, NIST and third-party risk practice to one company, end to end.
+
+**Credentials:** AWS Certified Solutions Architect – Associate (Aug 2026) · MSc Applied Economics and Data Analysis, Jönköping International Business School
+
+**Based in:** Sweden · **Open to:** GRC Analyst · Information Security / Compliance Analyst · IT Risk · Cloud Compliance roles across the EU, UK and remote
+
+**Contact:** [LinkedIn](https://www.linkedin.com/in/olushegun-s) · [Notion project hub](https://app.notion.com/p/Cypher-Group-Inc-GRC-Project-hub-0a07ea37b633473d9a74cf24a3ada0ec)
 
 ---
 
-<sub>**Fictional data notice.** Cypher Group Inc. and every person, record, date and finding in this repository are invented to demonstrate applied GRC capability. No real company or personal data is used, and no certification or attestation is claimed. Framework mappings are the author's own analysis. Templates are free to reuse under the licence in this repository.</sub>
+<sub>**Fictional data notice.** Cypher Group Inc. and every person, record, date and finding in this repository are invented to demonstrate applied GRC capability. No real company or personal data is used, and no certification or attestation is claimed. Framework mappings are the author's own analysis. Templates are free to reuse; attribution is appreciated.</sub>
