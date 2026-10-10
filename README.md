@@ -34,7 +34,8 @@
 > 2. **[Project 02](02-risk-register/)** — why two of five risks are deliberately left **High** after treatment, and what it would cost to fix them.
 > 3. **[Project 04](04-vendor-risk-management/)** — how AI tools bought on expenses were discovered and brought under control, and why AWS passed only with conditions that were all *ours*.
 > 4. **[Project 05](05-iso27001-readiness-soa/)** — why none of 88 applicable ISO 27001 controls is marked *Implemented*, and why that is the honest answer.
-> 5. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
+> 5. **[Project 06](06-soc2-readiness-internal-audit/)** — the ten controls we hand our customers, and the four our cloud provider handed us that we never accepted.
+> 6. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
 
 ## Projects
 
