@@ -1,0 +1,7 @@
+﻿CSOC ID,Subservice organisation,Control relied upon,Criteria supported,Assurance held
+CSOC-01,AWS (CGI-VEN-001),"Physical and environmental security of the data centres hosting the platform, including physical access control, monitoring, power and cooling.","CC6.4, A1.2","SOC 2 Type II, ISO/IEC 27001, 27017 and 27018 held per VRA-2026-001 (invented for the scenario). Basis for excluding A.7.4, A.7.6, A.7.11 and A.7.12 from the SoA."
+CSOC-02,AWS (CGI-VEN-001),Secure disposal and destruction of storage media at end of life.,CC6.5,As CSOC-01.
+CSOC-03,AWS (CGI-VEN-001),"Availability of the underlying compute, storage, network and managed database services, and of the regional infrastructure.","A1.1, A1.2",As CSOC-01. VR-002 records the concentration: five further vendors share AWS with the platform.
+CSOC-04,AWS (CGI-VEN-001),Patching and maintenance of the managed services under the provider's side of the shared-responsibility model.,"CC7.1, CC8.1",As CSOC-01. The boundary itself is undocumented (A.5.23 = maturity 1; action ISO-02).
+CSOC-05,AWS (CGI-VEN-001),"Encryption of data at rest in managed services where provider-managed keys are used, and of data in transit within the provider network.",CC6.7,"As CSOC-01. CGI has no cryptography standard of its own (A.8.24 Not started), so the provider control is currently the only one."
+CSOC-06,AWS (CGI-VEN-001),Logical access controls over the provider's own personnel accessing the infrastructure.,"CC6.1, CC6.3",As CSOC-01.
