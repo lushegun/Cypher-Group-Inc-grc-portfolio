@@ -1,0 +1,4 @@
+﻿Point in time,Sum / Categories,Overall score,Categories that move,Why
+"Today, on delivery of CGI-SOC-001 and CGI-IAU-001",29 / 22,1.32,No Category moves.,A crosswalk maps controls and a dry-run audit tests them. Neither implements anything. The same restraint that held for Project 5 holds here: a prerequisite is not a score.
+After ISO-01 and ISO-02 are approved (Oct 2026),30 / 22,1.36,GV.OC 1 -> 2,"Context, interested parties, obligations and the approved scope are the documented outputs GV.OC asks for."
+After the independent ISO-12 audit and management review #2 (Jun 2027),32 / 22,1.45,"GV.OV 1 -> 3, with GV.OC already at 2","A completed, independent internal audit whose results are reported to top management and whose findings enter a corrective action log IS operating evidence of oversight. A.5.35 moves from Not started to Implemented at the same moment."

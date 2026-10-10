@@ -1,0 +1,24 @@
+﻿Direction,Reference,Title,Current maturity or score,Why there is no counterpart
+ISO Annex A control with no SOC 2 criterion,A.5.6,Contact with special interest groups,0,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.5.31,"Legal, statutory, regulatory and contractual requirements",1,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.5.32,Intellectual property rights,0,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.6.7,Remote working,2,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.7.7,Clear desk and clear screen,2,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.7.8,Equipment siting and protection,0,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.7.9,Security of assets off-premises,1,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.7.13,Equipment maintenance,0,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.8.1,User endpoint devices,1,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.8.27,Secure system architecture and engineering principles,0,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO Annex A control with no SOC 2 criterion,A.8.34,Protection of information systems during audit testing,0,"Appears only inside a point of focus, which is not a requirement. Doing it earns no SOC 2 credit."
+ISO clause requirement with no SOC 2 criterion,4.3,Determining the scope of the ISMS,1,SOC 2 does not require a management system. This requirement has no counterpart at all.
+ISO clause requirement with no SOC 2 criterion,4.4,Information security management system,1,SOC 2 does not require a management system. This requirement has no counterpart at all.
+ISO clause requirement with no SOC 2 criterion,6.1.1,Actions to address risks and opportunities - general,0,SOC 2 does not require a management system. This requirement has no counterpart at all.
+ISO clause requirement with no SOC 2 criterion,7.1,Resources,1,SOC 2 does not require a management system. This requirement has no counterpart at all.
+ISO clause requirement with no SOC 2 criterion,8.3,Information security risk treatment (performance),1,SOC 2 does not require a management system. This requirement has no counterpart at all.
+ISO clause requirement with no SOC 2 criterion,9.3.3,Management review results,0,SOC 2 does not require a management system. This requirement has no counterpart at all.
+ISO clause requirement with no SOC 2 criterion,10.1,Continual improvement,1,SOC 2 does not require a management system. This requirement has no counterpart at all.
+SOC 2 requirement with no ISO counterpart,CC1.2,Independent oversight by a governing body,-,"ISO clause 5 requires leadership, not independence from management. No Annex A control creates an oversight body."
+SOC 2 requirement with no ISO counterpart,CC2.3 (CUEC element),Communicating responsibilities to user entities,-,ISO/IEC 27001 has no concept of a complementary user entity control.
+SOC 2 requirement with no ISO counterpart,CC3.3,Consideration of the potential for fraud,-,ISO/IEC 27001:2022 Annex A contains no fraud control.
+SOC 2 requirement with no ISO counterpart,System description,Management's description of the system,-,"The SoA lists controls; it is not a description of the system, its boundaries or its commitments."
+SOC 2 requirement with no ISO counterpart,Management's assertion,The claim the examiner attests to,-,ISO certification audits the organisation directly; nobody asserts first.

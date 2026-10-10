@@ -1,0 +1,51 @@
+﻿PBC ID,Area,Evidence requested,Format,Period,Owner (job title),Due,Status,Feeds workpaper
+PBC-01,Governance,Approved ISMS scope statement signed by the CEO,PDF,As at request,Chief Executive Officer,2026-10-09,Not available - draft only,WP-02
+PBC-02,Governance,Top-level information security policy meeting clause 5.2,PDF,Current version,Chief Executive Officer,2026-10-09,Not available - does not exist,WP-03
+PBC-03,Governance,"Context, interested parties and legal obligations register",XLSX,Current version,Chief Executive Officer,2026-10-09,Not available - does not exist,WP-01
+PBC-04,Governance,Approved ISMS budget and allocated time,PDF or email approval,FY2027,Chief Executive Officer,2026-10-09,Not available - unapproved,WP-03; WP-08
+PBC-05,Governance,Written assignment of the ISMS lead and the ISMS RACI,PDF,Current version,Chief Executive Officer,2026-10-09,Not available - does not exist,WP-03
+PBC-06,Risk,Documented risk assessment method including acceptance criteria,PDF,Current version,Chief Technology Officer,2026-10-09,"Partial - method held, acceptance criteria missing",WP-05
+PBC-07,Risk,Risk register with inherent and residual scores and owners,XLSX,v1.0 and v1.1,Chief Technology Officer,2026-10-09,"Received - CGI-RSK-001 v1.1, 14 risks",WP-05; WP-11
+PBC-08,Risk,Signed risk acceptance records,PDF,In force at request,Chief Executive Officer,2026-10-09,"Received - ACC-001, ACC-V01, AVD-001",WP-05
+PBC-09,Risk,"Statement of Applicability, approved",XLSX or PDF,Current version,Chief Executive Officer,2026-10-09,"Partial - draft held, approval missing",WP-06
+PBC-10,Risk,Consolidated risk treatment plan with residual acceptance by risk owners,XLSX,Current version,Chief Executive Officer,2026-10-09,Not available - not consolidated,WP-06
+PBC-11,Risk,"Information security objectives with targets, owners and dates",XLSX,FY2027,Chief Technology Officer,2026-10-09,Not available - does not exist,WP-07
+PBC-12,People,"Headcount reconciliation: joiners, movers and leavers",XLSX from the HR system,12 months to the request date,Head of People and Operations,2026-10-09,Not available - no register maintained,WP-09; WP-17
+PBC-13,People,"Policy acknowledgement report, per person",XLSX export,Current,Head of People and Operations,2026-10-09,Partial - aggregate 60% held; per-person detail for 5 of 50,WP-09
+PBC-14,People,Completed offboarding checklists for all leavers in the period,PDF set,12 months to the request date,Head of People and Operations,2026-10-09,Not available - none retained,WP-17
+PBC-15,People,Competence matrix and training or certification records per ISMS role,XLSX + PDF,Current,Head of People and Operations,2026-10-09,Not available - does not exist,WP-08
+PBC-16,People,Signed confidentiality or non-disclosure agreements,PDF set,All staff and contractors,Head of People and Operations,2026-10-09,Not available - none on file,WP-16
+PBC-17,Access,MFA enrolment report from the identity provider,CSV export,As at request,IT Operations Manager,2026-10-09,Partial - aggregate 80% held; no per-account export,WP-17
+PBC-18,Access,Quarterly privileged access review records,PDF set,4 most recent quarters,IT Operations Manager,2026-10-09,Not available - none performed,WP-17
+PBC-19,Access,Privileged account list with business justification,XLSX,As at request,IT Operations Manager,2026-10-09,Not available - does not exist,WP-17
+PBC-20,Access,SSO and SCIM coverage list by vendor,XLSX,As at request,IT Operations Manager,2026-10-09,Partial - identity provider known; 4 vendors not federated,WP-17; WP-18
+PBC-21,Vendor,"Vendor inventory with tier, owner, DPA status and review date",XLSX,Current,Chief Technology Officer,2026-10-09,"Received - CGI-TPR-001, 17 vendors",WP-18; WP-19
+PBC-22,Vendor,Executed data processing agreements,PDF set,All vendors processing personal data,Chief Technology Officer,2026-10-09,Partial - 11 of 17 executed,WP-19
+PBC-23,Vendor,Completed vendor assessments for the period,PDF set,12 months to the request date,Chief Technology Officer,2026-10-09,"Received - VRA-2026-001, -002, -003",WP-18
+PBC-24,Vendor,Signed CUEC acceptance record for the cloud provider,PDF,Current,Chief Technology Officer,2026-10-09,Not available - four CUECs unaccepted,WP-18; WP-23
+PBC-25,Vendor,Sub-processor change feed subscription and first reconciliation,Screenshot + PDF,Current,Chief Technology Officer,2026-10-09,Not available - not subscribed,WP-18
+PBC-26,Operations,Change or release record for the platform,CSV export,12 months to the request date,Chief Technology Officer,2026-10-09,Not available - no change record exists,WP-22
+PBC-27,Operations,Branch protection configuration export,JSON or screenshot,As at request,Chief Technology Officer,2026-10-09,Not available - not enabled,WP-22
+PBC-28,Operations,Vulnerability scan reports and remediation tickets,PDF + CSV,12 months to the request date,Chief Technology Officer,2026-10-09,Not available - no scanning performed,WP-22
+PBC-29,Operations,Penetration test report,PDF,Most recent,Chief Technology Officer,2026-10-09,Not available - never performed,WP-22
+PBC-30,Operations,Cloud configuration baseline and drift or posture reports,PDF,Current + 12 months,IT Operations Manager,2026-10-09,Not available - no baseline exists,WP-23
+PBC-31,Operations,CloudTrail configuration showing organisation-wide trail and log file validation,Screenshot or CLI output,As at request,IT Operations Manager,2026-10-09,Not available - unverified,WP-23
+PBC-32,Operations,Security alert rules and a sample of handled alerts,Screenshot + ticket export,12 months to the request date,IT Operations Manager,2026-10-09,Not available - no alert rules exist,WP-23
+PBC-33,Resilience,Backup configuration and schedule,Screenshot,As at request,IT Operations Manager,2026-10-09,Received - AWS snapshot configuration,WP-21
+PBC-34,Resilience,"Declared RTO and RPO, approved",PDF,Current,IT Operations Manager,2026-10-09,Not available - not declared,WP-21
+PBC-35,Resilience,Restore test reports,PDF,12 months to the request date,IT Operations Manager,2026-10-09,Not available - no restore has been tested,WP-21
+PBC-36,Incident,Incident register entries with severity and timeline,CSV export,12 months to the request date,Chief Technology Officer,2026-10-09,Not available - no entries; no incidents recorded,WP-20
+PBC-37,Incident,Tabletop exercise record and lessons learned,PDF,Most recent,Chief Technology Officer,2026-10-09,Not available - never exercised,WP-20
+PBC-38,Data,Asset and SaaS inventory with owner and classification,XLSX,Current,IT Operations Manager,2026-10-09,Not available - only the vendor inventory exists,WP-24
+PBC-39,Data,Endpoint register with encryption and screen-lock compliance,CSV export,As at request,IT Operations Manager,2026-10-09,Not available - 50 BYOD endpoints unregistered,WP-24
+PBC-40,Data,GDPR Article 30 record of processing activities,XLSX,Current,Chief Technology Officer,2026-10-09,Not available - does not exist,WP-19
+PBC-41,Monitoring,KRI measurement results,XLSX,4 most recent quarters,Chief Technology Officer,2026-10-09,Partial - KRI-V1 measured once at 65%,WP-12
+PBC-42,Monitoring,Internal audit programme and prior audit reports,PDF,Current + prior year,Chief Executive Officer,2026-10-09,Not available - none exist,WP-13
+PBC-43,Monitoring,Management review minutes with 9.3.2 inputs and decisions,PDF,2 most recent,Chief Executive Officer,2026-10-09,Not available - never held,WP-14
+PBC-44,Monitoring,Nonconformity and corrective action log,XLSX,12 months to the request date,Chief Technology Officer,2026-10-09,Not available - does not exist,WP-15
+PBC-45,SOC 2,Draft system description and management assertion,DOCX,Current,Chief Technology Officer,2026-10-09,"Not available - drafted in CGI-SOC-001 Part 3, unapproved",WP-24
+PBC-46,SOC 2,Published service commitments and system requirements (SLA),PDF or URL,Current,Chief Executive Officer,2026-10-09,Not available - no SLA exists,WP-24
+PBC-47,SOC 2,Customer agreement clauses communicating CUECs,PDF,Current template,Head of Customer Success,2026-10-09,Not available - no CUECs communicated,WP-24
+PBC-48,Documentation,Document and record control procedure and the ISMS document register,PDF + XLSX,Current,Chief Technology Officer,2026-10-09,Not available - does not exist,WP-10
+PBC-49,Documentation,Approved topic-specific policies with approval records,PDF set,Current versions,Chief Technology Officer,2026-10-09,Received - CGI-POL-001 to -005 v1.0,WP-16
+PBC-50,Documentation,Policy exception register,XLSX,Current,Chief Technology Officer,2026-10-09,Received - EXC-001 to EXC-003,WP-15

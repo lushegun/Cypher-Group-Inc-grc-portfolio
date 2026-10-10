@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [← 04 Vendor Risk](../04-vendor-risk-management/)
+[← Portfolio home](../README.md) · [← 04 Vendor Risk](../04-vendor-risk-management/) · [Next: 06 SOC 2 & internal audit →](../06-soc2-readiness-internal-audit/)
 
 # 05 · ISO/IEC 27001:2022 Readiness Assessment & Statement of Applicability
 
@@ -59,4 +59,4 @@ Enterprise buyers keep asking one thing: *"Are you ISO 27001 certified?"* After 
 
 ---
 
-[← 04 Vendor Risk](../04-vendor-risk-management/) · [Portfolio home](../README.md) · Next: 06 SOC 2 readiness & internal audit (coming soon)
+[← 04 Vendor Risk](../04-vendor-risk-management/) · [Portfolio home](../README.md) · [Next: 06 SOC 2 readiness & internal audit →](../06-soc2-readiness-internal-audit/)

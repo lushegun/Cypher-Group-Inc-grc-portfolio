@@ -1,0 +1,15 @@
+﻿Measure,Calculation,Result,Verdict
+Criteria in scope,,38,
+Sum of CRL capped at 2 (design),,41,
+Type I readiness = sum capped / (38 x 2),,0.5395,Not ready - and see gate override
+Sum of CRL (operating),,41,
+Type II readiness = sum CRL / (38 x 3),,0.3596,Not ready - and zero criteria evidenced
+Criteria with adequate design,,8,
+Criteria with operating evidence,,0,
+Criteria at CRL 0,,6,
+Criteria at CRL 1,,23,
+Criteria at CRL 2,,9,
+Criteria at CRL 3,,0,
+Gate failures,,6,NO-GO - gate override applies
+TYPE I GO / NO-GO,,NO-GO,A Type I asserts design and implementation as of a date. Gates SG-1 to SG-8 must all pass first.
+TYPE II GO / NO-GO,,NO-GO,"A Type II asserts operating effectiveness over a period. Zero criteria have operating evidence, so no population exists to sample."
