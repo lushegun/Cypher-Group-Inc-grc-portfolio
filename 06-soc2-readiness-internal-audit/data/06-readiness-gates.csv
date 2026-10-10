@@ -1,0 +1,9 @@
+﻿Gate,Requirement,Criteria tested,Why it is a gate,Result,Detail
+SG-1,Management assertion and system description prepared and approved,-,Without management's description and assertion there is no engagement to perform (AT-C 205).,FAIL,Not prepared. This project drafts it (Part 3); it is not yet approved by the CEO.
+SG-2,CC1.2 - independent oversight of the system of internal control,CC1.2,"The control environment has no apex: no board, no governing body, no independent review.",FAIL,"CC1.2 CRL 1, design Deficient"
+SG-3,CC2.3 - external communication of commitments and CUECs,CC2.3,"Nothing has been communicated to user entities, so there is no commitment to attest against.",FAIL,"CC2.3 CRL 2, design Deficient"
+SG-4,CC3.2 - risk identification and analysis,CC3.2,Every other criterion is scoped from the risk assessment.,FAIL,"CC3.2 CRL 1, design Deficient"
+SG-5,"CC6.1, CC6.2, CC6.3 - logical access","CC6.1, CC6.2, CC6.3",Logical access is the core of the Security category; a design failure here is fatal to the report.,FAIL,"CC6.1 CRL 1, design Deficient; CC6.2 CRL 2, design Adequate; CC6.3 CRL 1, design Deficient"
+SG-6,CC7.4 - incident response,CC7.4,An unhandled incident invalidates every other assertion in the period.,PASS,"CC7.4 CRL 2, design Adequate"
+SG-7,CC8.1 - change management,CC8.1,Unmanaged change means no design assertion survives the period. R-004 lives here.,FAIL,"CC8.1 CRL 0, design Deficient"
+SG-8,CC9.2 - vendor and business partner risk management,CC9.2,"AWS is carved out; without vendor controls the carve-out is a hole, not a boundary.",PASS,"CC9.2 CRL 2, design Adequate"
