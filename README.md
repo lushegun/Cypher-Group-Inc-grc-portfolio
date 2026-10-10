@@ -45,8 +45,8 @@
 | 03 | **[NIST CSF 2.0 Gap Assessment & Maturity Scorecard](03-nist-csf-gap-assessment/)** | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations | ✅ Published |
 | 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 | ✅ Published |
 | 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 | ✅ Published |
-| 06 | SOC 2 Type II Readiness & Internal Audit Workpapers | Control testing · evidence · sampling | — | ⏳ Next |
-| 07 | AWS Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — | 🗓️ Planned |
+| 06 | **[SOC 2 Type II Readiness & Internal Audit Workpapers](06-soc2-readiness-internal-audit/)** | TSC crosswalk · system description & CUECs · control testing · sampling · audit findings | 38 criteria: 8 with adequate design, 0 evidenced · Type I 53.9%, Type II 36.0%, both NO-GO · 24 workpapers, 37 findings · Type II report ~Nov 2028 the ten controls we hand our customers, and the four our cloud provider handed us that we never accepted.| ✅ Published |
+| 07 | AWS Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — | >>>> Next |
 
 <p align="center"><img src="03-nist-csf-gap-assessment/images/03-radar-current-vs-target.png" alt="NIST CSF 2.0 maturity, current versus target" width="560"><br><sub>Project 03: where the company stands against NIST CSF 2.0, and where it has decided to be</sub></p>
 
@@ -91,7 +91,9 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | Vendor Security Assessment Report | [Word](templates/vendor-risk-assessment-report-template.docx) · [Markdown](templates/vendor-risk-assessment-report-template.md) · [Findings CSV](templates/vendor-risk-assessment-findings-template.csv) |
 | ISO/IEC 27001:2022 Statement of Applicability (93 controls, automatic status and readiness score) | [Excel](templates/iso27001-soa-template.xlsx) · [Markdown](templates/iso27001-soa-template.md) · [CSV](templates/iso27001-soa-template.csv) |
 | ISO/IEC 27001:2022 Clauses 4–10 Readiness Assessment | [Word](templates/iso27001-readiness-assessment-template.docx) · [Markdown](templates/iso27001-readiness-assessment-template.md) · [CSV](templates/iso27001-readiness-assessment-template.csv) |
-
+| SOC 2 Trust Services Criteria crosswalk (38 criteria pre-filled, scoring method included) | [Markdown](templates/soc2-tsc-crosswalk-template.md) · [CSV](templates/soc2-tsc-crosswalk-template.csv) |
+| Internal audit workpaper (ISO 27001 clause 9.2 / SOC 2 readiness) | [Word](templates/internal-audit-workpaper-template.docx) · [Markdown](templates/internal-audit-workpaper-template.md) · [CSV](templates/internal-audit-workpaper-template.csv) |
+| PBC evidence request list | [Markdown](templates/pbc-request-list-template.md) · [CSV](templates/pbc-request-list-template.csv) |
 ➡️ **[Browse all templates](templates/)** · or download everything at once from **[Releases](../../releases/latest)**.
 
 ## Skills demonstrated
@@ -107,7 +109,7 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | **AI governance** | Approved-AI-tools policy ([01 §4.5](01-security-policy-pack/01-security-policy-pack.md#45-use-of-artificial-intelligence-tools)) · AI vendor tiering trigger, AI questionnaire domain and no-training contract clause ([04](04-vendor-risk-management/)) |
 | **Audit readiness** | Evidence trackers, escalation rules, retention periods, documented-information checklist, go/no-go with a veto rule, honest limitation statements — [01](01-security-policy-pack/), [05](05-iso27001-readiness-soa/) |
 | **Tooling** | Excel (formulas, validation, conditional formatting), Markdown, Notion, GitHub |
-
+| **SOC 2 and internal audit** | Criteria selection, a 38-criterion TSC crosswalk, system description with CUECs and CSOCs, 24 workpapers with populations, samples and seeds, a findings register graded by a published dating rule, PBC list — [06](06-soc2-readiness-internal-audit/) |
 ## About me
 
 I'm **Shola O. Olugboye** (artefacts in this repository are signed **"O.S"**, the assessor and author on every document). I build practical security governance for growing companies, with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.
@@ -116,7 +118,7 @@ I bring 15+ years across IT support, HR and people operations, IT and security-s
 
 **Credentials:** AWS Certified Solutions Architect – Associate (Aug 2026) · MSc Applied Economics and Data Analysis, Jönköping International Business School
 
-**Based in:** Sweden · **Open to:** GRC Analyst · Information Security / Compliance Analyst · IT Risk · Cloud Compliance roles across the EU, UK and remote
+**Based in:** Sweden · **Open to:** GRC Analyst · Information Security / Compliance Analyst · IT Risk · Cloud Compliance roles Internationally and remote
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/olushegun-s) · [Notion project hub](https://app.notion.com/p/Cypher-Group-Inc-GRC-Project-hub-0a07ea37b633473d9a74cf24a3ada0ec)
 
