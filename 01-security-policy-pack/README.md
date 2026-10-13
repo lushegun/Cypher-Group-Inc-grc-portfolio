@@ -9,7 +9,7 @@
 ![NIST 800-63B](https://img.shields.io/badge/NIST%20SP%20800--63B--4-aligned-1B4965?style=flat-square)
 
 > [!IMPORTANT]
-> **Fictional case study.** Cypher Group Inc. does not exist. Every name, date, approval and record is invented to demonstrate policy development, framework mapping and policy governance.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. Every name, date, approval and record is invented to demonstrate policy development, framework mapping and policy governance.
 
 ## The business problem
 
@@ -49,7 +49,7 @@ The answer was **No** — and three deals were stuck at security review. This pa
 | SOC 2 Trust Services Criteria | CC1, CC2, CC5, CC6, CC7, CC9 |
 | GDPR | Art. 5(1)(f), Art. 32, Art. 33, Art. 34 |
 
-<sub>Mappings are the author's own analysis for a fictional scenario. No certification or attestation is claimed.</sub>
+<sub>Mappings are the author's own analysis for a simulated scenario. No certification or attestation is claimed.</sub>
 
 ## Evidence snapshot — CGI-TRK-001
 
