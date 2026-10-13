@@ -8,4 +8,4 @@
 | [03-heatmap-data.csv](03-heatmap-data.csv) | Function averages and the overall score (use the six Function rows for charts) |
 | [03-remediation-roadmap.csv](03-remediation-roadmap.csv) | REC-01 to REC-18 with priority, effort, reduction per effort unit, owner, quarter and dependency |
 
-<sub>All data fictional.</sub>
+<sub>Simulated case study data.</sub>

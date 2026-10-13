@@ -5,7 +5,7 @@
 ### Cypher Group Inc. · NIST CSF 2.0 Maturity Assessment · v1.0 · 15 September 2026
 
 > [!IMPORTANT]
-> **Fictional data.** Cypher Group Inc. is a fictional company created for portfolio purposes.
+> **Case study notice.** Cypher Group Inc. is a simulated company created for this case study.
 
 Companion file to `03-nist-csf-gap-assessment.md`. Machine-readable copy:
 `data/03-heatmap-data.csv`. A finished chart is in `images/03-radar-current-vs-target.png`.
@@ -78,7 +78,7 @@ OVERALL,22,1.23,2.68,1.45
 7. **Customise → Series → Target** → line dash type *Dashed*, line thickness 2px. Leave **Avg Current**
    solid with a light fill. Target should read as an outline you are aiming at.
 8. **Customise → Chart & axis titles → Chart title:**
-   `Cypher Group Inc. — NIST CSF 2.0 Maturity: Current vs Target (fictional scenario)`
+   `Cypher Group Inc. — NIST CSF 2.0 Maturity: Current vs Target (simulated scenario)`
 9. **Customise → Legend → Position: Bottom.**
 10. Three-dot menu on the chart → **Download → PNG image**. Set the browser zoom to 150% first so the
     export lands above 1200 px wide — this PNG is the thumbnail for the GitHub README and the LinkedIn post.
@@ -117,4 +117,4 @@ OVERALL,22,1.23,2.68,1.45
 | RESPOND | 1.50 | Highest operational Function, because CGI-POL-005 is genuinely good. Cannot rise until DETECT produces something to respond to. |
 | RECOVER | 0.50 | The worst Function, and the one that decides whether a bad day becomes an extinction event. |
 
-*End of CGI-GAP-001 heatmap data. All figures computed programmatically from the 22-Category assessment. All data fictional.*
+*End of CGI-GAP-001 heatmap data. All figures computed programmatically from the 22-Category assessment. Simulated case study data.*

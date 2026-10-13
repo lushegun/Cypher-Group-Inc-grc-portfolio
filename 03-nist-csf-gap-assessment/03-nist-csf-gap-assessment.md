@@ -5,7 +5,7 @@
 ### Cypher Group Inc. · Version 1.0 · 15 September 2026
 
 > [!IMPORTANT]
-> **Fictional data notice.** Cypher Group Inc. is a fictional company. Every organisation, person,
+> **Case study notice.** Cypher Group Inc. is a simulated company. Every organisation, person,
 > system, finding, score and figure in this document was created to demonstrate applied GRC methodology.
 > No real company data, customer data or security finding is present. This document is a portfolio
 > artifact and must not be presented as evidence of employment or of a real engagement.
@@ -440,7 +440,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-005 |
 | **Risk if Unaddressed** | A compromise at AWS, GitHub or Google Workspace would reach all customer data with no contractual remedy, no assessed control baseline and no notification pathway; enterprise buyers treat a missing vendor register as a hard fail. |
 | **Priority** | **P1** |
-| **Recommended Action** | Build a tiered vendor inventory covering AWS, GitHub, Slack, Google Workspace and Stripe with data classification exposure, collect each provider's assurance artifact and DPA, and add permitted third-party destinations to CGI-POL-004 §4.2. (Delivered as Project 4.) |
+| **Recommended Action** | Build a tiered vendor inventory covering AWS, GitHub, Slack, Google Workspace and Stripe with data classification exposure, collect each provider's assurance artifact and DPA, and add permitted third-party destinations to CGI-POL-004 §4.2. (Delivered 15 Sep 2026 as Project 4 (CGI-TPR-001), three quarters ahead of its Q2 2027 slot.) |
 | **Est. Effort** | M (Medium) |
 | **Owner (Job Title)** | Chief Technology Officer |
 | **ISO 27001:2022 Annex A Mapping** | A.5.19 Information security in supplier relationships; A.5.20 Addressing information security within supplier agreements; A.5.21 Managing information security in the ICT supply chain; A.5.22 Monitoring, review and change management of supplier services; A.5.23 Information security for use of cloud services |
@@ -952,7 +952,7 @@ the primary sort key. Two deliberate overrides were applied and are stated in th
 - **REC-12 (P2, S (Small), Q2 2027).** Converts three policy-only Categories into exercised ones in a single half-day and produces the lessons-learned artifact that ID.IM currently lacks entirely.
 - **REC-13 (P2, S (Small), Q2 2027).** ACC-001 was accepted against an undeclared tolerance. Declaring appetite is what makes every future acceptance defensible rather than personal.
 - **REC-14 (P2, S (Small), Q2 2027).** Silence during an incident does more contract damage across roughly 200 SMB customers than the incident itself.
-- **REC-15 (P1, M (Medium), Q2 2027).** The only Category scored zero that is also a hard commercial blocker: enterprise buyers treat a missing vendor register as an immediate fail. Delivered as Project 4.
+- **REC-15 (P1, M (Medium), Q2 2027).** The only Category scored zero that is also a hard commercial blocker: enterprise buyers treat a missing vendor register as an immediate fail. Delivered 15 Sep 2026 as Project 4 (CGI-TPR-001), three quarters ahead of its Q2 2027 slot.
 - **REC-16 (P2, L (Large), Q3 2027).** Peer review alone will not find an authorisation flaw reliably. This is what finally moves R-004 off residual High, but it needs budget and a pipeline to attach to, so it follows rather than leads.
 - **REC-17 (P3, M (Medium), Q3 2027).** R-003 is prevented on paper by the CGI-POL-003 four-hour revocation but remains entirely undetectable in the window before a leaver is processed.
 - **REC-18 (P3, M (Medium), Q4 2027).** Required for ISO 27001 A.8.22 and expected in any cloud audit; low urgency only because the baseline in REC-11 delivers most of the practical protection first.
@@ -976,7 +976,7 @@ declared target of 2.68.
 
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
 > **Subject:** NIST CSF 2.0 security maturity — where we stand and what to do first
-> *(Fictional scenario. Cypher Group Inc. is not a real company.)*
+> *(Simulated case study.)*
 
 ### Overall maturity: 1.23 out of 4.00
 
@@ -1096,7 +1096,7 @@ control driving a residual High risk scores above 0:
 | Every Owner is a job title, never a named individual | ✅ |
 | Recommendations ≥ 12 | ✅ 18 |
 | Every recommendation has priority, effort, owner, target quarter, dependency and a Risk ID or control gap | ✅ |
-| Fictional-data notice present | ✅ |
+| Case-study notice present | ✅ |
 
 ---
 
@@ -1150,4 +1150,4 @@ control driving a residual High risk scores above 0:
 | NIST CSWP 29 | The NIST Cybersecurity Framework (CSF) 2.0 | 2.0 | Published 26 Feb 2024 |
 | ISO/IEC 27001:2022 | Information security management systems — Requirements | 2022 | Referenced for Annex A mapping |
 
-*End of CGI-GAP-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye. All data fictional.*
+*End of CGI-GAP-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye. Simulated case study data.*

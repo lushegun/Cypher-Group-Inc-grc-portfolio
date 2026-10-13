@@ -15,7 +15,7 @@
 | Data as at | 05 September 2026 |
 
 > [!IMPORTANT]
-> **All data below is fictional.** This tracker demonstrates how policy
+> **All data below is simulated.** This tracker demonstrates how policy
 > acknowledgement and security training completion are evidenced.
 
 ---

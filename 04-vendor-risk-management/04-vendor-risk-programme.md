@@ -5,7 +5,7 @@
 ### Cypher Group Inc. · Version 1.0 · 15 September 2026
 
 > [!IMPORTANT]
-> **Fictional data notice.** Cypher Group Inc. is a fictional company. Every organisation, person,
+> **Case study notice.** Cypher Group Inc. is a simulated company. Every organisation, person,
 > system, finding, score, date and figure in this document was created to demonstrate applied GRC
 > methodology. **Real product names appear as realistic stand-ins. Every assurance status, DPA status,
 > report period, hosting region and finding attributed to them is invented for this scenario and is not a
@@ -1326,7 +1326,7 @@ and it is what makes "is this tool approved?" a question with an answer.
 
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
 > **Subject:** Who we depend on, what we know about them, and what we have signed
-> *(Fictional scenario. Cypher Group Inc. is not a real company.)*
+> *(Simulated case study.)*
 
 ### We depend on 17 companies. We had assessed none of them.
 
@@ -1511,7 +1511,7 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 | Workbook formulas are formulas, not hardcoded values | ✅ 207 formulas (rebuilt 16 Sep 2026) |
 | Workbook recalculated; zero `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?` | ✅ **0 errors across 9 sheets** |
 | Every owner is a job title, never a named individual | ✅ |
-| Fictional-data notice present on the document and the workbook | ✅ |
+| Case-study notice present on the document and the workbook | ✅ |
 | Real-company assurance and contract statuses labelled as invented | ✅ |
 | Tables paste cleanly — one value per cell, no merged cells | ✅ |
 
@@ -1606,4 +1606,4 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 
 ---
 
-*End of CGI-TPR-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye. All data fictional.*
+*End of CGI-TPR-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye. Simulated case study data.*

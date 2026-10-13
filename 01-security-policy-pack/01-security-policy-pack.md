@@ -16,7 +16,7 @@
 | Next scheduled review | 01 September 2027 |
 
 > [!IMPORTANT]
-> **All data in this pack is fictional.** Cypher Group Inc. does not exist. This
+> **All data in this pack is simulated.** Cypher Group Inc. is a simulated company. This
 > pack demonstrates policy development, framework mapping and policy governance.
 
 ---
@@ -75,9 +75,9 @@ referenced but maintained separately in the Cypher Group internal wiki.
 | CGI-POL-004 | Data Classification Policy | 1.0 | Chief Technology Officer | CEO | 2026-09-01 | 2026-09-15 | 2027-09-01 | Yes, all staff |
 | CGI-POL-005 | Incident Reporting Policy | 1.0 | Chief Technology Officer | CEO | 2026-09-01 | 2026-09-15 | 2027-09-01 | Yes, all staff |
 
-## Named roles referenced throughout this pack (fictional)
+## Named roles referenced throughout this pack (simulated)
 
-| Role | Name (fictional) | Policy responsibilities |
+| Role | Name (simulated) | Policy responsibilities |
 |---|---|---|
 | Chief Executive Officer | Jerry Olugboye | Approves the pack; accountable for the security programme |
 | Chief Technology Officer | Priya Raman | Owns technical policies; acts as Incident Commander; approves exceptions |
@@ -737,7 +737,7 @@ store, transmit or dispose of it.
 
 ### 3.1 Assigned data owners
 
-| Information domain | Data owner (role) | Data owner (fictional name) |
+| Information domain | Data owner (role) | Data owner (simulated name) |
 |---|---|---|
 | Customer account data | Head of Customer Success | Amara Boateng |
 | Payment metadata and financial records | Finance Manager | Jonas Keller |
@@ -1081,7 +1081,7 @@ one set of policies to support multiple compliance programmes simultaneously.
 | GDPR | Supports Article 32 security of processing, Articles 33 and 34 breach notification, Article 5(1)(f) integrity and confidentiality |
 
 > **Note on coverage claims.** These mappings are the author's own analysis for a
-> fictional scenario. They have not been reviewed by a certification body or a
+> simulated scenario. They have not been reviewed by a certification body or a
 > CPA firm, and no certification or attestation is claimed or implied.
 
 # Appendix B — Exception Register (populated example)
@@ -1108,4 +1108,4 @@ one set of policies to support multiple compliance programmes simultaneously.
 
 **END OF PACK — CGI-POL-001 to CGI-POL-005, version 1.0**
 
-*All content fictional. Prepared by O.S as portfolio project 1 of 7.*
+*Simulated case study content. Prepared by O.S as portfolio project 1 of 7.*

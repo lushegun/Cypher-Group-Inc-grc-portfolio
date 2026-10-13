@@ -12,4 +12,4 @@ CSV versions of the tables in the policy pack and tracker. GitHub shows each one
 | [01-policy-signoff-tracker.csv](01-policy-signoff-tracker.csv) | CGI-TRK-001, extended layout |
 | [01-escalation-rules.csv](01-escalation-rules.csv) | Tracker escalation rules |
 
-<sub>All data fictional.</sub>
+<sub>Simulated case study data.</sub>
