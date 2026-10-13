@@ -9,7 +9,7 @@
 ![ISO](https://img.shields.io/badge/ISO%2FIEC%2027001%3A2022-mapped%20on%20every%20row-1B4965?style=flat-square)
 
 > [!IMPORTANT]
-> **Fictional case study.** Cypher Group Inc. does not exist. Every finding, score and figure was created to demonstrate applied GRC method.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. Every finding, score and figure was created to demonstrate applied GRC method.
 
 <p align="center"><img src="images/03-radar-current-vs-target.png" alt="Radar chart of current versus target maturity for the six NIST CSF 2.0 Functions" width="720"></p>
 

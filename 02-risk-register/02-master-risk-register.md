@@ -13,7 +13,7 @@
 | Classification | Confidential |
 
 > [!IMPORTANT]
-> **All data in this register is fictional.** Cypher Group Inc. does not exist.
+> **All data in this register is simulated.** Cypher Group Inc. is a simulated company.
 > This artefact demonstrates risk identification, scoring, control mapping and
 > treatment decision-making.
 
@@ -53,7 +53,7 @@
 
 ### Documented assumptions
 
-These are stated so that a reviewer can challenge them rather than guess at them. Every one is fictional and set for the scenario.
+These are stated so that a reviewer can challenge them rather than guess at them. Every one is simulated and set for the scenario.
 
 | # | Assumption | Used for |
 |---|---|---|
@@ -253,13 +253,13 @@ A register is a snapshot; key risk indicators are what tell you a score has move
 4. **Control effectiveness is asserted, not tested.** Residual scores credit controls as designed. No test of operating effectiveness has been performed. A control testing programme is the natural next assurance step, and until it exists every residual score should be read as an upper-bound claim.
 5. **Scope.** Five operational scenarios only. This is not a complete enterprise risk assessment; supply chain, availability, regulatory-change and fraud scenarios are not covered in version 1.0.
 
-**Assurance statement.** All content is fictional and was produced for portfolio demonstration. It has not been reviewed by a certification body, a CPA firm or legal counsel, and no certification or attestation is claimed or implied.
+**Assurance statement.** All content is simulated and was produced for portfolio demonstration. It has not been reviewed by a certification body, a CPA firm or legal counsel, and no certification or attestation is claimed or implied.
 
 ---
 
 ## 8. Approval
 
-| Role | Name (fictional) | Action | Date |
+| Role | Name (simulated) | Action | Date |
 |---|---|---|---|
 | Prepared by | O.S, GRC Analyst (engaged) | Assessment performed and register drafted | 08 September 2026 |
 | Reviewed by | Priya Raman, Chief Technology Officer | Register owner; reviewed scoring and control mapping | 08 September 2026 |
@@ -269,4 +269,4 @@ A register is a snapshot; key risk indicators are what tell you a score has move
 
 ---
 
-**END OF REGISTER — CGI-RSK-001 v1.0. All content fictional. Prepared by O.S as portfolio project 2 of 7.**
+**END OF REGISTER — CGI-RSK-001 v1.0. Simulated case study content. Prepared by O.S as portfolio project 2 of 7.**

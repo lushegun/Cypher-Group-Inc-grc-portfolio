@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [← 01 Policy Pack](../01-security-policy-pack/)
+[← Portfolio home](../README.md) · [← 01 Policy Pack](../01-security-policy-pack/) · [Next: 03 CSF Gap Assessment →](../03-nist-csf-gap-assessment/)
 
 # 02 · Master Information Security Risk Register
 
@@ -9,7 +9,7 @@
 ![High](https://img.shields.io/badge/residual%20High-2%20of%205-E67E22?style=flat-square)
 
 > [!IMPORTANT]
-> **Fictional case study.** Cypher Group Inc. does not exist. All scores, costs, names and approvals are invented to demonstrate risk identification, scoring, control mapping and treatment decisions.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. All scores, costs, names and approvals are invented to demonstrate risk identification, scoring, control mapping and treatment decisions.
 
 ## The question this answers
 
@@ -74,6 +74,7 @@ R-004 and R-005 only move one step on likelihood: the policy pack governs *who* 
 | Control gaps | 5 (CG-01 to CG-05) |
 | New policies recommended | Backup & Recovery · Secure Development · Vulnerability Management |
 | Key risk indicators | 7 (KRI-01 to KRI-07) with green / amber / red thresholds |
+| Later in the portfolio | [Project 04](../04-vendor-risk-management/) adds 9 supplier risks: v1.1 has 14 risks, a 43% reduction and 3 residual High |
 
 ## All four treatment strategies, on the record
 
@@ -96,4 +97,4 @@ R-004 and R-005 only move one step on likelihood: the policy pack governs *who* 
 
 ---
 
-[← 01 Policy Pack](../01-security-policy-pack/) · [Portfolio home](../README.md)
+[← 01 Policy Pack](../01-security-policy-pack/) · [Portfolio home](../README.md) · [Next: 03 CSF Gap Assessment →](../03-nist-csf-gap-assessment/)

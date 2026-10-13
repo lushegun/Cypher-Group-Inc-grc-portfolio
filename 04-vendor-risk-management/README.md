@@ -10,7 +10,7 @@
 ![AI](https://img.shields.io/badge/AI%20vendor%20governance-built%20in-5FA8D3?style=flat-square)
 
 > [!IMPORTANT]
-> **Fictional case study.** Cypher Group Inc. does not exist. Real product names are used only as realistic stand-ins. **Every assurance status, DPA status, report period, hosting region and finding attributed to them is invented** and says nothing about those companies.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. Real product names are used only as realistic stand-ins. **Every assurance status, DPA status, report period, hosting region and finding attributed to them is invented** and says nothing about those companies.
 
 ## Why this project exists
 
