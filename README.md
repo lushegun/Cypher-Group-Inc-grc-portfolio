@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>One B2B SaaS company, one security governance programme built end-to-end.</b><br>
+  <b>One security governance programme built end-to-end.</b><br>
   Policies → risk → maturity → vendors → ISO 27001 → SOC 2 → cloud compliance.
 </p>
 
