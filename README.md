@@ -41,12 +41,12 @@
 
 | # | Project | What it demonstrates | Headline result | Status |
 |:-:|---|---|---|:-:|
-| 01 | **[Startup Security Policy Pack](01-security-policy-pack/)** | Policy writing · framework mapping · policy governance | 5 policies · 38 ISO 27001 Annex A controls mapped · exception register · sign-off tracker | ✅ Published |
-| 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 risks · aggregate exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs | ✅ Published |
-| 03 | **[NIST CSF 2.0 Gap Assessment & Maturity Scorecard](03-nist-csf-gap-assessment/)** | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations | ✅ Published |
-| 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 | ✅ Published |
-| 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 | ✅ Published |
-| 06 | **[SOC 2 Type II Readiness & Internal Audit Workpapers](06-soc2-readiness-internal-audit/)** | TSC crosswalk · system description & CUECs · control testing · sampling · audit findings | 38 criteria: 8 with adequate design, 0 evidenced · Type I 53.9%, Type II 36.0%, both NO-GO · 24 workpapers, 37 findings · Type II report ~Nov 2028 | ✅ Published |
+| 01 | **[Startup Security Policy Pack](01-security-policy-pack/)** | Policy writing · framework mapping · policy governance | 5 policies · 38 ISO 27001 Annex A controls mapped · exception register · sign-off tracker |  Published |
+| 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 risks · aggregate exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs |  Published |
+| 03 | **[NIST CSF 2.0 Gap Assessment & Maturity Scorecard](03-nist-csf-gap-assessment/)** | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations |  Published |
+| 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 |  Published |
+| 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 |  Published |
+| 06 | **[SOC 2 Type II Readiness & Internal Audit Workpapers](06-soc2-readiness-internal-audit/)** | TSC crosswalk · system description & CUECs · control testing · sampling · audit findings | 38 criteria: 8 with adequate design, 0 evidenced · Type I 53.9%, Type II 36.0%, both NO-GO · 24 workpapers, 37 findings · Type II report ~Nov 2028 | Published |
 | 07 | AWS Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — | >>>> Next |
 
 <p align="center"><img src="03-nist-csf-gap-assessment/images/03-radar-current-vs-target.png" alt="NIST CSF 2.0 maturity, current versus target" width="560"><br><sub>Project 03: where the company stands against NIST CSF 2.0, and where it has decided to be</sub></p>
