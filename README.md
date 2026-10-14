@@ -68,7 +68,7 @@ flowchart LR
     P6 --> P7["07 · AWS compliance<br/>prove it in the cloud"]
 ```
 
-## The scenario — Cypher Group Inc. *(case study)*
+## The scenario — Cypher Group Inc. 
 
 | | |
 |---|---|
