@@ -10,7 +10,7 @@
 ![Certificate](https://img.shields.io/badge/realistic%20certificate-Nov%202027-1B4965?style=flat-square)
 
 > [!IMPORTANT]
-> **Fictional case study.** Cypher Group Inc. does not exist. Every finding, score, date and cost was created to demonstrate applied GRC method. ISO/IEC 27001 wording is paraphrased; the standard itself must be purchased from ISO or a national standards body.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. Every finding, score, date and cost was created to demonstrate applied GRC method. ISO/IEC 27001 wording is paraphrased; the standard itself must be purchased from ISO or a national standards body.
 
 ## The question this answers
 

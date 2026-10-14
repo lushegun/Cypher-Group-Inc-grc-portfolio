@@ -12,4 +12,4 @@ The full 93-row Statement of Applicability is one level up: [05-iso27001-readine
 | [05-rec-reconciliation.csv](05-rec-reconciliation.csv) | CGI-GAP-001 REC-01 to REC-18 reconciled against the certification plan |
 | [05-gap-mapping-reconciliation.csv](05-gap-mapping-reconciliation.csv) | All 93 controls: whether CGI-GAP-001 mapped them, under which Category, and the resulting status |
 
-<sub>All data fictional. ISO/IEC 27001 wording is paraphrased.</sub>
+<sub>Simulated case study data. ISO/IEC 27001 wording is paraphrased.</sub>

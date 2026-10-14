@@ -10,7 +10,7 @@
 > target afterwards is the most common way a gap assessment becomes unfalsifiable.
 
 > [!NOTE]
-> If you are using this on a fictional scenario for a portfolio, keep a fictional-data notice at the top.
+> If you are using this on a simulated scenario for a portfolio, keep a case-study notice at the top.
 > If you are using it on a real organisation, delete the notice and mark the document with the appropriate
 > classification instead.
 
@@ -214,7 +214,7 @@ recommendation is a wish.
 - [ ] Every Owner is a job title, never a named individual
 - [ ] At least 12 recommendations, each with priority, effort, owner, quarter and dependency
 - [ ] Tables contain one value per cell and no merged cells
-- [ ] Fictional-data notice present if this is a portfolio scenario
+- [ ] Case-study notice present if this is a portfolio scenario
 
 ---
 

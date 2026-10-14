@@ -10,7 +10,7 @@
 ![Audit](https://img.shields.io/badge/internal%20audit-9%20major%20·%2010%20minor%20·%2018%20OFI-1B4965?style=flat-square)
 
 > [!IMPORTANT]
-> **Fictional case study.** Cypher Group Inc. does not exist. Every finding, score, date and cost was created to demonstrate applied GRC method. AICPA Trust Services Criteria and ISO/IEC 27001 wording are paraphrased; both must be obtained from their publishers.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. Every finding, score, date and cost was created to demonstrate applied GRC method. AICPA Trust Services Criteria and ISO/IEC 27001 wording are paraphrased; both must be obtained from their publishers.
 
 ## The question this answers
 

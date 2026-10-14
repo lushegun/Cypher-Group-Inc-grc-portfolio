@@ -3,7 +3,7 @@
 # [ORGANISATION] — ISO/IEC 27001:2022 Statement of Applicability — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-ISO-001 portfolio project (fictional). Replace every
+> **How to use this template.** Blank reusable template from the CGI-ISO-001 portfolio project (simulated). Replace every
 > `[BRACKETED]` field, and delete guidance notes in blockquotes before issue. ISO/IEC 27001 wording is paraphrased;
 > use the purchased standard. The Excel version (`iso27001-soa-template.xlsx`) calculates each status and the
 > readiness score for you.

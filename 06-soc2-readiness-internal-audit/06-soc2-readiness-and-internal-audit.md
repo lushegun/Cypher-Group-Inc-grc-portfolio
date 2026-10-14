@@ -5,7 +5,7 @@
 ### Cypher Group Inc. · Version 1.0 · 25 September 2026
 
 > [!IMPORTANT]
-> **FICTIONAL DATA NOTICE.** Cypher Group Inc. is a fictional company. Every organisation, person, system,
+> **CASE STUDY NOTICE.** Cypher Group Inc. is a simulated company. Every organisation, person, system,
 > finding, score, date, cost and figure in this document was created to demonstrate applied GRC methodology.
 > Real product names appear only as realistic stand-ins, and every assurance status attributed to them is
 > invented for the scenario. This is a portfolio artifact, not evidence of employment or of a real engagement.
@@ -950,7 +950,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Objective** | Determine whether resources are provided and whether competence is determined, achieved and evidenced. |
 | **Audit criteria** | Clauses 7.1, 7.2 a)-d) |
 | **Population** | 6 named ISMS-relevant roles (CGI-ISO-001 role cast) |
-| **Population source and completeness** | CGI-ISO-001 s2.2 and the fictional role cast |
+| **Population source and completeness** | CGI-ISO-001 s2.2 and the simulated role cast |
 | **Sample size** | 6 (100%) |
 | **Selection method** | Inquiry; inspection of personnel records |
 | **Test steps** | 1. Request the approved ISMS budget and time allocation. 2. For each role, request the competence requirement and the evidence of competence (qualification, training or experience record). |
@@ -1330,7 +1330,7 @@ response.
 > **From:** O.S, Internal Auditor
 > **Date:** 25 September 2026
 > **Subject:** Internal audit of the information security management system — CGI-IAU-001
-> *(Fictional scenario. Cypher Group Inc. is not a real company.)*
+> *(Simulated case study.)*
 
 **Audit opinion.** The information security management system of Cypher Group Inc. **does not currently conform
 to ISO/IEC 27001:2022**. Nine requirements of clauses 4 to 10 are absent rather than incomplete, and the
@@ -1512,7 +1512,7 @@ adding one.
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor and Internal Auditor
 > **Date:** 25 September 2026
 > **Subject:** Can we sell against a SOC 2, and did our controls actually run?
-> *(Fictional scenario. Cypher Group Inc. is not a real company.)*
+> *(Simulated case study.)*
 
 **Answer: not yet, and no. A SOC 2 Type II report is realistic for November 2028, after the ISO certificate in
 November 2027. Nothing we have built has operated yet.**
@@ -1636,7 +1636,7 @@ entire Statement of Applicability to get there.
 | Every vendor reference (CGI-VEN-001 to -017), finding (F-001 to F-013, O-001), condition (C1–C4) and KRI cited exists in CGI-TPR-001 | Pass |
 | Every risk ID cited (R-001 to R-005, VR-001 to VR-009) exists in CGI-RSK-001 v1.1 | Pass |
 | Every control gap cited uses the canonical IDs: CG-01 backup · CG-02 secure dev and vuln mgmt · CG-03 cloud config · CG-04 awareness · CG-05 DLP · CG-06 closed | Pass |
-| Every owner is a job title; the fictional cast matches CGI-ISO-001 | Pass |
+| Every owner is a job title; the simulated cast matches CGI-ISO-001 | Pass |
 | CGI-GAP-001 unchanged at 29 ÷ 22 = 1.32; no Category moves | Pass |
 | WP-06 sample reproducible from seed 20260925 | Pass — published in `data/06-wp06-soa-sample.csv` |
 | Workbook recalculated in LibreOffice; every issue-checklist row PASS | Pass — 17 sheets, 814 formulas, 0 errors, 30 of 30 checks PASS |
@@ -1718,4 +1718,4 @@ entire Statement of Applicability to get there.
 | ISO/IEC 27001:2022 + Amd 1:2024 | Information security management systems — Requirements | 2022 | Referenced, paraphrased |
 | SSAE 18 / AT-C 105, 205 | Attestation standards | — | Referenced |
 
-*End of CGI-SOC-001 and CGI-IAU-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye. All data fictional.*
+*End of CGI-SOC-001 and CGI-IAU-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye. Simulated case study data.*

@@ -22,4 +22,4 @@ The 38-criterion crosswalk is one level up: [06-soc2-readiness-and-internal-audi
 | [06-reconciliation-conflicts.csv](06-reconciliation-conflicts.csv) | SC-01 to SC-08 — where the ISO plan and the SOC 2 criteria disagree |
 | [06-maturity-projection.csv](06-maturity-projection.csv) | Why the CSF score stays at 1.32, and what moves it to 1.36 and 1.45 |
 
-<sub>All data fictional. AICPA Trust Services Criteria and ISO/IEC 27001 wording are paraphrased.</sub>
+<sub>Simulated case study data. AICPA Trust Services Criteria and ISO/IEC 27001 wording are paraphrased.</sub>
