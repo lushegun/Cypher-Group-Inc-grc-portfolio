@@ -3,7 +3,7 @@
 # [ORGANISATION] — Internal audit workpaper — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-IAU-001 portfolio project (fictional). One card per
+> **How to use this template.** Blank reusable template from the CGI-IAU-001 portfolio project (simulated). One card per
 > workpaper; the CSV holds the same fields as columns if you prefer a grid. Replace every `[BRACKETED]` field. Written for
 > an ISO/IEC 27001 clause 9.2 internal audit, and equally usable for a SOC 2 readiness walkthrough.
 

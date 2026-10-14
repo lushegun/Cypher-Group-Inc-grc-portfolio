@@ -3,7 +3,7 @@
 # [ORGANISATION] — PBC (provided-by-client) evidence request list — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-SOC-001 portfolio project (fictional). Replace every
+> **How to use this template.** Blank reusable template from the CGI-SOC-001 portfolio project (simulated). Replace every
 > `[BRACKETED]` field. A PBC list is what an auditor or examiner sends before fieldwork: every item is one artefact, with
 > one owner and one date. The fourteen rows below are the requests almost every engagement starts with — add your own.
 

@@ -3,7 +3,7 @@
 # [ORGANISATION] — SOC 2 Trust Services Criteria to control-set crosswalk — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-SOC-001 portfolio project (fictional). Replace every
+> **How to use this template.** Blank reusable template from the CGI-SOC-001 portfolio project (simulated). Replace every
 > `[BRACKETED]` field. The criterion IDs, categories and groups are pre-filled for Security (CC1–CC9), Availability (A1)
 > and Confidentiality (C1). **Criterion wording is deliberately left blank: the AICPA Trust Services Criteria are
 > copyrighted, so paraphrase them from your own licensed copy.** Add the Processing Integrity (PI1) and Privacy (P1–P8)
