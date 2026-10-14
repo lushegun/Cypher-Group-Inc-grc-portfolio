@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>A complete information security governance programme, built project by project for one fictional 50-person SaaS company.</b><br>
+  <b>A complete information security governance programme, One B2B SaaS company, one security governance programme built end-to-end.</b><br>
   Policies → risk → maturity → vendors → ISO 27001 → SOC 2 → cloud compliance.
 </p>
 
@@ -68,7 +68,7 @@ flowchart LR
     P6 --> P7["07 · AWS compliance<br/>prove it in the cloud"]
 ```
 
-## The scenario — Cypher Group Inc. *(fictional)*
+## The scenario — Cypher Group Inc. *(simulated case study)*
 
 | | |
 |---|---|
@@ -125,4 +125,4 @@ I bring 15+ years across IT support, HR and people operations, IT and security-s
 
 ---
 
-<sub>**Fictional data notice.** Cypher Group Inc. and every person, record, date and finding in this repository are invented to demonstrate applied GRC capability. No real company or personal data is used, and no certification or attestation is claimed. Framework mappings are the author's own analysis. Templates are free to reuse; attribution is appreciated.</sub>
+<sub>**Case study notice.** Cypher Group Inc. and every person, record, date and finding in this repository are invented to demonstrate applied GRC capability. No real company or personal data is used, and no certification or attestation is claimed. Framework mappings are the author's own analysis. Templates are free to reuse; attribution is appreciated.</sub>
