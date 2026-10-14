@@ -12,7 +12,7 @@
 | Next review | [DD Month YYYY] |
 
 > [!NOTE]
-> **[FICTIONAL DATA NOTICE — delete if this is a real engagement. If it is a portfolio artifact,
+> **[CASE STUDY NOTICE — delete if this is a real engagement. If it is a portfolio artifact,
 > keep it and state that all vendor assurance and contract statuses are invented for the scenario.]**
 
 > [!TIP]

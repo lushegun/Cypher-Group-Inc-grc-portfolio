@@ -5,7 +5,7 @@
 ### Cypher Group Inc. · Version 1.0 · 16 September 2026
 
 > [!IMPORTANT]
-> **FICTIONAL DATA NOTICE.** Cypher Group Inc. is a fictional company. Every organisation, person, system,
+> **CASE STUDY NOTICE.** Cypher Group Inc. is a simulated company. Every organisation, person, system,
 > finding, score, date, cost and figure in this document was created to demonstrate applied GRC methodology.
 > Real product names appear only as realistic stand-ins; every assurance or contract status attributed to them
 > is invented for the scenario. This is a portfolio artifact, not evidence of employment or of a real engagement.
@@ -793,7 +793,7 @@ major nonconformity costs more time than it saves.
 
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 16 September 2026
 > **Subject:** Can we get ISO 27001 certified, and when?
-> *(Fictional scenario. Cypher Group Inc. is not a real company.)*
+> *(Simulated case study.)*
 
 **Answer: yes, in November 2027, not sooner. Booking an audit today would fail.**
 
@@ -959,4 +959,4 @@ restraint as Project 4 applies: **a prerequisite is not a score, and an approved
 | ISO/IEC 27002:2022 | Information security controls | 2022 | Referenced |
 | ISO/IEC 17021-1 / 27006-1 | Requirements for certification bodies | — | Referenced |
 
-*End of CGI-ISO-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye. All data fictional.*
+*End of CGI-ISO-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye. Simulated case study data.*
