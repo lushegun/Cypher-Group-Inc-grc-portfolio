@@ -115,7 +115,7 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 
 I'm **Olushegun Shola Olugboye** (artefacts in this repository are signed **"O.S"**, the assessor and author on every document). I build practical security governance for growing companies, with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.
 
-I bring 15+ years across IT support, HR and people operations, IT and security-systems project delivery, and evidence-based software testing, where joiner–mover–leaver access, audits and corrective actions were part of the job. This portfolio applies ISO/IEC 27001, SOC 2, NIST and third-party risk practice to one company, end to end.
+I bring 15+ years across IT support, HR and people operations, IT and security-systems, quality control, project delivery, and evidence-based software testing, where joiner–mover–leaver access, audits and corrective actions were part of the job. This portfolio applies ISO/IEC 27001, SOC 2, NIST and third-party risk practice to one company, end to end.
 
 **Credentials:** AWS Certified Solutions Architect – Associate (Aug 2026) · MSc Applied Economics and Data Analysis, Jönköping International Business School
 
