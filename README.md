@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <b>Shola O. Olugboye</b> · GRC Analyst · ISO/IEC 27001 · Risk · Third-Party Risk · AI Governance<br>
+  <b>Olushegun Shola Olugboye</b> · GRC Analyst · ISO/IEC 27001 · Risk · Third-Party Risk · AI Governance<br>
   <a href="https://www.linkedin.com/in/olushegun-s">LinkedIn</a> ·
   <a href="https://app.notion.com/p/Cypher-Group-Inc-GRC-Project-hub-0a07ea37b633473d9a74cf24a3ada0ec">Notion project hub</a> ·
   <a href="templates/">Free templates</a> ·
@@ -113,7 +113,7 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | **SOC 2 and internal audit** | Criteria selection, a 38-criterion TSC crosswalk, system description with CUECs and CSOCs, 24 workpapers with populations, samples and seeds, a findings register graded by a published dating rule, PBC list — [06](06-soc2-readiness-internal-audit/) |
 ## About me
 
-I'm **Shola O. Olugboye** (artefacts in this repository are signed **"O.S"**, the assessor and author on every document). I build practical security governance for growing companies, with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.
+I'm **Olushegun Shola Olugboye** (artefacts in this repository are signed **"O.S"**, the assessor and author on every document). I build practical security governance for growing companies, with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.
 
 I bring 15+ years across IT support, HR and people operations, IT and security-systems project delivery, and evidence-based software testing, where joiner–mover–leaver access, audits and corrective actions were part of the job. This portfolio applies ISO/IEC 27001, SOC 2, NIST and third-party risk practice to one company, end to end.
 
