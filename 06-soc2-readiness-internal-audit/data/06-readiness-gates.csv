@@ -6,4 +6,4 @@ SG-4,CC3.2 - risk identification and analysis,CC3.2,Every other criterion is sco
 SG-5,"CC6.1, CC6.2, CC6.3 - logical access","CC6.1, CC6.2, CC6.3",Logical access is the core of the Security category; a design failure here is fatal to the report.,FAIL,"CC6.1 CRL 1, design Deficient; CC6.2 CRL 2, design Adequate; CC6.3 CRL 1, design Deficient"
 SG-6,CC7.4 - incident response,CC7.4,An unhandled incident invalidates every other assertion in the period.,PASS,"CC7.4 CRL 2, design Adequate"
 SG-7,CC8.1 - change management,CC8.1,Unmanaged change means no design assertion survives the period. R-004 lives here.,FAIL,"CC8.1 CRL 0, design Deficient"
-SG-8,CC9.2 - vendor and business partner risk management,CC9.2,"AWS is carved out; without vendor controls the carve-out is a hole, not a boundary.",PASS,"CC9.2 CRL 2, design Adequate"
+SG-8,CC9.2 - vendor and business partner risk management,CC9.2,"CloudCo is carved out; without vendor controls the carve-out is a hole, not a boundary.",PASS,"CC9.2 CRL 2, design Adequate"
