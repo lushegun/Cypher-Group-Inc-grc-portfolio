@@ -1,0 +1,16 @@
+Risk ID,Inherent,Residual v1.1,Rating v1.1,Residual v1.2,Rating v1.2,Change
+R-001,20,6,Medium,6,Medium,0
+R-002,20,8,Medium,8,Medium,0
+R-003,12,6,Medium,6,Medium,0
+R-004,20,12,High,12,High,0
+R-005,20,12,High,20,Critical,8
+VR-001,16,8,Medium,8,Medium,0
+VR-002,10,8,Medium,8,Medium,0
+VR-003,12,8,Medium,8,Medium,0
+VR-004,15,12,High,12,High,0
+VR-005,12,9,Medium,9,Medium,0
+VR-006,16,9,Medium,9,Medium,0
+VR-007,12,9,Medium,9,Medium,0
+VR-008,16,9,Medium,9,Medium,0
+VR-009,12,6,Medium,6,Medium,0
+TOTAL (14 risks),213,122,,130,,8

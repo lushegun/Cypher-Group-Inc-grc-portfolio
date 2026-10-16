@@ -20,6 +20,7 @@
   <img src="https://img.shields.io/badge/NIST%20CSF-2.0-13315C?style=flat-square" alt="NIST CSF 2.0">
   <img src="https://img.shields.io/badge/NIST%20SP-800--30%20Rev.1-1B4965?style=flat-square" alt="NIST SP 800-30">
   <img src="https://img.shields.io/badge/SOC%202-TSC-2E86DE?style=flat-square" alt="SOC 2">
+  <img src="https://img.shields.io/badge/CIS%20AWS-v5.0.0-3D7EAA?style=flat-square" alt="CIS AWS Foundations Benchmark v5.0.0">
   <img src="https://img.shields.io/badge/GDPR-Art.%2032--34-5FA8D3?style=flat-square" alt="GDPR">
   <img src="https://img.shields.io/badge/AI%20governance-focus-2BAE66?style=flat-square" alt="AI governance">
 </p>
@@ -35,7 +36,8 @@
 > 3. **[Project 04](04-vendor-risk-management/)** — how AI tools bought on expenses were discovered and brought under control, and why CloudCo passed only with conditions that were all *ours*.
 > 4. **[Project 05](05-iso27001-readiness-soa/)** — why none of 88 applicable ISO 27001 controls is marked *Implemented*, and why that is the honest answer.
 > 5. **[Project 06](06-soc2-readiness-internal-audit/)** — the ten controls we hand our customers, and the four our cloud provider handed us that we never accepted.
-> 6. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
+> 6. **[Project 07](07-aws-cloud-compliance/)** — why a cloud configuration review pushed the top cloud risk *up* from 12 to 20, and why the obvious reason for it is wrong.
+> 7. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
 
 ## Projects
 
@@ -47,7 +49,7 @@
 | 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 |  Published |
 | 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 |  Published |
 | 06 | **[SOC 2 Type II Readiness & Internal Audit Workpapers](06-soc2-readiness-internal-audit/)** | TSC crosswalk · system description & CUECs · control testing · sampling · audit findings | 38 criteria: 8 with adequate design, 0 evidenced · Type I 53.9%, Type II 36.0%, both NO-GO · 24 workpapers, 37 findings · Type II report ~Nov 2028 | Published |
-| 07 | Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — | >>>> Next |
+| 07 | **[Cloud Configuration Compliance Review (CIS Benchmark)](07-aws-cloud-compliance/)** | CIS benchmark review · cloud provider CUECs · five-way mapping · evidence-based risk re-scoring | 63 CIS v5.0.0 recommendations: 12 pass, profile score 24.4% · 15 findings, 3 critical · 0 of 4 provider CUECs performed · R-005 residual 12 → 20 | Published |
 
 <p align="center"><img src="03-nist-csf-gap-assessment/images/03-radar-current-vs-target.png" alt="NIST CSF 2.0 maturity, current versus target" width="560"><br><sub>Project 03: where the company stands against NIST CSF 2.0, and where it has decided to be</sub></p>
 
@@ -95,6 +97,9 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | SOC 2 Trust Services Criteria crosswalk (38 criteria pre-filled, scoring method included) | [Markdown](templates/soc2-tsc-crosswalk-template.md) · [CSV](templates/soc2-tsc-crosswalk-template.csv) |
 | Internal audit workpaper (ISO 27001 clause 9.2 / SOC 2 readiness) | [Word](templates/internal-audit-workpaper-template.docx) · [Markdown](templates/internal-audit-workpaper-template.md) · [CSV](templates/internal-audit-workpaper-template.csv) |
 | PBC evidence request list | [Markdown](templates/pbc-request-list-template.md) · [CSV](templates/pbc-request-list-template.csv) |
+| CIS AWS Foundations Benchmark v5.0.0 assessment (63 recommendations pre-filled) | [Markdown](templates/cis-aws-assessment-template.md) · [CSV](templates/cis-aws-assessment-template.csv) |
+| Multi-framework mapping (CIS → ISO 27001 → SOC 2 → CSF → risk) | [Markdown](templates/multi-framework-mapping-template.md) · [CSV](templates/multi-framework-mapping-template.csv) |
+| Cloud findings register (with severity rule) | [Markdown](templates/cloud-findings-register-template.md) · [CSV](templates/cloud-findings-register-template.csv) |
 ➡️ **[Browse all templates](templates/)** · or download everything at once from **[Releases](../../releases/latest)**.
 
 ## Skills demonstrated
@@ -110,6 +115,7 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | **AI governance** | Approved-AI-tools policy ([01 §4.5](01-security-policy-pack/01-security-policy-pack.md#45-use-of-artificial-intelligence-tools)) · AI vendor tiering trigger, AI questionnaire domain and no-training contract clause ([04](04-vendor-risk-management/)) |
 | **Audit readiness** | Evidence trackers, escalation rules, retention periods, documented-information checklist, go/no-go with a veto rule, honest limitation statements — [01](01-security-policy-pack/), [05](05-iso27001-readiness-soa/) |
 | **Tooling** | Excel (formulas, validation, conditional formatting), Markdown, Notion, GitHub |
+| **Cloud compliance** | CIS AWS Foundations Benchmark v5.0.0 review of all 63 recommendations, Security Hub control mapping, cloud provider CUEC close-out, five-way framework mapping, residual risk re-scored on evidence — [07](07-aws-cloud-compliance/) |
 | **SOC 2 and internal audit** | Criteria selection, a 38-criterion TSC crosswalk, system description with CUECs and CSOCs, 24 workpapers with populations, samples and seeds, a findings register graded by a published dating rule, PBC list — [06](06-soc2-readiness-internal-audit/) |
 ## About me
 
