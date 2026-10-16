@@ -125,4 +125,4 @@ I bring 15+ years across IT support, HR and people operations, IT and security-s
 
 ---
 
-<sub>**Case study notice.** Cypher Group Inc. and every person, record, date and finding in this repository are invented to demonstrate applied GRC capability. No real company or personal data is used, and no certification or attestation is claimed. Framework mappings are the author's own analysis. Templates are free to reuse; attribution is appreciated.</sub>
+<sub>**Case study notice.** Cypher Group Inc. and every person, record, date and finding in this repository are used to demonstrate applied GRC capability. No real company or personal data is used, and no certification or attestation is claimed. Framework mappings are the author's own analysis. Templates are free to reuse; attribution is appreciated.</sub>
