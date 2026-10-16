@@ -56,7 +56,7 @@ The company has written five policies ([Project 01](../01-security-policy-pack/)
 
 ## The finding that matters
 
-The two risks that stayed **High** in Project 02 are a production API authorisation flaw (R-004) and an AWS misconfiguration (R-005). They sit behind the two Categories scoring **0**: PR.PS (control gap CG-02) and PR.IR (CG-03). **They are not High because the policy work failed. They are High because policy was never the control that addressed them.** A policy pack cannot reach the code path or the cloud configuration.
+The two risks that stayed **High** in Project 02 are a production API authorisation flaw (R-004) and a CloudCo misconfiguration (R-005). They sit behind the two Categories scoring **0**: PR.PS (control gap CG-02) and PR.IR (CG-03). **They are not High because the policy work failed. They are High because policy was never the control that addressed them.** A policy pack cannot reach the code path or the cloud configuration.
 
 ## Three rules I can defend
 

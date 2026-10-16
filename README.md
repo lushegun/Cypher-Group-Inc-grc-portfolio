@@ -32,7 +32,7 @@
 > **Short on time?** Start with any of these:
 > 1. **[Project 01](01-security-policy-pack/)** — the AI-tools clause (§4.5) and the phishing-resistant MFA rule (§4.3.3) in the policy pack.
 > 2. **[Project 02](02-risk-register/)** — why two of five risks are deliberately left **High** after treatment, and what it would cost to fix them.
-> 3. **[Project 04](04-vendor-risk-management/)** — how AI tools bought on expenses were discovered and brought under control, and why AWS passed only with conditions that were all *ours*.
+> 3. **[Project 04](04-vendor-risk-management/)** — how AI tools bought on expenses were discovered and brought under control, and why CloudCo passed only with conditions that were all *ours*.
 > 4. **[Project 05](05-iso27001-readiness-soa/)** — why none of 88 applicable ISO 27001 controls is marked *Implemented*, and why that is the honest answer.
 > 5. **[Project 06](06-soc2-readiness-internal-audit/)** — the ten controls we hand our customers, and the four our cloud provider handed us that we never accepted.
 > 6. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
@@ -47,7 +47,7 @@
 | 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 |  Published |
 | 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 |  Published |
 | 06 | **[SOC 2 Type II Readiness & Internal Audit Workpapers](06-soc2-readiness-internal-audit/)** | TSC crosswalk · system description & CUECs · control testing · sampling · audit findings | 38 criteria: 8 with adequate design, 0 evidenced · Type I 53.9%, Type II 36.0%, both NO-GO · 24 workpapers, 37 findings · Type II report ~Nov 2028 | Published |
-| 07 | AWS Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — | >>>> Next |
+| 07 | Cloud Compliance (CIS Benchmark) | Cloud configuration review · control mapping | — | >>>> Next |
 
 <p align="center"><img src="03-nist-csf-gap-assessment/images/03-radar-current-vs-target.png" alt="NIST CSF 2.0 maturity, current versus target" width="560"><br><sub>Project 03: where the company stands against NIST CSF 2.0, and where it has decided to be</sub></p>
 
@@ -65,7 +65,7 @@ flowchart LR
     P2 --> P5["05 · ISO 27001 SoA<br/>which controls and why"]
     P3 --> P5
     P5 --> P6["06 · SOC 2 readiness<br/>prove it works"]
-    P6 --> P7["07 · AWS compliance<br/>prove it in the cloud"]
+    P6 --> P7["07 · Cloud compliance<br/>prove it in the cloud"]
 ```
 
 ## The scenario — Cypher Group Inc. 
@@ -73,7 +73,7 @@ flowchart LR
 | | |
 |---|---|
 | **Company** | 50-person B2B SaaS, project-management platform, ~200 SMB customers |
-| **Stack** | AWS · GitHub · Slack · Google Workspace · Stripe (payment metadata only) |
+| **Stack** | CloudCo (cloud hosting) · CodeCo (source code) · ChatCo (team chat) · OfficeCo (email, documents, identity) · PaymentsCo (payments; metadata only) |
 | **Starting point** | No formal GRC programme. Three enterprise deals stuck at security review. |
 | **The job** | Build the programme that gets those deals through — and survives an audit. |
 

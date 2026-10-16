@@ -98,7 +98,7 @@ strongest Category and two of its weakest all sit in areas GOVERN determines.
 | In scope | Out of scope |
 |---|---|
 | All 22 CSF 2.0 Categories, assessed at Category level | Subcategory-level assessment of all 106 outcomes (planned as a future revision) |
-| The AWS production environment, GitHub, Slack, Google Workspace and Stripe | Physical security of the office (no data centre is operated) |
+| The CloudCo production environment, CodeCo, ChatCo, OfficeCo and PaymentsCo | Physical security of the office (no data centre is operated) |
 | All 50 employees and the CGI-POL-001 §4.4 BYOD estate | Penetration testing or technical validation of any control |
 | The CGI-POL-001 to CGI-POL-005 policy pack and CGI-TRK-001 evidence | Assessment of the five third-party providers themselves (scoped as Project 4) |
 | CGI-RSK-001 v1.0 risks R-001 to R-005 and control gaps CG-01 to CG-05 | Financial audit, privacy impact assessment or GDPR Article 30 records |
@@ -426,7 +426,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Cyber supply chain risk management processes are identified, established, managed, monitored and improved by organizational stakeholders.
 
-**Current State Observation.** Nothing exists in this Category beyond two fragments. Cypher Group Inc. runs its production stack on five known third parties - AWS for hosting, GitHub for source code, Slack for communications, Google Workspace for email and documents and Stripe for payment metadata - and none has been security-assessed, none has a recorded assurance artifact such as a SOC 2 report or ISO 27001 certificate on file, and no data processing agreements are tracked in a register. CGI-POL-004 §4.2 Handling Matrix specifies how classified data must be handled but names no permitted or prohibited third-party destinations, so a Confidential record may be pasted into an unvetted SaaS tool without breaching any written rule. The two fragments are CGI-POL-001 §4.6.1, which requires CTO approval before any new third-party service is used, and CGI-POL-003 §4.6, which requires a named sponsor and an expiry date for third-party user access. Neither has an inventory, a tiering rule, an assessment method or an execution record behind it, so under the fragment rule in §3.1 the Category stays at 0. This Category is also entirely outside the scope of CGI-RSK-001, which assessed no supplier-originated scenario.
+**Current State Observation.** Nothing exists in this Category beyond two fragments. Cypher Group Inc. runs its production stack on five known third parties - CloudCo for hosting, CodeCo for source code, ChatCo for communications, OfficeCo for email and documents and PaymentsCo for payment metadata - and none has been security-assessed, none has a recorded assurance artifact such as a SOC 2 report or ISO 27001 certificate on file, and no data processing agreements are tracked in a register. CGI-POL-004 §4.2 Handling Matrix specifies how classified data must be handled but names no permitted or prohibited third-party destinations, so a Confidential record may be pasted into an unvetted SaaS tool without breaching any written rule. The two fragments are CGI-POL-001 §4.6.1, which requires CTO approval before any new third-party service is used, and CGI-POL-003 §4.6, which requires a named sponsor and an expiry date for third-party user access. Neither has an inventory, a tiering rule, an assessment method or an execution record behind it, so under the fragment rule in §3.1 the Category stays at 0. This Category is also entirely outside the scope of CGI-RSK-001, which assessed no supplier-originated scenario.
 
 | Field | Value |
 |---|---|
@@ -438,9 +438,9 @@ Each finding below carries all sixteen assessment columns in full.
 | **Target Score (0–4)** | 2 — Documented / Repeatable |
 | **Gap** | **2** |
 | **Related Risk ID (CGI-RSK-001)** | R-005 |
-| **Risk if Unaddressed** | A compromise at AWS, GitHub or Google Workspace would reach all customer data with no contractual remedy, no assessed control baseline and no notification pathway; enterprise buyers treat a missing vendor register as a hard fail. |
+| **Risk if Unaddressed** | A compromise at CloudCo, CodeCo or OfficeCo would reach all customer data with no contractual remedy, no assessed control baseline and no notification pathway; enterprise buyers treat a missing vendor register as a hard fail. |
 | **Priority** | **P1** |
-| **Recommended Action** | Build a tiered vendor inventory covering AWS, GitHub, Slack, Google Workspace and Stripe with data classification exposure, collect each provider's assurance artifact and DPA, and add permitted third-party destinations to CGI-POL-004 §4.2. (Delivered 15 Sep 2026 as Project 4 (CGI-TPR-001), three quarters ahead of its Q2 2027 slot.) |
+| **Recommended Action** | Build a tiered vendor inventory covering CloudCo, CodeCo, ChatCo, OfficeCo and PaymentsCo with data classification exposure, collect each provider's assurance artifact and DPA, and add permitted third-party destinations to CGI-POL-004 §4.2. (Delivered 15 Sep 2026 as Project 4 (CGI-TPR-001), three quarters ahead of its Q2 2027 slot.) |
 | **Est. Effort** | M (Medium) |
 | **Owner (Job Title)** | Chief Technology Officer |
 | **ISO 27001:2022 Annex A Mapping** | A.5.19 Information security in supplier relationships; A.5.20 Addressing information security within supplier agreements; A.5.21 Managing information security in the ICT supply chain; A.5.22 Monitoring, review and change management of supplier services; A.5.23 Information security for use of cloud services |
@@ -455,7 +455,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Assets - data, hardware, software, systems, facilities, services and people - that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization's risk strategy.
 
-**Current State Observation.** CGI-POL-004 establishes a four-tier data classification scheme with a §4.2 Handling Matrix and a §4.1.3 aggregation rule, so Cypher Group Inc. knows what its data is worth in principle, but there is no inventory recording where any of it actually lives. No list exists of AWS accounts and their S3 buckets and RDS instances, GitHub repositories, Google Workspace shared drives, Slack channels or Stripe objects, and no endpoint register exists for the 50 staff devices governed by CGI-POL-001 §4.4 BYOD. The classification scheme is therefore unapplied: no asset carries a classification label, which means the Handling Matrix cannot be enforced or audited against anything.
+**Current State Observation.** CGI-POL-004 establishes a four-tier data classification scheme with a §4.2 Handling Matrix and a §4.1.3 aggregation rule, so Cypher Group Inc. knows what its data is worth in principle, but there is no inventory recording where any of it actually lives. No list exists of CloudCo accounts and their S3 buckets and RDS instances, CodeCo repositories, OfficeCo shared drives, ChatCo channels or PaymentsCo objects, and no endpoint register exists for the 50 staff devices governed by CGI-POL-001 §4.4 BYOD. The classification scheme is therefore unapplied: no asset carries a classification label, which means the Handling Matrix cannot be enforced or audited against anything.
 
 | Field | Value |
 |---|---|
@@ -469,7 +469,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-003, R-005 |
 | **Risk if Unaddressed** | You cannot protect, monitor, review access to or restore an asset you have not recorded; the absence of an inventory is the root blocker under access review, cloud hardening, monitoring and recovery alike. |
 | **Priority** | **P1** |
-| **Recommended Action** | Build an asset and SaaS inventory covering AWS accounts and data stores, GitHub repositories, Google Workspace shared drives, Slack workspaces, Stripe objects and staff endpoints, and apply a CGI-POL-004 classification label to every entry. |
+| **Recommended Action** | Build an asset and SaaS inventory covering CloudCo accounts and data stores, CodeCo repositories, OfficeCo shared drives, ChatCo workspaces, PaymentsCo objects and staff endpoints, and apply a CGI-POL-004 classification label to every entry. |
 | **Est. Effort** | M (Medium) |
 | **Owner (Job Title)** | IT Operations Manager |
 | **ISO 27001:2022 Annex A Mapping** | A.5.9 Inventory of information and other associated assets; A.5.10 Acceptable use of information and other associated assets; A.5.12 Classification of information; A.5.13 Labelling of information; A.8.1 User endpoint devices |
@@ -576,7 +576,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Data is managed consistent with the organization's risk strategy to protect the confidentiality, integrity and availability of information.
 
-**Current State Observation.** CGI-POL-004 gives Cypher Group Inc. a well-built classification foundation - four tiers, a §4.2 Handling Matrix, a §4.1.3 aggregation rule and the §4.1.4 decision to hold no cardholder numbers, formalised as the avoidance AVD-001, which is a genuine architectural risk reduction rather than a paper control. Beyond classification the Category is unimplemented: no encryption standard names required algorithms or key management for data at rest in AWS or in transit, no retention or secure deletion schedule has been executed, and no data loss prevention or egress monitoring exists on Google Workspace or GitHub, which CGI-RSK-001 records as control gap CG-05 and which is the reason R-003 retains a residual score of 6 despite the JML controls in CGI-POL-003.
+**Current State Observation.** CGI-POL-004 gives Cypher Group Inc. a well-built classification foundation - four tiers, a §4.2 Handling Matrix, a §4.1.3 aggregation rule and the §4.1.4 decision to hold no cardholder numbers, formalised as the avoidance AVD-001, which is a genuine architectural risk reduction rather than a paper control. Beyond classification the Category is unimplemented: no encryption standard names required algorithms or key management for data at rest in CloudCo or in transit, no retention or secure deletion schedule has been executed, and no data loss prevention or egress monitoring exists on OfficeCo or CodeCo, which CGI-RSK-001 records as control gap CG-05 and which is the reason R-003 retains a residual score of 6 despite the JML controls in CGI-POL-003.
 
 | Field | Value |
 |---|---|
@@ -590,7 +590,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-003, R-005 |
 | **Risk if Unaddressed** | Classified data can leave the organisation through an ordinary download or repository clone with no technical barrier and no record that it happened, making the insider scenario R-003 undetectable rather than merely unprevented. |
 | **Priority** | **P1** |
-| **Recommended Action** | Publish an encryption standard covering AWS data at rest and in transit with named algorithms and key management, define and execute a retention and secure deletion schedule, and deploy data egress monitoring on Google Workspace and GitHub. |
+| **Recommended Action** | Publish an encryption standard covering CloudCo data at rest and in transit with named algorithms and key management, define and execute a retention and secure deletion schedule, and deploy data egress monitoring on OfficeCo and CodeCo. |
 | **Est. Effort** | M (Medium) |
 | **Owner (Job Title)** | Chief Technology Officer |
 | **ISO 27001:2022 Annex A Mapping** | A.5.12 Classification of information; A.5.14 Information transfer; A.8.10 Information deletion; A.8.11 Data masking; A.8.12 Data leakage prevention; A.8.24 Use of cryptography |
@@ -599,7 +599,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** The hardware, software and services of physical and virtual platforms are managed consistent with the organization's risk strategy to protect their confidentiality, integrity and availability.
 
-**Current State Observation.** This Category scores zero and shares the largest gap in the assessment with PR.IR. Cypher Group Inc. builds and ships a B2B SaaS product from GitHub to AWS with no secure development lifecycle whatsoever: no secure development or change management policy exists, CGI-POL-007 having been recommended in CGI-RSK-001 but never written; there is no mandatory peer code review, no branch protection on the repositories holding production code, no separation of development and production environments on record, and no application security testing. There is equally no vulnerability management for the platform: no scanning, no severity-based remediation SLA and no server configuration baseline, with CGI-POL-008 likewise recommended and unwritten. CGI-RSK-001 records both halves as control gap CG-02. Two fragments exist and were weighed: CGI-POL-001 §4.4.3 requires endpoint operating-system and browser patches within 14 days, and CGI-POL-002 §4.5.2 requires GitHub secret scanning and push protection. Neither governs how code is reviewed, tested or released, so under the fragment rule in §3.1 the Category stays at 0. The entire Project 1 policy pack contains no clause governing how code reaches production, which is precisely why R-004 remains at residual High.
+**Current State Observation.** This Category scores zero and shares the largest gap in the assessment with PR.IR. Cypher Group Inc. builds and ships a B2B SaaS product from CodeCo to CloudCo with no secure development lifecycle whatsoever: no secure development or change management policy exists, CGI-POL-007 having been recommended in CGI-RSK-001 but never written; there is no mandatory peer code review, no branch protection on the repositories holding production code, no separation of development and production environments on record, and no application security testing. There is equally no vulnerability management for the platform: no scanning, no severity-based remediation SLA and no server configuration baseline, with CGI-POL-008 likewise recommended and unwritten. CGI-RSK-001 records both halves as control gap CG-02. Two fragments exist and were weighed: CGI-POL-001 §4.4.3 requires endpoint operating-system and browser patches within 14 days, and CGI-POL-002 §4.5.2 requires CodeCo secret scanning and push protection. Neither governs how code is reviewed, tested or released, so under the fragment rule in §3.1 the Category stays at 0. The entire Project 1 policy pack contains no clause governing how code reaches production, which is precisely why R-004 remains at residual High.
 
 | Field | Value |
 |---|---|
@@ -613,7 +613,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-002, R-004 |
 | **Risk if Unaddressed** | R-004 (production API authorisation flaw) stays at residual 12, High, after treatment because no control in the policy pack touches the code path; an authorisation defect can reach approximately 200 customers' data with nothing standing between the commit and production. |
 | **Priority** | **P1** |
-| **Recommended Action** | Publish CGI-POL-007 and enforce GitHub branch protection with mandatory peer review and no direct commits to main; publish CGI-POL-008 and begin authenticated vulnerability scanning with severity-based remediation SLAs. |
+| **Recommended Action** | Publish CGI-POL-007 and enforce CodeCo branch protection with mandatory peer review and no direct commits to main; publish CGI-POL-008 and begin authenticated vulnerability scanning with severity-based remediation SLAs. |
 | **Est. Effort** | M (Medium) |
 | **Owner (Job Title)** | Chief Technology Officer |
 | **ISO 27001:2022 Annex A Mapping** | A.8.8 Management of technical vulnerabilities; A.8.9 Configuration management; A.8.25 Secure development life cycle; A.8.28 Secure coding; A.8.29 Security testing in development and acceptance; A.8.31 Separation of development, test and production environments; A.8.32 Change management |
@@ -622,7 +622,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Security architectures are managed with the organization's risk strategy to protect asset confidentiality, integrity and availability, and organizational resilience.
 
-**Current State Observation.** This Category also scores zero. There is no documented AWS configuration baseline, no benchmark such as CIS AWS Foundations has been applied, no continuous cloud security posture monitoring is enabled, and no network segmentation or production access boundary is recorded anywhere - collectively control gap CG-03 in CGI-RSK-001. Backups exist as AWS native snapshots but no restore has ever been tested and no RTO or RPO has been declared, so the company holds a backup but has never demonstrated a recovery capability; CGI-POL-006 Backup and Recovery was recommended in CGI-RSK-001 and has not been written (control gap CG-01). No policy in the CGI-POL-001 to CGI-POL-005 pack addresses cloud configuration at all, which is the documented reason R-005 remains at residual High.
+**Current State Observation.** This Category also scores zero. There is no documented CloudCo configuration baseline, no benchmark such as CIS CloudCo Foundations has been applied, no continuous cloud security posture monitoring is enabled, and no network segmentation or production access boundary is recorded anywhere - collectively control gap CG-03 in CGI-RSK-001. Backups exist as CloudCo native snapshots but no restore has ever been tested and no RTO or RPO has been declared, so the company holds a backup but has never demonstrated a recovery capability; CGI-POL-006 Backup and Recovery was recommended in CGI-RSK-001 and has not been written (control gap CG-01). No policy in the CGI-POL-001 to CGI-POL-005 pack addresses cloud configuration at all, which is the documented reason R-005 remains at residual High.
 
 | Field | Value |
 |---|---|
@@ -634,7 +634,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Target Score (0–4)** | 3 — Defined and Operating |
 | **Gap** | **3** |
 | **Related Risk ID (CGI-RSK-001)** | R-002, R-005 |
-| **Risk if Unaddressed** | R-005 (AWS misconfiguration leading to public data exposure) stays at residual 12, High, after treatment; a single permissive S3 or security group change exposes customer data with no baseline to deviate from and no posture monitoring to catch it. |
+| **Risk if Unaddressed** | R-005 (CloudCo misconfiguration leading to public data exposure) stays at residual 12, High, after treatment; a single permissive S3 or security group change exposes customer data with no baseline to deviate from and no posture monitoring to catch it. |
 | **Priority** | **P1** |
 | **Recommended Action** | Apply a CIS AWS Foundations Benchmark baseline and enable continuous posture monitoring; publish CGI-POL-006 with declared RTO and RPO and evidence a successful restore test; document network segmentation and production access boundaries. |
 | **Est. Effort** | M (Medium) |
@@ -651,7 +651,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Assets are monitored to find anomalies, indicators of compromise and other potentially adverse events.
 
-**Current State Observation.** Cypher Group Inc. has established the legal right to monitor without building the ability to do so. CGI-POL-001 §4.10 contains a properly drafted monitoring notice giving the company a lawful basis to inspect activity on its systems, but no monitoring capability exists behind it: AWS CloudTrail coverage and log file validation are unverified across regions, there is no centralised security log destination (engineering uses Datadog, CGI-VEN-007, for application performance monitoring, but it is not configured or retained as a security log source), no alerting on root account usage or IAM policy changes, no endpoint detection on the 50 staff devices and no monitoring of data egress from Google Workspace or GitHub. CGI-RSK-001 records the cloud half of this as control gap CG-03 (no drift detection) and the data-egress half as CG-05, and together they are the reason both R-003 and R-005 retain elevated residual positions - neither insider exfiltration nor a cloud misconfiguration would be observed as it occurred.
+**Current State Observation.** Cypher Group Inc. has established the legal right to monitor without building the ability to do so. CGI-POL-001 §4.10 contains a properly drafted monitoring notice giving the company a lawful basis to inspect activity on its systems, but no monitoring capability exists behind it: AWS CloudTrail coverage and log file validation are unverified across regions, there is no centralised security log destination (engineering uses MonitorCo, CGI-VEN-007, for application performance monitoring, but it is not configured or retained as a security log source), no alerting on root account usage or IAM policy changes, no endpoint detection on the 50 staff devices and no monitoring of data egress from OfficeCo or CodeCo. CGI-RSK-001 records the cloud half of this as control gap CG-03 (no drift detection) and the data-egress half as CG-05, and together they are the reason both R-003 and R-005 retain elevated residual positions - neither insider exfiltration nor a cloud misconfiguration would be observed as it occurred.
 
 | Field | Value |
 |---|---|
@@ -674,7 +674,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Anomalies, indicators of compromise and other potentially adverse events are analyzed to characterize the events and detect cybersecurity incidents.
 
-**Current State Observation.** CGI-POL-005 provides the classification half of this Category properly: SEV1 to SEV4 severity bands are defined with criteria, so an event that is reported would be triaged consistently against a written standard. Everything upstream of that is absent. There is no correlation of events across AWS, GitHub, Google Workspace and Slack, no alert thresholds, no defined escalation from an alert to a declared incident, and because DE.CM produces no telemetry there is nothing to analyse in the first place. In practice the only detection route available to Cypher Group Inc. is a human noticing something and reporting it through the CGI-POL-005 channel.
+**Current State Observation.** CGI-POL-005 provides the classification half of this Category properly: SEV1 to SEV4 severity bands are defined with criteria, so an event that is reported would be triaged consistently against a written standard. Everything upstream of that is absent. There is no correlation of events across CloudCo, CodeCo, OfficeCo and ChatCo, no alert thresholds, no defined escalation from an alert to a declared incident, and because DE.CM produces no telemetry there is nothing to analyse in the first place. In practice the only detection route available to Cypher Group Inc. is a human noticing something and reporting it through the CGI-POL-005 channel.
 
 | Field | Value |
 |---|---|
@@ -740,7 +740,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-003, R-004 |
 | **Risk if Unaddressed** | Breach scope cannot be established, so the company must either under-report and risk regulatory sanction or over-report and damage roughly 200 customer relationships unnecessarily. |
 | **Priority** | **P2** |
-| **Recommended Action** | Add an evidence collection and chain-of-custody procedure to CGI-POL-005 and define a minimum log retention period of twelve months for authentication, administrative and data access events across AWS, GitHub and Google Workspace. |
+| **Recommended Action** | Add an evidence collection and chain-of-custody procedure to CGI-POL-005 and define a minimum log retention period of twelve months for authentication, administrative and data access events across CloudCo, CodeCo and OfficeCo. |
 | **Est. Effort** | S (Small) |
 | **Owner (Job Title)** | IT Operations Manager |
 | **ISO 27001:2022 Annex A Mapping** | A.5.27 Learning from information security incidents; A.5.28 Collection of evidence; A.8.15 Logging |
@@ -772,7 +772,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Activities are performed to prevent expansion of an event and mitigate its effects.
 
-**Current State Observation.** The one genuine containment capability Cypher Group Inc. has is the four-hour access revocation requirement in CGI-POL-003 §4.5.2, written for the leaver process rather than for incident response but usable in a credential compromise. CGI-POL-005 §5.5.1 names containment as a stage (disable accounts, rotate credentials, isolate systems) and CGI-POL-002 §4.5.3 requires a committed secret to be rotated, but nothing sits beneath those lines: there are no runbooks for isolating a compromised AWS resource, revoking active sessions or rotating credentials and secrets at speed, no anti-malware standard covering the 50 staff endpoints, and no pre-agreed authority for an engineer to take production action without approval during a live incident. Containment would therefore be improvised under pressure by whoever holds AWS credentials. The policy states what containment is but not how to do it, so the Category is scored down to 1.
+**Current State Observation.** The one genuine containment capability Cypher Group Inc. has is the four-hour access revocation requirement in CGI-POL-003 §4.5.2, written for the leaver process rather than for incident response but usable in a credential compromise. CGI-POL-005 §5.5.1 names containment as a stage (disable accounts, rotate credentials, isolate systems) and CGI-POL-002 §4.5.3 requires a committed secret to be rotated, but nothing sits beneath those lines: there are no runbooks for isolating a compromised CloudCo resource, revoking active sessions or rotating credentials and secrets at speed, no anti-malware standard covering the 50 staff endpoints, and no pre-agreed authority for an engineer to take production action without approval during a live incident. Containment would therefore be improvised under pressure by whoever holds CloudCo credentials. The policy states what containment is but not how to do it, so the Category is scored down to 1.
 
 | Field | Value |
 |---|---|
@@ -801,7 +801,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents.
 
-**Current State Observation.** Backups exist as AWS native snapshots, which is why this Category scores 1 rather than 0, but no restore has ever been tested, no recovery time objective or recovery point objective has been declared, no recovery plan document exists and no recovery roles have been assigned. CGI-POL-006 Backup and Recovery was identified as necessary in CGI-RSK-001 and has not been written, and the absence of tested recovery is control gap CG-01. An untested backup is not a recovery capability, it is an assumption - which is why CGI-RSK-001 deliberately gives R-002 no credit for backups and holds its residual impact at 4 until CG-01 is closed. This assessment reaches the same conclusion from the other direction.
+**Current State Observation.** Backups exist as CloudCo native snapshots, which is why this Category scores 1 rather than 0, but no restore has ever been tested, no recovery time objective or recovery point objective has been declared, no recovery plan document exists and no recovery roles have been assigned. CGI-POL-006 Backup and Recovery was identified as necessary in CGI-RSK-001 and has not been written, and the absence of tested recovery is control gap CG-01. An untested backup is not a recovery capability, it is an assumption - which is why CGI-RSK-001 deliberately gives R-002 no credit for backups and holds its residual impact at 4 until CG-01 is closed. This assessment reaches the same conclusion from the other direction.
 
 | Field | Value |
 |---|---|
@@ -921,20 +921,20 @@ the primary sort key. Two deliberate overrides were applied and are stated in th
 | **REC-02** | Execute and evidence the first quarterly privileged access review mandated by CGI-POL-003 §4.7.1, producing a dated, signed review record with actioned removals. | R-003; PR.AA maturity 2 to 3 | PR.AA | P1 | S | 4 | **4.00** | IT Operations Manager | Q4 2026 | Partial dependency on REC-05 for completeness |
 | **REC-03** | Perform and document a full backup restore test to a clean environment, then publish CGI-POL-006 Backup and Recovery with RTO and RPO approved by Jerry Olugboye. | R-002; CG-01 | RC.RP | P1 | S | 4 | **4.00** | IT Operations Manager | Q4 2026 | None |
 | **REC-04** | Drive CGI-TRK-001 policy acknowledgement from 60% to 100% and add a completion gate to the CGI-POL-003 joiner process so no new starter gains access before acknowledging. | R-001, R-002; GV.PO maturity 2 to 3 | GV.PO | P1 | S | 3 | **3.00** | Head of People and Operations | Q4 2026 | None |
-| **REC-05** | Build an asset and SaaS inventory covering AWS accounts and data stores, GitHub repositories, Google Workspace shared drives, Slack workspaces, Stripe objects and staff endpoints, labelled per CGI-POL-004. | R-003, R-005; ID.AM maturity 1 to 2 | ID.AM | P1 | M | 4 | **2.00** | IT Operations Manager | Q1 2027 | None |
-| **REC-06** | Publish CGI-POL-007 Secure Development and Change Management and enforce GitHub branch protection with mandatory peer review and no direct commits to main. | R-004; CG-02 | PR.PS | P1 | M | 5 | **2.50** | Chief Technology Officer | Q1 2027 | None |
+| **REC-05** | Build an asset and SaaS inventory covering CloudCo accounts and data stores, CodeCo repositories, OfficeCo shared drives, ChatCo workspaces, PaymentsCo objects and staff endpoints, labelled per CGI-POL-004. | R-003, R-005; ID.AM maturity 1 to 2 | ID.AM | P1 | M | 4 | **2.00** | IT Operations Manager | Q1 2027 | None |
+| **REC-06** | Publish CGI-POL-007 Secure Development and Change Management and enforce CodeCo branch protection with mandatory peer review and no direct commits to main. | R-004; CG-02 | PR.PS | P1 | M | 5 | **2.50** | Chief Technology Officer | Q1 2027 | None |
 | **REC-07** | Enable AWS CloudTrail organisation-wide with log file validation, centralise logs with defined retention, and alert on root usage, IAM policy change, public S3 exposure and mass data download. | R-003, R-005; CG-03, CG-05 (partial) | DE.CM, DE.AE | P1 | M | 5 | **2.50** | IT Operations Manager | Q1 2027 | None |
 | **REC-08** | Publish CGI-POL-008 Vulnerability Management and begin authenticated vulnerability scanning with severity-based remediation SLAs; feed results into the next CGI-RSK-001 revision. | R-002, R-004; CG-02 | PR.PS, ID.RA | P1 | M | 4 | **2.00** | Chief Technology Officer | Q1 2027 | None |
 | **REC-09** | Stand up an annual security awareness curriculum with an induction module and role-specific content for staff with production access, plus quarterly phishing simulations tracked in CGI-TRK-001. | R-001; CG-04 | PR.AT | P1 | M | 4 | **2.00** | Head of People and Operations | Q1 2027 | REC-04 (acknowledgement gate) |
 | **REC-10** | Establish a minuted quarterly security review with Jerry Olugboye reporting the seven CGI-RSK-001 KRIs, this maturity scorecard and TP-01 to TP-10 status. | GV.OV maturity 1 to 2 | GV.OV | P2 | S | 2 | **2.00** | Chief Executive Officer | Q1 2027 | None |
-| **REC-11** | Apply a CIS AWS Foundations Benchmark baseline and enable continuous cloud security posture monitoring across all AWS accounts. | R-005; CG-03 | PR.IR | P1 | M | 5 | **2.50** | IT Operations Manager | Q2 2027 | REC-05 (asset inventory) |
+| **REC-11** | Apply a CIS AWS Foundations Benchmark baseline and enable continuous cloud security posture monitoring across all CloudCo accounts. | R-005; CG-03 | PR.IR | P1 | M | 5 | **2.50** | IT Operations Manager | Q2 2027 | REC-05 (asset inventory) |
 | **REC-12** | Run a SEV1 tabletop exercise against CGI-POL-005 covering ransomware and cloud exposure, rehearsing the §5.6.3 GDPR 72-hour path, with a written lessons-learned record. | R-002, R-005; ID.IM maturity 1 to 2 | RS.MA, RS.CO, ID.IM | P2 | S | 3 | **3.00** | Chief Technology Officer | Q2 2027 | REC-07 (something to detect with) |
 | **REC-13** | Add a CEO-approved risk appetite statement and a defined annual plus event-driven re-assessment cadence to CGI-RSK-001 v1.1; re-confirm ACC-001 against the stated appetite. | GV.RM maturity 2 to 3 | GV.RM, GV.OC | P2 | S | 2 | **2.00** | Chief Executive Officer | Q2 2027 | REC-10 (governance forum) |
 | **REC-14** | Produce a customer incident and recovery communication pack: holding statements, public status page, update intervals by severity, named spokesperson and written all-clear criterion. | R-002, R-005; RC.CO maturity 0 to 2 | RC.CO, RS.CO | P2 | S | 2 | **2.00** | Head of Customer Success | Q2 2027 | REC-12 (rehearsal) |
-| **REC-15** | Build a tiered vendor inventory for AWS, GitHub, Slack, Google Workspace and Stripe with assurance artifacts and DPAs, and add permitted third-party destinations to CGI-POL-004 §4.2. | GV.SC maturity 0 to 2; R-005 (adjacent) | GV.SC | P1 | M | 3 | **1.50** | Chief Technology Officer | Q2 2027 | REC-05 (asset inventory) |
+| **REC-15** | Build a tiered vendor inventory for CloudCo, CodeCo, ChatCo, OfficeCo and PaymentsCo with assurance artifacts and DPAs, and add permitted third-party destinations to CGI-POL-004 §4.2. | GV.SC maturity 0 to 2; R-005 (adjacent) | GV.SC | P1 | M | 3 | **1.50** | Chief Technology Officer | Q2 2027 | REC-05 (asset inventory) |
 | **REC-16** | Introduce static application security testing in the CI pipeline and commission an annual third-party penetration test targeting the authorisation defect class behind R-004. | R-004; CG-02 (residual) | PR.PS | P2 | L | 5 | **1.67** | Chief Technology Officer | Q3 2027 | REC-06 (policy and branch protection first) |
-| **REC-17** | Deploy data egress and data loss prevention monitoring on Google Workspace and GitHub covering mass download, external sharing and repository cloning by departing staff. | R-003; CG-05 | PR.DS, DE.CM | P3 | M | 3 | **1.50** | Chief Technology Officer | Q3 2027 | REC-07 (log centralisation) |
-| **REC-18** | Document network segmentation, production access boundaries and the shared responsibility boundary between AWS and Cypher Group Inc. | R-004, R-005; PR.IR maturity | PR.IR | P3 | M | 3 | **1.50** | IT Operations Manager | Q4 2027 | REC-11 (baseline first) |
+| **REC-17** | Deploy data egress and data loss prevention monitoring on OfficeCo and CodeCo covering mass download, external sharing and repository cloning by departing staff. | R-003; CG-05 | PR.DS, DE.CM | P3 | M | 3 | **1.50** | Chief Technology Officer | Q3 2027 | REC-07 (log centralisation) |
+| **REC-18** | Document network segmentation, production access boundaries and the shared responsibility boundary between CloudCo and Cypher Group Inc. | R-004, R-005; PR.IR maturity | PR.IR | P3 | M | 3 | **1.50** | IT Operations Manager | Q4 2027 | REC-11 (baseline first) |
 
 ### 7.3 Business rationale, recommendation by recommendation
 
@@ -992,9 +992,9 @@ CGI-POL-003 §4.7.1. We are carrying the cost of a security programme without ye
 
 **2. We have no control at all over how code reaches production, or how our cloud is configured.** PR.PS
 Platform Security and PR.IR Technology Infrastructure Resilience both score **0 out of 4**. There is no
-mandatory code review, no branch protection, no vulnerability scanning, no AWS configuration baseline and no
+mandatory code review, no branch protection, no vulnerability scanning, no CloudCo configuration baseline and no
 posture monitoring. This is the documented reason the two risks that stayed **High** after our policy work —
-**R-004** (production API authorisation flaw) and **R-005** (AWS misconfiguration exposing customer data) —
+**R-004** (production API authorisation flaw) and **R-005** (CloudCo misconfiguration exposing customer data) —
 did not come down. They are not High because we failed at policy; they are High because policy was never the
 control that addressed them.
 
@@ -1018,7 +1018,7 @@ not a capability.
 | | Ask | Cost |
 |---|---|---|
 | **Now (0–90 days)** | Approve REC-01 to REC-04 — finish MFA rollout, run the first access review, test a backup restore, get policy acknowledgement to 100% | Staff time only. No spend. |
-| **Q1 2027** | Approve REC-05 to REC-10 — asset inventory, GitHub branch protection and CGI-POL-007, centralised logging and alerting, vulnerability scanning and CGI-POL-008, security awareness training, quarterly security review | Within the USD 32,100 year-one estimate already costed in CGI-RSK-001 |
+| **Q1 2027** | Approve REC-05 to REC-10 — asset inventory, CodeCo branch protection and CGI-POL-007, centralised logging and alerting, vulnerability scanning and CGI-POL-008, security awareness training, quarterly security review | Within the USD 32,100 year-one estimate already costed in CGI-RSK-001 |
 | **Standing** | A minuted quarterly security review at which I report the seven KRIs and this scorecard | 90 minutes per quarter of your time |
 
 **If Waves 1 and 2 complete, overall maturity moves from 1.23 to approximately 1.73 out of 4.00** — most of it
@@ -1050,7 +1050,7 @@ control driving a residual High risk scores above 0:
 | Residual High risk | Driving control gap | Owning Category | Score | Consistent? |
 |---|---|---|:-:|---|
 | R-004 — production API authorisation flaw (residual 12) | CG-02 — no secure development, code review, change management or vulnerability management | PR.PS Platform Security | **0** | ✅ A High risk behind a Category scoring 0 is exactly what the register predicts |
-| R-005 — AWS misconfiguration exposing customer data (residual 12) | CG-03 — no cloud configuration baseline and no drift detection | PR.IR Technology Infrastructure Resilience | **0** | ✅ Same |
+| R-005 — CloudCo misconfiguration exposing customer data (residual 12) | CG-03 — no cloud configuration baseline and no drift detection | PR.IR Technology Infrastructure Resilience | **0** | ✅ Same |
 
 **Control gap coverage.** All five CGI-RSK-001 control gaps are accounted for in this assessment:
 
@@ -1068,10 +1068,10 @@ control driving a residual High risk scores above 0:
   requires vulnerabilities in assets to be identified, and Cypher Group Inc. performs no scanning at all. The
   3 is awarded because the register itself was performed, evidenced and approved to a published method, and
   the scanning deficiency is recorded openly in the finding and capped the score at 3 rather than 4.
-- **Generous: RC.RP at 1 rather than 0.** AWS native snapshots do exist. A backup that has never been restored
+- **Generous: RC.RP at 1 rather than 0.** CloudCo native snapshots do exist. A backup that has never been restored
   is not a recovery capability, but it is more than nothing.
 - **Harsh: PR.PS and PR.IR at 0.** Engineers at Cypher Group Inc. undoubtedly review one another's code
-  informally and configure AWS with some care. None of it is written, mandated, enforced or evidenced, and
+  informally and configure CloudCo with some care. None of it is written, mandated, enforced or evidenced, and
   under the §3.1 scale an unwritten, unevidenced practice cannot exceed 1 — and an entirely unrecorded one is 0.
 - **Harsh: GV.SC at 0.** Cypher Group Inc. uses five reputable providers who are themselves well-certified,
   and CGI-POL-001 §4.6.1 already requires CTO approval for new services. The score reflects Cypher Group

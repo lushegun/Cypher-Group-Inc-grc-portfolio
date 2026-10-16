@@ -10,7 +10,7 @@ The 38-criterion crosswalk is one level up: [06-soc2-readiness-and-internal-audi
 | [06-criteria-selection.csv](06-criteria-selection.csv) | Which Trust Services categories are in scope, and the risk-register reason for each decision |
 | [06-cuec-schedule.csv](06-cuec-schedule.csv) | CUEC-01 to CUEC-10 — what ~200 customers must do for our controls to work |
 | [06-csoc-schedule.csv](06-csoc-schedule.csv) | CSOC-01 to CSOC-06 — the controls relied on from the carved-out cloud provider |
-| [06-cuec-mirror-reconciliation.csv](06-cuec-mirror-reconciliation.csv) | **The mirror:** four of our CUECs against the four AWS CUECs we never accepted |
+| [06-cuec-mirror-reconciliation.csv](06-cuec-mirror-reconciliation.csv) | **The mirror:** four of our CUECs against the four CloudCo CUECs we never accepted |
 | [06-readiness-gates.csv](06-readiness-gates.csv) | SG-1 to SG-8, the gate override, and which two pass |
 | [06-readiness-score.csv](06-readiness-score.csv) | Type I and Type II readiness, CRL distribution and both go/no-go decisions |
 | [06-framework-overlap.csv](06-framework-overlap.csv) | Controls with a counterpart in both frameworks, and the ones with none either way |

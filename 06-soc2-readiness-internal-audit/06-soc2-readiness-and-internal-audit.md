@@ -7,8 +7,7 @@
 > [!IMPORTANT]
 > **CASE STUDY NOTICE.** Cypher Group Inc. is a simulated company. Every organisation, person, system,
 > finding, score, date, cost and figure in this document was created to demonstrate applied GRC methodology.
-> Real product names appear only as realistic stand-ins, and every assurance status attributed to them is
-> invented for the scenario. This is a portfolio artifact, not evidence of employment or of a real engagement.
+> This is a portfolio artifact, not evidence of employment or of a real engagement.
 > AICPA Trust Services Criteria and ISO/IEC 27001 requirement wording are paraphrased; obtain the criteria from
 > the AICPA and the standard from ISO or a national body.
 
@@ -71,7 +70,7 @@ after the ISO certificate in November 2027.
 | `data/06-criteria-selection.csv` | Which Trust Services categories are in scope and why |
 | `data/06-cuec-schedule.csv` | Cypher Group Inc.'s own complementary user entity controls |
 | `data/06-csoc-schedule.csv` | Controls relied on from the carved-out subservice organisation |
-| `data/06-cuec-mirror-reconciliation.csv` | Our CUECs against the AWS CUECs we have not accepted |
+| `data/06-cuec-mirror-reconciliation.csv` | Our CUECs against the CloudCo CUECs we have not accepted |
 | `data/06-readiness-gates.csv` · `data/06-readiness-score.csv` | The gates and the scored result |
 | `data/06-framework-overlap.csv` | Where one control satisfies both frameworks and where it does not |
 | `data/06-internal-audit-workpapers.csv` | WP-01 to WP-24, 17 columns |
@@ -182,7 +181,7 @@ perform for the provider's controls to work.
 Where a subservice organisation is involved, the description uses either the **carve-out method** (the
 supplier's controls are excluded from the description and from testing; the supplier is named, what it does is
 described, and CSOCs are listed) or the **inclusive method** (the supplier's controls are described and tested
-by the same auditor). Cypher Group Inc. **carves out AWS**. The inclusive method requires the supplier's
+by the same auditor). Cypher Group Inc. **carves out CloudCo**. The inclusive method requires the supplier's
 cooperation, and no hyperscale provider offers it to a fifty-person company.
 
 ### 1.6 Opinions and exceptions
@@ -282,10 +281,10 @@ category honestly left out.**
 
 | Trust Services category | Decision | Justification traced to CGI-RSK-001 v1.1 |
 |---|---|---|
-| Security (Common Criteria CC1-CC9) | IN - mandatory | Required in every SOC 2 engagement. Carries R-001 phishing, R-002 ransomware, R-003 insider exfiltration, R-004 production API authorisation flaw and R-005 AWS misconfiguration, plus VR-001 to VR-009. Thirty-three criteria. |
-| Availability (A1) | IN - with a precondition | Approximately 200 customers run project delivery on the platform; unavailability is the loss they feel first. R-002 (ransomware) and VR-002 (five vendors sharing AWS with the platform) both carry availability impact, and CG-01 (backup, recovery and restore testing) is still open. PRECONDITION: A1 asks whether the system is available 'as committed'. Assumption ISO-A04 records that no contractual SLA figure exists anywhere in Projects 1-4. Service commitments must be published (SOC-05) before Availability can be included in a real engagement. |
+| Security (Common Criteria CC1-CC9) | IN - mandatory | Required in every SOC 2 engagement. Carries R-001 phishing, R-002 ransomware, R-003 insider exfiltration, R-004 production API authorisation flaw and R-005 CloudCo misconfiguration, plus VR-001 to VR-009. Thirty-three criteria. |
+| Availability (A1) | IN - with a precondition | Approximately 200 customers run project delivery on the platform; unavailability is the loss they feel first. R-002 (ransomware) and VR-002 (five vendors sharing CloudCo with the platform) both carry availability impact, and CG-01 (backup, recovery and restore testing) is still open. PRECONDITION: A1 asks whether the system is available 'as committed'. Assumption ISO-A04 records that no contractual SLA figure exists anywhere in Projects 1-4. Service commitments must be published (SOC-05) before Availability can be included in a real engagement. |
 | Confidentiality (C1) | IN | Customer account data, project content, payment metadata and internal documents are held for business customers under contract. R-003 (insider exfiltration) and VR-008 are confidentiality risks, CG-05 (data loss prevention) is open, and CGI-POL-004 already defines four classification tiers and a handling matrix. Two criteria. |
-| Processing Integrity (PI1) | OUT | PI1 asks whether processing is complete, valid, accurate, timely and authorised. The platform manages project and task records that customers enter and control; it performs no calculation or transaction processing on their behalf, and payment processing belongs to Stripe (CGI-POL-004 s4.1.4 and AVD-001 confirm no card numbers are held). No risk in CGI-RSK-001 v1.1 concerns processing completeness or accuracy. Including PI1 would assert something no customer has asked for and no risk supports. |
+| Processing Integrity (PI1) | OUT | PI1 asks whether processing is complete, valid, accurate, timely and authorised. The platform manages project and task records that customers enter and control; it performs no calculation or transaction processing on their behalf, and payment processing belongs to PaymentsCo (CGI-POL-004 s4.1.4 and AVD-001 confirm no card numbers are held). No risk in CGI-RSK-001 v1.1 concerns processing completeness or accuracy. Including PI1 would assert something no customer has asked for and no risk supports. |
 | Privacy (P1-P8) | OUT - for the first report | Privacy covers notice, choice and consent, collection, use and retention, access, disclosure, quality and monitoring for personal information. Cypher Group Inc. acts mainly as a processor for its customers, and the GDPR foundations are the weakest evidence in the estate: six of seventeen vendors have no DPA, there is no Article 30 record of processing, no transfer register and no executed retention schedule. Asserting Privacy now would place the examination on the ground where the organisation is least able to support it. Add P1-P8 at the second Type II, after ISO-09 completes. |
 
 **Result: 38 criteria in scope** — 33 Common Criteria (CC1 to CC9), 3 Availability (A1) and 2
@@ -505,15 +504,15 @@ operates from a single head office and supports remote and home working under CG
 
 | Component | In the system |
 |---|---|
-| **Infrastructure** | AWS production accounts, primary region `eu-central-1`, backup copies in `us-east-1`; managed compute, storage, database and networking services |
-| **Software** | The Cypher Group Inc. platform application and its supporting services; GitHub for source control; Auth0 and Google Workspace for identity; Datadog for application performance monitoring |
+| **Infrastructure** | CloudCo production accounts, primary region `eu-central-1`, backup copies in `us-east-1`; managed compute, storage, database and networking services |
+| **Software** | The Cypher Group Inc. platform application and its supporting services; CodeCo for source control; LoginCo and OfficeCo for identity; MonitorCo for application performance monitoring |
 | **People** | All fifty employees across leadership, engineering, IT operations, customer success, people and operations, and finance. At this size every function touches customer or platform data |
 | **Procedures** | CGI-POL-001 to -005 v1.0; the CGI-TPR-001 vendor workflow; the CGI-RSK-001 risk process. Documented operating procedures beneath the policies **do not yet exist** (A.5.37, OFI-14) |
 | **Data** | Customer account data, project content created by customers, payment metadata (no card numbers — CGI-POL-004 section 4.1.4 and AVD-001), internal documents, employee data, limited personal data |
 
 #### D. Boundaries of the system
 
-**Inside the boundary:** the platform and its AWS environment, the source code and its pipeline, the identity
+**Inside the boundary:** the platform and its CloudCo environment, the source code and its pipeline, the identity
 layer, customer support handling of customer data, and the people, policies and procedures that operate them.
 
 **Outside the boundary:** the internal controls of the seventeen vendors in CGI-TPR-001, which are managed as
@@ -522,9 +521,9 @@ their own tenant or on their own devices, which is covered by the CUECs in 3.2.
 
 #### E. Subservice organisation and the carve-out
 
-**AWS (CGI-VEN-001) is carved out.** Its controls are excluded from this description and from the examiner's
-testing. Users of a report on this system must read AWS's own assurance reports to understand those controls,
-and must consider the complementary subservice organisation controls listed in 3.3. AWS holds SOC 2 Type II,
+**CloudCo (CGI-VEN-001) is carved out.** Its controls are excluded from this description and from the examiner's
+testing. Users of a report on this system must read CloudCo's own assurance reports to understand those controls,
+and must consider the complementary subservice organisation controls listed in 3.3. CloudCo holds SOC 2 Type II,
 ISO/IEC 27001, 27017 and 27018 per VRA-2026-001 (invented for the scenario).
 
 The inclusive method was considered and rejected: it requires the subservice organisation to participate in the
@@ -532,9 +531,9 @@ examination, which no hyperscale provider offers at this scale. The carve-out is
 left implicit, because **an undisclosed carve-out is the single most common defect in a small company's first
 system description.**
 
-Slack, Stripe, Google Workspace and the remaining vendors are treated as **vendors**, not subservice
+ChatCo, PaymentsCo, OfficeCo and the remaining vendors are treated as **vendors**, not subservice
 organisations: they support the business rather than delivering the service the customer buys. This
-classification is a judgement that the examining CPA firm will test, and it should be revisited if Slack
+classification is a judgement that the examining CPA firm will test, and it should be revisited if ChatCo
 becomes part of the customer-facing support path.
 
 #### F. Significant changes during the period
@@ -571,35 +570,35 @@ the customer agreement, in the onboarding pack and on the trust page, and the ex
 communication happened. Today **none of the ten has been communicated to any customer** — that is finding
 **OFI-10**, and it is why gate **SG-3** fails.
 
-### 3.3 Complementary subservice organisation controls — AWS
+### 3.3 Complementary subservice organisation controls — CloudCo
 
-| CSOC | Control AWS is relied on to perform | Criteria | Assurance held |
+| CSOC | Control CloudCo is relied on to perform | Criteria | Assurance held |
 |---|---|---|---|
 | **CSOC-01** | Physical and environmental security of the data centres hosting the platform, including physical access control, monitoring, power and cooling. | CC6.4, A1.2 | SOC 2 Type II, ISO/IEC 27001, 27017 and 27018 held per VRA-2026-001 (invented for the scenario). Basis for excluding A.7.4, A.7.6, A.7.11 and A.7.12 from the SoA. |
 | **CSOC-02** | Secure disposal and destruction of storage media at end of life. | CC6.5 | As CSOC-01. |
-| **CSOC-03** | Availability of the underlying compute, storage, network and managed database services, and of the regional infrastructure. | A1.1, A1.2 | As CSOC-01. VR-002 records the concentration: five further vendors share AWS with the platform. |
+| **CSOC-03** | Availability of the underlying compute, storage, network and managed database services, and of the regional infrastructure. | A1.1, A1.2 | As CSOC-01. VR-002 records the concentration: five further vendors share CloudCo with the platform. |
 | **CSOC-04** | Patching and maintenance of the managed services under the provider's side of the shared-responsibility model. | CC7.1, CC8.1 | As CSOC-01. The boundary itself is undocumented (A.5.23 = maturity 1; action ISO-02). |
 | **CSOC-05** | Encryption of data at rest in managed services where provider-managed keys are used, and of data in transit within the provider network. | CC6.7 | As CSOC-01. CGI has no cryptography standard of its own (A.8.24 Not started), so the provider control is currently the only one. |
 | **CSOC-06** | Logical access controls over the provider's own personnel accessing the infrastructure. | CC6.1, CC6.3 | As CSOC-01. |
 
-### 3.4 The mirror: reconciling our CUECs with the AWS CUECs we have not accepted
+### 3.4 The mirror: reconciling our CUECs with the CloudCo CUECs we have not accepted
 
-CGI-TPR-001 assessed AWS and returned **PASS WITH CONDITIONS at 89%**, with four conditions, **all of them
+CGI-TPR-001 assessed CloudCo and returned **PASS WITH CONDITIONS at 89%**, with four conditions, **all of them
 Cypher Group Inc.'s own**. Three came from a single place: the complementary user entity controls at the back
-of the AWS SOC 2 report — the controls the provider's auditor **assumed the customer was performing** when
+of the CloudCo SOC 2 report — the controls the provider's auditor **assumed the customer was performing** when
 forming a clean opinion. Finding **F-010** records that they are unaccepted and unassigned.
 
 Cypher Group Inc. is now on the other side of the same transaction. Here is what that looks like set
 side by side:
 
-| The CUEC we write for our ~200 customers | The AWS CUEC it mirrors | Our own status as a customer | SoA position |
+| The CUEC we write for our ~200 customers | The CloudCo CUEC it mirrors | Our own status as a customer | SoA position |
 |---|---|---|---|
-| CUEC-02 - customers must enable MFA, phishing-resistant for administrators | AWS CUEC 2 - MFA on the root account and restricted root use | **UNACCEPTED. F-010; no owner assigned; condition C1 open until 15 Dec 2026.** | A.8.2 maturity 2 (policy only); A.5.23 maturity 1 |
-| CUEC-03 - customers must review their users' access at least quarterly | AWS CUEC 3 - least-privilege IAM with periodic review | **NEVER PERFORMED. CGI-POL-003 s4.7.1 mandates a quarterly privileged review; zero have run (OFI-15).** | A.5.18 maturity 2 (mandated, never evidenced) |
-| CUEC-05 - customers must review the tenant audit log and report anomalies | AWS CUEC 1 - organisation-wide CloudTrail with log file validation | **UNVERIFIED. No central security log account, no retention standard, no alert rules (OFI-03).** | A.8.15 maturity 1; A.8.16 maturity 0 |
-| CUEC-07 - customers are responsible for classifying the data they upload | AWS CUEC 4 - encryption management for customer-controlled data | **NO STANDARD. CGI-POL-004 says where encryption is required; no algorithms, TLS minimum or key management exist.** | A.8.24 maturity 0 |
+| CUEC-02 - customers must enable MFA, phishing-resistant for administrators | CloudCo CUEC 2 - MFA on the root account and restricted root use | **UNACCEPTED. F-010; no owner assigned; condition C1 open until 15 Dec 2026.** | A.8.2 maturity 2 (policy only); A.5.23 maturity 1 |
+| CUEC-03 - customers must review their users' access at least quarterly | CloudCo CUEC 3 - least-privilege IAM with periodic review | **NEVER PERFORMED. CGI-POL-003 s4.7.1 mandates a quarterly privileged review; zero have run (OFI-15).** | A.5.18 maturity 2 (mandated, never evidenced) |
+| CUEC-05 - customers must review the tenant audit log and report anomalies | CloudCo CUEC 1 - organisation-wide CloudTrail with log file validation | **UNVERIFIED. No central security log account, no retention standard, no alert rules (OFI-03).** | A.8.15 maturity 1; A.8.16 maturity 0 |
+| CUEC-07 - customers are responsible for classifying the data they upload | CloudCo CUEC 4 - encryption management for customer-controlled data | **NO STANDARD. CGI-POL-004 says where encryption is required; no algorithms, TLS minimum or key management exist.** | A.8.24 maturity 0 |
 
-**Four CUECs written for customers. Four AWS CUECs ignored. The match is one to one.**
+**Four CUECs written for customers. Four CloudCo CUECs ignored. The match is one to one.**
 
 This is not a coincidence, and it is the most useful finding in this assessment. The four things a provider cannot
 do for a customer — force MFA, review the customer's own access, read the customer's own logs, decide how the
@@ -637,7 +636,7 @@ before scoring began. A gate passes only when the criterion reaches **CRL ≥ 2*
 | SG-5 | CC6.1, CC6.2, CC6.3 - logical access | CC6.1, CC6.2, CC6.3 | Logical access is the core of the Security category; a design failure here is fatal to the report. | **FAIL** |
 | SG-6 | CC7.4 - incident response | CC7.4 | An unhandled incident invalidates every other assertion in the period. | **PASS** |
 | SG-7 | CC8.1 - change management | CC8.1 | Unmanaged change means no design assertion survives the period. R-004 lives here. | **FAIL** |
-| SG-8 | CC9.2 - vendor and business partner risk management | CC9.2 | AWS is carved out; without vendor controls the carve-out is a hole, not a boundary. | **PASS** |
+| SG-8 | CC9.2 - vendor and business partner risk management | CC9.2 | CloudCo is carved out; without vendor controls the carve-out is a hole, not a boundary. | **PASS** |
 
 **6 of 8 gates fail.** The two that pass are worth naming, because they are the direct output of
 earlier projects: **SG-6 (CC7.4, incident response)** passes on the strength of CGI-POL-005, and **SG-8 (CC9.2,
@@ -744,8 +743,8 @@ four quarterly access reviews, two restore tests, a year of change records and a
 | Audit ID | **CGI-IAU-001** |
 | Purpose | The internal audit required by ISO/IEC 27001 clause 9.2, simulated as a dry run of action **ISO-12** (May 2027) |
 | Audit criteria | ISO/IEC 27001:2022 incl. Amd 1:2024 **clauses 4 to 10**; the **88 applicable Annex A controls** per CGI-ISO-001; **CGI-POL-001 to -005** as the organisation's own requirements (clause 9.2.1 a) |
-| Scope | The whole ISMS as scoped in CGI-ISO-001 section 2: all fifty employees, all six functions, the AWS production environment, the source path, the identity layer and the seventeen vendor interfaces |
-| Out of scope | The internal controls of the seventeen vendors; AWS's own controls (carved out, assured through A.5.23) |
+| Scope | The whole ISMS as scoped in CGI-ISO-001 section 2: all fifty employees, all six functions, the CloudCo production environment, the source path, the identity layer and the seventeen vendor interfaces |
+| Out of scope | The internal controls of the seventeen vendors; CloudCo's own controls (carved out, assured through A.5.23) |
 | Period covered | The ISMS from its creation on 7 September 2026 to 25 September 2026 |
 | Fieldwork | 21–25 September 2026 (simulated) |
 | Auditor | O.S |
@@ -805,7 +804,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **WP-20** | A.5.24-A.5.28, A.6.8 Incident management | 0 incidents recorded in the period; 0 exercises; 0 lessons-learned records | 0 incidents; 1 plan (100%) | PASS with exceptions | NOT PERFORMED | OFI-16 |
 | **WP-21** | A.5.29, A.5.30, A.8.13 Continuity and backup (CG-01) | Restore tests performed in the period: 0. Declared RTO/RPO values: 0. | 0 restore tests; 1 backup configuration (100%) | FAIL | NOT PERFORMED | OFI-01 |
 | **WP-22** | A.8.3, A.8.4, A.8.8, A.8.19, A.8.25, A.8.26, A.8.28, A.8.29, A.8.31, A.8.32 Secure development (CG-02, R-004) | Production releases in the 12 months to 25 Sep 2026: NOT DETERMINABLE. Peer-reviewed merges: NOT DETERMINABLE. Vulnerabi... | 0 - no testable population | FAIL | NOT PERFORMED | OFI-02; OFI-17 |
-| **WP-23** | A.8.9, A.8.15, A.8.16, A.8.20-A.8.22 Cloud configuration, logging and monitoring (CG-03, R-005) | Configuration baselines: 0. Drift detection reports: 0. Security alerts raised and handled: 0. Log sources under retenti... | 0 baselines; 4 AWS CUECs (100%) | FAIL | FAIL on the CUECs: 0 of 4 accepted and assigned. NOT PERFORMED elsewhere | OFI-03; OFI-07 |
+| **WP-23** | A.8.9, A.8.15, A.8.16, A.8.20-A.8.22 Cloud configuration, logging and monitoring (CG-03, R-005) | Configuration baselines: 0. Drift detection reports: 0. Security alerts raised and handled: 0. Log sources under retenti... | 0 baselines; 4 CloudCo CUECs (100%) | FAIL | FAIL on the CUECs: 0 of 4 accepted and assigned. NOT PERFORMED elsewhere | OFI-03; OFI-07 |
 | **WP-24** | A.5.9, A.5.12, A.5.13, A.8.1, A.8.10-A.8.12 Asset, classification and data protection (CG-05) | Asset inventory entries: 0 (a 17-row vendor inventory exists and is not an asset inventory). Endpoints registered: 0 of ... | 17 vendor rows (100%, as an input only); 4 classification tiers (100%) | PARTIAL | FAIL | OFI-05; OFI-18 |
 
 ### 5.3 Workpapers in full
@@ -897,7 +896,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Sample size** | 2 acceptances (100%) + 1 method (100%) |
 | **Selection method** | Inspection; re-performance of two register scorings |
 | **Test steps** | 1. Inspect the documented method (NIST SP 800-30 Rev. 1 5x5, thresholds). 2. Test for risk acceptance criteria. 3. Trace ACC-001 and ACC-V01 to the criteria they were accepted against. 4. Re-perform the scoring of two risks. 5. Test whether fraud was considered (informs the SOC 2 overlay, CC3.3). |
-| **Evidence inspected** | CGI-RSK-001 v1.1 methodology and thresholds (Low 1-4 / Medium 5-9 / High 10-14 / Critical 15-25); ACC-001 (SMS MFA, expires 03 Mar 2027); ACC-V01 (Calendly, expires 15 Sep 2028) |
+| **Evidence inspected** | CGI-RSK-001 v1.1 methodology and thresholds (Low 1-4 / Medium 5-9 / High 10-14 / Critical 15-25); ACC-001 (SMS MFA, expires 03 Mar 2027); ACC-V01 (SchedulerCo, expires 15 Sep 2028) |
 | **Test of design** | PARTIAL - the assessment and analysis method is documented and consistently applied. Acceptance criteria are absent. |
 | **Test of operating effectiveness** | FAIL - both acceptances in force were made against criteria that do not exist. Re-performance of two scorings agreed to the register. |
 | **Conclusion** | The method is sound and has operated twice (v1.0 and v1.1). No risk acceptance criteria exist, so neither acceptance in force can be shown to be within appetite. Fraud has never been considered as a risk category. |
@@ -1125,7 +1124,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Sample size** | 5 staff records (100% of the records that exist); 0 privileged reviews; 50 staff for MFA enrolment (100%, in aggregate only) |
 | **Selection method** | Attribute testing by inspection; population completeness testing (C&A / IPE) |
 | **Test steps** | 1. Obtain the joiner/mover/leaver population and reconcile it to HR records. 2. Select leavers and test revocation against the four-hour SLA. 3. Test all quarterly privileged access reviews in the period. 4. Test MFA enrolment against the 100% requirement and against ACC-001. |
-| **Evidence inspected** | CGI-POL-003 v1.0; CGI-TRK-001 (80% MFA enrolled); ACC-001 accepting SMS MFA until 03 Mar 2027; CGI-TPR-001 F-003 (no SCIM on Slack, manual leaver removal); one account (Lena Fischer) correctly not yet created under CGI-POL-003 s4.3.3 |
+| **Evidence inspected** | CGI-POL-003 v1.0; CGI-TRK-001 (80% MFA enrolled); ACC-001 accepting SMS MFA until 03 Mar 2027; CGI-TPR-001 F-003 (no SCIM on ChatCo, manual leaver removal); one account (Lena Fischer) correctly not yet created under CGI-POL-003 s4.3.3 |
 | **Test of design** | PARTIAL - CGI-POL-003 is an approved and complete access control design. It cannot be met on the four non-federated vendors (F-003). |
 | **Test of operating effectiveness** | NOT PERFORMED for joiners/movers/leavers - the population could not be established. FAIL for privileged access review - zero reviews in the period against a quarterly requirement. FAIL for MFA - 10 of 50 not enrolled. |
 | **Conclusion** | The most important result in this audit is a negative one: the leaver population cannot be established, so the four-hour revocation control cannot be tested at all. An untestable control is not a passing control. |
@@ -1143,10 +1142,10 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Population source and completeness** | CGI-TPR-001 inventory CGI-VEN-001 to -017, reconciled to architecture, 12 months of finance transactions and IdP OAuth grants |
 | **Sample size** | 11 of 17: all 7 Tier 1 (100%), 3 of 6 Tier 2 (random, seed 20260925), 1 of 4 Tier 3 (random) |
 | **Selection method** | Attribute testing; stratified selection, census of the highest tier |
-| **Test steps** | 1. Test each sampled vendor for tier, assessment, DPA, assurance artifact and review date. 2. Test the review cadence (12/18/24 months) for reviews actually performed. 3. Test the AWS CUEC acceptance record. 4. Test the sub-processor change feed subscription. |
-| **Evidence inspected** | CGI-TPR-001 v1.0; CGI-TPR-002 (74 questions, 16 domains); VRA-2026-001 AWS PASS WITH CONDITIONS 89%; VRA-2026-002 Slack FAIL 65%; VRA-2026-003 Calendly ACCEPTED 92%; findings F-001 to F-013 |
+| **Test steps** | 1. Test each sampled vendor for tier, assessment, DPA, assurance artifact and review date. 2. Test the review cadence (12/18/24 months) for reviews actually performed. 3. Test the CloudCo CUEC acceptance record. 4. Test the sub-processor change feed subscription. |
+| **Evidence inspected** | CGI-TPR-001 v1.0; CGI-TPR-002 (74 questions, 16 domains); VRA-2026-001 CloudCo PASS WITH CONDITIONS 89%; VRA-2026-002 ChatCo FAIL 65%; VRA-2026-003 SchedulerCo ACCEPTED 92%; findings F-001 to F-013 |
 | **Test of design** | PASS - the programme is designed, owned and communicated: tiering model, questionnaire, onboarding gates, 18-clause contract checklist, review cadence. |
-| **Test of operating effectiveness** | FAIL - zero scheduled reviews have been performed; the first Tier 1 re-reviews fall due Sep 2027. The four AWS CUECs are unaccepted. No sub-processor change feed is subscribed. Slack has operated in FAIL status since 15 Sep 2026 with no expiring risk acceptance on file. |
+| **Test of operating effectiveness** | FAIL - zero scheduled reviews have been performed; the first Tier 1 re-reviews fall due Sep 2027. The four CloudCo CUECs are unaccepted. No sub-processor change feed is subscribed. ChatCo has operated in FAIL status since 15 Sep 2026 with no expiring risk acceptance on file. |
 | **Conclusion** | Designed, not cycled. This is the clearest example in the ISMS of the difference between a control that exists and a control that operates. |
 | **Findings raised** | OFI-07; OFI-09 |
 | **Prepared by / date** | O.S / 25 September 2026 |
@@ -1163,7 +1162,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Sample size** | 17 (100%) - population below 25, tested in full |
 | **Selection method** | Attribute testing by inspection of executed agreements |
 | **Test steps** | 1. For each of the 17 vendors, inspect for an executed DPA. 2. Test whether personal data is in fact processed. 3. Request the GDPR Article 30 record of processing activities. 4. Test for a transfer register covering non-EEA processing. |
-| **Evidence inspected** | 11 executed DPAs; 6 vendors with none (KRI-V1 = 65%); CGI-TPR-001 F-001 (Slack: no DPA, US-hosted), F-004, O-001; no Article 30 record exists |
+| **Evidence inspected** | 11 executed DPAs; 6 vendors with none (KRI-V1 = 65%); CGI-TPR-001 F-001 (ChatCo: no DPA, US-hosted), F-004, O-001; no Article 30 record exists |
 | **Test of design** | PARTIAL - CGI-TPR-001 Gate B forbids onboarding without a DPA. The gate was built after the six were onboarded. |
 | **Test of operating effectiveness** | FAIL - 6 of 17 vendors, 35% of the estate, process data with no data processing agreement. |
 | **Conclusion** | This is a present-tense legal non-compliance, not a future roadmap item. GDPR Article 28(3) requires the agreement to be in place before processing begins; the processing is already happening. The finding does not depend on the SoA target date of 31 October 2026. |
@@ -1182,7 +1181,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Sample size** | 0 incidents; 1 plan (100%) |
 | **Selection method** | Inspection of the plan; walkthrough with the CTO; inquiry |
 | **Test steps** | 1. Inspect CGI-POL-005 for severity bands, roles, targets and reporting channels. 2. Walk through a hypothetical SEV1 with the CTO. 3. Request incident register entries. 4. Request the tabletop exercise record and lessons learned. |
-| **Evidence inspected** | CGI-POL-005 v1.0 with SEV1-SEV4, s5.2 reporting channels, s5.5 response stages, s5.6.3 GDPR 72-hour duty, s5.7 review; CGI-TPR-001 F-002 (no vendor breach-notification clause), F-008 (no tenant audit log on Slack) |
+| **Evidence inspected** | CGI-POL-005 v1.0 with SEV1-SEV4, s5.2 reporting channels, s5.5 response stages, s5.6.3 GDPR 72-hour duty, s5.7 review; CGI-TPR-001 F-002 (no vendor breach-notification clause), F-008 (no tenant audit log on ChatCo) |
 | **Test of design** | PASS with exceptions - the plan is approved and complete on severity, roles and targets. No containment runbooks exist and no out-of-band communication channel is named. |
 | **Test of operating effectiveness** | NOT PERFORMED - population zero. No incident has occurred and no exercise has been run, so operating effectiveness cannot be tested. |
 | **Conclusion** | Design is the strongest of any control family outside the policy pack. Zero occurrences means zero evidence: the walkthrough is all the assurance available, and inquiry plus a walkthrough is not sufficient evidence of operation. |
@@ -1200,8 +1199,8 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Population source and completeness** | Inquiry of the IT Operations Manager; CGI-TPR-001 F-013 |
 | **Sample size** | 0 restore tests; 1 backup configuration (100%) |
 | **Selection method** | Inspection of configuration; inquiry; attempted re-performance |
-| **Test steps** | 1. Inspect the AWS snapshot configuration and schedule. 2. Request declared RTO and RPO. 3. Request restore test reports for the period. 4. Request evidence that the data export path has been exercised. |
-| **Evidence inspected** | AWS native snapshots configured (eu-central-1 primary, us-east-1 backup copies); CGI-TPR-001 F-013 (no RTO, no RPO, no restore test, export never exercised); VRA-2026-001 condition C4 due 15 Dec 2026 |
+| **Test steps** | 1. Inspect the CloudCo snapshot configuration and schedule. 2. Request declared RTO and RPO. 3. Request restore test reports for the period. 4. Request evidence that the data export path has been exercised. |
+| **Evidence inspected** | CloudCo native snapshots configured (eu-central-1 primary, us-east-1 backup copies); CGI-TPR-001 F-013 (no RTO, no RPO, no restore test, export never exercised); VRA-2026-001 condition C4 due 15 Dec 2026 |
 | **Test of design** | FAIL - no CGI-POL-006, no declared recovery objectives, no test schedule. A backup with no restore test and no objective is an assumption, not a control. |
 | **Test of operating effectiveness** | NOT PERFORMED - population zero. |
 | **Conclusion** | Backups exist and have never been proven to restore. CGI-RSK-001 correctly takes no credit for them against R-002. The SoA target date of 15 December 2026 has not passed, so this is recorded as an opportunity for improvement that becomes a nonconformity on 16 December 2026. |
@@ -1219,8 +1218,8 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Population source and completeness** | No change record, release log or branch-protection configuration exists, so no population can be constructed and no completeness assertion can be made. |
 | **Sample size** | 0 - no testable population |
 | **Selection method** | Attempted population construction; inspection of repository configuration; inquiry of the CTO |
-| **Test steps** | 1. Request the change record or release log for the period. 2. Request the GitHub branch-protection configuration export. 3. Request scan reports and remediation tickets. 4. Request the penetration test report. 5. Request the environment separation diagram. |
-| **Evidence inspected** | CGI-POL-002 s4.5.2 secret scanning (a fragment); CGI-VEN-002 GitHub Tier 1, inherent 15 Critical, no branch protection on the CGI side; CGI-GAP-001 PR.PS = 0 |
+| **Test steps** | 1. Request the change record or release log for the period. 2. Request the CodeCo branch-protection configuration export. 3. Request scan reports and remediation tickets. 4. Request the penetration test report. 5. Request the environment separation diagram. |
+| **Evidence inspected** | CGI-POL-002 s4.5.2 secret scanning (a fragment); CGI-VEN-002 CodeCo Tier 1, inherent 15 Critical, no branch protection on the CGI side; CGI-GAP-001 PR.PS = 0 |
 | **Test of design** | FAIL - CGI-POL-007 and CGI-POL-008 are unwritten. There is no coding standard, no mandatory peer review, no scanning SLA and no recorded environment separation. |
 | **Test of operating effectiveness** | NOT PERFORMED - no population could be constructed. |
 | **Conclusion** | Ten of the eleven code-path controls behind the organisation's joint-highest residual risk are Not started, and an eleventh (A.5.7 threat intelligence) is tested in WP-05. Engineers can commit directly to production with no second person. SoA target dates of 31 March 2027 have not passed, so the finding is recorded as an OFI that becomes a nonconformity on 01 April 2027. |
@@ -1236,13 +1235,13 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Audit criteria** | Annex A controls A.8.9, A.8.15, A.8.16, A.8.20, A.8.21, A.8.22; control gap CG-03 and risk R-005 |
 | **Population** | Configuration baselines: 0. Drift detection reports: 0. Security alerts raised and handled: 0. Log sources under retention: 0. |
 | **Population source and completeness** | Inquiry of the IT Operations Manager; CGI-TPR-001 F-010; CGI-GAP-001 PR.IR = 0, DE.CM = 1 |
-| **Sample size** | 0 baselines; 4 AWS CUECs (100%) |
+| **Sample size** | 0 baselines; 4 CloudCo CUECs (100%) |
 | **Selection method** | Inquiry; inspection of available configuration; attribute testing of the four CUECs |
-| **Test steps** | 1. Request the AWS configuration baseline. 2. Request drift-detection or posture reports. 3. Test each of the four AWS CUECs for acceptance and an assigned owner. 4. Request CloudTrail configuration with log file validation. 5. Request alert rules and handled-alert records. |
-| **Evidence inspected** | VRA-2026-001 F-010: four unaccepted CUECs (organisation-wide CloudTrail with log file validation; MFA on the root account with restricted root use; least-privilege IAM with periodic review; encryption management for customer-controlled data); Datadog APM used for engineering, not as a security log source |
+| **Test steps** | 1. Request the CloudCo configuration baseline. 2. Request drift-detection or posture reports. 3. Test each of the four CloudCo CUECs for acceptance and an assigned owner. 4. Request CloudTrail configuration with log file validation. 5. Request alert rules and handled-alert records. |
+| **Evidence inspected** | VRA-2026-001 F-010: four unaccepted CUECs (organisation-wide CloudTrail with log file validation; MFA on the root account with restricted root use; least-privilege IAM with periodic review; encryption management for customer-controlled data); MonitorCo APM used for engineering, not as a security log source |
 | **Test of design** | FAIL - no baseline, no drift detection, no alert rules and no central security log account exist. |
 | **Test of operating effectiveness** | FAIL on the CUECs: 0 of 4 accepted and assigned. NOT PERFORMED elsewhere - population zero. |
-| **Conclusion** | R-005 stays High for exactly this reason: the gap sits on the organisation's side of the shared-responsibility boundary, where no provider certificate reaches. Condition C1 is due 15 December 2026; if it is not met, the AWS conditional pass lapses to Fail. |
+| **Conclusion** | R-005 stays High for exactly this reason: the gap sits on the organisation's side of the shared-responsibility boundary, where no provider certificate reaches. Condition C1 is due 15 December 2026; if it is not met, the CloudCo conditional pass lapses to Fail. |
 | **Findings raised** | OFI-03; OFI-07 |
 | **Prepared by / date** | O.S / 25 September 2026 |
 | **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
@@ -1258,7 +1257,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Sample size** | 17 vendor rows (100%, as an input only); 4 classification tiers (100%) |
 | **Selection method** | Inspection; inquiry; attempted reconciliation of assets to classification |
 | **Test steps** | 1. Request the asset and SaaS inventory. 2. Test whether the four CGI-POL-004 tiers have been applied to any asset. 3. Request the endpoint register for the 50 BYOD devices. 4. Request retention/deletion records and DLP alert samples. |
-| **Evidence inspected** | CGI-POL-004 v1.0 four tiers and Handling Matrix (approved, never applied); EXC-003 (Restricted data on removable media); CGI-VEN-007 Datadog log scrubbing rules unverified |
+| **Evidence inspected** | CGI-POL-004 v1.0 four tiers and Handling Matrix (approved, never applied); EXC-003 (Restricted data on removable media); CGI-VEN-007 MonitorCo log scrubbing rules unverified |
 | **Test of design** | PARTIAL - the classification scheme and handling matrix are approved and complete. No inventory exists for them to be applied to, and no DLP capability is designed. |
 | **Test of operating effectiveness** | FAIL - the scheme has been applied to zero assets. No endpoint register exists for a 50-device BYOD estate. |
 | **Conclusion** | A classification scheme with nothing classified is a document, not a control. The vendor inventory delivered by CGI-TPR-001 is an input to the asset inventory and is frequently mistaken for it. |
@@ -1291,7 +1290,7 @@ response.
 | ID | Clause or control | Finding | Workpaper | Owner | Management response | Due |
 |---|---|---|---|---|---|---|
 | **NC-10** | Clause 4.1, 4.2 | **Context and interested parties not documented.** Context survives only as six risk-register assumptions. No interested-parties register exists and the climate-change relevance decision required by Amd 1:2024 has never been made. | WP-01 | Chief Executive Officer | Approve a context, interested-parties and obligations register including the climate-change decision. | 2026-10-31 |
-| **NC-11** | Clause 4.3 | **ISMS scope drafted but not approved.** The scope statement is complete and names interfaces and dependencies, but has not been approved by top management. This escalates to a major nonconformity if it is still unapproved at Stage 1. | WP-02 | Chief Executive Officer | Approve the ISMS scope and boundary, including the AWS shared-responsibility statement. | 2026-10-31 |
+| **NC-11** | Clause 4.3 | **ISMS scope drafted but not approved.** The scope statement is complete and names interfaces and dependencies, but has not been approved by top management. This escalates to a major nonconformity if it is still unapproved at Stage 1. | WP-02 | Chief Executive Officer | Approve the ISMS scope and boundary, including the CloudCo shared-responsibility statement. | 2026-10-31 |
 | **NC-12** | Clause 5.1, 7.1 | **ISMS budget and time allocation unapproved.** The USD 32,100 year-one budget is costed in CGI-RSK-001 and has not been approved, and no staff time is allocated to the ISMS. | WP-03; WP-08 | Chief Executive Officer | Approve the year-one budget and a named time allocation for ISMS work. | 2026-10-31 |
 | **NC-13** | Clause 5.3 | **No ISMS lead assigned and no RACI.** Document owners exist, but nobody is assigned responsibility for ensuring the ISMS conforms to the standard or for reporting its performance to top management. | WP-03 | Chief Executive Officer | Assign the ISMS lead in writing; publish the ISMS RACI across the SoA controls. | 2026-10-31 |
 | **NC-14** | Clause 6.1.1, 6.3 | **ISMS risks, opportunities and change planning absent.** Risks and opportunities for the ISMS itself have never been determined, and there is no rule for making changes to the ISMS in a planned manner. | WP-04 | Chief Technology Officer | Record ISMS risks and opportunities; add a change-planning step to the ISMS procedure. | 2026-12-31 |
@@ -1305,20 +1304,20 @@ response.
 
 | ID | Clause or control | Observation | Workpaper | Owner | Recommended action | Due |
 |---|---|---|---|---|---|---|
-| **OFI-01** | A.5.30, A.8.13 (CG-01) | **Backups have never been restore-tested and no RTO or RPO is declared.** AWS snapshots are configured. No restore has been performed, no recovery objectives are declared and the data export path has never been exercised. The SoA target date is 15 Dec 2026 and has not passed, so this is not yet a nonconformity. It becomes one on 16 Dec 2026. | WP-21 | IT Operations Manager | Approve CGI-POL-006 with RTO and RPO; evidence one restore to a clean environment (this is REC-03 and VRA-2026-001 C4 - run it once). | 2026-12-15 |
+| **OFI-01** | A.5.30, A.8.13 (CG-01) | **Backups have never been restore-tested and no RTO or RPO is declared.** CloudCo snapshots are configured. No restore has been performed, no recovery objectives are declared and the data export path has never been exercised. The SoA target date is 15 Dec 2026 and has not passed, so this is not yet a nonconformity. It becomes one on 16 Dec 2026. | WP-21 | IT Operations Manager | Approve CGI-POL-006 with RTO and RPO; evidence one restore to a clean environment (this is REC-03 and VRA-2026-001 C4 - run it once). | 2026-12-15 |
 | **OFI-02** | CG-02, ten Annex A controls | **The code path behind R-004 is unprotected.** Ten controls tested in WP-22 are Not started: no secure development lifecycle, no coding standard, no mandatory peer review, no branch protection, no scanning, no penetration test, no environment separation, no change record. SoA target dates of 31 Mar 2027 have not passed; this becomes a nonconformity on 01 Apr 2027. | WP-22 | Chief Technology Officer | Approve CGI-POL-007 and CGI-POL-008; enable branch protection requiring a second reviewer; start authenticated scanning. | 2027-03-31 |
-| **OFI-03** | CG-03, A.8.9, A.8.20-A.8.22 | **No cloud configuration baseline or drift detection.** No baseline, no posture monitoring, no network security baseline and no documented segmentation. This is the documented reason R-005 remains High. | WP-23 | IT Operations Manager | Implement a CIS AWS Foundations baseline with posture monitoring (Project 7 delivers this). | 2027-06-30 |
+| **OFI-03** | CG-03, A.8.9, A.8.20-A.8.22 | **No cloud configuration baseline or drift detection.** No baseline, no posture monitoring, no network security baseline and no documented segmentation. This is the documented reason R-005 remains High. | WP-23 | IT Operations Manager | Implement a CIS CloudCo Foundations baseline with posture monitoring (Project 7 delivers this). | 2027-06-30 |
 | **OFI-04** | CG-04, A.6.3 | **Awareness is induction-only.** No recurring curriculum, no role-based training, no phishing simulation and no module on the CGI-POL-001 s4.5 AI-use rules that two shadow-IT tools already breach. | WP-09 | Head of People and Operations | Publish the annual curriculum with a phishing simulation and an AI-use module. | 2027-03-31 |
-| **OFI-05** | CG-05, A.8.10-A.8.12 | **No data loss prevention and no retention execution.** Monitoring is metadata-only. Retention limits are designed in CGI-POL-004 and have never been executed, and no masking exists for logs or lower environments. | WP-24 | Chief Technology Officer | Implement egress and DLP rules on Google Workspace and GitHub; execute the retention and deletion schedule. | 2027-09-30 |
+| **OFI-05** | CG-05, A.8.10-A.8.12 | **No data loss prevention and no retention execution.** Monitoring is metadata-only. Retention limits are designed in CGI-POL-004 and have never been executed, and no masking exists for logs or lower environments. | WP-24 | Chief Technology Officer | Implement egress and DLP rules on OfficeCo and CodeCo; execute the retention and deletion schedule. | 2027-09-30 |
 | **OFI-06** | Population completeness (IPE) | **The joiner, mover and leaver population cannot be established.** No joiner/leaver register and no archive of completed offboarding checklists exists, so the population for the four-hour revocation control could not be constructed or reconciled to an HR system of record. Five illustrative records in CGI-TRK-001 are not a population. Any future audit or SOC 2 examination will stop at the same point. | WP-09; WP-17 | Head of People and Operations | Maintain a joiner/mover/leaver register reconciled monthly to the HR system; retain completed offboarding checklists. | 2026-12-31 |
-| **OFI-07** | A.5.23; VRA-2026-001 C1 | **Four AWS complementary user entity controls are unaccepted.** Organisation-wide CloudTrail with log file validation, MFA on the root account with restricted root use, least-privilege IAM with periodic review, and encryption management are all assumed by the provider's report and performed by nobody. If C1 is not met by 15 Dec 2026 the conditional pass lapses to Fail. | WP-18; WP-23 | Chief Technology Officer | Sign the CUEC acceptance record naming four owners; publish the shared-responsibility statement. | 2026-12-15 |
+| **OFI-07** | A.5.23; VRA-2026-001 C1 | **Four CloudCo complementary user entity controls are unaccepted.** Organisation-wide CloudTrail with log file validation, MFA on the root account with restricted root use, least-privilege IAM with periodic review, and encryption management are all assumed by the provider's report and performed by nobody. If C1 is not met by 15 Dec 2026 the conditional pass lapses to Fail. | WP-18; WP-23 | Chief Technology Officer | Sign the CUEC acceptance record naming four owners; publish the shared-responsibility statement. | 2026-12-15 |
 | **OFI-08** | A.5.35; Clause 9.2.2 c) | **This engagement is not independent.** The auditor prepared CGI-ISO-001, including the Statement of Applicability tested in WP-06. Clause 9.2.2 c) requires auditor selection to ensure objectivity and impartiality. The limitation is declared in the audit plan and the affected workpapers are named. | WP-13 | Chief Executive Officer | Appoint an auditor independent of the preparer for ISO-12; have the CEO review the WP-06 and WP-13 conclusions in the interim. | 2027-03-31 |
-| **OFI-09** | A.5.22; VRA-2026-002 | **A Tier 1 vendor is operating in FAIL status with no risk acceptance.** Slack (CGI-VEN-004) scored 65% and failed on 15 Sep 2026. No CEO-approved, expiring risk acceptance on the ACC-001 pattern is on file. Re-assessment is due 15 Dec 2026. | WP-18 | Chief Technology Officer | Remediate to a pass, or record a CEO-approved expiring acceptance, before Stage 1. | 2026-12-15 |
+| **OFI-09** | A.5.22; VRA-2026-002 | **A Tier 1 vendor is operating in FAIL status with no risk acceptance.** ChatCo (CGI-VEN-004) scored 65% and failed on 15 Sep 2026. No CEO-approved, expiring risk acceptance on the ACC-001 pattern is on file. Re-assessment is due 15 Dec 2026. | WP-18 | Chief Technology Officer | Remediate to a pass, or record a CEO-approved expiring acceptance, before Stage 1. | 2026-12-15 |
 | **OFI-10** | SOC 2 CC2.3 | **No system description and no CUECs communicated to customers.** Approximately 200 customers have never been told which controls they must perform for the platform's controls to work. Nothing in ISO-01 to ISO-17 or REC-01 to REC-18 creates this artefact, because ISO 27001 does not require it. | WP-24 | Chief Technology Officer | Approve the system description and the CUEC schedule (CGI-SOC-001 Part 3); publish the CUECs in the customer agreement and the trust page. | 2027-06-30 |
 | **OFI-11** | SOC 2 CC3.3 | **Fraud has never been considered as a risk category.** CGI-RSK-001 covers phishing, ransomware, insider exfiltration, an authorisation flaw and cloud misconfiguration. It does not consider fraudulent reporting, misappropriation of assets or corruption. ISO/IEC 27001 Annex A has no fraud control, so no ISO action would ever surface this. | WP-05 | Chief Executive Officer | Add a fraud consideration to the next CGI-RSK-001 review, covering incentives, pressures, opportunities and rationalisations. | 2027-03-31 |
 | **OFI-12** | SOC 2 A1 Availability | **No service commitments are published.** No SLA, uptime target or recovery commitment exists (assumption ISO-A04). The Availability category asks whether the system is available 'as committed'; with no commitment there is nothing to test against. | WP-24 | Chief Executive Officer | Publish service commitments (uptime target, support response, recovery objectives) before any SOC 2 engagement includes Availability. | 2027-06-30 |
 | **OFI-13** | Clause 8.3 | **Treatment actions are dated but unevidenced.** Wave 1 of the treatment plan is not yet due at the audit date, so non-completion is not a nonconformity. No status tracker with evidence per action exists, which will make the position untestable when the dates do pass. | WP-11 | Chief Technology Officer | Open a treatment status tracker carrying evidence per action. | 2026-12-31 |
-| **OFI-14** | A.5.36, A.5.37 | **No compliance checking and no procedures beneath the policies.** No compliance check against policy has ever run, and the runbooks the policies rely on do not exist. The planned runbook location shares AWS with the platform it would be used to recover. | WP-16 | Chief Technology Officer | Add a quarterly compliance check to the management review agenda; write runbooks and store them outside the platform's own dependency. | 2027-06-30 |
+| **OFI-14** | A.5.36, A.5.37 | **No compliance checking and no procedures beneath the policies.** No compliance check against policy has ever run, and the runbooks the policies rely on do not exist. The planned runbook location shares CloudCo with the platform it would be used to recover. | WP-16 | Chief Technology Officer | Add a quarterly compliance check to the management review agenda; write runbooks and store them outside the platform's own dependency. | 2027-06-30 |
 | **OFI-15** | A.5.18, A.8.2 | **No privileged access review has ever been performed.** CGI-POL-003 s4.7.1 mandates a quarterly privileged access review. Zero have been performed. Four quarterly records are needed before a Stage 2 audit and before any SOC 2 Type II period. | WP-17 | IT Operations Manager | Perform and retain the first quarterly privileged access review. | 2026-12-31 |
 | **OFI-16** | A.5.24-A.5.27 | **Incident response has never been exercised.** The plan is approved and complete on severity, roles and targets. No containment runbooks exist, no out-of-band channel is named, and no exercise has been held, so there is no evidence of operation at all. | WP-20 | Chief Technology Officer | Run a SEV1 tabletop; record lessons learned; name an out-of-band channel. | 2027-06-30 |
 | **OFI-17** | A.5.3 | **Segregation of duties on the code path.** Engineers can commit directly to production with no second person. This is the duty conflict behind R-004 and it is also the CC8.1 point of focus an examiner would test first. | WP-22 | Chief Technology Officer | Publish a segregation-of-duties matrix; require a second reviewer in branch protection. | 2027-03-31 |
@@ -1424,7 +1423,7 @@ operation over time. **Ask for system exports, not screenshots**, wherever the s
 | **PBC-30** | Operations | Cloud configuration baseline and drift or posture reports | PDF | Current + 12 months | IT Operations Manager | Not available - no baseline exists | WP-23 |
 | **PBC-31** | Operations | CloudTrail configuration showing organisation-wide trail and log file validation | Screenshot or CLI output | As at request | IT Operations Manager | Not available - unverified | WP-23 |
 | **PBC-32** | Operations | Security alert rules and a sample of handled alerts | Screenshot + ticket export | 12 months to the request date | IT Operations Manager | Not available - no alert rules exist | WP-23 |
-| **PBC-33** | Resilience | Backup configuration and schedule | Screenshot | As at request | IT Operations Manager | Received - AWS snapshot configuration | WP-21 |
+| **PBC-33** | Resilience | Backup configuration and schedule | Screenshot | As at request | IT Operations Manager | Received - CloudCo snapshot configuration | WP-21 |
 | **PBC-34** | Resilience | Declared RTO and RPO, approved | PDF | Current | IT Operations Manager | Not available - not declared | WP-21 |
 | **PBC-35** | Resilience | Restore test reports | PDF | 12 months to the request date | IT Operations Manager | Not available - no restore has been tested | WP-21 |
 | **PBC-36** | Incident | Incident register entries with severity and timeline | CSV export | 12 months to the request date | Chief Technology Officer | Not available - no entries; no incidents recorded | WP-20 |
@@ -1459,7 +1458,7 @@ action already does the work, the SOC action points at it rather than repeating 
 
 | ID | Action | Criteria | Owner | Start | Due | Phase | Est. cost (USD) | Dependency |
 |---|---|---|---|---|---|---|---|---|
-| **SOC-01** | Decide the report strategy and confirm the scope: Security + Availability + Confidentiality, AWS carved out, one system (the platform) | All | Chief Executive Officer | 2026-10-01 | 2026-10-31 | Phase 0 - Decide | 0 | ISO-02 |
+| **SOC-01** | Decide the report strategy and confirm the scope: Security + Availability + Confidentiality, CloudCo carved out, one system (the platform) | All | Chief Executive Officer | 2026-10-01 | 2026-10-31 | Phase 0 - Decide | 0 | ISO-02 |
 | **SOC-02** | Approve the system description and the CUEC schedule; publish the CUECs in the customer agreement and on the trust page | CC2.3 | Chief Technology Officer | 2027-01-01 | 2027-06-30 | Phase 1 - Build | 0 | SOC-01 |
 | **SOC-03** | Establish an oversight arrangement independent of management: an advisory board seat, or a documented CEO-plus-external-adviser review of the system of internal control | CC1.2 | Chief Executive Officer | 2027-01-01 | 2027-03-31 | Phase 1 - Build | 4,000 | ISO-13 |
 | **SOC-04** | Add a fraud consideration to the risk assessment: fraudulent reporting, misappropriation of assets and corruption, with incentives, pressures, opportunities and rationalisations | CC3.3 | Chief Executive Officer | 2027-01-01 | 2027-03-31 | Phase 1 - Build | 0 | ISO-05 |
@@ -1534,7 +1533,7 @@ November 2027. Nothing we have built has operated yet.**
    you, in October.**
 2. **We ask our customers to do what we have not done ourselves.** We must publish ten complementary user
    entity controls telling ~200 customers to enable MFA, review their own access, read their own logs and
-   classify their own data. AWS wrote us four equivalent controls and **we have accepted none of them**. Four
+   classify their own data. CloudCo wrote us four equivalent controls and **we have accepted none of them**. Four
    for four. Fix ours before we publish theirs — the deadline is already 15 December 2026.
 3. **Our leaver control cannot be tested.** Not failed — **untested**, because no leaver register exists to
    build a population from. Every audit and every examination will stop at the same point. Standing up evidence
@@ -1543,7 +1542,7 @@ November 2027. Nothing we have built has operated yet.**
    September and it still is. It is a signature, and the deadline is 31 October 2026.
 
 **What I need from you.** In October 2026: approve the scope, the ISMS policy, the risk acceptance criteria and
-the budget, and sign the AWS CUEC acceptance. In Q1 2027: fund evidence capture (about USD 3,000) and
+the budget, and sign the CloudCo CUEC acceptance. In Q1 2027: fund evidence capture (about USD 3,000) and
 establish an oversight arrangement independent of management, because **no ISO action will ever create one and
 criterion CC1.2 cannot be met without it.**
 
@@ -1646,7 +1645,7 @@ entire Statement of Applicability to get there.
 | ID | Assumption | Why it matters |
 |---|---|---|
 | SOC-A01 | The AICPA 2017 Trust Services Criteria comprise 33 common criteria (CC1–CC9), 3 Availability, 2 Confidentiality, 5 Processing Integrity and 8 Privacy criteria, with the 2022 revised points of focus. Wording here is paraphrased | The crosswalk is built on the criterion set. Purchase the criteria from the AICPA before using this in anger |
-| SOC-A02 | AWS is the only subservice organisation. Slack, Stripe, Google Workspace and the remaining vendors are vendors, not subservice organisations | Decides the carve-out. The examining CPA firm will test this judgement, and it should be revisited if Slack enters the customer-facing support path |
+| SOC-A02 | CloudCo is the only subservice organisation. ChatCo, PaymentsCo, OfficeCo and the remaining vendors are vendors, not subservice organisations | Decides the carve-out. The examining CPA firm will test this judgement, and it should be revisited if ChatCo enters the customer-facing support path |
 | SOC-A03 | Cypher Group Inc. is a **processor** for its customers' personal data and a **controller** for its own employee data | Decides why Privacy (P1–P8) is out of scope for the first report |
 | SOC-A04 | Sample-size rules of thumb are industry practice informed by AICPA guidance, not a published mandatory table | Any examiner may apply different sizes. The rule that matters is that the basis is stated and reproducible |
 | SOC-A05 | SOC 2 costs are planning estimates for a fifty-person single-system scope, not quotes | Obtain three CPA firm quotes at SOC-08 |
@@ -1695,7 +1694,7 @@ entire Statement of Applicability to get there.
 | **Population** | Every occurrence of a control in the period. A population of zero cannot be sampled |
 | **SOC 1 / SOC 2 / SOC 3** | Financial reporting controls / Trust Services Criteria / a public summary of a SOC 2 |
 | **SSAE 18** | Statement on Standards for Attestation Engagements No. 18, under which a SOC 2 is performed |
-| **Subservice organisation** | A vendor whose controls form part of the service being described. For Cypher Group Inc.: AWS |
+| **Subservice organisation** | A vendor whose controls form part of the service being described. For Cypher Group Inc.: CloudCo |
 | **System description** | Management's own written account of the system — Section 3 of a SOC 2 report |
 | **ToD / ToE** | Test of design / test of operating effectiveness |
 | **TSC** | Trust Services Criteria. The five **categories** are Security, Availability, Confidentiality, Processing Integrity and Privacy; **CC6** is a criteria group; **CC6.2** is a criterion |

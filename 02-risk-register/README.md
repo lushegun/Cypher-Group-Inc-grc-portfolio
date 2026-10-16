@@ -32,7 +32,7 @@ Five realistic threat scenarios were scored twice — **inherent** (no controls)
 | R-002 | Ransomware on an employee endpoint | 🟥 20 | 🟨 8 | Mitigate + Transfer | IT Operations Manager |
 | R-003 | Departing employee exports customer data | 🟧 12 | 🟨 6 | Mitigate | Head of People and Operations |
 | R-004 | Broken object-level authorisation in the production API | 🟥 20 | 🟧 **12** | Mitigate | Chief Technology Officer |
-| R-005 | Public S3 bucket through AWS misconfiguration | 🟥 20 | 🟧 **12** | Mitigate | Chief Technology Officer |
+| R-005 | Public S3 bucket through CloudCo misconfiguration | 🟥 20 | 🟧 **12** | Mitigate | Chief Technology Officer |
 
 <sub>🟩 Low 1–4 · 🟨 Medium 5–9 · 🟧 High 10–14 · 🟥 Critical 15–25</sub>
 
