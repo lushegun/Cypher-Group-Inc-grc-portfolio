@@ -10,7 +10,7 @@
 ![AI](https://img.shields.io/badge/AI%20vendor%20governance-built%20in-5FA8D3?style=flat-square)
 
 > [!IMPORTANT]
-> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real. Real product names are used only as realistic stand-ins. **Every assurance status, DPA status, report period, hosting region and finding attributed to them is invented** and says nothing about those companies.
+> **Simulated case study.** Cypher Group Inc. is a simulated company; the method and the analysis are real.
 
 ## Why this project exists
 
@@ -25,10 +25,10 @@
 
 ## Headline findings
 
-- **17 vendors found, not 5.** I used four discovery sources: the known architecture, 12 months of card and bank transactions, the apps connected through Google Workspace sign-in, and one conversation with each department.
+- **17 vendors found, not 5.** I used four discovery sources: the known architecture, 12 months of card and bank transactions, the apps connected through OfficeCo sign-in, and one conversation with each department.
 - **6 of 17 vendors (35%) have no signed Data Processing Agreement (DPA)**, and 4 of those six already hold Confidential data.
 - **2 AI tools were bought on expenses and are processing customer calls and typed text under no contract at all.** That is shadow IT and an AI governance gap in one finding.
-- **The best-certified vendor passed only with conditions, and all four conditions were ours.** AWS's SOC 2 report assumes customers run four controls themselves, and Cypher Group was running none of them.
+- **The best-certified vendor passed only with conditions, and all four conditions were ours.** CloudCo's SOC 2 report assumes customers run four controls themselves, and Cypher Group was running none of them.
 - **5 vendors share a cloud provider with the platform**, so a single regional outage takes down the product *and* the tools used to detect it and tell customers about it.
 
 ## The estate at a glance
@@ -41,13 +41,13 @@
 
 | Assessment | Vendor | Score | Decision |
 |---|---|:-:|---|
-| VRA-2026-002 | Slack (Tier 1) | 65% | **Fail**: 9 findings; ~USD 3,600/yr to fix, and 6 of the 8 actions are free |
-| VRA-2026-001 | AWS (Tier 1) | 89% | **Pass with conditions**: every condition sits on Cypher Group's side |
-| VRA-2026-003 | Calendly (Tier 3) | 92% | **Accepted**: documented justification, expires Sep 2028 |
+| VRA-2026-002 | ChatCo (Tier 1) | 65% | **Fail**: 9 findings; ~USD 3,600/yr to fix, and 6 of the 8 actions are free |
+| VRA-2026-001 | CloudCo (Tier 1) | 89% | **Pass with conditions**: every condition sits on Cypher Group's side |
+| VRA-2026-003 | SchedulerCo (Tier 3) | 92% | **Accepted**: documented justification, expires Sep 2028 |
 
 ## AI governance, built into the method
 
-- **Tiering trigger T2-f:** any vendor whose AI may keep, review or train on company content is at least Tier 2, whatever its other scores. Grammarly scores only 3 on the four factors, which would put it in Tier 3; T2-f lifts it to Tier 2.
+- **Tiering trigger T2-f:** any vendor whose AI may keep, review or train on company content is at least Tier 2, whatever its other scores. WriteCo scores only 3 on the four factors, which would put it in Tier 3; T2-f lifts it to Tier 2.
 - **Questionnaire domain 15** asks about AI processing, model training, human review and the chain of AI sub-processors. All four questions carry the maximum weight.
 - **Contract clause 7:** no training on company data and no human review without consent, applied to every tier.
 
@@ -63,7 +63,7 @@
 
 ## Three things I would say in an interview
 
-1. **"AWS passed with conditions, and every condition was ours. The report was fine; how we used it was the finding."**
+1. **"CloudCo passed with conditions, and every condition was ours. The report was fine; how we used it was the finding."**
 2. **Tier before you assess.** The tier depends on how exposed *you* are, never on how good the vendor is, and the rule was published before any vendor was scored.
 3. **New risk or new route?** Ask one question: *would the existing risk's controls have prevented this?* A four-hour leaver revocation does nothing against a vendor's API sync, so that is a new risk.
 

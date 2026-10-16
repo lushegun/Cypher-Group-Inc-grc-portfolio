@@ -31,11 +31,11 @@ platform to approximately 200 small and medium-sized business customers.
 | Employees | 50 |
 | Product | B2B SaaS project-management platform |
 | Customers | ~200 SMBs |
-| Hosting | Amazon Web Services (AWS) |
-| Source code | GitHub |
-| Internal communications | Slack |
-| Email and documents | Google Workspace |
-| Payments | Stripe (Cypher stores payment metadata only; card numbers are held by Stripe) |
+| Hosting | CloudCo |
+| Source code | CodeCo |
+| Internal communications | ChatCo |
+| Email and documents | OfficeCo |
+| Payments | PaymentsCo (Cypher stores payment metadata only; card numbers are held by PaymentsCo) |
 | Data handled | Customer account data, payment metadata, internal documents, limited PII |
 | Security maturity | Early-stage; no formal GRC programme prior to this pack |
 
@@ -125,7 +125,7 @@ Group systems is monitored.
 This policy applies to:
 
 - All employees, directors, contractors, consultants, interns and temporary staff of Cypher Group Inc., referred to collectively as "personnel".
-- All Cypher Group accounts, including Google Workspace, Slack, GitHub, Amazon Web Services, the Stripe dashboard and any other system holding Cypher Group information.
+- All Cypher Group accounts, including OfficeCo, ChatCo, CodeCo, CloudCo, the PaymentsCo dashboard and any other system holding Cypher Group information.
 - All devices used to access Cypher Group information, whether company-owned or personally owned.
 - All Cypher Group information in any form, including electronic files, printed material and verbal communication.
 
@@ -148,7 +148,7 @@ where no Cypher Group information or account is involved.
 
 4.1.1 Personnel **shall** use Cypher Group systems and information primarily for legitimate business purposes.
 
-4.1.2 Limited, reasonable personal use of email, Slack and internet access **is permitted**, provided it does not interfere with work, consume significant resources, or breach any statement in this policy.
+4.1.2 Limited, reasonable personal use of email, ChatCo and internet access **is permitted**, provided it does not interfere with work, consume significant resources, or breach any statement in this policy.
 
 4.1.3 Personnel **shall not** assume privacy in any material created, stored or transmitted on Cypher Group systems, including material marked personal.
 
@@ -168,13 +168,13 @@ where no Cypher Group information or account is involved.
 
 4.3.1 Personnel **shall not** share their account credentials with any other person, including colleagues, contractors and line managers.
 
-4.3.2 Personnel **shall** store all work credentials in the Cypher Group-provided password manager and **shall not** store credentials in browsers, spreadsheets, notes applications, Slack messages or source code.
+4.3.2 Personnel **shall** store all work credentials in the Cypher Group-provided password manager and **shall not** store credentials in browsers, spreadsheets, notes applications, ChatCo messages or source code.
 
 4.3.3 Detailed authentication requirements are set out in **CGI-POL-002 Password and Multi-Factor Authentication Policy**.
 
 ### 4.4 Devices, including personally owned devices
 
-4.4.1 Any device used to access Cypher Group email, Slack, documents or code **shall** have full-disk encryption enabled.
+4.4.1 Any device used to access Cypher Group email, ChatCo, documents or code **shall** have full-disk encryption enabled.
 
 4.4.2 Any such device **shall** lock automatically after no more than 10 minutes of inactivity and require authentication to unlock.
 
@@ -206,7 +206,7 @@ where no Cypher Group information or account is involved.
 
 ### 4.7 Communications conduct
 
-4.7.1 Personnel **shall** exercise care when addressing email and Slack messages containing Confidential or Restricted information, and **shall** verify recipients before sending.
+4.7.1 Personnel **shall** exercise care when addressing email and ChatCo messages containing Confidential or Restricted information, and **shall** verify recipients before sending.
 
 4.7.2 Personnel **shall not** discuss Cypher Group customers, incidents, unreleased features or internal disputes on public forums, social media or personal messaging applications.
 
@@ -352,7 +352,7 @@ passwords.
 ## 2. Scope
 
 This policy applies to all personnel and to all Cypher Group accounts, including
-Google Workspace, Slack, GitHub, Amazon Web Services, the Stripe dashboard,
+OfficeCo, ChatCo, CodeCo, CloudCo, the PaymentsCo dashboard,
 the production database, and every third-party service holding Cypher Group
 information classified Internal or above.
 
@@ -390,7 +390,7 @@ accounts and non-human service accounts and API keys.
 
 4.2.1 All work credentials **shall** be stored in the Cypher Group-provided password manager.
 
-4.2.2 Credentials **shall not** be stored in browser password stores, spreadsheets, documents, notes applications, Slack messages, Jira tickets or source code.
+4.2.2 Credentials **shall not** be stored in browser password stores, spreadsheets, documents, notes applications, ChatCo messages, Jira tickets or source code.
 
 4.2.3 The password manager master password **shall** be a minimum of 16 characters, **shall** be unique, and **shall not** be recorded anywhere in electronic form.
 
@@ -398,7 +398,7 @@ accounts and non-human service accounts and API keys.
 
 ### 4.3 Multi-factor authentication
 
-4.3.1 Multi-factor authentication **shall** be enabled on **all** Cypher Group accounts, without exception, on the following systems as a minimum: Google Workspace, Slack, GitHub, Amazon Web Services, the Stripe dashboard, and the production database administration interface.
+4.3.1 Multi-factor authentication **shall** be enabled on **all** Cypher Group accounts, without exception, on the following systems as a minimum: OfficeCo, ChatCo, CodeCo, CloudCo, the PaymentsCo dashboard, and the production database administration interface.
 
 4.3.2 MFA **shall** be enrolled within **one business day** of account creation. Access to Confidential or Restricted information **shall not** be granted before enrolment is verified.
 
@@ -418,7 +418,7 @@ accounts and non-human service accounts and API keys.
 
 4.4.2 Shared accounts **shall** be avoided. Where a platform makes a shared account technically unavoidable, it **shall** be recorded in the shared account register with a named accountable owner, the credential **shall** be held only in the password manager, and the credential **shall** be rotated within **four hours** of any person with access departing or changing role.
 
-4.4.3 The **AWS root account** **shall** be protected by a hardware MFA device, **shall not** be used for routine administration, and its credentials **shall** be sealed and held by the CTO. Any use of the root account **shall** generate an alert and **shall** be documented.
+4.4.3 The **CloudCo root account** **shall** be protected by a hardware MFA device, **shall not** be used for routine administration, and its credentials **shall** be sealed and held by the CTO. Any use of the root account **shall** generate an alert and **shall** be documented.
 
 4.4.4 Break-glass emergency access credentials **shall** be sealed, stored in the password manager under CTO control, alerted on use, and rotated within 24 hours of any use.
 
@@ -426,7 +426,7 @@ accounts and non-human service accounts and API keys.
 
 4.5.1 Non-human service account credentials and API keys **shall** be rotated at least every **180 days**, and immediately on suspected compromise.
 
-4.5.2 Secrets **shall not** be committed to any GitHub repository. GitHub secret scanning and push protection **shall** remain enabled on all Cypher Group repositories.
+4.5.2 Secrets **shall not** be committed to any CodeCo repository. CodeCo secret scanning and push protection **shall** remain enabled on all Cypher Group repositories.
 
 4.5.3 Where a secret is found to have been committed, it **shall** be treated as compromised, rotated immediately, and reported under CGI-POL-005 — removing the commit alone is not sufficient remediation.
 
@@ -434,7 +434,7 @@ accounts and non-human service accounts and API keys.
 
 ### 4.6 Single sign-on and account lockout
 
-4.6.1 Where a third-party service supports single sign-on through Google Workspace, Cypher Group **shall** enable it, so that account deprovisioning is centralised.
+4.6.1 Where a third-party service supports single sign-on through OfficeCo, Cypher Group **shall** enable it, so that account deprovisioning is centralised.
 
 4.6.2 Accounts **shall** be temporarily locked for 15 minutes after 10 consecutive failed authentication attempts, and the event **shall** be logged. Permanent lockout **shall not** be used, as it enables denial-of-service against legitimate users.
 
@@ -521,7 +521,7 @@ The lifecycle is referred to throughout as **JML — Joiner, Mover, Leaver**.
 ## 2. Scope
 
 This policy applies to all personnel and to all Cypher Group systems and data,
-including Google Workspace, Slack, GitHub, Amazon Web Services, the Stripe
+including OfficeCo, ChatCo, CodeCo, CloudCo, the PaymentsCo
 dashboard, the production database, the customer support platform and all
 approved third-party services.
 
@@ -559,12 +559,12 @@ access to Cypher Group systems.
 
 | Role profile | Default access granted | Access explicitly excluded |
 |---|---|---|
-| Engineering | Google Workspace, Slack, GitHub (write, non-admin), AWS non-production, ticketing | AWS production, Stripe, production database, billing |
-| Engineering (on-call) | Engineering profile plus AWS production (time-bounded), production database read | Stripe, billing, HR records |
-| Customer Success | Google Workspace, Slack, support platform, customer account read | Source code, AWS, Stripe, HR records |
-| Sales | Google Workspace, Slack, CRM, customer account read | Source code, AWS, Stripe, production database |
-| Finance | Google Workspace, Slack, Stripe dashboard, accounting platform | Source code, AWS, production database, HR records |
-| People and Operations | Google Workspace, Slack, HR platform, payroll | Source code, AWS, Stripe, customer data |
+| Engineering | OfficeCo, ChatCo, CodeCo (write, non-admin), CloudCo non-production, ticketing | CloudCo production, PaymentsCo, production database, billing |
+| Engineering (on-call) | Engineering profile plus CloudCo production (time-bounded), production database read | PaymentsCo, billing, HR records |
+| Customer Success | OfficeCo, ChatCo, support platform, customer account read | Source code, CloudCo, PaymentsCo, HR records |
+| Sales | OfficeCo, ChatCo, CRM, customer account read | Source code, CloudCo, PaymentsCo, production database |
+| Finance | OfficeCo, ChatCo, PaymentsCo dashboard, accounting platform | Source code, CloudCo, production database, HR records |
+| People and Operations | OfficeCo, ChatCo, HR platform, payroll | Source code, CloudCo, PaymentsCo, customer data |
 | Administrator | Named separate admin account with elevated rights on a specific system | Use for day-to-day work |
 
 4.2.2 Role profiles **shall** be reviewed at least annually by the CTO and the relevant department head.
@@ -599,7 +599,7 @@ access to Cypher Group systems.
 
 4.5.1 The Head of People and Operations **shall** notify the IT Operations Manager and the CTO **immediately** upon a resignation being tendered or a termination decision being made, and **shall** confirm the exact effective date and time of departure.
 
-4.5.2 **All access shall be revoked within four hours of the effective termination time.** This includes Google Workspace, Slack, GitHub, AWS, Stripe, the production database, the support platform, all third-party services, and any physical access credential.
+4.5.2 **All access shall be revoked within four hours of the effective termination time.** This includes OfficeCo, ChatCo, CodeCo, CloudCo, PaymentsCo, the production database, the support platform, all third-party services, and any physical access credential.
 
 4.5.3 For **involuntary terminations**, access revocation **shall** be executed **simultaneously with**, and not after, the notification meeting.
 
@@ -607,7 +607,7 @@ access to Cypher Group systems.
 
 4.5.5 Any API key, deploy key, personal access token or service credential created by the departing individual **shall** be identified and rotated within **five business days**.
 
-4.5.6 The departing individual's Google Workspace and Slack accounts **shall** be **suspended, not deleted**, for a minimum of **90 days**, so that records remain available for business continuity and any investigation. Deletion after 90 days requires line manager confirmation.
+4.5.6 The departing individual's OfficeCo and ChatCo accounts **shall** be **suspended, not deleted**, for a minimum of **90 days**, so that records remain available for business continuity and any investigation. Deletion after 90 days requires line manager confirmation.
 
 4.5.7 Ownership of files, documents and tickets held by the departing individual **shall** be transferred to their line manager before suspension.
 
@@ -754,15 +754,15 @@ store, transmit or dispose of it.
 | Tier | Definition | Impact if disclosed without authorisation | Cypher Group examples |
 |---|---|---|---|
 | Public | Information approved for release to anyone, including outside the company | No adverse impact | Marketing website copy, published pricing, job advertisements, public API documentation, press releases |
-| Internal | Information intended for personnel and approved contractors, not for public release | Minor adverse impact; embarrassment or minor competitive disadvantage | Team wiki pages, org chart, internal roadmap, meeting notes, most Slack channels, this policy pack |
+| Internal | Information intended for personnel and approved contractors, not for public release | Minor adverse impact; embarrassment or minor competitive disadvantage | Team wiki pages, org chart, internal roadmap, meeting notes, most ChatCo channels, this policy pack |
 | Confidential | Information whose disclosure would cause material harm to Cypher Group, a customer or an individual | Material harm; contractual breach, lost customers, regulatory attention | Customer account data, application source code, customer contracts, employee records, support tickets, unreleased product designs |
-| Restricted | The most sensitive information, disclosure of which would cause severe harm; access is limited to a named list | Severe harm; existential business or regulatory consequence | Stripe payment metadata, production database credentials, AWS root credentials, API keys and secrets, security incident records, bulk exports of customer personal data |
+| Restricted | The most sensitive information, disclosure of which would cause severe harm; access is limited to a named list | Severe harm; existential business or regulatory consequence | PaymentsCo payment metadata, production database credentials, CloudCo root credentials, API keys and secrets, security incident records, bulk exports of customer personal data |
 
 4.1.2 **Default classification.** Information that has not been explicitly classified **shall** be treated as **Internal**. Personnel **shall not** treat unlabelled information as Public.
 
 4.1.3 **Aggregation.** A collection of lower-tier records **may** warrant a higher classification than any individual record. A single customer's contact detail is Confidential; a full export of all 200 customer records is **Restricted**.
 
-4.1.4 **Payment data scope.** Cypher Group **does not store payment card numbers**. Card data is held by Stripe. Cypher Group holds **payment metadata** — amounts, dates, transaction identifiers and the customer account they relate to — which is classified **Restricted**.
+4.1.4 **Payment data scope.** Cypher Group **does not store payment card numbers**. Card data is held by PaymentsCo. Cypher Group holds **payment metadata** — amounts, dates, transaction identifiers and the customer account they relate to — which is classified **Restricted**.
 
 ### 4.2 Handling matrix
 
@@ -772,11 +772,11 @@ store, transmit or dispose of it.
 |---|---|---|---|---|
 | Encryption at rest | Not required | Recommended | Required | Required |
 | Encryption in transit | Recommended | Required | Required | Required |
-| Approved storage locations | Any approved system | Google Workspace, Slack, approved SaaS | Google Workspace with restricted sharing, GitHub private repositories, AWS production | Named approved systems only, listed by the data owner |
+| Approved storage locations | Any approved system | OfficeCo, ChatCo, approved SaaS | OfficeCo with restricted sharing, CodeCo private repositories, CloudCo production | Named approved systems only, listed by the data owner |
 | Access basis | Open | All personnel | Role profile plus business need | Named individual list, approved by data owner and CTO |
 | Internal sharing | Unrestricted | Unrestricted within personnel | Business need only | Named list only; no forwarding |
 | External sharing | Permitted | Line manager approval | Data owner approval plus signed NDA or contract | Data owner plus CTO approval plus contract with security terms |
-| Permitted transmission channels | Any | Company email, Slack | Company email, Slack, approved file sharing with link expiry | Approved file sharing with expiry and named recipients only |
+| Permitted transmission channels | Any | Company email, ChatCo | Company email, ChatCo, approved file sharing with link expiry | Approved file sharing with expiry and named recipients only |
 | Removable media | Permitted | Discouraged | CTO approval required | Prohibited |
 | Use in unapproved AI tools | Permitted | Prohibited | Prohibited | Prohibited |
 | Printing | Permitted | Permitted | Permitted, must not be left unattended | Prohibited without CTO approval |
@@ -789,7 +789,7 @@ store, transmit or dispose of it.
 
 4.3.1 Documents classified **Confidential** or **Restricted** **shall** carry the classification in the document header or on the first page.
 
-4.3.2 Slack channels carrying Confidential or Restricted information **shall** be private and **shall** state the classification in the channel description.
+4.3.2 ChatCo channels carrying Confidential or Restricted information **shall** be private and **shall** state the classification in the channel description.
 
 4.3.3 Email containing Restricted information **shall** carry the classification in the subject line.
 
@@ -960,7 +960,7 @@ outside working hours.
 
 | Channel | Detail | Availability |
 |---|---|---|
-| Slack | The private channel `#security-incidents` | 24 hours, monitored with alerting |
+| ChatCo | The private channel `#security-incidents` | 24 hours, monitored with alerting |
 | Email | `security@cyphergroup.example` | 24 hours, alerts to the CTO |
 | Direct | Priya Raman, CTO, or Tomas Whitfield, IT Operations Manager | 24 hours for urgent matters |
 
@@ -976,7 +976,7 @@ outside working hours.
 
 5.3.2 Personnel **shall not** delete emails, files, messages or logs relating to a suspected incident. Evidence preservation is essential.
 
-5.3.3 Personnel **shall not** discuss a suspected or confirmed incident with anyone outside the response team, including customers, on social media, or in public Slack channels, until the Communications Lead authorises it.
+5.3.3 Personnel **shall not** discuss a suspected or confirmed incident with anyone outside the response team, including customers, on social media, or in public ChatCo channels, until the Communications Lead authorises it.
 
 5.3.4 Personnel **shall not** contact the suspected attacker or reply to an extortion demand.
 
@@ -989,7 +989,7 @@ outside working hours.
 | SEV1 | Confirmed compromise of production, customer data or Restricted information; or full service outage | Production database accessed by an unauthorised party; ransomware; bulk customer data exfiltration | 15 minutes | 4 hours | CEO and Board immediately |
 | SEV2 | Probable compromise with contained scope; or significant service degradation | Single employee account confirmed compromised; customer data emailed to wrong recipient | 30 minutes | 8 hours | CEO within 1 hour |
 | SEV3 | Security issue with limited impact and no confirmed data exposure | Phishing link clicked with no credentials entered; lost device with encryption enabled | 4 hours | 2 business days | CTO |
-| SEV4 | Minor issue, near miss, or policy violation with no impact | Reported phishing email, not clicked; misconfigured Slack channel corrected | 1 business day | 5 business days | IT Operations Manager |
+| SEV4 | Minor issue, near miss, or policy violation with no impact | Reported phishing email, not clicked; misconfigured ChatCo channel corrected | 1 business day | 5 business days | IT Operations Manager |
 
 ### 5.5 Response process
 
