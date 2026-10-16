@@ -1,0 +1,6 @@
+Score element,Control credited in CGI-RSK-001 v1.1,Evidence from CGI-AWS-001 / CGI-IAU-001,Decision
+Likelihood,Quarterly privileged access review (CGI-POL-003 s4.7.1),"Not operating: zero reviews ever performed (CGI-IAU-001 WP-17, OFI-15).",Withdrawn
+Likelihood,Role profiles keep most staff out of CloudCo production (CGI-POL-003 s4.2.1),"Operating in name only: every one of the 8 people with access holds full administrator rights, including a forgotten contractor (CF-02, CF-09).",Withdrawn
+Likelihood,A ticket for every access change (CGI-POL-003 s4.1.5),"Not operating: no ticket for the 14 Mar 2025 SSH rule, the contractor account or the June 2024 bucket grant (CF-01, CF-02, CF-03; WP-22).",Withdrawn
+Impact,Encryption at rest for Restricted data (CGI-POL-004 s4.2),"In place but ineffective against this threat: SSE-S3 serves objects decrypted to anyone the bucket policy allows (CF-05). A v1.1 design error, corrected here.",Withdrawn
+Impact,Restricted data only on named approved systems (CGI-POL-004 s4.2),Not operating: a full customer export sits in an unapproved bucket that a third party can read (CF-03); no asset inventory (OFI-18).,Withdrawn

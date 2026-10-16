@@ -1,0 +1,8 @@
+ID,Limitation,Effect
+L-01,Simulated environment,"No real account was scanned. Every configuration result is a labelled scenario built to be consistent with Projects 1-6. The method, commands and mappings are the ones a real review would use."
+L-02,Log coverage,"The only trail covers production eu-central-1. Activity elsewhere before this review cannot be reconstructed, so the CF-02 and CF-03 activity reviews are partial by design."
+L-03,Staging excluded,Staging resources were not assessed. The next quarterly assessment (AWS-17) includes them.
+L-04,Point in time,"Results describe 12-16 October 2026. Without organisation-wide Config, nothing evidences the months before or after (configuration drift)."
+L-05,Manual checks by inquiry,Manual recommendations rest on inspection and inquiry of the CTO and IT Operations Manager. Inquiry alone is weak evidence and is labelled as such.
+L-06,Benchmark version,v5.0.0 is used because it is the version Security Hub CSPM automates. Newer CIS releases exist; re-baselining is on the roadmap (AWS-17).
+L-07,Not engineering,"This is a compliance and configuration review against a published benchmark, not cloud engineering. Remediation steps name the control to implement; an engineer designs and tests the change."
