@@ -5,13 +5,10 @@
 ### Cypher Group Inc. · Version 1.0 · 15 September 2026
 
 > [!IMPORTANT]
-> **Case study notice.** Cypher Group Inc. is a simulated company. Every organisation, person,
-> system, finding, score, date and figure in this document was created to demonstrate applied GRC
-> methodology. **Real product names appear as realistic stand-ins. Every assurance status, DPA status,
-> report period, hosting region and finding attributed to them is invented for this scenario and is not a
-> statement of fact about those companies** — verify any real vendor's posture from its own trust centre.
-> This document is a portfolio artifact and must not be presented as evidence of employment or of a real
-> engagement.
+> **Case study notice.** Cypher Group Inc. and its seventeen suppliers are simulated. Every organisation,
+> person, system, finding, score, date and figure in this document was created to demonstrate applied GRC
+> methodology. This document is a portfolio artifact and must not be presented as evidence of employment or
+> of a real engagement.
 
 | Field | Value |
 |---|---|
@@ -74,7 +71,7 @@ Three prior artifacts point at this work.
 | Source | What it says | What it obliges |
 |---|---|---|
 | **CGI-GAP-001 GAP-006** | **GV.SC Cybersecurity Supply Chain Risk Management = 0 / 4.** "Nothing exists in this Category beyond two fragments." | Four Categories scored 0. GV.SC is the only one that is also a hard commercial blocker — enterprise buyers treat a missing vendor register as an immediate fail. |
-| **CGI-GAP-001 REC-15** | "Build a tiered vendor inventory for AWS, GitHub, Slack, Google Workspace and Stripe with assurance artifacts and DPAs, and add permitted third-party destinations to CGI-POL-004 §4.2." | This is the work order. This document is REC-15 executed. |
+| **CGI-GAP-001 REC-15** | "Build a tiered vendor inventory for CloudCo, CodeCo, ChatCo, OfficeCo and PaymentsCo with assurance artifacts and DPAs, and add permitted third-party destinations to CGI-POL-004 §4.2." | This is the work order. This document is REC-15 executed. |
 | **CGI-POL-004 §4.2** | The Handling Matrix says how each of the four classification tiers must be handled, but **names no permitted or prohibited third-party destinations**. | A Confidential record can today be pasted into an unvetted SaaS tool **without breaching any written rule**. Part 7.5 closes it. |
 
 There is a fourth reason, and it is the honest one. **CGI-RSK-001 v1.0 assessed no supplier-originated
@@ -116,13 +113,13 @@ legal terms, not synonyms.
 - **Data processor** — processes personal data **on the documented instructions of** a controller.
   Cypher Group Inc. is a **processor** for its approximately 200 SMB customers' data (CGI-RSK-001
   assumption A-06).
-- **Sub-processor** — a processor engaged **by a processor**. AWS is Cypher Group Inc.'s sub-processor.
+- **Sub-processor** — a processor engaged **by a processor**. CloudCo is Cypher Group Inc.'s sub-processor.
   Under **Article 28(2)** a processor may not engage one without the controller's prior authorisation,
   and under **Article 28(4)** the processor remains **fully liable to the controller** for the
   sub-processor's failures.
 
-> **That last clause is the commercial heart of this programme. If AWS fails, Cypher Group Inc. is liable
-> to its 200 customers for AWS's failure. Not AWS. Cypher Group Inc.**
+> **That last clause is the commercial heart of this programme. If CloudCo fails, Cypher Group Inc. is liable
+> to its 200 customers for CloudCo's failure. Not CloudCo. Cypher Group Inc.**
 
 - **Fourth party** — *your vendor's vendor, from where you stand.* A positional word, not a legal one.
   Continue and you reach **Nth party**, where practical visibility ends.
@@ -137,7 +134,7 @@ CUSTOMER (controller)
 CYPHER GROUP INC. (processor)          <- liable to the customer for everything below this line
    │ engages
    ▼
-AWS · Google Workspace · Stripe · …    <- SUB-PROCESSORS (third parties to us)
+CloudCo · OfficeCo · PaymentsCo · …    <- SUB-PROCESSORS (third parties to us)
    │ which themselves engage
    ▼
 their own providers                    <- FOURTH PARTIES (largely invisible to us)
@@ -200,7 +197,7 @@ distinction used to score all 22 Categories in CGI-GAP-001.
 4. **CUECs — Complementary User Entity Controls.** Near the back of every SOC 2 sits a list of controls
    the auditor **assumed you** were performing. If you are not, the opinion does not cover your usage.
    Almost nobody reads this list. Reading it is the difference between filing a report and using one —
-   and it is precisely what puts AWS into *pass with conditions* rather than *pass* in Part 5.2.
+   and it is precisely what puts CloudCo into *pass with conditions* rather than *pass* in Part 5.2.
 
 #### Carve-out vs inclusive method
 
@@ -273,16 +270,16 @@ Three reasons this is not pedantry:
 1. **An auditor tests *your* process, not your vendor's paperwork.** ISO 27001 control **A.5.19** requires
    *you* to have a process for information security in supplier relationships. The evidence is **your**
    register, **your** tiering decision, **your** dated review, **your** decision record.
-2. **The vendor's control set does not cover your configuration.** AWS is certified to the hilt and
+2. **The vendor's control set does not cover your configuration.** CloudCo is certified to the hilt and
    **R-005 still sits at residual 12, High**, in Cypher Group Inc.'s own register. That risk lives
    entirely on the customer's side of the shared responsibility model. No provider certificate can touch
    it.
 3. **An unread certificate is a file.** Read, scope-checked, recorded against a tier, a data
    classification, an owner and a review date, it becomes a control.
 
-> **The professional formulation.** *"AWS holds SOC 2 Type II and ISO 27001. Our control is that we
+> **The professional formulation.** *"CloudCo holds SOC 2 Type II and ISO 27001. Our control is that we
 > obtained them, checked the scope and period covered our use, recorded the CUECs we are responsible for,
-> tiered AWS as Tier 1, and set a 12-month re-review with a named owner. The certificate is theirs. The
+> tiered CloudCo as Tier 1, and set a 12-month re-review with a named owner. The certificate is theirs. The
 > process is ours."*
 
 ### 1.6 Vendor tiering — and why it must come first
@@ -294,9 +291,9 @@ classification decide how deeply you assess it and how often you re-check.
 
 1. **Capacity.** A 50-person company with no security hire cannot deeply assess 17 vendors. Untiered, you
    either assess everything badly or assess whatever came up first.
-2. **Defensibility.** "We reviewed Calendly lightly" is indefensible alone. "Calendly scored 3 on the
+2. **Defensibility.** "We reviewed SchedulerCo lightly" is indefensible alone. "SchedulerCo scored 3 on the
    published factors with no escalation trigger, so it is Tier 3 and received the Tier 3 attestation
-   depth, under the same rule that put AWS in Tier 1" is a **method**. Auditors and enterprise buyers
+   depth, under the same rule that put CloudCo in Tier 1" is a **method**. Auditors and enterprise buyers
    test whether a repeatable rule exists, not whether you happened to choose well.
 3. **It forces the right question first.** Tiering asks *"what would we lose if this vendor failed?"* —
    the business question. Assessment asks *"what controls do they have?"* — the technical one. Ask the
@@ -304,7 +301,7 @@ classification decide how deeply you assess it and how often you re-check.
    nothing.
 
 **The input is your exposure, never the vendor's quality.** A vendor's excellence changes the **outcome**
-of the assessment. It never changes the **tier**. Stripe demonstrates this in the inventory: **Tier 1 by
+of the assessment. It never changes the **tier**. PaymentsCo demonstrates this in the inventory: **Tier 1 by
 mandatory trigger, yet only Medium inherent risk** — tier and risk score are two different measurements
 and this document deliberately keeps both.
 
@@ -348,10 +345,10 @@ that matter most are the ones nobody remembers:
 
 | # | Source | What it finds | What it found here |
 |---|---|---|---|
-| 1 | **Known architecture** — the five providers named in CGI-GAP-001 and CGI-RSK-001 | The production stack | AWS, GitHub, Slack, Google Workspace, Stripe |
-| 2 | **Finance — 12 months of card and bank transactions, reconciled line by line** | Anything with a recurring charge, including personal-card expenses | **Otter.ai and Grammarly Business — neither known to IT, neither under contract** |
-| 3 | **Identity — OAuth grants and connected apps in Google Workspace** | Anything holding a token against company data, whether or not it was ever paid for | Calendly's calendar read-write scope; Miro's directory read scope |
-| 4 | **Business owners — one 20-minute conversation per function** | Tools bought by a department, and the business reason for them | HubSpot, Zendesk, Personio, Notion, Figma — plus Auth0 and Datadog from the engineering conversation |
+| 1 | **Known architecture** — the five providers named in CGI-GAP-001 and CGI-RSK-001 | The production stack | CloudCo, CodeCo, ChatCo, OfficeCo, PaymentsCo |
+| 2 | **Finance — 12 months of card and bank transactions, reconciled line by line** | Anything with a recurring charge, including personal-card expenses | **ScribeCo and WriteCo — neither known to IT, neither under contract** |
+| 3 | **Identity — OAuth grants and connected apps in OfficeCo** | Anything holding a token against company data, whether or not it was ever paid for | SchedulerCo's calendar read-write scope; WhiteboardCo's directory read scope |
+| 4 | **Business owners — one 20-minute conversation per function** | Tools bought by a department, and the business reason for them | CRMCo, SupportCo, HRCo, WikiCo, DesignCo — plus LoginCo and MonitorCo from the engineering conversation |
 
 > **This is the single most transferable technique in the document.** Source 1 finds what you already
 > knew. **Sources 2 and 3 find what you did not** — and in this exercise they produced two vendors
@@ -372,23 +369,23 @@ The view below is the readable one.
 
 | Vendor ID | Vendor | Service | Owner (Job Title) | Class. | Hosting | Sub-proc. | DPA | Assurance Held | Tier | Inherent | Status | Next Review | Risk ID | CSF |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| CGI-VEN-001 | Amazon Web Services (AWS) | Cloud hosting and infrastructure for the production platform | Chief Technology Officer | Restricted | eu-central-1 (Frankfurt), with us-east-1 for backups | Y | Y - 14 Feb 2024 | SOC 2 Type II (period ended 30 Jun 2026) + ISO/IEC 27001, 27017, 27018 - held on file | **1** | **10** High | Assessed - PASS WITH CONDITIONS (VRA-2026-001) | 15 Dec 2026 (conditions) / 15 Sep 2027 (full) | R-005, R-002 | PR.IR, GV.SC, PR.DS |
-| CGI-VEN-002 | GitHub (Microsoft) | Source code hosting, CI/CD pipeline and secrets store | Chief Technology Officer | Confidential | United States (multi-region) | Y | Y - 09 Mar 2024 | SOC 2 Type II (period ended 31 Mar 2026) + ISO/IEC 27001 - held on file | **1** | **15** Critical | Assessed - Pass (VRA-2026-004) | 15 Sep 2027 | R-004 | PR.PS, GV.SC |
-| CGI-VEN-003 | Google Workspace | Email, documents, shared drives and primary identity provider | IT Operations Manager | Confidential | EU and US (global regions) | Y | Y - 22 Jan 2024 | SOC 2 Type II (period ended 31 May 2026) + ISO/IEC 27001, 27017, 27018 - held on file | **1** | **12** High | Assessed - Pass (VRA-2026-005) | 15 Sep 2027 | R-001, R-003 | PR.AA, PR.DS, GV.SC |
-| CGI-VEN-004 | Slack (Salesforce) | Internal communications, incident channel and customer-facing shared channels | IT Operations Manager | Confidential | United States | Y | N - NOT EXECUTED | SOC 2 Type II (period ended 30 Nov 2025) - held on file, 9.5 months stale, no bridge letter | **1** | **12** High | Assessed - FAIL (VRA-2026-002) | 15 Dec 2026 (re-assessment) | R-001, R-003 | GV.SC, PR.DS, RS.CO |
-| CGI-VEN-005 | Stripe | Payment processing and subscription billing | Finance Manager | Restricted | United States and Ireland | Y | Y - 05 Apr 2024 | SOC 2 Type II (period ended 30 Apr 2026) + PCI DSS Level 1 AoC + ISO/IEC 27001 - held on file | **1** | **8** Medium | Assessed - Pass (VRA-2026-006) | 15 Sep 2027 | R-005 | GV.SC, PR.DS |
-| CGI-VEN-006 | Auth0 (Okta) | Customer identity and authentication for the CGI platform | Chief Technology Officer | Confidential | eu (Frankfurt) tenant | Y | Y - 17 Jun 2024 | SOC 2 Type II (period ended 28 Feb 2026) + ISO/IEC 27001 - held on file | **1** | **10** High | Assessed - Pass (VRA-2026-007) | 15 Sep 2027 | R-001, R-004 | PR.AA, GV.SC |
-| CGI-VEN-007 | Datadog | Application performance monitoring and application log search (engineering use; not configured as a security log source) | Chief Technology Officer | Confidential | eu1 (Frankfurt) | Y | Y - 11 Nov 2025 | SOC 2 Type II (period ended 30 Jun 2026) + ISO/IEC 27001 - held on file | **1** | **12** High | Assessed - Pass (VRA-2026-008) | 15 Sep 2027 | R-003, R-005 | DE.CM, GV.SC |
-| CGI-VEN-008 | HubSpot | CRM, marketing automation and customer lifecycle management | Head of Customer Success | Confidential | EU (Frankfurt) data centre | Y | Y - 30 Aug 2024 | SOC 2 Type II (period ended 31 Jan 2026) - held on file | **2** | **12** High | Assessed - Pass with observation | 15 Mar 2028 | R-003 | GV.SC, PR.DS |
-| CGI-VEN-009 | Zendesk | Customer support ticketing and help centre | Head of Customer Success | Confidential | EU (Frankfurt) | Y | Y - 14 Oct 2024 | SOC 2 Type II (period ended 31 Mar 2026) + ISO/IEC 27001 - held on file | **2** | **9** Medium | Assessed - Pass | 15 Mar 2028 | R-001, R-003 | GV.SC, RS.CO |
-| CGI-VEN-010 | Personio | HR information system, employee records and onboarding workflow | Head of People and Operations | Confidential | EU (Germany) | Y | Y - 03 Feb 2025 | ISO/IEC 27001 - held on file. No SOC 2 published | **2** | **6** Medium | Assessed - Pass | 15 Mar 2028 | R-003 | GV.SC |
-| CGI-VEN-011 | Notion | Internal knowledge base, runbooks and project documentation | Chief Technology Officer | Confidential | United States | Y | N - NOT EXECUTED (team plan, DPA never countersigned) | SOC 2 Type II (period ended 31 Dec 2025) - vendor publishes, NOT obtained by CGI | **2** | **9** Medium | Assessed - Pass with conditions | 15 Mar 2028 | R-003 | GV.SC, PR.DS |
-| CGI-VEN-012 | Otter.ai | AI meeting transcription and summarisation (joins customer and internal calls) | Head of Customer Success | Confidential | United States | N - not disclosed | N - NO CONTRACT OF ANY KIND | None held | **2** | **16** Critical | SHADOW IT - discovered 15 Sep 2026 in expense review; assessment in progress | 15 Oct 2026 (decision due) | R-003 | GV.SC, PR.DS, GV.OC |
-| CGI-VEN-013 | Grammarly Business | AI writing assistance browser extension | Head of People and Operations | Confidential | United States | N - not disclosed | N - individual licences on expense | None held (vendor publishes SOC 2 Type II - not obtained by CGI) | **2** | **12** High | Assessed - Pass with conditions (extension scope restricted) | 15 Mar 2028 | R-003 | GV.SC, PR.DS |
-| CGI-VEN-014 | Figma | Product and interface design | Chief Technology Officer | Internal | United States | Y | Y - 19 May 2025 | SOC 2 Type II (period ended 30 Apr 2026) - held on file | **3** | **4** Low | Assessed - Accepted (light touch) | 15 Sep 2028 | - | GV.SC |
-| CGI-VEN-015 | Calendly | External meeting scheduling | Head of Customer Success | Confidential | United States | Y | Y - 08 Jul 2025 | SOC 2 Type II (period ended 28 Feb 2026) - held on file | **3** | **4** Low | Assessed - ACCEPTED with documented justification (VRA-2026-003) | 15 Sep 2028 | - | GV.SC |
-| CGI-VEN-016 | Miro | Collaborative whiteboarding for workshops and architecture sessions | Chief Technology Officer | Internal | EU and US | Y | N - NOT EXECUTED | None held (vendor publishes SOC 2 Type II - not obtained by CGI) | **3** | **4** Low | Assessed - Accepted (light touch), DPA action open | 15 Sep 2028 | - | GV.SC |
-| CGI-VEN-017 | Atlassian Statuspage | Public service status page (required by CGI-GAP-001 REC-14) | Head of Customer Success | Public | United States | Pending | Pending - in contract review | None held - onboarding in progress | **3** | **4** Low | ONBOARDING - in assessment under the CGI-TPR-001 workflow | On go-live | R-002 | RC.CO, GV.SC |
+| CGI-VEN-001 | CloudCo | Cloud hosting and infrastructure for the production platform | Chief Technology Officer | Restricted | eu-central-1 (Frankfurt), with us-east-1 for backups | Y | Y - 14 Feb 2024 | SOC 2 Type II (period ended 30 Jun 2026) + ISO/IEC 27001, 27017, 27018 - held on file | **1** | **10** High | Assessed - PASS WITH CONDITIONS (VRA-2026-001) | 15 Dec 2026 (conditions) / 15 Sep 2027 (full) | R-005, R-002 | PR.IR, GV.SC, PR.DS |
+| CGI-VEN-002 | CodeCo | Source code hosting, CI/CD pipeline and secrets store | Chief Technology Officer | Confidential | United States (multi-region) | Y | Y - 09 Mar 2024 | SOC 2 Type II (period ended 31 Mar 2026) + ISO/IEC 27001 - held on file | **1** | **15** Critical | Assessed - Pass (VRA-2026-004) | 15 Sep 2027 | R-004 | PR.PS, GV.SC |
+| CGI-VEN-003 | OfficeCo | Email, documents, shared drives and primary identity provider | IT Operations Manager | Confidential | EU and US (global regions) | Y | Y - 22 Jan 2024 | SOC 2 Type II (period ended 31 May 2026) + ISO/IEC 27001, 27017, 27018 - held on file | **1** | **12** High | Assessed - Pass (VRA-2026-005) | 15 Sep 2027 | R-001, R-003 | PR.AA, PR.DS, GV.SC |
+| CGI-VEN-004 | ChatCo | Internal communications, incident channel and customer-facing shared channels | IT Operations Manager | Confidential | United States | Y | N - NOT EXECUTED | SOC 2 Type II (period ended 30 Nov 2025) - held on file, 9.5 months stale, no bridge letter | **1** | **12** High | Assessed - FAIL (VRA-2026-002) | 15 Dec 2026 (re-assessment) | R-001, R-003 | GV.SC, PR.DS, RS.CO |
+| CGI-VEN-005 | PaymentsCo | Payment processing and subscription billing | Finance Manager | Restricted | United States and Ireland | Y | Y - 05 Apr 2024 | SOC 2 Type II (period ended 30 Apr 2026) + PCI DSS Level 1 AoC + ISO/IEC 27001 - held on file | **1** | **8** Medium | Assessed - Pass (VRA-2026-006) | 15 Sep 2027 | R-005 | GV.SC, PR.DS |
+| CGI-VEN-006 | LoginCo | Customer identity and authentication for the CGI platform | Chief Technology Officer | Confidential | eu (Frankfurt) tenant | Y | Y - 17 Jun 2024 | SOC 2 Type II (period ended 28 Feb 2026) + ISO/IEC 27001 - held on file | **1** | **10** High | Assessed - Pass (VRA-2026-007) | 15 Sep 2027 | R-001, R-004 | PR.AA, GV.SC |
+| CGI-VEN-007 | MonitorCo | Application performance monitoring and application log search (engineering use; not configured as a security log source) | Chief Technology Officer | Confidential | eu1 (Frankfurt) | Y | Y - 11 Nov 2025 | SOC 2 Type II (period ended 30 Jun 2026) + ISO/IEC 27001 - held on file | **1** | **12** High | Assessed - Pass (VRA-2026-008) | 15 Sep 2027 | R-003, R-005 | DE.CM, GV.SC |
+| CGI-VEN-008 | CRMCo | CRM, marketing automation and customer lifecycle management | Head of Customer Success | Confidential | EU (Frankfurt) data centre | Y | Y - 30 Aug 2024 | SOC 2 Type II (period ended 31 Jan 2026) - held on file | **2** | **12** High | Assessed - Pass with observation | 15 Mar 2028 | R-003 | GV.SC, PR.DS |
+| CGI-VEN-009 | SupportCo | Customer support ticketing and help centre | Head of Customer Success | Confidential | EU (Frankfurt) | Y | Y - 14 Oct 2024 | SOC 2 Type II (period ended 31 Mar 2026) + ISO/IEC 27001 - held on file | **2** | **9** Medium | Assessed - Pass | 15 Mar 2028 | R-001, R-003 | GV.SC, RS.CO |
+| CGI-VEN-010 | HRCo | HR information system, employee records and onboarding workflow | Head of People and Operations | Confidential | EU (Germany) | Y | Y - 03 Feb 2025 | ISO/IEC 27001 - held on file. No SOC 2 published | **2** | **6** Medium | Assessed - Pass | 15 Mar 2028 | R-003 | GV.SC |
+| CGI-VEN-011 | WikiCo | Internal knowledge base, runbooks and project documentation | Chief Technology Officer | Confidential | United States | Y | N - NOT EXECUTED (team plan, DPA never countersigned) | SOC 2 Type II (period ended 31 Dec 2025) - vendor publishes, NOT obtained by CGI | **2** | **9** Medium | Assessed - Pass with conditions | 15 Mar 2028 | R-003 | GV.SC, PR.DS |
+| CGI-VEN-012 | ScribeCo | AI meeting transcription and summarisation (joins customer and internal calls) | Head of Customer Success | Confidential | United States | N - not disclosed | N - NO CONTRACT OF ANY KIND | None held | **2** | **16** Critical | SHADOW IT - discovered 15 Sep 2026 in expense review; assessment in progress | 15 Oct 2026 (decision due) | R-003 | GV.SC, PR.DS, GV.OC |
+| CGI-VEN-013 | WriteCo | AI writing assistance browser extension | Head of People and Operations | Confidential | United States | N - not disclosed | N - individual licences on expense | None held (vendor publishes SOC 2 Type II - not obtained by CGI) | **2** | **12** High | Assessed - Pass with conditions (extension scope restricted) | 15 Mar 2028 | R-003 | GV.SC, PR.DS |
+| CGI-VEN-014 | DesignCo | Product and interface design | Chief Technology Officer | Internal | United States | Y | Y - 19 May 2025 | SOC 2 Type II (period ended 30 Apr 2026) - held on file | **3** | **4** Low | Assessed - Accepted (light touch) | 15 Sep 2028 | - | GV.SC |
+| CGI-VEN-015 | SchedulerCo | External meeting scheduling | Head of Customer Success | Confidential | United States | Y | Y - 08 Jul 2025 | SOC 2 Type II (period ended 28 Feb 2026) - held on file | **3** | **4** Low | Assessed - ACCEPTED with documented justification (VRA-2026-003) | 15 Sep 2028 | - | GV.SC |
+| CGI-VEN-016 | WhiteboardCo | Collaborative whiteboarding for workshops and architecture sessions | Chief Technology Officer | Internal | EU and US | Y | N - NOT EXECUTED | None held (vendor publishes SOC 2 Type II - not obtained by CGI) | **3** | **4** Low | Assessed - Accepted (light touch), DPA action open | 15 Sep 2028 | - | GV.SC |
+| CGI-VEN-017 | StatusCo | Public service status page (required by CGI-GAP-001 REC-14) | Head of Customer Success | Public | United States | Pending | Pending - in contract review | None held - onboarding in progress | **3** | **4** Low | ONBOARDING - in assessment under the CGI-TPR-001 workflow | On go-live | R-002 | RC.CO, GV.SC |
 
 *The three assessments in Part 5 are published in full. VRA-2026-004 to -008 and the Tier 2 and Tier 3 reviews are recorded in the inventory only.*
 
@@ -396,23 +393,23 @@ The view below is the readable one.
 
 | Vendor ID | Vendor | Data Types | Volume / Criticality | Assessor note |
 |---|---|---|---|---|
-| CGI-VEN-001 | Amazon Web Services (AWS) | Customer account data, project content, payment metadata, backups, application logs | All production data for approx. 200 customers / Critical | Carve-out method; four CUECs unaccepted. No CIS baseline on the CGI side (CG-03). |
-| CGI-VEN-002 | GitHub (Microsoft) | Application source code, infrastructure-as-code, CI secrets, deployment credentials | 100% of the codebase / Critical | No branch protection on the CGI side (CG-02). Vendor control strong; our use of it is not. |
-| CGI-VEN-003 | Google Workspace | Internal documents, employee email, contracts, limited customer PII | 50 mailboxes, all internal documents / High | No data-egress monitoring on the CGI side (CG-05). Acts as IdP, so a compromise is estate-wide. |
-| CGI-VEN-004 | Slack (Salesforce) | Internal discussion, pasted credentials and screenshots, incidental customer PII, incident traffic | 50 users, 3 shared channels with customers / High | No DPA; no SCIM so CGI-POL-003 4.5.2 four-hour revocation is not technically achievable; unlimited retention; guest access uncontrolled. |
-| CGI-VEN-005 | Stripe | Billing contact details, payment metadata, invoices. No PAN held by CGI (AVD-001) | approx. 200 billing relationships, USD 3.6M ARR / High | Tier 1 by Restricted-data trigger yet only Medium inherent risk - tier and score are different measures. |
-| CGI-VEN-006 | Auth0 (Okta) | Customer end-user identifiers, credentials, session and MFA enrolment data | approx. 9,000 end-user identities across 200 customers / Critical | Single point of authentication failure for every customer tenant. |
-| CGI-VEN-007 | Datadog | Production application logs, infrastructure telemetry, traces containing customer identifiers | All production log traffic / High | Log scrubbing rules not verified; agent holds read access across production hosts. |
-| CGI-VEN-008 | HubSpot | Customer and prospect contact PII, commercial terms, support correspondence | approx. 200 customer accounts plus approx. 4,000 prospect records / Medium | Largest single concentration of contact PII outside the platform. Marketing integrations not inventoried. |
-| CGI-VEN-009 | Zendesk | Support tickets, customer screenshots and attachments, occasional credentials pasted by users | approx. 350 tickets per month / Medium | Attachment content is the exposure, not the ticket text. |
-| CGI-VEN-010 | Personio | Employee personal data, contracts, payroll reference data, onboarding records | 50 employee records / Medium | Feeds the CGI-POL-003 joiner-mover-leaver process; an outage delays revocation evidence. |
-| CGI-VEN-011 | Notion | Internal procedures, architecture notes, meeting records, occasional customer names | approx. 1,200 pages / Medium | Public-share links are enabled tenant-wide and have never been audited. |
-| CGI-VEN-012 | Otter.ai | Full audio and transcripts of internal and customer calls, including commercial and security discussion | approx. 40 meetings per month / Medium | Procured on a personal card. Breaches CGI-POL-001 4.5 (AI use). Model-training terms unreviewed. |
-| CGI-VEN-013 | Grammarly Business | Any text typed into any web field, including Slack, Notion, the CGI admin console and email | 12 seats / Medium | Scored 3 on the tiering factors; escalated to Tier 2 by trigger T2-f. Reads Confidential text by design. |
-| CGI-VEN-014 | Figma | UI designs, unreleased feature mock-ups, marketing assets. No customer data | 8 seats / Low | Roadmap confidentiality is the only exposure. |
-| CGI-VEN-015 | Calendly | Invitee name, email address, meeting subject line. No account or platform data | approx. 120 bookings per month / Low | Calendar read-write scope is the only privilege of note. Replaceable within one business day. |
-| CGI-VEN-016 | Miro | Architecture diagrams, workshop output, retrospective notes | 20 seats / Low | Architecture diagrams are a reconnaissance aid if the board is publicly shared. |
-| CGI-VEN-017 | Atlassian Statuspage | Incident status text and subscriber email addresses only | approx. 200 subscribers expected / Low | First vendor onboarded through the new workflow; used as the worked example in Part 7. |
+| CGI-VEN-001 | CloudCo | Customer account data, project content, payment metadata, backups, application logs | All production data for approx. 200 customers / Critical | Carve-out method; four CUECs unaccepted. No CIS baseline on the CGI side (CG-03). |
+| CGI-VEN-002 | CodeCo | Application source code, infrastructure-as-code, CI secrets, deployment credentials | 100% of the codebase / Critical | No branch protection on the CGI side (CG-02). Vendor control strong; our use of it is not. |
+| CGI-VEN-003 | OfficeCo | Internal documents, employee email, contracts, limited customer PII | 50 mailboxes, all internal documents / High | No data-egress monitoring on the CGI side (CG-05). Acts as IdP, so a compromise is estate-wide. |
+| CGI-VEN-004 | ChatCo | Internal discussion, pasted credentials and screenshots, incidental customer PII, incident traffic | 50 users, 3 shared channels with customers / High | No DPA; no SCIM so CGI-POL-003 4.5.2 four-hour revocation is not technically achievable; unlimited retention; guest access uncontrolled. |
+| CGI-VEN-005 | PaymentsCo | Billing contact details, payment metadata, invoices. No PAN held by CGI (AVD-001) | approx. 200 billing relationships, USD 3.6M ARR / High | Tier 1 by Restricted-data trigger yet only Medium inherent risk - tier and score are different measures. |
+| CGI-VEN-006 | LoginCo | Customer end-user identifiers, credentials, session and MFA enrolment data | approx. 9,000 end-user identities across 200 customers / Critical | Single point of authentication failure for every customer tenant. |
+| CGI-VEN-007 | MonitorCo | Production application logs, infrastructure telemetry, traces containing customer identifiers | All production log traffic / High | Log scrubbing rules not verified; agent holds read access across production hosts. |
+| CGI-VEN-008 | CRMCo | Customer and prospect contact PII, commercial terms, support correspondence | approx. 200 customer accounts plus approx. 4,000 prospect records / Medium | Largest single concentration of contact PII outside the platform. Marketing integrations not inventoried. |
+| CGI-VEN-009 | SupportCo | Support tickets, customer screenshots and attachments, occasional credentials pasted by users | approx. 350 tickets per month / Medium | Attachment content is the exposure, not the ticket text. |
+| CGI-VEN-010 | HRCo | Employee personal data, contracts, payroll reference data, onboarding records | 50 employee records / Medium | Feeds the CGI-POL-003 joiner-mover-leaver process; an outage delays revocation evidence. |
+| CGI-VEN-011 | WikiCo | Internal procedures, architecture notes, meeting records, occasional customer names | approx. 1,200 pages / Medium | Public-share links are enabled tenant-wide and have never been audited. |
+| CGI-VEN-012 | ScribeCo | Full audio and transcripts of internal and customer calls, including commercial and security discussion | approx. 40 meetings per month / Medium | Procured on a personal card. Breaches CGI-POL-001 4.5 (AI use). Model-training terms unreviewed. |
+| CGI-VEN-013 | WriteCo | Any text typed into any web field, including ChatCo, WikiCo, the CGI admin console and email | 12 seats / Medium | Scored 3 on the tiering factors; escalated to Tier 2 by trigger T2-f. Reads Confidential text by design. |
+| CGI-VEN-014 | DesignCo | UI designs, unreleased feature mock-ups, marketing assets. No customer data | 8 seats / Low | Roadmap confidentiality is the only exposure. |
+| CGI-VEN-015 | SchedulerCo | Invitee name, email address, meeting subject line. No account or platform data | approx. 120 bookings per month / Low | Calendar read-write scope is the only privilege of note. Replaceable within one business day. |
+| CGI-VEN-016 | WhiteboardCo | Architecture diagrams, workshop output, retrospective notes | 20 seats / Low | Architecture diagrams are a reconnaissance aid if the board is publicly shared. |
+| CGI-VEN-017 | StatusCo | Incident status text and subscriber email addresses only | approx. 200 subscribers expected / Low | First vendor onboarded through the new workflow; used as the worked example in Part 7. |
 
 ### 2.4 What the inventory says before a single assessment was run
 
@@ -422,13 +419,13 @@ The view below is the readable one.
 | Tier 1 — Critical | **7** | Each one, failing, is a customer-visible or data-loss event. |
 | Tier 2 — Important | **6** | |
 | Tier 3 — Limited | **4** | |
-| **Operating with no executed DPA** | **6 of 17 (35%)** | 5 never executed, 1 pending. Four of the six already hold Confidential data (Slack, Notion, Otter.ai, Grammarly). **A GDPR Article 28 gap today, not a future risk.** → **VR-001** |
-| **No assurance artifact held on file** | **4 of 17 (24%)** | Notion, Otter.ai, Grammarly and Miro. Three of them *publish* a SOC 2; Cypher Group Inc. simply never obtained one. Statuspage, still onboarding, is not counted. **The vendor having it is not the same as us holding it.** |
-| Discovered outside any procurement process | **2** | Otter.ai and Grammarly — both AI processors of Confidential text. → **VR-005**, **VR-006** |
-| Vendors at inherent **Critical** (15–25) | **2** | GitHub (15) and Otter.ai (16). |
+| **Operating with no executed DPA** | **6 of 17 (35%)** | 5 never executed, 1 pending. Four of the six already hold Confidential data (ChatCo, WikiCo, ScribeCo, WriteCo). **A GDPR Article 28 gap today, not a future risk.** → **VR-001** |
+| **No assurance artifact held on file** | **4 of 17 (24%)** | WikiCo, ScribeCo, WriteCo and WhiteboardCo. Three of them *publish* a SOC 2; Cypher Group Inc. simply never obtained one. StatusCo, still onboarding, is not counted. **The vendor having it is not the same as us holding it.** |
+| Discovered outside any procurement process | **2** | ScribeCo and WriteCo — both AI processors of Confidential text. → **VR-005**, **VR-006** |
+| Vendors at inherent **Critical** (15–25) | **2** | CodeCo (15) and ScribeCo (16). |
 | Vendors at inherent **High** (10–14) | **7** | |
 | Aggregate inherent vendor risk | **159** across 17 vendors, mean **9.35** | Recorded as the baseline; Part 6 tracks it. |
-| Tier 1 vendors failing assessment | **1 of 7** | Slack. Part 5.1. |
+| Tier 1 vendors failing assessment | **1 of 7** | ChatCo. Part 5.1. |
 
 **The three findings a CEO needs from this table:**
 
@@ -448,13 +445,13 @@ shows something else. **Several of the vendors above are themselves hosted on th
 provider as the Cypher Group Inc. platform.**
 
 ```
-                         AWS  (CGI-VEN-001)
-                           │
-        ┌──────────┬───────┼────────┬──────────┬──────────┐
-        ▼          ▼       ▼        ▼          ▼          ▼
-   CGI platform  Datadog  Zendesk  Notion   Calendly   Miro
-   (production)  (our     (customer (our     (external  (workshops)
-                 monitoring) support) runbooks) booking)
+                                CloudCo  (CGI-VEN-001)
+                                      │
+          ┌──────────────┬────────────┼─────────────┬──────────────┬───────────────┐
+          ▼              ▼            ▼             ▼              ▼               ▼
+    CGI platform     MonitorCo    SupportCo      WikiCo       SchedulerCo    WhiteboardCo
+    (production)     (our         (customer      (our         (external      (workshops)
+                     monitoring)  support)       runbooks)    booking)
 ```
 
 **The second-order consequence, which is the whole point of drawing it:** a regional failure at that one
@@ -476,10 +473,10 @@ new. Applying the **"would the existing risk's controls have prevented this?"** 
 
 | Vendor finding | Existing CGI-RSK-001 risk it touches | Would that risk's controls have caught it? | Verdict |
 |---|---|---|---|
-| Google Workspace is the identity provider; a compromise is estate-wide | **R-001** credential compromise | Yes — CGI-POL-002 MFA controls apply directly | **New route.** Update R-001 likelihood at v1.1 |
-| GitHub holds all source code and CI secrets | **R-004** production API authorisation flaw | Yes — this is the same code path CG-02 already describes | **New route.** No new risk |
-| AWS misconfiguration on the Cypher Group Inc. side | **R-005** AWS misconfiguration | Yes — R-005 *is* this risk | **Already covered.** Confirms CG-03 |
-| Zendesk attachments may contain customer data | **R-003** insider exfiltration | Partly — but the actor is a support agent, not a leaver | **New route.** Update R-003 scope |
+| OfficeCo is the identity provider; a compromise is estate-wide | **R-001** credential compromise | Yes — CGI-POL-002 MFA controls apply directly | **New route.** Update R-001 likelihood at v1.1 |
+| CodeCo holds all source code and CI secrets | **R-004** production API authorisation flaw | Yes — this is the same code path CG-02 already describes | **New route.** No new risk |
+| CloudCo misconfiguration on the Cypher Group Inc. side | **R-005** CloudCo misconfiguration | Yes — R-005 *is* this risk | **Already covered.** Confirms CG-03 |
+| SupportCo attachments may contain customer data | **R-003** insider exfiltration | Partly — but the actor is a support agent, not a leaver | **New route.** Update R-003 scope |
 | **No DPA with five vendors** | none | **No — no control in the register addresses contracts at all** | **NEW — VR-001** |
 | **Shared-substrate correlated failure** | none | No | **NEW — VR-002** |
 | **Undisclosed fourth-party transfer** | R-003 superficially resembles it | **No — CGI-POL-003 §4.5.2 four-hour leaver revocation is inert against a vendor API sync** | **NEW — VR-003** |
@@ -537,8 +534,8 @@ the score. This is what stops a low arithmetic total hiding a vendor that can en
   under which the consequence of failure is unacceptable regardless of every other factor.
 - **Why is T2-f (AI processing) a trigger at all?** Because the factor model measures *access*, and an AI
   processor's risk is not about access — it is about **retention, human review and model training after
-  access is legitimately granted.** Grammarly Business scores **3** on the four factors, which would place
-  it in Tier 3, and it reads Confidential text typed into every web field the company uses. Otter.ai
+  access is legitimately granted.** WriteCo scores **3** on the four factors, which would place
+  it in Tier 3, and it reads Confidential text typed into every web field the company uses. ScribeCo
   scores **3** and holds full audio of customer calls. **The arithmetic was wrong for both, so the model
   carries a rule that corrects it.** Stating that openly is stronger than quietly overriding the score.
 - **Why 12 / 18 / 24 months and not annual for everything?** Because an annual review of 17 vendors is 17
@@ -558,32 +555,32 @@ the score. This is what stops a low arithmetic total hiding a vendor that can en
 
 | Vendor ID | Vendor | D Data | A Availability | C Connectivity | R Replaceability | Total | Escalation trigger(s) fired | Tier |
 |---|---|:-:|:-:|:-:|:-:|:-:|---|:-:|
-| CGI-VEN-001 | Amazon Web Services (AWS) | 3 | 3 | 3 | 3 | **12** | T1-a, T1-b, T1-c, T1-d, T1-e | **1** |
-| CGI-VEN-002 | GitHub (Microsoft) | 2 | 2 | 3 | 3 | **10** | T1-c, T1-e | **1** |
-| CGI-VEN-003 | Google Workspace | 2 | 3 | 2 | 3 | **10** | T1-d, T1-e | **1** |
-| CGI-VEN-004 | Slack (Salesforce) | 2 | 2 | 2 | 2 | **8** | T1-e | **1** |
-| CGI-VEN-005 | Stripe | 3 | 2 | 1 | 2 | **8** | T1-a, T1-e | **1** |
-| CGI-VEN-006 | Auth0 (Okta) | 2 | 3 | 2 | 3 | **10** | T1-b, T1-d, T1-e | **1** |
-| CGI-VEN-007 | Datadog | 2 | 1 | 3 | 2 | **8** | T1-b, T1-c | **1** |
-| CGI-VEN-008 | HubSpot | 2 | 1 | 1 | 2 | **6** | - | **2** |
-| CGI-VEN-009 | Zendesk | 2 | 2 | 1 | 1 | **6** | - | **2** |
-| CGI-VEN-010 | Personio | 2 | 1 | 1 | 2 | **6** | - | **2** |
-| CGI-VEN-011 | Notion | 2 | 1 | 0 | 1 | **4** | - | **2** |
-| CGI-VEN-012 | Otter.ai | 2 | 0 | 1 | 0 | **3** | T2-f | **2** |
-| CGI-VEN-013 | Grammarly Business | 2 | 0 | 1 | 0 | **3** | T2-f | **2** |
-| CGI-VEN-014 | Figma | 1 | 1 | 0 | 1 | **3** | - | **3** |
-| CGI-VEN-015 | Calendly | 2 | 0 | 1 | 0 | **3** | - | **3** |
-| CGI-VEN-016 | Miro | 1 | 0 | 0 | 0 | **1** | - | **3** |
-| CGI-VEN-017 | Atlassian Statuspage | 0 | 1 | 0 | 0 | **1** | - | **3** |
+| CGI-VEN-001 | CloudCo | 3 | 3 | 3 | 3 | **12** | T1-a, T1-b, T1-c, T1-d, T1-e | **1** |
+| CGI-VEN-002 | CodeCo | 2 | 2 | 3 | 3 | **10** | T1-c, T1-e | **1** |
+| CGI-VEN-003 | OfficeCo | 2 | 3 | 2 | 3 | **10** | T1-d, T1-e | **1** |
+| CGI-VEN-004 | ChatCo | 2 | 2 | 2 | 2 | **8** | T1-e | **1** |
+| CGI-VEN-005 | PaymentsCo | 3 | 2 | 1 | 2 | **8** | T1-a, T1-e | **1** |
+| CGI-VEN-006 | LoginCo | 2 | 3 | 2 | 3 | **10** | T1-b, T1-d, T1-e | **1** |
+| CGI-VEN-007 | MonitorCo | 2 | 1 | 3 | 2 | **8** | T1-b, T1-c | **1** |
+| CGI-VEN-008 | CRMCo | 2 | 1 | 1 | 2 | **6** | - | **2** |
+| CGI-VEN-009 | SupportCo | 2 | 2 | 1 | 1 | **6** | - | **2** |
+| CGI-VEN-010 | HRCo | 2 | 1 | 1 | 2 | **6** | - | **2** |
+| CGI-VEN-011 | WikiCo | 2 | 1 | 0 | 1 | **4** | - | **2** |
+| CGI-VEN-012 | ScribeCo | 2 | 0 | 1 | 0 | **3** | T2-f | **2** |
+| CGI-VEN-013 | WriteCo | 2 | 0 | 1 | 0 | **3** | T2-f | **2** |
+| CGI-VEN-014 | DesignCo | 1 | 1 | 0 | 1 | **3** | - | **3** |
+| CGI-VEN-015 | SchedulerCo | 2 | 0 | 1 | 0 | **3** | - | **3** |
+| CGI-VEN-016 | WhiteboardCo | 1 | 0 | 0 | 0 | **1** | - | **3** |
+| CGI-VEN-017 | StatusCo | 0 | 1 | 0 | 0 | **1** | - | **3** |
 
 **Two results in this table are worth pointing at in an interview:**
 
-- **Stripe (CGI-VEN-005): Tier 1, inherent risk only 8 — Medium.** Tier 1 because it touches Restricted
+- **PaymentsCo (CGI-VEN-005): Tier 1, inherent risk only 8 — Medium.** Tier 1 because it touches Restricted
   data (T1-a) and is a named sub-processor (T1-e). Medium risk because the provider is mature and
   **AVD-001 already removed cardholder numbers from scope entirely.** *Tier and risk score are different
   measurements and a good programme keeps both.* A vendor can deserve maximum scrutiny and still be a
   modest risk — that is the scrutiny working.
-- **Grammarly Business (CGI-VEN-013): factor total 3, tier 2.** Escalated by T2-f. The model is shown
+- **WriteCo (CGI-VEN-013): factor total 3, tier 2.** Escalated by T2-f. The model is shown
   overriding its own arithmetic, in writing, with the reason attached.
 
 ---
@@ -643,7 +640,7 @@ Four design decisions, each of which is defensible in an interview:
 | Tier 3, low exposure | **Accept with justification** | Tier 3 only. Requires a written justification, a named owner and an expiry date, on the CGI-RSK-001 ACC-001 pattern. |
 
 > **Note the override.** The bands are arithmetic, but **two weight-5 failures force a Fail regardless of
-> percentage**. Slack scores 65%, so the override is not needed there — but without it a vendor could fail
+> percentage**. ChatCo scores 65%, so the override is not needed there — but without it a vendor could fail
 > the DPA question and the breach-notification question and still pass on volume of easy answers. A scoring
 > model without a veto is a scoring model that can be gamed by breadth.
 
@@ -815,18 +812,18 @@ Three vendors, three outcomes, one method. Summary sheet: **`04_Assessments`** i
 
 | Assessment | Vendor | Tier | Applied | Met / Partial / Not Met / N/A | Deduction | Max | **Score** | Findings | Inherent | Residual | **Decision** |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---|
-| VRA-2026-002 | Slack (CGI-VEN-004) | 1 | 74 | 41 / 14 / 17 / 2 | 98.5 | 282 | **65%** | 9 (5 Crit/High) | 12 High | **12 High** | 🔴 **FAIL — remediate or exit** |
-| VRA-2026-001 | AWS (CGI-VEN-001) | 1 | 74 | 62 / 9 / 3 / 0 | 32 | 288 | **89%** | 4 (1 High) | 10 High | 8 Medium | 🟠 **PASS WITH CONDITIONS** |
-| VRA-2026-003 | Calendly (CGI-VEN-015) | 3 | 6 | 5 / 1 / 0 / 0 | 2.5 | 30 | **92%** | 1 observation | 4 Low | 4 Low | 🟢 **ACCEPTED — documented justification** |
+| VRA-2026-002 | ChatCo (CGI-VEN-004) | 1 | 74 | 41 / 14 / 17 / 2 | 98.5 | 282 | **65%** | 9 (5 Crit/High) | 12 High | **12 High** | 🔴 **FAIL — remediate or exit** |
+| VRA-2026-001 | CloudCo (CGI-VEN-001) | 1 | 74 | 62 / 9 / 3 / 0 | 32 | 288 | **89%** | 4 (1 High) | 10 High | 8 Medium | 🟠 **PASS WITH CONDITIONS** |
+| VRA-2026-003 | SchedulerCo (CGI-VEN-015) | 3 | 6 | 5 / 1 / 0 / 0 | 2.5 | 30 | **92%** | 1 observation | 4 Low | 4 Low | 🟢 **ACCEPTED — documented justification** |
 
 ---
 
-### 5.1 VRA-2026-002 — Slack (CGI-VEN-004) · Tier 1 · **FAIL**
+### 5.1 VRA-2026-002 — ChatCo (CGI-VEN-004) · Tier 1 · **FAIL**
 
 | Field | Value |
 |---|---|
 | Assessment ID | VRA-2026-002 |
-| Vendor | Slack (Salesforce) — CGI-VEN-004 |
+| Vendor | ChatCo — CGI-VEN-004 |
 | Service | Internal communications, the incident channel, and three shared channels with customers |
 | Business owner | IT Operations Manager |
 | Tier | **1** — trigger T1-e (named sub-processor); factor total 8 |
@@ -842,16 +839,16 @@ Three vendors, three outcomes, one method. Summary sheet: **`04_Assessments`** i
 
 #### Reviewer assessment
 
-Slack is the most heavily used system in the company after Google Workspace, carries the CGI-POL-005
+ChatCo is the most heavily used system in the company after OfficeCo, carries the CGI-POL-005
 incident channel, and has three shared channels through which customers post directly. It is also the
 only Tier 1 vendor in the estate operating with **no executed Data Processing Agreement of any kind**.
 
-The failure here is **not that Slack is insecure**. Slack's own control environment is strong and its
+The failure here is **not that ChatCo is insecure**. ChatCo's own control environment is strong and its
 published assurance is real. The failure is entirely on Cypher Group Inc.'s side of the relationship:
 nobody ever executed the contract, nobody obtained a current report, nobody checked whether the plan in
 use could technically support the access-revocation SLA Cypher Group Inc. has written into its own policy,
 and nobody read the AI feature terms. **Every one of the nine findings below is a Cypher Group Inc.
-governance failure, not a Slack security failure.** That distinction matters because it determines the
+governance failure, not a ChatCo security failure.** That distinction matters because it determines the
 remediation: four of the nine are closed by signing a document, and two by changing a plan.
 
 The residual risk is scored **unchanged from inherent at 12, High**, because **no Cypher Group Inc.
@@ -878,7 +875,7 @@ the "your vendor's certification is your vendor's control" error this programme 
 |---|---|---|---|---|---|
 | **R1** Execute the vendor's standard DPA including SCCs, and record the executed copy in the inventory | F-001 | Chief Technology Officer | **15 Oct 2026** | Nil | Executed DPA on file, inventory column J updated to Y + date |
 | **R2** Obtain a written incident-notification commitment of **24 hours or less** and a named security contact with an out-of-hours route | F-002 | Chief Technology Officer | **15 Oct 2026** | Nil | Clause in the DPA or an addendum; contact recorded in the inventory |
-| **R3** Upgrade to a plan supporting **SSO federation and SCIM**, then federate the workspace to Google Workspace | F-003 | IT Operations Manager | **15 Nov 2026** | ~USD 3,600 / yr uplift | One test leaver revoked and evidenced inside four hours |
+| **R3** Upgrade to a plan supporting **SSO federation and SCIM**, then federate the workspace to OfficeCo | F-003 | IT Operations Manager | **15 Nov 2026** | ~USD 3,600 / yr uplift | One test leaver revoked and evidenced inside four hours |
 | **R4** Disable AI features that process message content until a contractual prohibition on training and human review is in place | F-004 | Chief Technology Officer | **01 Oct 2026** | Nil | Admin setting screenshot; clause in the executed DPA |
 | **R5** Set message retention to **12 months** for general channels and **24 months** for the incident channel, aligned to the log-retention standard REC-07 will establish | F-005 | IT Operations Manager | **15 Oct 2026** | Nil | Retention policy screenshot |
 | **R6** Obtain the current-period SOC 2 Type II, or a bridge letter, and diary the next report date | F-006, F-007 | Chief Technology Officer | **15 Nov 2026** | Nil | Report on file; sub-service organisations enumerated; CSOCs reviewed and assigned |
@@ -889,17 +886,17 @@ the "your vendor's certification is your vendor's control" error this programme 
 is the honest headline: **a Critical vendor finding at a company this size is usually a governance failure
 with a near-zero price tag, not a technology problem with a large one.**
 
-**Re-assessment: 15 December 2026.** Slack may not operate in Fail status beyond one quarter without a
+**Re-assessment: 15 December 2026.** ChatCo may not operate in Fail status beyond one quarter without a
 CEO-approved, expiring risk acceptance on the CGI-RSK-001 **ACC-001** pattern.
 
 ---
 
-### 5.2 VRA-2026-001 — Amazon Web Services (CGI-VEN-001) · Tier 1 · **PASS WITH CONDITIONS**
+### 5.2 VRA-2026-001 — CloudCo (CGI-VEN-001) · Tier 1 · **PASS WITH CONDITIONS**
 
 | Field | Value |
 |---|---|
 | Assessment ID | VRA-2026-001 |
-| Vendor | Amazon Web Services — CGI-VEN-001 |
+| Vendor | CloudCo — CGI-VEN-001 |
 | Service | Cloud hosting and infrastructure for the production platform |
 | Business owner | Chief Technology Officer |
 | Tier | **1** — triggers T1-a, T1-b, T1-c, T1-d, T1-e (all five); factor total 12, the maximum |
@@ -913,10 +910,10 @@ CEO-approved, expiring risk acceptance on the CGI-RSK-001 **ACC-001** pattern.
 
 #### Reviewer assessment
 
-AWS holds current SOC 2 Type II, ISO/IEC 27001, 27017 and 27018, publishes a sub-processor list, and
+CloudCo holds current SOC 2 Type II, ISO/IEC 27001, 27017 and 27018, publishes a sub-processor list, and
 provides a GDPR DPA incorporating Standard Contractual Clauses. Assessed as a provider, it is the
 strongest vendor in the estate by a wide margin, and **not one of the four conditions below concerns an
-AWS control.**
+CloudCo control.**
 
 **All four are Cypher Group Inc. actions.** Three of them come from a single place: the **Complementary
 User Entity Controls** listed near the back of the SOC 2 report. Those are the controls the auditor
@@ -927,7 +924,7 @@ buyer as evidence of a secure platform — **does not extend to Cypher Group Inc
 This is the entire thesis of Part 1.5 demonstrated on the most certified vendor available. It also
 reconciles exactly with CGI-GAP-001: **R-005 remains at residual 12, High, precisely because CG-03 — no
 cloud configuration baseline, no drift detection — sits on Cypher Group Inc.'s side of the shared
-responsibility boundary, where no AWS certificate reaches.**
+responsibility boundary, where no CloudCo certificate reaches.**
 
 The residual reduces from 10 to 8 because independent, in-period, correctly scoped assurance **is** a real
 control and it does reduce impact — but it does not reduce it to Low while four assumed controls are
@@ -954,17 +951,17 @@ unassigned.
 **If C1 is not met, the conditional pass lapses to Fail at the 15 December 2026 checkpoint**, because an
 unassigned CUEC means the assurance on file is not assurance over this company.
 
-> **Interview line, and the best one in this document:** *"AWS passed with conditions, and every single
+> **Interview line, and the best one in this document:** *"CloudCo passed with conditions, and every single
 > condition was ours. The report was fine. Our use of the report was the finding."*
 
 ---
 
-### 5.3 VRA-2026-003 — Calendly (CGI-VEN-015) · Tier 3 · **ACCEPTED**
+### 5.3 VRA-2026-003 — SchedulerCo (CGI-VEN-015) · Tier 3 · **ACCEPTED**
 
 | Field | Value |
 |---|---|
 | Assessment ID | VRA-2026-003 |
-| Vendor | Calendly — CGI-VEN-015 |
+| Vendor | SchedulerCo — CGI-VEN-015 |
 | Service | External meeting scheduling |
 | Business owner | Head of Customer Success |
 | Tier | **3** — factor total 3 (D2 A0 C1 R0); **no escalation trigger fired** |
@@ -978,14 +975,14 @@ unassigned CUEC means the assurance on file is not assurance over this company.
 
 #### Reviewer assessment
 
-Calendly holds invitee name, email address and a meeting subject line. It holds no customer account data,
+SchedulerCo holds invitee name, email address and a meeting subject line. It holds no customer account data,
 no Restricted data, has no production access, and its unavailability would cause no customer-facing
 outage. Scheduling would revert to email within one business day.
 
 **The correct professional answer here is a light-touch acceptance, and saying so is a skill.** A vendor
 programme that applies Tier 1 depth to a scheduling tool is not rigorous, it is unfunded — it will
-consume the attention Slack and AWS needed, and within two quarters nobody will be running it at all.
-Tiering is what makes it legitimate to spend twenty minutes here and two days on AWS, and the legitimacy
+consume the attention ChatCo and CloudCo needed, and within two quarters nobody will be running it at all.
+Tiering is what makes it legitimate to spend twenty minutes here and two days on CloudCo, and the legitimacy
 comes from the rule being published *before* the decision, not from the decision feeling reasonable.
 
 The attestation returned a SOC 2 Type II in period, an executed DPA with Standard Contractual Clauses, a
@@ -1061,7 +1058,7 @@ The test from §1.7 — *would the existing risk's controls have prevented this?
 | **VR-001** no Article 28 contract | none | No control in CGI-RSK-001 v1.0 addresses contracts | **NEW** |
 | **VR-002** concentration / correlated failure | R-002 ransomware (availability) | No — R-002's controls are endpoint hygiene and least privilege (backups are a recorded gap, CG-01), all inert against a provider region failure | **NEW** |
 | **VR-003** undisclosed fourth-party transfer | R-003 insider exfiltration | **No — CGI-POL-003 §4.5.2 four-hour leaver revocation is completely inert against a vendor API sync.** Different actor, mechanism, pathway and timing | **NEW** |
-| **VR-004** vendor-side breach of our data | R-005 AWS misconfiguration | No — R-005 is a Cypher Group Inc. configuration error, not a vendor compromise | **NEW** |
+| **VR-004** vendor-side breach of our data | R-005 CloudCo misconfiguration | No — R-005 is a Cypher Group Inc. configuration error, not a vendor compromise | **NEW** |
 | **VR-005** shadow IT procurement | none | No — this programme's own discovery exercise is what found it | **NEW** |
 | **VR-006** third-party AI retention, review and training | none | No. CGI-POL-001 §4.5 governs **AI used by staff**, not **AI vendors used on staff output** | **NEW** |
 | **VR-007** Tier 1 lock-in, no tested exit | none | No — v1.0 has no commercial or continuity-of-supply scenario | **NEW** |
@@ -1099,10 +1096,10 @@ that does not come down into Medium, and that is not an oversight.
 |---|---|
 | 1 | Append **VR-001 to VR-009** to the CGI-RSK-001 risk sheet. Do **not** renumber R-001 to R-005; the VR prefix preserves provenance and makes the supplier-originated subset filterable. |
 | 2 | Update **R-003** likelihood commentary to record the vendor pathway identified in **VR-008**, cross-referencing it rather than duplicating it. |
-| 3 | Update **R-001** commentary to record that Google Workspace is the identity provider, so a compromise there is estate-wide rather than mailbox-scoped. |
+| 3 | Update **R-001** commentary to record that OfficeCo is the identity provider, so a compromise there is estate-wide rather than mailbox-scoped. |
 | 4 | Add **control gap CG-06 — no third-party assurance or contractual control over suppliers** to the control gap list, and mark it **closed by CGI-TPR-001**. It is the first CG to be closed since the list was written. |
 | 5 | Add the seven vendor KRIs (§6.5) to the CGI-RSK-001 KRI table, taking it from **7 to 14 indicators**. |
-| 6 | Record **ACC-V01** (Calendly) in the acceptance register alongside **ACC-001**, with its 15 Sep 2028 expiry. |
+| 6 | Record **ACC-V01** (SchedulerCo) in the acceptance register alongside **ACC-001**, with its 15 Sep 2028 expiry. |
 | 7 | Re-run the aggregate figures and restate the headline reduction. |
 
 **Projected CGI-RSK-001 v1.1 position after merge:**
@@ -1189,7 +1186,7 @@ improve. **A KRI that a CEO can act on this month is worth more than four that n
 
 | Gate | Rule | The finding it prevents |
 |---|---|---|
-| **Gate A — tier before assess** | No assessment begins until a tier is assigned | Prevents the Grammarly outcome, where arithmetic would have under-scrutinised an AI processor reading Confidential text |
+| **Gate A — tier before assess** | No assessment begins until a tier is assigned | Prevents the WriteCo outcome, where arithmetic would have under-scrutinised an AI processor reading Confidential text |
 | **Gate B — no DPA, no onboarding** | No vendor is provisioned before the DPA is executed | Prevents **VR-001**. Five of the six DPA failures in this estate happened because provisioning came first and paperwork was going to follow |
 | **Gate C — offboarding list before first use** | A vendor enters the offboarding checklist at provisioning, not at termination | Prevents **VR-008**. A vendor nobody recorded is a vendor nobody deprovisions |
 
@@ -1200,7 +1197,7 @@ allowed to refuse the workaround.
 
 #### Worked example — CGI-VEN-017 through the workflow
 
-Atlassian Statuspage is the first vendor onboarded under this process, and it exists because
+StatusCo is the first vendor onboarded under this process, and it exists because
 **CGI-GAP-001 REC-14** requires a customer status page.
 
 | Step | What happened |
@@ -1248,7 +1245,7 @@ Atlassian Statuspage is the first vendor onboarded under this process, and it ex
 
 **Employee offboarding is a different workflow that shares a failure mode.** When a person leaves,
 **CGI-POL-003 §4.5.2** requires revocation within four hours. That works for federated systems. For the
-vendors in this estate that are **not** federated — currently Slack, Notion, Grammarly and Miro — there is
+vendors in this estate that are **not** federated — currently ChatCo, WikiCo, WriteCo and WhiteboardCo — there is
 no automated path, so each one must appear by name on the leaver checklist. **This is VR-008, and it is
 the reason the inventory carries an SSO-federation column at all.**
 
@@ -1342,14 +1339,14 @@ first thing any enterprise customer's own vendor assessment of us would find. **
 but signatures.**
 
 **2. Our most-used communication tool failed its assessment, and every reason was ours.**
-Slack scored **65%** with **five Critical or High findings**: no DPA, no contractual breach-notification
+ChatCo scored **65%** with **five Critical or High findings**: no DPA, no contractual breach-notification
 commitment, no automated account removal, AI features processing our message content under no terms, and
-unlimited retention of everything ever posted. **Slack's own security is not the problem.** Nobody
+unlimited retention of everything ever posted. **ChatCo's own security is not the problem.** Nobody
 executed the contract, checked the plan, or read the terms. Remediation is **approximately USD 3,600 a
 year**, and six of the eight actions are free.
 
 **3. Our best-certified vendor passed only with conditions — and all four conditions are ours.**
-AWS holds every relevant certification. Its SOC 2 report also lists four controls **it assumes we are
+CloudCo holds every relevant certification. Its SOC 2 report also lists four controls **it assumes we are
 performing**: organisation-wide audit logging, root-account MFA, least-privilege access review and
 encryption management. **We are performing none of them.** That means the clean report in our files does
 not actually cover how we use the service. **Our vendor's certificate is our vendor's control, not ours** —
@@ -1373,8 +1370,8 @@ and it is the same gap that keeps **R-005 at High** in our risk register.
 
 | | Ask | Cost |
 |---|---|---|
-| **Now (30 days)** | Execute the six outstanding DPAs. Disable the AI features on Slack until terms are in place. Set retention limits. | **Nil. Signatures and settings.** |
-| **By 15 Dec 2026** | Approve the Slack plan upgrade for SSO and SCIM. Accept and assign the four AWS assumed controls. Decide on Slack: remediate or migrate. | **~USD 3,600/yr**, inside the USD 32,100 already costed in CGI-RSK-001 |
+| **Now (30 days)** | Execute the six outstanding DPAs. Disable the AI features on ChatCo until terms are in place. Set retention limits. | **Nil. Signatures and settings.** |
+| **By 15 Dec 2026** | Approve the ChatCo plan upgrade for SSO and SCIM. Accept and assign the four CloudCo assumed controls. Decide on ChatCo: remediate or migrate. | **~USD 3,600/yr**, inside the USD 32,100 already costed in CGI-RSK-001 |
 | **Standing** | Approve this tiering model and the "no DPA, no onboarding" gate. Approve the CGI-POL-004 §4.2 amendment. Receive seven vendor KRIs at the quarterly review REC-10 creates. | **Your signature, and 15 minutes a quarter** |
 
 ### What it buys
@@ -1492,7 +1489,7 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 
 | Check | Result |
 |---|---|
-| Vendor count ≥ 15, including all five named stack providers | ✅ 17 vendors; AWS, GitHub, Slack, Google Workspace and Stripe all present |
+| Vendor count ≥ 15, including all five named stack providers | ✅ 17 vendors; CloudCo, CodeCo, ChatCo, OfficeCo and PaymentsCo all present |
 | All 17 mandated inventory columns present, in the required order, in columns A–Q | ✅ |
 | Extra governance columns appended **after** the mandated set | ✅ from column R |
 | Every tier recomputed from the published model, not hand-assigned | ✅ 7 / 6 / 4 |
@@ -1521,8 +1518,8 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 |---|---|---|
 | **VA-01** | CGI-POL-004's four classification tiers are **Public · Internal · Confidential · Restricted**, Restricted highest | **Confirmed 15 Sep 2026** against CGI-POL-004 v1.0 §4.1.1, which uses exactly these four tiers |
 | **VA-02** | Cypher Group Inc. names its sub-processors to customers in its own customer DPA | Standard for B2B SaaS; drives trigger T1-e |
-| **VA-03** | Approximately 9,000 end-user identities across ~200 customers (mean 45 per customer) | Derived from the CGI-RSK-001 A-01 customer count; used only to size Auth0's impact |
-| **VA-04** | The USD 32,100 year-one budget from CGI-RSK-001 is available but still unapproved | CGI-GAP-001 GAP-003. The Slack remediation of ~USD 3,600/yr is costed inside it |
+| **VA-03** | Approximately 9,000 end-user identities across ~200 customers (mean 45 per customer) | Derived from the CGI-RSK-001 A-01 customer count; used only to size LoginCo's impact |
+| **VA-04** | The USD 32,100 year-one budget from CGI-RSK-001 is available but still unapproved | CGI-GAP-001 GAP-003. The ChatCo remediation of ~USD 3,600/yr is costed inside it |
 | **VA-05** | No cardholder numbers are held (AVD-001) and no PHI is processed | CGI-POL-004 §4.1.4; CGI-RSK-001 AVD-001 |
 | **VA-06** | Inherent vendor risk = likelihood of a vendor-originated incident materially affecting Cypher Group Inc. within 12 months × impact, **before** any Cypher Group Inc. assurance activity | Stated so the score is falsifiable |
 

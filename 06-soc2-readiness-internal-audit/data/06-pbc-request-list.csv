@@ -31,7 +31,7 @@ PBC-29,Operations,Penetration test report,PDF,Most recent,Chief Technology Offic
 PBC-30,Operations,Cloud configuration baseline and drift or posture reports,PDF,Current + 12 months,IT Operations Manager,2026-10-09,Not available - no baseline exists,WP-23
 PBC-31,Operations,CloudTrail configuration showing organisation-wide trail and log file validation,Screenshot or CLI output,As at request,IT Operations Manager,2026-10-09,Not available - unverified,WP-23
 PBC-32,Operations,Security alert rules and a sample of handled alerts,Screenshot + ticket export,12 months to the request date,IT Operations Manager,2026-10-09,Not available - no alert rules exist,WP-23
-PBC-33,Resilience,Backup configuration and schedule,Screenshot,As at request,IT Operations Manager,2026-10-09,Received - AWS snapshot configuration,WP-21
+PBC-33,Resilience,Backup configuration and schedule,Screenshot,As at request,IT Operations Manager,2026-10-09,Received - CloudCo snapshot configuration,WP-21
 PBC-34,Resilience,"Declared RTO and RPO, approved",PDF,Current,IT Operations Manager,2026-10-09,Not available - not declared,WP-21
 PBC-35,Resilience,Restore test reports,PDF,12 months to the request date,IT Operations Manager,2026-10-09,Not available - no restore has been tested,WP-21
 PBC-36,Incident,Incident register entries with severity and timeline,CSV export,12 months to the request date,Chief Technology Officer,2026-10-09,Not available - no entries; no incidents recorded,WP-20

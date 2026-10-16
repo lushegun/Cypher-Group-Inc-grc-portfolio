@@ -12,4 +12,4 @@
 | [04-vendor-kris.csv](04-vendor-kris.csv) | KRI-V1 to KRI-V7 |
 | [04-contract-clause-checklist.csv](04-contract-clause-checklist.csv) | The 18 contractual security clauses by tier |
 
-<sub>Simulated case study data. Real product names are stand-ins; every status attributed to them is invented.</sub>
+<sub>Simulated case study data.</sub>

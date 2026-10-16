@@ -1,6 +1,6 @@
 ﻿ID,Action,Clause / control,Owner (job title),Start,Due,Phase,Est. cost (USD) - planning estimate,Dependency,Notes
 ISO-01,"Context, interested parties and obligations register (including the climate-change relevance decision)",4.1; 4.2; A.5.31,Chief Executive Officer,01 Oct 2026,31 Oct 2026,Phase 0 - Foundation,0,None,Would support GV.OC 1 -> 2 once approved
-ISO-02,"Approve the ISMS scope and boundary, including the AWS shared-responsibility statement",4.3; A.5.23; A.8.27,Chief Executive Officer,01 Oct 2026,31 Oct 2026,Phase 0 - Foundation,0,ISO-01,Takes the documentation half of REC-18 forward (RC-04)
+ISO-02,"Approve the ISMS scope and boundary, including the CloudCo shared-responsibility statement",4.3; A.5.23; A.8.27,Chief Executive Officer,01 Oct 2026,31 Oct 2026,Phase 0 - Foundation,0,ISO-01,Takes the documentation half of REC-18 forward (RC-04)
 ISO-03,"ISMS policy v1.0; approve the USD 32,100 year-one budget and ISMS time allocation",5.1; 5.2; 7.1,Chief Executive Officer,01 Oct 2026,31 Oct 2026,Phase 0 - Foundation,0,ISO-01,"One page, signed by the CEO"
 ISO-04,Assign the ISMS lead (CTO) and publish the ISMS RACI,5.3; A.5.2,Chief Executive Officer,01 Oct 2026,31 Oct 2026,Phase 0 - Foundation,0,None,Implements the GAP-003 recommended action
 ISO-05,Risk acceptance criteria and appetite; annual plus event-driven assessment cadence,6.1.2; 8.2,Chief Executive Officer,01 Oct 2026,31 Oct 2026,Phase 0 - Foundation,0,None,"Same work as REC-13, pulled forward from Q2 2027 (RC-01)"
