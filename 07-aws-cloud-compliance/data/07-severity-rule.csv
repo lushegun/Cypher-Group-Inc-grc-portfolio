@@ -1,0 +1,5 @@
+Severity,Rule (published before grading)
+Critical,"An exposure that exists now, reachable from outside Cypher (the internet or a third party), on a path to production or Restricted data, with no compensating control."
+High,"A missing guardrail or detective control on the R-005 path, or a failed CloudCo CUEC: one mistake away from Critical."
+Medium,"A Level 1 gap that weakens another control, or a policy breach with a compensating factor."
+Low,A Level 2 defence-in-depth gap.

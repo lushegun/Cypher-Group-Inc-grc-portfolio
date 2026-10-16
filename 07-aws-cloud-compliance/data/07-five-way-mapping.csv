@@ -1,0 +1,16 @@
+Finding ID,Title,CIS recommendation,ISO/IEC 27001:2022 Annex A,SOC 2 TSC criterion,NIST CSF 2.0 Subcategory,Risk ID
+CF-01,A production bastion host accepts SSH from the entire internet,5.3; 5.2; 5.7; 5.1.1,A.8.20; A.8.21; A.8.32; A.8.9,CC6.6; CC8.1,PR.IR-01; PR.PS-01,R-005; R-002
+CF-02,"A contractor login from the March 2025 incident is still live, with no MFA",1.9; 1.10; 1.11; 1.13; 1.14,A.5.18; A.8.2; A.8.5; A.5.17,CC6.2; CC6.3; CC6.1,PR.AA-01; PR.AA-05,R-005; R-003; VR-008
+CF-03,A former consultant's cloud account can still read a 2024 customer database export,2.1.4; 2.1.3; 1.19; 3.8; 3.9,A.5.9; A.5.12; A.8.3; A.8.10; A.5.20,C1.1; CC6.1; CC6.3,ID.AM-07; PR.DS-01; PR.AA-05,R-005; VR-001; VR-004
+CF-04,Account-wide S3 Block Public Access is switched off,2.1.4,A.8.3; A.5.15; A.8.9,CC6.1; CC6.6,PR.DS-01; PR.PS-01,R-005
+CF-05,"Customer data is encrypted, but with keys Cypher does not manage",3.5; 3.6; 5.1.1,A.8.24,CC6.1,PR.DS-01,R-005; VR-004
+CF-06,"The cloud's diary covers one region of one account, and it is not sealed",3.1; 3.2; 3.4; 3.8; 3.9,A.8.15; A.5.28,CC7.2,PR.PS-04; DE.CM-09,R-005; R-003
+CF-07,Nobody is told when something bad happens in the cloud,4.1-4.15; 4.16; 3.3,A.8.16; A.8.9,CC7.1; CC7.2; CC7.3; CC8.1,DE.CM-01; DE.CM-03; DE.CM-09; DE.AE-02,R-005; R-003; R-001
+CF-08,"The root user is used for billing and protected by a phone app, not a hardware key",1.5; 1.6; 4.3,A.8.2; A.8.5,CC6.1; CC6.3,PR.AA-03; PR.AA-05,R-005
+CF-09,"Engineers hold full administrator rights, with phishable MFA, on accounts nobody manages centrally",1.15; 1.14; 1.20; 1.19,A.8.2; A.5.15; A.5.16; A.5.18; A.8.5,CC6.1; CC6.2; CC6.3,PR.AA-01; PR.AA-03; PR.AA-05,R-005; R-003; R-001
+CF-10,Deployments use a 412-day-old access key,1.13,A.5.17,CC6.1,PR.AA-01,R-005; R-004
+CF-11,The cloud password rule is weaker than Cypher's own policy,1.7; 1.8,A.5.17; A.8.5,CC6.1,PR.AA-03,R-001; R-005
+CF-12,Network traffic goes unrecorded and default network rules are untouched,3.7; 5.5,A.8.15; A.8.16; A.8.20; A.8.22,CC6.6; CC7.2,DE.CM-01; PR.IR-01,R-005; R-002
+CF-13,S3 accepts plain-HTTP requests and has no delete protection,2.1.1; 2.1.2,A.8.24; A.5.14; A.8.13,CC6.7; CC6.1,PR.DS-02; PR.DS-11,R-005; R-002
+CF-14,CloudCo has no security contact for Cypher and no support role,1.2; 1.16,A.5.24; A.5.5; A.8.2,CC2.3; CC7.4,RS.CO-02; RS.MA-01,R-005; R-002
+CF-15,Database minor upgrades depend on someone remembering,2.2.2,A.8.8,CC7.1,PR.PS-02,R-004; R-002

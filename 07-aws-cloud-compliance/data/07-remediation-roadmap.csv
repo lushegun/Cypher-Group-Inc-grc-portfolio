@@ -1,0 +1,19 @@
+ID,Phase,Action,Closes,Owner (job title),Due,Est. cost (USD) - planning estimate,Reconciles with
+AWS-01,Phase 0 - Contain,Remove SSH from 0.0.0.0/0; disable ext-ops-contractor and delete its key; remove the consultant's cross-account grant,CF-01; CF-02; CF-03,IT Operations Manager,17 Oct 2026,0,REC-11 (pulled forward - RC-01)
+AWS-02,Phase 0 - Contain,Breach-assessment decision under CGI-POL-005 s5.6.3 for CF-03; review CloudTrail for contractor and consultant activity,CF-03; CF-02,Chief Technology Officer,20 Oct 2026,0,-
+AWS-03,Phase 0 - Contain,Password policy 16 / reuse 24; security contacts; support role,CF-11; CF-14,IT Operations Manager,23 Oct 2026,0,-
+AWS-04,Phase 0 - Contain,"Preserve evidence, then delete the 2024 export under the CGI-POL-004 disposal rule; record the consultant as a terminated relationship in CGI-TPR-001",CF-03,Chief Technology Officer,23 Oct 2026,0,ISO-09 (records); REC-15
+AWS-05,Phase 1 - Guardrails,Website assets behind CloudFront with Origin Access Control; account-level Block Public Access on; SCP protecting it,CF-04,Chief Technology Officer,30 Nov 2026,Within TP-09 estimate,TP-09 (part)
+AWS-06,Phase 1 - Guardrails,"Organisation trail: all accounts and regions, validation, access logging, S3 data events for Restricted buckets",CF-06,IT Operations Manager,30 Nov 2026,Within TP-09 estimate,"REC-07 (part, pulled forward - RC-02)"
+AWS-07,Phase 1 - Guardrails,"Root: hardware keys, billing delegated, root-use alert, sealed credentials; proposed exception EXC-004 until done",CF-08,Chief Technology Officer,30 Nov 2026,Hardware keys (planning estimate USD 330),-
+AWS-08,Phase 1 - Guardrails,Replace the bastion with Session Manager; require IMDSv2; EBS encryption by default,CF-01; CF-05,IT Operations Manager,30 Nov 2026,0,REC-18 (split - RC-03)
+AWS-09,Phase 1 - Guardrails,"Sign the CloudCo CUEC acceptance record: four CUECs, four owners, the AWS roadmap dates",CUEC 1-4,Chief Executive Officer,15 Dec 2026,0,ISO-02; VRA-2026-001 C1; SOC-01
+AWS-10,Phase 2 - Detect and encrypt,"Config, Security Hub and GuardDuty organisation-wide; EventBridge alerts for 4.1-4.15; alert runbook",CF-07,IT Operations Manager,31 Jan 2027,"Within TP-09 estimate (USD 1,200 a year - validate)",TP-09 (detective part); REC-07; REC-11 (part)
+AWS-11,Phase 2 - Detect and encrypt,Customer-managed KMS keys and SSE-KMS on Restricted buckets and the log archive; rotation on,CF-05,Chief Technology Officer,31 Dec 2026,Small (key charges),"ISO-11 (A.8.24 part, pulled forward - RC-05)"
+AWS-12,Phase 2 - Detect and encrypt,IAM Identity Center federated with OfficeCo; permission sets; FIDO2 for admins; delete IAM users; access analyzers,CF-09; CF-02,IT Operations Manager,31 Jan 2027,0,REC-02; REC-01
+AWS-13,Phase 2 - Detect and encrypt,OpenID Connect deploy role for CodeCo; delete codeco-deploy key,CF-10,Chief Technology Officer,31 Dec 2026,0,REC-06
+AWS-14,Phase 2 - Detect and encrypt,RDS auto minor version upgrade,CF-15,Chief Technology Officer,31 Dec 2026,0,REC-08
+AWS-15,Phase 3 - Baseline,Approve the Cloud Configuration Baseline Standard (Cypher profile: Level 1 plus six named Level 2) with an exception route,All,Chief Technology Officer,28 Feb 2027,0,TP-10
+AWS-16,Phase 3 - Baseline,Flow logs; default security groups emptied; unused default VPCs deleted; TLS-only bucket policies; Object Lock,CF-12; CF-13,IT Operations Manager,31 Mar 2027,Small (log storage),REC-18
+AWS-17,Phase 3 - Baseline,"Quarterly re-assessment against v5.0.0, then re-baseline to the current CIS release",All,IT Operations Manager,30 Jun 2027,0,REC-11; TP-10
+AWS-18,Phase 4 - Sustain,Capture the baseline as infrastructure as code with peer review,All,Chief Technology Officer,30 Sep 2027,0,REC-06; SOC-07
