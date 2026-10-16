@@ -1,0 +1,7 @@
+CIS ID,Level,Why it is in the Cypher profile
+1.5,Level 2,CGI-POL-002 s4.4.3 requires a hardware MFA device on the CloudCo root user
+3.2,Level 2,CloudCo CUEC 1 requires CloudTrail log file validation
+3.3,Level 2,TP-09 commits to AWS Config rules with alerting
+3.5,Level 2,CloudCo CUEC 4 (encryption management for customer-controlled data)
+3.6,Level 2,CloudCo CUEC 4 (key rotation is part of key management)
+4.16,Level 2,REC-11 commits to continuous cloud security posture monitoring

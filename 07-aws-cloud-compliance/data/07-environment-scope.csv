@@ -1,0 +1,10 @@
+Element,What exists (simulated),Scope decision
+Organisation,"CloudCo organisation with 3 accounts: management (billing, created 2021), production (the platform), staging (pre-production)","In scope. Section 1, 3 and 4 checks run in all three; Section 2 and 5 resource checks run in production."
+Regions,eu-central-1 (primary); us-east-1 (RDS snapshot copies); every other default region enabled but unused,In scope. Unused regions matter: an attacker launches resources where nobody looks.
+Identity,"IAM users per account: production has 9 (8 people with console passwords, 1 machine user codeco-deploy); 3 root users",In scope
+Compute,"Application on Amazon ECS with AWS Fargate behind an internet-facing load balancer (443 only); one EC2 bastion, cgi-prod-bastion-01",In scope
+Database,"One RDS for PostgreSQL instance, cgi-prod-db, Multi-AZ, private subnets; snapshots copied to us-east-1",In scope
+Storage,"5 S3 buckets: cgi-prod-app-attachments (Restricted), cgi-prod-exports (Restricted), cgi-prod-cloudtrail-logs, cgi-www-assets (public website assets), cgi-data-migration-2024 (legacy)",In scope
+Network,"One production VPC (private and public subnets, default network ACL); a default VPC in every enabled region",In scope
+Logging and monitoring,"One single-region trail (production, eu-central-1, May 2023); Config and Security Hub enabled 05 Oct 2026 in production eu-central-1 and us-east-1; GuardDuty off",In scope
+Staging resources,Workloads in the staging account,OUT OF SCOPE this cycle (limitation L-03). The CTO asserts staging holds no customer data; not verified.

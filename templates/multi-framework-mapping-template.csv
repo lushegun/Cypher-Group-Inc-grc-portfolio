@@ -1,0 +1,11 @@
+Finding ID,Title,CIS recommendation,ISO/IEC 27001:2022 Annex A,SOC 2 TSC criterion,NIST CSF 2.0 Subcategory,Risk ID,Mapping rationale
+CF-01,[Example] Admin port open to the internet,5.3; 5.2,A.8.20; A.8.21,CC6.6,PR.IR-01,[YOUR RISK ID],Boundary protection: an internet-reachable admin port is a network-security control failure in every framework
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]
+[CF-NN],[TITLE],[CIS],[ANNEX A],[TSC],[CSF],[RISK],[WHY]

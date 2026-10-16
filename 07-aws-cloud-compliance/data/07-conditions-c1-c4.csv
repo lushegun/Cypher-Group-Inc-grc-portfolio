@@ -1,0 +1,5 @@
+Condition,Requirement (VRA-2026-001),Due,Effect of CGI-AWS-001,Reason,Roadmap link
+C1,"Formally accept the four CUECs, assign each an owner, and record the acceptance against CGI-VEN-001",15 Dec 2026,SUPPORTS - does not close,"C1 is a signature and four names, not a configuration. This review gives each owner the evidence to accept knowingly. Acceptance means taking responsibility, not claiming the controls already run. C1 can be closed on paper this month, with the AWS roadmap dates attached.",AWS-09
+C2,Subscribe to the sub-processor change feed and perform a first reconciliation,15 Dec 2026,OUT OF REACH,A contract and monitoring action; no cloud setting evidences it.,-
+C3,"Purchase a support tier with a named escalation route, or record a CEO-approved acceptance",15 Dec 2026,OUT OF REACH,A commercial decision. Related but separate: CF-14 creates the support role that a support plan would use.,-
+C4,Declare RTO and RPO and evidence one restore test (this is REC-03),15 Dec 2026,OUT OF REACH,"A backup test. Multi-AZ (2.2.4 PASS) is availability, not recoverability, and is not counted.",-
