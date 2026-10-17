@@ -1,9 +1,9 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [ORGANISATION] — Cloud configuration review against the CIS AWS Foundations Benchmark v5.0.0 — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-AWS-001 portfolio project (simulated). All 63
+> **How to use this template.** Blank reusable template. Prepared by Olugboye Shola. All 63
 > v5.0.0 recommendations are pre-filled with their profile level, CIS assessment status, AWS Security Hub control ID
 > and the audit command a reviewer would run. Replace every `[BRACKETED]` field. Recommendation titles are CIS's own;
 > obtain the benchmark from the Center for Internet Security for the full audit and remediation procedures.
@@ -67,12 +67,12 @@
 | 3.1 | Ensure CloudTrail is enabled in all regions | L1 | Manual | CloudTrail.1 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail describe-trails; aws cloudtrail get-trail-status; aws cloudtrail get-event-selectors | [CF-NN] |
 | 3.2 | Ensure CloudTrail log file validation is enabled | L2 | Automated | CloudTrail.4 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail describe-trails  (LogFileValidationEnabled) | [CF-NN] |
 | 3.3 | Ensure AWS Config is enabled in all regions | L2 | Automated | Config.1 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws configservice describe-configuration-recorder-status  (per region) | [CF-NN] |
-| 3.4 | Ensure that server access logging is enabled on the CloudTrail S3 bucket | L1 | Manual | CloudTrail.7 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws s3api get-bucket-logging --bucket cgi-prod-cloudtrail-logs | [CF-NN] |
+| 3.4 | Ensure that server access logging is enabled on the CloudTrail S3 bucket | L1 | Manual | CloudTrail.7 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws s3api get-bucket-logging --bucket [CLOUDTRAIL-BUCKET] | [CF-NN] |
 | 3.5 | Ensure CloudTrail logs are encrypted at rest using KMS CMKs | L2 | Automated | CloudTrail.2 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail describe-trails  (KmsKeyId absent) | [CF-NN] |
 | 3.6 | Ensure rotation for customer-created symmetric CMKs is enabled | L2 | Automated | KMS.4 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws kms list-keys; aws kms get-key-rotation-status --key-id <id> | [CF-NN] |
 | 3.7 | Ensure VPC flow logging is enabled in all VPCs | L2 | Automated | EC2.6 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws ec2 describe-flow-logs | [CF-NN] |
-| 3.8 | Ensure that object-level logging for write events is enabled for S3 buckets | L2 | Automated | S3.22 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail get-event-selectors --trail-name cgi-prod-trail | [CF-NN] |
-| 3.9 | Ensure that object-level logging for read events is enabled for S3 buckets | L2 | Automated | S3.23 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail get-event-selectors --trail-name cgi-prod-trail | [CF-NN] |
+| 3.8 | Ensure that object-level logging for write events is enabled for S3 buckets | L2 | Automated | S3.22 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail get-event-selectors --trail-name [TRAIL-NAME] | [CF-NN] |
+| 3.9 | Ensure that object-level logging for read events is enabled for S3 buckets | L2 | Automated | S3.23 | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws cloudtrail get-event-selectors --trail-name [TRAIL-NAME] | [CF-NN] |
 | 4.1 | Ensure unauthorized API calls are monitored | L2 | Manual | - | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws logs describe-metric-filters; aws cloudwatch describe-alarms; aws events list-rules | [CF-NN] |
 | 4.2 | Ensure management console sign-in without MFA is monitored | L1 | Manual | - | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws logs describe-metric-filters; aws cloudwatch describe-alarms; aws events list-rules | [CF-NN] |
 | 4.3 | Ensure usage of the 'root' account is monitored | L1 | Manual | - | [Y/N] | [PASS / FAIL / N/A] | [OBSERVATION · EVIDENCE] | aws logs describe-metric-filters; aws cloudwatch describe-alarms; aws events list-rules | [CF-NN] |

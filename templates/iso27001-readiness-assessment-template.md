@@ -1,9 +1,9 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [ORGANISATION] — ISO/IEC 27001:2022 Clauses 4–10 Readiness Assessment — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-ISO-001 portfolio project (simulated). Replace
+> **How to use this template.** Blank reusable template. Prepared by Olugboye Shola. Replace
 > every `[BRACKETED]` field. Score each requirement, then calculate the result with the method below, or use the
 > Excel version (`iso27001-soa-template.xlsx`, sheets 03 and 04), which does it for you.
 
@@ -22,7 +22,7 @@
 - **Gate override:** if any gate requirement (4.3, 6.1.2, 6.1.3, 9.2.1, 9.2.2, 9.3.1, 9.3.2, 9.3.3) scores below 2, the Stage 1 decision is **NO-GO** whatever the percentage.
 - **Bands:** ≥ 85% with no gate failure = Ready for Stage 1 · 60–84% = Ready within 90 days · < 60% = Not ready.
 
-> Example (simulated, from CGI-ISO-001): clause score 19/56 = 33.9%; Annex A 22.5/88 = 25.6%; weighted 30.6%; 8 of 8 gates failed; NO-GO.
+> Worked example: clause score 19/56 = 33.9%; Annex A 22.5/88 = 25.6%; weighted 30.6%; 8 of 8 gates failed; NO-GO.
 
 | Clause | Requirement | Stage 1 gate (Y/N) | Score (0-2) | Current state | Gap | Evidence needed | Owner (job title) | Action | Due |
 |---|---|---|---|---|---|---|---|---|---|

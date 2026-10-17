@@ -1,9 +1,9 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [ORGANISATION] — Cloud findings register — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-AWS-001 portfolio project (simulated). One row per
+> **How to use this template.** Blank reusable template. Prepared by Olugboye Shola. One row per
 > finding, grouped by root cause rather than one row per failed check. Replace every `[BRACKETED]` field. Publish the
 > severity rule before you grade anything.
 
@@ -11,8 +11,8 @@
 
 | Severity | Rule |
 |---|---|
-| **Critical** | An exposure that exists now, reachable from outside Cypher (the internet or a third party), on a path to production or Restricted data, with no compensating control. |
-| **High** | A missing guardrail or detective control on the R-005 path, or a failed CloudCo CUEC: one mistake away from Critical. |
+| **Critical** | An exposure that exists now, reachable from outside the organisation (the internet or a third party), on a path to production or Restricted data, with no compensating control. |
+| **High** | A missing guardrail or detective control on the path of a top-rated cloud risk, or a failed cloud-provider CUEC: one mistake away from Critical. |
 | **Medium** | A Level 1 gap that weakens another control, or a policy breach with a compensating factor. |
 | **Low** | A Level 2 defence-in-depth gap. |
 

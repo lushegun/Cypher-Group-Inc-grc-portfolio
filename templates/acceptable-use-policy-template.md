@@ -1,9 +1,9 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [COMPANY LEGAL NAME] — Acceptable Use Policy
 
 > [!TIP]
-> **How to use this template.** Replace every [BRACKETED] field. Delete any clause that does not apply to the organisation, and delete this note before issuing. Originally developed for a simulated portfolio scenario by O.S, 2026.
+> **How to use this template.** Replace every [BRACKETED] field. Delete any clause that does not apply to the organisation, and delete this note before issuing. Prepared by Olugboye Shola.
 
 | Field | Value |
 |---|---|

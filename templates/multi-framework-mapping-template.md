@@ -1,9 +1,9 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [ORGANISATION] — Multi-framework mapping (CIS → ISO/IEC 27001 → SOC 2 → NIST CSF 2.0 → risk) — TEMPLATE
 
 > [!TIP]
-> **How to use this template.** Blank reusable template from the CGI-AWS-001 portfolio project (simulated). One row
+> **How to use this template.** Blank reusable template. Prepared by Olugboye Shola. One row
 > per finding, traced through five systems so one remediation can be reported to every audience. Replace every
 > `[BRACKETED]` field. Map to the outcome the control serves, not to a keyword in its title.
 
