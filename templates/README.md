@@ -34,4 +34,4 @@ Blank, reusable versions of the documents in this portfolio. Each one keeps the 
 3. Have legal counsel review monitoring and privacy clauses for your jurisdiction.
 4. Work through the **fill-in checklist** at the end of each template before issuing it.
 
-<sub>Free to use and adapt with attribution. Provided as-is, without warranty; this is not legal advice.</sub>
+<sub>Prepared by Olugboye Shola. Free to use and adapt with attribution. Provided as-is, without warranty; this is not legal advice.</sub>
