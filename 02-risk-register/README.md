@@ -76,6 +76,7 @@ R-004 and R-005 only move one step on likelihood: the policy pack governs *who* 
 | Key risk indicators | 7 (KRI-01 to KRI-07) with green / amber / red thresholds |
 | Later in the portfolio | [Project 04](../04-vendor-risk-management/) adds 9 supplier risks: v1.1 has 14 risks, a 43% reduction and 3 residual High |
 | And then | [Project 07](../07-aws-cloud-compliance/) tests R-005's controls against the cloud configuration and withdraws the credits the evidence does not support: v1.2 re-scores R-005 from 12 to **20 (Critical)**, residual total 122 → 130 |
+| Most recently | [Project 08](../08-ai-governance-eu-ai-act-iso42001/) adds two AI risks the register could not see: wrong AI output acted on (AR-001) and a tool used for a banned or high-risk purpose (AR-002). v1.3 has 16 risks, residual total 130 → 147 |
 
 ## All four treatment strategies, on the record
 
