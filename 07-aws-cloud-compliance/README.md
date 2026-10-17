@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [← 06 SOC 2 Readiness & Internal Audit](../06-soc2-readiness-internal-audit/)
+[← Portfolio home](../README.md) · [← 06 SOC 2 Readiness & Internal Audit](../06-soc2-readiness-internal-audit/) · [Next: 08 AI Governance →](../08-ai-governance-eu-ai-act-iso42001/)
 
 # 07 · Cloud Configuration Compliance Review (CIS Benchmark)
 

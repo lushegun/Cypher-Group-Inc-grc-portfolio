@@ -1,0 +1,4 @@
+﻿Rank,AI system ID,AI system,Inherent vendor risk (CGI-TPR-001),External people whose content it processes directly,Selected for full assessment
+1,AIS-01,ScribeCo meeting assistant,16,Yes: customers on calls,Yes (AIIA-01)
+2,AIS-02,ChatCo AI features,12,Yes: customers in 3 shared channels,Yes (AIIA-02)
+3,AIS-03,WriteCo writing assistant,12,No: reads what staff type,No: screening only (DPIA screening table)

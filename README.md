@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>One B2B SaaS company, one security governance programme built end-to-end.</b><br>
-  Policies → risk → maturity → vendors → ISO 27001 → SOC 2 → cloud compliance.
+  Policies → risk → maturity → vendors → ISO 27001 → SOC 2 → cloud compliance → AI governance.
 </p>
 
 <p align="center">
@@ -22,7 +22,8 @@
   <img src="https://img.shields.io/badge/SOC%202-TSC-2E86DE?style=flat-square" alt="SOC 2">
   <img src="https://img.shields.io/badge/CIS%20AWS-v5.0.0-3D7EAA?style=flat-square" alt="CIS AWS Foundations Benchmark v5.0.0">
   <img src="https://img.shields.io/badge/GDPR-Art.%2032--34-5FA8D3?style=flat-square" alt="GDPR">
-  <img src="https://img.shields.io/badge/AI%20governance-focus-2BAE66?style=flat-square" alt="AI governance">
+  <img src="https://img.shields.io/badge/EU%20AI%20Act-2024%2F1689-2BAE66?style=flat-square" alt="EU AI Act">
+  <img src="https://img.shields.io/badge/ISO%2FIEC%2042001-2023-2BAE66?style=flat-square" alt="ISO/IEC 42001:2023">
 </p>
 
 ---
@@ -37,40 +38,63 @@
 > 4. **[Project 05](05-iso27001-readiness-soa/)** — why none of 88 applicable ISO 27001 controls is marked *Implemented*, and why that is the honest answer.
 > 5. **[Project 06](06-soc2-readiness-internal-audit/)** — the ten controls we hand our customers, and the four our cloud provider handed us that we never accepted.
 > 6. **[Project 07](07-aws-cloud-compliance/)** — why a cloud configuration review pushed the top cloud risk *up* from 12 to 20, and why the obvious reason for it is wrong.
-> 7. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
+> 7. **[Project 08](08-ai-governance-eu-ai-act-iso42001/)** — why the EU AI Act turned out to be the small problem, and what the big one was.
+> 8. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
 
 ## Projects
 
 | # | Project | What it demonstrates | Headline result | Status |
 |:-:|---|---|---|:-:|
-| 01 | **[Startup Security Policy Pack](01-security-policy-pack/)** | Policy writing · framework mapping · policy governance | 5 policies · 38 ISO 27001 Annex A controls mapped · exception register · sign-off tracker |  Published |
-| 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 risks · aggregate exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs |  Published |
-| 03 | **[NIST CSF 2.0 Gap Assessment & Maturity Scorecard](03-nist-csf-gap-assessment/)** | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations |  Published |
-| 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 |  Published |
-| 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 |  Published |
+| 01 | **[Startup Security Policy Pack](01-security-policy-pack/)** | Policy writing · framework mapping · policy governance | 5 policies · 38 ISO 27001 Annex A controls mapped · exception register · sign-off tracker | Published |
+| 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 risks · aggregate exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs | Published |
+| 03 | **[NIST CSF 2.0 Gap Assessment & Maturity Scorecard](03-nist-csf-gap-assessment/)** | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations | Published |
+| 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 | Published |
+| 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 | Published |
 | 06 | **[SOC 2 Type II Readiness & Internal Audit Workpapers](06-soc2-readiness-internal-audit/)** | TSC crosswalk · system description & CUECs · control testing · sampling · audit findings | 38 criteria: 8 with adequate design, 0 evidenced · Type I 53.9%, Type II 36.0%, both NO-GO · 24 workpapers, 37 findings · Type II report ~Nov 2028 | Published |
 | 07 | **[Cloud Configuration Compliance Review (CIS Benchmark)](07-aws-cloud-compliance/)** | CIS benchmark review · cloud provider CUECs · five-way mapping · evidence-based risk re-scoring | 63 CIS v5.0.0 recommendations: 12 pass, profile score 24.4% · 15 findings, 3 critical · 0 of 4 provider CUECs performed · R-005 residual 12 → 20 | Published |
+| 08 | **[AI Governance Assessment (EU AI Act + ISO/IEC 42001)](08-ai-governance-eu-ai-act-iso42001/)** | AI inventory · EU AI Act classification · ISO/IEC 42001 SoA · AI impact assessments · seven-framework mapping | 3 AI systems + 1 scenario: no high-risk, no prohibited use · ISO/IEC 42001 readiness 30.3%, NO-GO · 13 findings, 1 critical · 2 new risks, register v1.3 | Published |
 
 <p align="center"><img src="03-nist-csf-gap-assessment/images/03-radar-current-vs-target.png" alt="NIST CSF 2.0 maturity, current versus target" width="560"><br><sub>Project 03: where the company stands against NIST CSF 2.0, and where it has decided to be</sub></p>
 
 ## How the projects connect
 
-Every project builds on the one before it, the way a real GRC programme does.
+Every project builds on the ones before it, the way a real GRC programme does. The programme runs in four stages, from writing the rules to checking what the real systems do. **Solid arrows** show what each project uses; **dotted arrows** show where a later project changed the risk register.
 
 ```mermaid
-flowchart LR
-    P1["01 · Policy pack<br/>the rules"] --> P2["02 · Risk register<br/>what could go wrong"]
-    P1 --> P3["03 · CSF 2.0 gap assessment<br/>how mature are we"]
+flowchart TB
+    subgraph S1["1 · Set the rules and the risks"]
+        P1["01 · Policy pack<br/>the rules"]
+        P2["02 · Risk register<br/>what could go wrong"]
+    end
+    subgraph S2["2 · Measure and look outside"]
+        P3["03 · CSF 2.0 gap assessment<br/>how mature are we"]
+        P4["04 · Vendor risk<br/>who else holds our data"]
+    end
+    subgraph S3["3 · Get ready for the auditor"]
+        P5["05 · ISO 27001 SoA<br/>which controls and why"]
+        P6["06 · SOC 2 readiness<br/>do they work over time"]
+    end
+    subgraph S4["4 · Check the real systems"]
+        P7["07 · Cloud compliance<br/>is the cloud set up as claimed"]
+        P8["08 · AI governance<br/>what the AI says and decides"]
+    end
+    P1 --> P2
     P2 --> P3
-    P2 --> P4["04 · Vendor risk<br/>who else holds our data"]
-    P4 -->|new risks VR-001 to VR-009| P2
-    P2 --> P5["05 · ISO 27001 SoA<br/>which controls and why"]
+    P2 --> P4
     P3 --> P5
-    P5 --> P6["06 · SOC 2 readiness<br/>prove it works"]
-    P6 --> P7["07 · Cloud compliance<br/>prove it in the cloud"]
+    P4 --> P5
+    P5 --> P6
+    P6 --> P7
+    P7 --> P8
+    P4 -->|AI tools found on expenses| P8
+    P4 -.->|VR-001 to VR-009| P2
+    P7 -.->|R-005 re-scored| P2
+    P8 -.->|AR-001, AR-002| P2
+    classDef ai fill:#E6F4EA,stroke:#2BAE66,color:#0B2545
+    class P8 ai
 ```
 
-## The scenario — Cypher Group Inc. 
+## The scenario — Cypher Group Inc.
 
 | | |
 |---|---|
@@ -100,7 +124,12 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | CIS AWS Foundations Benchmark v5.0.0 assessment (63 recommendations pre-filled) | [Markdown](templates/cis-aws-assessment-template.md) · [CSV](templates/cis-aws-assessment-template.csv) |
 | Multi-framework mapping (CIS → ISO 27001 → SOC 2 → CSF → risk) | [Markdown](templates/multi-framework-mapping-template.md) · [CSV](templates/multi-framework-mapping-template.csv) |
 | Cloud findings register (with severity rule) | [Markdown](templates/cloud-findings-register-template.md) · [CSV](templates/cloud-findings-register-template.csv) |
-➡️ **[Browse all templates](templates/)** · or download everything at once from **[Releases](../../releases/latest)**.
+| AI system register | [Markdown](templates/ai-register-template.md) · [CSV](templates/ai-register-template.csv) |
+| EU AI Act applicability checklist (post-Omnibus dates) | [Markdown](templates/eu-ai-act-applicability-template.md) · [CSV](templates/eu-ai-act-applicability-template.csv) |
+| ISO/IEC 42001 Statement of Applicability (38 controls pre-filled) and clauses 4–10 checklist | [Markdown](templates/iso42001-soa-template.md) · [CSV](templates/iso42001-soa-template.csv) |
+| AI system impact assessment with DPIA screening | [Markdown](templates/ai-impact-assessment-template.md) · [CSV](templates/ai-impact-assessment-template.csv) |
+
+**[Browse all templates](templates/)** · or download everything at once from **[Releases](../../releases/latest)**.
 
 ## Skills demonstrated
 
@@ -111,12 +140,13 @@ Blank, reusable versions of the documents in this portfolio. Download, replace t
 | **Maturity assessment** | Declared target state, 0–4 evidence-based scoring, reconciliation with the risk register, prioritised roadmap — [03](03-nist-csf-gap-assessment/) |
 | **Third-party risk** | Discovery from four sources, published tiering model, weighted questionnaire, SOC 2 report reading (including the controls it assumes the customer runs), contract clauses — [04](04-vendor-risk-management/) |
 | **ISO/IEC 27001 and ISMS** | Scope statement, a 93-control Statement of Applicability traced to risks and findings, clauses 4–10 readiness with Stage 1 gates, costed certification roadmap — [05](05-iso27001-readiness-soa/) |
-| **Compliance mapping** | ISO/IEC 27001:2022 Annex A, NIST CSF 2.0, SOC 2 TSC, GDPR Art. 28 — [01](01-security-policy-pack/), [03](03-nist-csf-gap-assessment/), [04](04-vendor-risk-management/), [05](05-iso27001-readiness-soa/) |
-| **AI governance** | Approved-AI-tools policy ([01 §4.5](01-security-policy-pack/01-security-policy-pack.md#45-use-of-artificial-intelligence-tools)) · AI vendor tiering trigger, AI questionnaire domain and no-training contract clause ([04](04-vendor-risk-management/)) |
+| **SOC 2 and internal audit** | Criteria selection, a 38-criterion TSC crosswalk, system description with CUECs and CSOCs, 24 workpapers with populations, samples and seeds, a findings register graded by a published dating rule, PBC list — [06](06-soc2-readiness-internal-audit/) |
+| **Cloud compliance** | CIS AWS Foundations Benchmark v5.0.0 review of all 63 recommendations, Security Hub control mapping, cloud provider CUEC close-out, five-way framework mapping, residual risk re-scored on evidence — [07](07-aws-cloud-compliance/) |
+| **AI governance** | Approved-AI-tools policy ([01 §4.5](01-security-policy-pack/01-security-policy-pack.md#45-use-of-artificial-intelligence-tools)) · AI vendor tiering trigger, AI questionnaire domain and no-training contract clause ([04](04-vendor-risk-management/)) · EU AI Act classification after the Digital Omnibus, ISO/IEC 42001 Statement of Applicability, AI impact assessments with DPIA screening ([08](08-ai-governance-eu-ai-act-iso42001/)) |
+| **Compliance mapping** | ISO/IEC 27001:2022 Annex A, NIST CSF 2.0, SOC 2 TSC, GDPR Arts 13–14, 28 and 35, EU AI Act, ISO/IEC 42001, NIST AI RMF — [01](01-security-policy-pack/), [03](03-nist-csf-gap-assessment/), [04](04-vendor-risk-management/), [05](05-iso27001-readiness-soa/), [08](08-ai-governance-eu-ai-act-iso42001/) |
 | **Audit readiness** | Evidence trackers, escalation rules, retention periods, documented-information checklist, go/no-go with a veto rule, honest limitation statements — [01](01-security-policy-pack/), [05](05-iso27001-readiness-soa/) |
 | **Tooling** | Excel (formulas, validation, conditional formatting), Markdown, Notion, GitHub |
-| **Cloud compliance** | CIS AWS Foundations Benchmark v5.0.0 review of all 63 recommendations, Security Hub control mapping, cloud provider CUEC close-out, five-way framework mapping, residual risk re-scored on evidence — [07](07-aws-cloud-compliance/) |
-| **SOC 2 and internal audit** | Criteria selection, a 38-criterion TSC crosswalk, system description with CUECs and CSOCs, 24 workpapers with populations, samples and seeds, a findings register graded by a published dating rule, PBC list — [06](06-soc2-readiness-internal-audit/) |
+
 ## About me
 
 I'm **Olushegun Shola Olugboye** (artefacts in this repository are signed **"O.S"**, the assessor and author on every document). I build practical security governance for growing companies, with a particular interest in **AI governance**: how organisations let people use AI tools without leaking the data they are trusted with.

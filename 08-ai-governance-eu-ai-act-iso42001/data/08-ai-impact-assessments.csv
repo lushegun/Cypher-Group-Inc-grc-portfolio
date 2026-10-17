@@ -1,0 +1,35 @@
+﻿Assessment,Section,Field,Content
+AIIA-01,Identity,System,AIS-01 ScribeCo meeting assistant (CGI-VEN-012)
+AIIA-01,Identity,Assessor / approver,"O.S / Head of Customer Success (owner), then Chief Executive Officer"
+AIIA-01,Identity,Date and trigger,17 Oct 2026. Trigger: shadow AI found 15 Sep 2026; no contract; decision overdue since 15 Oct 2026
+AIIA-01,Use,Intended use,Notes and summaries of internal and customer calls for Customer Success
+AIIA-01,Use,Uses that must never happen,Assessing staff performance from calls (Annex III 4(b)); inferring emotions from voice at work (Art. 5(1)(f))
+AIIA-01,Data,Data in,"Live audio of about 40 meetings a month: voices, names, commercial terms, security discussion, any personal data spoken"
+AIIA-01,Data,Data out,"Transcripts, summaries and action items, stored by ScribeCo in the United States and shared by link"
+AIIA-01,Data,Model-training terms,"Unknown. No contract and no terms review, so VQ-68 and VQ-69 cannot be answered. Treat as 'may train, may review'"
+AIIA-01,People,Affected people,Customer participants (individuals and their companies); Cypher staff (employees: power imbalance); third parties named on calls
+AIIA-01,Oversight,Human oversight today,None recorded. CGI-POL-001 s4.5.3 requires a competent person to review AI output before it reaches a customer
+AIIA-01,Oversight,Oversight required,Human-in-the-loop: the call owner checks every summary before it leaves Cypher; monthly sample of 10 checked against recordings
+AIIA-01,GDPR,Cypher's GDPR role,"Controller: these are Cypher's own business calls, so Cypher (not its customers) decides why and how they are recorded"
+AIIA-01,GDPR,Art. 28 contract,None. ScribeCo processes personal data for Cypher with no Art. 28 terms (VR-001); no transfer mechanism for US hosting (Arts 44-46)
+AIIA-01,GDPR,Art. 35 DPIA,Required: 4 of the 9 EDPB criteria met (see DPIA screening). Must be done before any further use
+AIIA-01,GDPR,Arts 13-14 notice,Not given. People on calls are not told the call is recorded and transcribed by a third party
+AIIA-01,Societal,Societal impact,Negligible at this scale (one company's calls). Recorded so the process is complete (A.5.5)
+AIIA-01,Decision,Recommendation,"Suspend now. Then either contract (DPA, no training, no human review, EU or covered transfer, 30-day retention, deletion on exit) with notice, DPIA and review step, or exit with a deletion certificate. Without a contract the residual stays at 16"
+AIIA-02,Identity,System,AIS-02 ChatCo AI features (CGI-VEN-004)
+AIIA-02,Identity,Assessor / approver,"O.S / IT Operations Manager (owner), then Chief Technology Officer"
+AIIA-02,Identity,Date and trigger,17 Oct 2026. Trigger: VRA-2026-002 F-004; action R4 due 01 Oct 2026 with no completion evidence
+AIIA-02,Use,Intended use,Answers and channel summaries for staff inside ChatCo
+AIIA-02,Use,Uses that must never happen,Scoring staff from chat behaviour (Annex III 4(b)); using AI summaries as the incident record (CGI-POL-005 decision log stays human)
+AIIA-02,Data,Data in,"All message content the user can see: internal discussion, pasted credentials and screenshots, incident traffic, customers' posts in 3 shared channels"
+AIIA-02,Data,Data out,AI answers and summaries shown inside ChatCo
+AIIA-02,Data,Model-training terms,"Not Met: training not contractually prohibited; human review not excluded (F-004; VQ-68, VQ-69)"
+AIIA-02,People,Affected people,Cypher staff (employees); customer staff posting in shared channels
+AIIA-02,Oversight,Human oversight today,None recorded; summaries are internal and unchecked
+AIIA-02,Oversight,Oversight required,Human-on-the-loop: summaries labelled as AI and never used as the incident record; switch-off control kept with the IT Operations Manager
+AIIA-02,GDPR,Cypher's GDPR role,Controller for its own workspace content
+AIIA-02,GDPR,Art. 28 contract,Not executed (F-001; VR-001)
+AIIA-02,GDPR,Art. 35 DPIA,Required before re-enabling: 3 of the 9 EDPB criteria met
+AIIA-02,GDPR,Arts 13-14 notice,Customers in shared channels are not told their posts may be processed by AI
+AIIA-02,Societal,Societal impact,Negligible at this scale
+AIIA-02,Decision,Recommendation,"Confirm the features are off today (screenshot). Re-enable only after a DPA with no-training and no-human-review clauses, a DPIA, retention limits (F-005) and AI switched off in shared channels"

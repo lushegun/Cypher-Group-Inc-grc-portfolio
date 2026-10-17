@@ -1,0 +1,8 @@
+﻿AI system ID,AI system,Supplier (ID),What it does,Status,How it entered,Business owner (job title),Scale,Data in,Data out,Classification,People affected,Our AI Act role,Role article,Risk tier for us,Deciding article(s),Duties that sit with the provider,Training on our content (contract evidence),GDPR Art. 28 DPA,Human oversight,Intended use,Banned uses,Related risk IDs,Next review
+AIS-01,[e.g. Meeting assistant],[SUPPLIER (VEN-ID)],"[Joins calls, transcribes, summarises]",[In use / Pilot / Planned / Retired],[Procurement / expense claim / bundled feature],[JOB TITLE],[e.g. 40 meetings a month],"[What goes in, in plain words]",[What comes out],[CLASS],[Customers on calls; staff; third parties],[Deployer / Provider / Importer / Distributor],[Art. 3(4)],[Prohibited / High-risk / Transparency / Minimal],[e.g. Art. 6(2) + Annex III: no listed use],[e.g. Art. 50(1)-(2) on the supplier],[Prohibited by contract clause X / Not evidenced],[Executed DD Mon YYYY / None],"[Human-in-the-loop: who checks what, recorded where]",[INTENDED USE],[e.g. no staff evaluation; no emotion inference],[RISK IDs],[DD Mon YYYY]
+[AIS-NN],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ]
+[AIS-NN],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ]
+[AIS-NN],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ]
+[AIS-NN],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ]
+[AIS-NN],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ]
+[AIS-NN],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ],[ ]

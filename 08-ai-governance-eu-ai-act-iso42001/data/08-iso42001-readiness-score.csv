@@ -1,0 +1,6 @@
+﻿Component,Calculation,Result,Weight
+Clauses 4-10,18 / 60,30.0%,60%
+Annex A (applicable controls),(0 x 1 + 16 x 0.5) / 26,30.8%,40%
+Weighted readiness,0.6 x clauses + 0.4 x Annex A,30.3%,-
+Gate requirements failing,9 of 9,NO-GO,-
+Sensitivity: AI-A01 brought into scope,(0 x 1 + 16 x 0.5) / 38,26.4% weighted,-

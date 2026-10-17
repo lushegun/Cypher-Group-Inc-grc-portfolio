@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [← 05 ISO 27001 Readiness & SoA](../05-iso27001-readiness-soa/)
+[← Portfolio home](../README.md) · [← 05 ISO 27001 Readiness & SoA](../05-iso27001-readiness-soa/) · [Next: 07 Cloud Compliance →](../07-aws-cloud-compliance/)
 
 # 06 · SOC 2 Type II Readiness Assessment & Internal Audit Workpapers
 

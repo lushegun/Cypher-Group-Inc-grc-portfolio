@@ -1,0 +1,7 @@
+﻿Category,Name,Before,After,Why,What would move it
+GV.OC,Organizational Context,1,1,"AI roles and intended purposes are drafted here, not approved. A draft is a prerequisite, not a score.",2 when ISO-01 (now including the AI context and role statement) is CEO-approved.
+GV.RM,Risk Management Strategy,2,2,"AR-001 and AR-002 use the existing method, but there are still no acceptance criteria, for AI or anything else.",3 when ISO-05's criteria (with AI harm criteria) are approved and the cadence has run.
+GV.PO,Policy,2,2,"CGI-POL-001 s4.5 is approved but unevidenced: that is already a 2. A new AI policy would also be approved but unevidenced, so it could not lift it either.","3 when policy acknowledgement is evidenced at 100% and the AI-use module has run (REC-04, AIG-08)."
+ID.AM,Asset Management,1,1,"The AI register lists four systems. Like Project 7's cloud resource list, it is an input to REC-05, not an asset inventory.","2 when REC-05 delivers the inventory with owners and classification, AI tools included."
+PR.AT,Awareness and Training,1,1,No AI module has run.,"2 when the AI module is approved and scheduled; 3 with completion records (AIG-08, REC-09)."
+GV.SC,Cybersecurity Supply Chain Risk Management,2,2,T2-f operated once (WriteCo); ScribeCo and ChatCo AI show the programme not yet holding.,3 after a full review cycle on cadence (unchanged from CGI-ISO-001).
