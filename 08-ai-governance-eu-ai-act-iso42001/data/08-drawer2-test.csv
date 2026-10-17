@@ -1,0 +1,7 @@
+﻿Candidate event,Existing risk considered,Would its controls have prevented it?,Decision
+ScribeCo processes customer call audio under no contract,VR-001,"Yes: Gate B (no DPA, no onboarding) stops exactly this","Existing risk, new route: VR-001 already lists CGI-VEN-012. No new risk"
+A supplier trains on or reviews Cypher's content,VR-006,Yes: it is VR-006's own scenario,Existing risk. No new risk
+A team adopts an AI tool with no review,VR-005,"Yes, when the tool is paid for or connected",Existing risk. No new risk
+Staff paste Confidential data into a free web AI tool,VR-005,"No: expense and OAuth reconciliation cannot see a free browser tool, though VR-005's scenario names free tiers","Existing risk, control gap: flag VR-005's residual for the Q1 2027 review (same treatment as R-001 in CGI-AWS-001). No new risk"
+Inaccurate AI output is acted on or sent to a customer,VR-006; VR-005,No: neither control set touches output accuracy,NEW RISK AR-001
+An approved tool is used for a prohibited or Annex III purpose,VR-005,"No: the gate checks tools at purchase, not later uses",NEW RISK AR-002

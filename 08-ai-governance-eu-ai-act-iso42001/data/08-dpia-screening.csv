@@ -1,0 +1,12 @@
+﻿EDPB criterion,AIS-01 ScribeCo,AIS-02 ChatCo AI features,AIS-03 WriteCo
+1. Evaluation or scoring,No,No,No
+2. Automated decision with legal or similar effect,No,No,No
+3. Systematic monitoring,Yes: every recorded call,No,No
+4. Sensitive or highly personal data,Yes: private communications,Yes: private communications,Yes: anything typed
+5. Large scale,No,No,No
+6. Matching or combining datasets,No,No,No
+7. Vulnerable data subjects (employees),Yes,Yes,Yes
+8. Innovative use or new technology,Yes,Yes,Yes
+9. Prevents exercising a right or using a service,No,No,No
+Criteria met,4,3,3
+Result (two or more = DPIA required),DPIA required,DPIA required,DPIA required

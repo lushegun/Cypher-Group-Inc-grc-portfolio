@@ -1,0 +1,14 @@
+﻿Finding ID,Severity,EU AI Act,ISO/IEC 42001,ISO/IEC 27001:2022 Annex A,SOC 2 (TSC),NIST CSF 2.0,NIST AI RMF,Risk ID
+AF-01,Critical,None directly (Art. 4 only). The duty broken is GDPR Arts 28 and 44-46,A.10.2; A.10.3; 8.1,A.5.19; A.5.20; A.5.34,CC9.2,GV.SC,GOVERN,VR-001; VR-005; VR-006; R-003
+AF-02,High,None (ChatCo holds the provider duties). GDPR Art. 28,A.10.2; A.10.3,A.5.20; A.5.34,CC9.2,GV.SC; PR.DS,GOVERN; MAP,VR-006; VR-001
+AF-03,Medium,Art. 4 (a measure staff can follow),A.9.2; A.4.2; A.6.2.5; 8.1,A.5.10; A.5.9,CC5.3,GV.PO; ID.AM,GOVERN; MAP,VR-005
+AF-04,High,Art. 5; Art. 6(2) and Annex III,4.1; A.4.2; A.10.3,A.5.9; A.5.31,None: CGI-SOC-001 found A.5.31 has no criterion counterpart,ID.AM; GV.OC,MAP,VR-005; AR-002
+AF-05,Medium,Art. 4,7.2; 7.3; A.4.6; A.8.2,A.6.3,CC1.4; CC2.2,PR.AT,GOVERN,VR-005; VR-006; AR-001
+AF-06,Medium,None: Arts 14 and 26 apply to high-risk systems only. Voluntary alignment,A.6.2.4; A.6.2.6; A.9.2,None: Annex A has no control for output accuracy (nearest A.5.10),None in scope: Processing Integrity is outside Cypher's SOC 2 scope,None: CSF 2.0 has no Category for output accuracy (nearest GV.PO),MEASURE; MANAGE,AR-001
+AF-07,High,None for Cypher (Art. 27 FRIA applies only to certain deployers of high-risk systems). GDPR Art. 35,6.1.4; 8.4; A.5.2; A.5.3; A.5.4,A.5.34,None: Privacy is outside Cypher's SOC 2 scope (SOC-A03),ID.RA; GV.OC,MAP,VR-006; VR-001
+AF-08,Medium,Art. 4 (measures need an owner),4.3; 5.2; 5.3; A.2.2; A.3.2,A.5.1; A.5.2,CC1.3; CC5.3,GV.PO; GV.RR,GOVERN,VR-005; VR-006; AR-002
+AF-09,High,None for Cypher as deployer (Art. 50(3)-(4) not triggered). GDPR Arts 13-14,A.8.5; A.10.4,A.5.34,CC2.3,GV.OC,GOVERN; MAP,VR-006
+AF-10,Medium,None directly,A.3.3; A.8.3; A.8.4,A.5.24; A.6.8,CC2.3; CC7.3,RS.MA; RS.CO,MANAGE,AR-001
+AF-11,Medium,Art. 5(1)(f); Art. 6(2) and Annex III point 4; Art. 25(1)(c),A.9.4; A.2.2,A.5.31,None: CGI-SOC-001 found A.5.31 has no criterion counterpart,GV.OC,GOVERN; MAP,AR-002
+AF-12,Low,None,A.10.4,A.5.20,CC2.3,GV.SC,GOVERN,VR-001
+AF-13,Medium,Art. 3(3); Art. 50(1)-(2); Art. 6(2) and Annex III 4(b); Art. 4,A.6.1.2; A.6.1.3; A.6.2.2; A.5.2; A.8.2,A.5.8; A.8.25; A.8.26,CC3.4; CC8.1,GV.OC; ID.RA,MAP; MEASURE,R-004; AR-002

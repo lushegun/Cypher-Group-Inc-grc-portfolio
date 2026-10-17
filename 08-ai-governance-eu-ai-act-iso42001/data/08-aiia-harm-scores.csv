@@ -1,0 +1,9 @@
+﻿Assessment,Harm ID,Harm,Who is affected,Current L,Current I,Current score,Measures,Measure type,After L,After I,After score
+AIIA-01,H1,"Call content retained, reviewed or used for training by a supplier under no contract",Customer participants; Cypher,4,4,16,DPA with no-training and no-human-review clauses and a transfer mechanism (brakes); 30-day retention and deletion on exit (seatbelt),Brakes and seatbelt (two measures),2,3,6
+AIIA-01,H2,A wrong summary is acted on or sent to a customer (misstated commitments),Customers,3,3,9,Call owner reviews every summary before it leaves Cypher (brakes); monthly accuracy sample of sent summaries (seatbelt: finds what slipped through),"Brakes, checked by a seatbelt",2,3,6
+AIIA-01,H3,People are recorded without being told,Customer participants; staff; third parties,4,2,8,Spoken and written notice at the start of every recorded call; bot shown by name,Brakes,1,2,2
+AIIA-01,H4,"Use drifts into judging staff, or emotion inference from voice",Staff,2,4,8,Banned-use statement in the AI policy; feature check in AIG-04,Brakes,1,4,4
+AIIA-02,H1,"Message content (credentials, customer posts) used for training or human review",Staff; customers in shared channels,4,4,16,Features off until a DPA with no-training and no-human-review clauses,Brakes,1,4,4
+AIIA-02,H2,Customers in shared channels unaware their posts are processed by AI,Customer staff,3,2,6,AI off in shared channels; notice in channel description,Brakes,1,2,2
+AIIA-02,H3,A wrong incident-channel summary misleads the response,Customers (indirectly),2,3,6,Rule: AI summaries are never the incident record,Brakes,1,3,3
+AIIA-02,H4,AI answers make pasted credentials and customer detail easier to find,Staff; customers,3,3,9,Retention limit (F-005); credential-pasting rule; secret rotation if found,Brakes,2,3,6
