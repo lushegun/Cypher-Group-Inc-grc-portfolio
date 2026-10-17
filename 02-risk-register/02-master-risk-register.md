@@ -269,4 +269,4 @@ A register is a snapshot; key risk indicators are what tell you a score has move
 
 ---
 
-**END OF REGISTER — CGI-RSK-001 v1.0. Simulated case study content. Prepared by O.S as portfolio project 2 of 7.**
+**END OF REGISTER — CGI-RSK-001 v1.0. Prepared by O.S · Portfolio project 02.**

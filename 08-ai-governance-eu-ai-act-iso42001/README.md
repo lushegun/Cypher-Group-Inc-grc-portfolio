@@ -66,3 +66,7 @@ The big problem is **how the AI arrived**:
 - [EU AI Act applicability checklist](../templates/eu-ai-act-applicability-template.md) · [CSV](../templates/eu-ai-act-applicability-template.csv): the eight tests in order, each with its article, and the post-Omnibus dates
 - [ISO/IEC 42001 Statement of Applicability](../templates/iso42001-soa-template.md) · [CSV](../templates/iso42001-soa-template.csv): all 38 controls pre-filled, with the maturity-to-status rule and the clause 4-10 checklist
 - [AI impact assessment template](../templates/ai-impact-assessment-template.md) · [CSV](../templates/ai-impact-assessment-template.csv): combined AI and DPIA screening, harm scoring and oversight
+
+---
+
+[← 07 Cloud compliance](../07-aws-cloud-compliance/) · [Portfolio home](../README.md) · [Free templates →](../templates/)

@@ -976,7 +976,6 @@ declared target of 2.68.
 
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
 > **Subject:** NIST CSF 2.0 security maturity — where we stand and what to do first
-> *(Simulated case study.)*
 
 ### Overall maturity: 1.23 out of 4.00
 
@@ -1049,8 +1048,8 @@ control driving a residual High risk scores above 0:
 
 | Residual High risk | Driving control gap | Owning Category | Score | Consistent? |
 |---|---|---|:-:|---|
-| R-004 — production API authorisation flaw (residual 12) | CG-02 — no secure development, code review, change management or vulnerability management | PR.PS Platform Security | **0** | ✅ A High risk behind a Category scoring 0 is exactly what the register predicts |
-| R-005 — CloudCo misconfiguration exposing customer data (residual 12) | CG-03 — no cloud configuration baseline and no drift detection | PR.IR Technology Infrastructure Resilience | **0** | ✅ Same |
+| R-004 — production API authorisation flaw (residual 12) | CG-02 — no secure development, code review, change management or vulnerability management | PR.PS Platform Security | **0** | Yes. A High risk behind a Category scoring 0 is exactly what the register predicts |
+| R-005 — CloudCo misconfiguration exposing customer data (residual 12) | CG-03 — no cloud configuration baseline and no drift detection | PR.IR Technology Infrastructure Resilience | **0** | Yes. Same |
 
 **Control gap coverage.** All five CGI-RSK-001 control gaps are accounted for in this assessment:
 
@@ -1083,20 +1082,20 @@ control driving a residual High risk scores above 0:
 
 | Check | Result |
 |---|---|
-| 22 Categories assessed, no duplicates, all 6 Functions covered | ✅ 6 + 3 + 5 + 2 + 4 + 2 = 22 |
-| Every Current and Target score within 0–4; no Target below Current | ✅ |
-| Gap = Target − Current for every row | ✅ computed, not typed |
-| Function averages and overall average recomputed programmatically | ✅ current sum 27 ÷ 22 = 1.2273 (1.23); target sum 59 ÷ 22 = 2.6818 (2.68) |
-| Target distribution reconciles to the target sum | ✅ (15 × 3) + (7 × 2) = 59 |
-| No Category scored ≥ 3 behind a residual High risk without a written explanation | ✅ one instance, explained in §9.1 |
-| Every Category cites at least one CGI-POL clause or a named absence of one | ✅ |
-| Every clause-level fragment that touches a zero-scored Category is named and weighed (§3.1 fragment rule) | ✅ |
-| Control gap IDs match CGI-RSK-001 §4.3 exactly | ✅ CG-01 to CG-05 |
-| Every Category carries an ISO 27001:2022 Annex A mapping | ✅ |
-| Every Owner is a job title, never a named individual | ✅ |
-| Recommendations ≥ 12 | ✅ 18 |
-| Every recommendation has priority, effort, owner, target quarter, dependency and a Risk ID or control gap | ✅ |
-| Case-study notice present | ✅ |
+| 22 Categories assessed, no duplicates, all 6 Functions covered | Pass: 6 + 3 + 5 + 2 + 4 + 2 = 22 |
+| Every Current and Target score within 0–4; no Target below Current | Pass |
+| Gap = Target − Current for every row | Pass: computed, not typed |
+| Function averages and overall average recomputed programmatically | Pass: current sum 27 ÷ 22 = 1.2273 (1.23); target sum 59 ÷ 22 = 2.6818 (2.68) |
+| Target distribution reconciles to the target sum | Pass: (15 × 3) + (7 × 2) = 59 |
+| No Category scored ≥ 3 behind a residual High risk without a written explanation | Pass: one instance, explained in §9.1 |
+| Every Category cites at least one CGI-POL clause or a named absence of one | Pass |
+| Every clause-level fragment that touches a zero-scored Category is named and weighed (§3.1 fragment rule) | Pass |
+| Control gap IDs match CGI-RSK-001 §4.3 exactly | Pass: CG-01 to CG-05 |
+| Every Category carries an ISO 27001:2022 Annex A mapping | Pass |
+| Every Owner is a job title, never a named individual | Pass |
+| Recommendations ≥ 12 | Pass: 18 |
+| Every recommendation has priority, effort, owner, target quarter, dependency and a Risk ID or control gap | Pass |
+| Case-study notice present | Pass |
 
 ---
 
@@ -1150,4 +1149,4 @@ control driving a residual High risk scores above 0:
 | NIST CSWP 29 | The NIST Cybersecurity Framework (CSF) 2.0 | 2.0 | Published 26 Feb 2024 |
 | ISO/IEC 27001:2022 | Information security management systems — Requirements | 2022 | Referenced for Annex A mapping |
 
-*End of CGI-GAP-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye. Simulated case study data.*
+*End of CGI-GAP-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye.*

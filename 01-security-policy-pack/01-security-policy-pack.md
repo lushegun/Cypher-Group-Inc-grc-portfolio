@@ -1108,4 +1108,4 @@ one set of policies to support multiple compliance programmes simultaneously.
 
 **END OF PACK — CGI-POL-001 to CGI-POL-005, version 1.0**
 
-*Simulated case study content. Prepared by O.S as portfolio project 1 of 7.*
+*Prepared by O.S · Portfolio project 01.*

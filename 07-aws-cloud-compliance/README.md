@@ -65,3 +65,7 @@ So R-005 goes back up to 20. But the tempting reason is wrong:
 - [CIS AWS assessment template](../templates/cis-aws-assessment-template.md) · [CSV](../templates/cis-aws-assessment-template.csv): all 63 v5.0.0 recommendations pre-filled with level, status, Security Hub ID, audit command and default mappings
 - [Multi-framework mapping template](../templates/multi-framework-mapping-template.md) · [CSV](../templates/multi-framework-mapping-template.csv): CIS → ISO/IEC 27001 → SOC 2 → CSF → risk
 - [Cloud findings register template](../templates/cloud-findings-register-template.md) · [CSV](../templates/cloud-findings-register-template.csv): with the severity rule
+
+---
+
+[← 06 SOC 2 readiness & internal audit](../06-soc2-readiness-internal-audit/) · [Portfolio home](../README.md) · [Next: 08 AI governance →](../08-ai-governance-eu-ai-act-iso42001/)

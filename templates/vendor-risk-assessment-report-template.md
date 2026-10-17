@@ -48,7 +48,7 @@
 
 | ID | Sev | Finding | Question(s) | Evidence | Risk if unaddressed |
 |---|---|---|---|---|---|
-| [F-001] | [🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low / ⚪ Observation] | [What is true, stated as a fact, not as an opinion] | [VQ-nn] | [What was or was not produced] | [Business consequence, tied to a risk ID or a policy clause] |
+| [F-001] | [Critical / High / Medium / Low / Observation] | [What is true, stated as a fact, not as an opinion] | [VQ-nn] | [What was or was not produced] | [Business consequence, tied to a risk ID or a policy clause] |
 | [F-002] | | | | | |
 
 > **Severity guidance.** Critical = a present-tense regulatory non-conformity, or a control whose absence

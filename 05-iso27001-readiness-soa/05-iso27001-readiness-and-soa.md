@@ -792,7 +792,6 @@ major nonconformity costs more time than it saves.
 
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 16 September 2026
 > **Subject:** Can we get ISO 27001 certified, and when?
-> *(Simulated case study.)*
 
 **Answer: yes, in November 2027, not sooner. Booking an audit today would fail.**
 
@@ -958,4 +957,4 @@ restraint as Project 4 applies: **a prerequisite is not a score, and an approved
 | ISO/IEC 27002:2022 | Information security controls | 2022 | Referenced |
 | ISO/IEC 17021-1 / 27006-1 | Requirements for certification bodies | — | Referenced |
 
-*End of CGI-ISO-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye. Simulated case study data.*
+*End of CGI-ISO-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye.*

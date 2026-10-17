@@ -1329,7 +1329,6 @@ response.
 > **From:** O.S, Internal Auditor
 > **Date:** 25 September 2026
 > **Subject:** Internal audit of the information security management system — CGI-IAU-001
-> *(Simulated case study.)*
 
 **Audit opinion.** The information security management system of Cypher Group Inc. **does not currently conform
 to ISO/IEC 27001:2022**. Nine requirements of clauses 4 to 10 are absent rather than incomplete, and the
@@ -1511,7 +1510,6 @@ adding one.
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor and Internal Auditor
 > **Date:** 25 September 2026
 > **Subject:** Can we sell against a SOC 2, and did our controls actually run?
-> *(Simulated case study.)*
 
 **Answer: not yet, and no. A SOC 2 Type II report is realistic for November 2028, after the ISO certificate in
 November 2027. Nothing we have built has operated yet.**
@@ -1717,4 +1715,4 @@ entire Statement of Applicability to get there.
 | ISO/IEC 27001:2022 + Amd 1:2024 | Information security management systems — Requirements | 2022 | Referenced, paraphrased |
 | SSAE 18 / AT-C 105, 205 | Attestation standards | — | Referenced |
 
-*End of CGI-SOC-001 and CGI-IAU-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye. Simulated case study data.*
+*End of CGI-SOC-001 and CGI-IAU-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye.*
