@@ -29,7 +29,7 @@ Blank, reusable versions of the documents in this portfolio. Each one keeps the 
 ## How to download
 
 - **One file:** click its name, then the **Download raw file** button (↓) at the top right of the file view.
-- **Everything:** go to the repository's **[Releases](../../../releases/latest)** page and download the templates bundle.
+- **Everything:** go to the repository's **[Releases](https://github.com/lushegun/Cypher-Group-Inc-grc-portfolio/releases/latest)** page and download the templates bundle.
 
 ## How to use a template
 

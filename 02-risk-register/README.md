@@ -28,37 +28,17 @@ Five realistic threat scenarios were scored twice — **inherent** (no controls)
 
 | ID | Scenario | Inherent | Residual | Treatment | Owner |
 |---|---|:-:|:-:|---|---|
-| R-001 | Phishing → account takeover via relayed one-time codes | 🟥 20 | 🟨 6 | Mitigate | IT Operations Manager |
-| R-002 | Ransomware on an employee endpoint | 🟥 20 | 🟨 8 | Mitigate + Transfer | IT Operations Manager |
-| R-003 | Departing employee exports customer data | 🟧 12 | 🟨 6 | Mitigate | Head of People and Operations |
-| R-004 | Broken object-level authorisation in the production API | 🟥 20 | 🟧 **12** | Mitigate | Chief Technology Officer |
-| R-005 | Public S3 bucket through CloudCo misconfiguration | 🟥 20 | 🟧 **12** | Mitigate | Chief Technology Officer |
+| R-001 | Phishing → account takeover via relayed one-time codes | 20 Critical | 6 Medium | Mitigate | IT Operations Manager |
+| R-002 | Ransomware on an employee endpoint | 20 Critical | 8 Medium | Mitigate + Transfer | IT Operations Manager |
+| R-003 | Departing employee exports customer data | 12 High | 6 Medium | Mitigate | Head of People and Operations |
+| R-004 | Broken object-level authorisation in the production API | 20 Critical | **12 High** | Mitigate | Chief Technology Officer |
+| R-005 | Public S3 bucket through CloudCo misconfiguration | 20 Critical | **12 High** | Mitigate | Chief Technology Officer |
 
-<sub>🟩 Low 1–4 · 🟨 Medium 5–9 · 🟧 High 10–14 · 🟥 Critical 15–25</sub>
+<sub>Rating bands: Low 1–4 · Medium 5–9 · High 10–14 · Critical 15–25</sub>
 
 ## Heat maps
 
-Each square is one likelihood × impact cell, coloured by rating band.
-
-**Inherent** — before any controls
-
-| Likelihood ↓ / Impact → | 1 | 2 | 3 | 4 | 5 |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| **5** | 🟨 | 🟧 | 🟥 | 🟥 **R-001** | 🟥 |
-| **4** | 🟩 | 🟨 | 🟧 | 🟥 | 🟥 **R-002** **R-004** **R-005** |
-| **3** | 🟩 | 🟨 | 🟨 | 🟧 **R-003** | 🟥 |
-| **2** | 🟩 | 🟩 | 🟨 | 🟨 | 🟧 |
-| **1** | 🟩 | 🟩 | 🟩 | 🟩 | 🟨 |
-
-**Residual** — after the Project 01 policy pack
-
-| Likelihood ↓ / Impact → | 1 | 2 | 3 | 4 | 5 |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| **5** | 🟨 | 🟧 | 🟥 | 🟥 | 🟥 |
-| **4** | 🟩 | 🟨 | 🟧 | 🟥 | 🟥 |
-| **3** | 🟩 | 🟨 | 🟨 | 🟧 **R-004** **R-005** | 🟥 |
-| **2** | 🟩 | 🟩 | 🟨 **R-001** **R-003** | 🟨 **R-002** | 🟧 |
-| **1** | 🟩 | 🟩 | 🟩 | 🟩 | 🟨 |
+<p align="center"><img src="images/02-heatmap-inherent-vs-residual.png" alt="Two 5 by 5 heat maps. Inherent: R-001 at likelihood 5, impact 4; R-002, R-004 and R-005 at likelihood 4, impact 5; R-003 at likelihood 3, impact 4. Residual: R-004 and R-005 at likelihood 3, impact 4; R-002 at 2 by 4; R-001 and R-003 at 2 by 3." width="100%"></p>
 
 R-004 and R-005 only move one step on likelihood: the policy pack governs *who* may change code and cloud settings, not *how* software is tested or *how* cloud storage must be configured.
 
