@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [ORGANISATION] — Vendor Inventory and Tiering Register
 
@@ -11,14 +11,10 @@
 | Approved by | [Approver, Job Title] |
 | Next review | [DD Month YYYY] |
 
-> [!NOTE]
-> **[CASE STUDY NOTICE — delete if this is a real engagement. If it is a portfolio artifact,
-> keep it and state that all vendor assurance and contract statuses are invented for the scenario.]**
-
 > [!TIP]
 > **How to use this template.** Everything in `[SQUARE BRACKETS]` is a field to replace.
 > Everything outside them is method and should be changed only deliberately. Guidance sits in
-> `>` blockquotes and is deleted before the document is issued. Derived from CGI-TPR-001 v1.0.
+> `>` blockquotes and is deleted before the document is issued. Prepared by Olugboye Shola.
 
 ## 1. The tiering model — publish this BEFORE assigning any tier
 

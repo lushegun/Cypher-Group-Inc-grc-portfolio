@@ -1,4 +1,4 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [ORGANISATION] — Vendor Security Questionnaire
 
@@ -14,7 +14,7 @@
 > [!TIP]
 > **How to use this template.** Everything in `[SQUARE BRACKETS]` is a field to replace.
 > Everything outside them is method and should be changed only deliberately. Guidance sits in
-> `>` blockquotes and is deleted before the document is issued. Derived from CGI-TPR-001 v1.0.
+> `>` blockquotes and is deleted before the document is issued. Prepared by Olugboye Shola.
 
 ## How this questionnaire is scored
 

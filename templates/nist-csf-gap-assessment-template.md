@@ -1,8 +1,8 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # NIST CSF 2.0 Gap Assessment & Maturity Scorecard — Reusable Template
 
-### Blank, bracketed version · derived from CGI-GAP-001 v1.0
+### Blank, bracketed version · prepared by Olugboye Shola
 
 > [!TIP]
 > **How to use.** Replace every `[BRACKETED]` value. Delete nothing structural. Work top to bottom:
@@ -10,9 +10,7 @@
 > target afterwards is the most common way a gap assessment becomes unfalsifiable.
 
 > [!NOTE]
-> If you are using this on a simulated scenario for a portfolio, keep a case-study notice at the top.
-> If you are using it on a real organisation, delete the notice and mark the document with the appropriate
-> classification instead.
+> Mark the finished document with the appropriate classification.
 
 ---
 
@@ -95,7 +93,7 @@ finding but does not lift the Category a level on its own.
 
 Sixteen columns. Machine-readable blank: `templates/nist-csf-gap-assessment-template.csv`.
 
-| Ref ID | Function | Category | Category Description | Current State Observation | Evidence Source | Current Score (0-4) | Target Score (0-4) | Gap | Related Risk ID (CGI-RSK-001) | Risk if Unaddressed | Priority (P1/P2/P3) | Recommended Action | Est. Effort (S/M/L) | Owner (Job Title) | ISO 27001:2022 Annex A Mapping |
+| Ref ID | Function | Category | Category Description | Current State Observation | Evidence Source | Current Score (0-4) | Target Score (0-4) | Gap | Related Risk ID | Risk if Unaddressed | Priority (P1/P2/P3) | Recommended Action | Est. Effort (S/M/L) | Owner (Job Title) | ISO 27001:2022 Annex A Mapping |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | `[GAP-0XX]` | `[FUNCTION]` | `[XX.YY Category Name]` | `[Official CSF 2.0 Category outcome text]` | `[Full sentences. Cite a specific policy clause and the specific evidence that does or does not show it operating. No opinion without a citation.]` | `[Doc ID §clause; tracker ref; or an explicit statement that nothing is on file]` | `[0-4]` | `[0-4]` | `[=Target-Current]` | `[R-0XX]` | `[Business consequence, not technical. Tie back to a named risk where one exists.]` | `[P1/P2/P3]` | `[Specific, owned, verifiable]` | `[S/M/L]` | `[Job title, never a person]` | `[A.x.y Control name; A.x.y Control name]` |
 | `[GAP-0XX]` | `[FUNCTION]` | `[XX.YY Category Name]` | `[Official CSF 2.0 Category outcome text]` | `[Full sentences. Cite a specific policy clause and the specific evidence that does or does not show it operating. No opinion without a citation.]` | `[Doc ID §clause; tracker ref; or an explicit statement that nothing is on file]` | `[0-4]` | `[0-4]` | `[=Target-Current]` | `[R-0XX]` | `[Business consequence, not technical. Tie back to a named risk where one exists.]` | `[P1/P2/P3]` | `[Specific, owned, verifiable]` | `[S/M/L]` | `[Job title, never a person]` | `[A.x.y Control name; A.x.y Control name]` |
@@ -214,8 +212,7 @@ recommendation is a wish.
 - [ ] Every Owner is a job title, never a named individual
 - [ ] At least 12 recommendations, each with priority, effort, owner, quarter and dependency
 - [ ] Tables contain one value per cell and no merged cells
-- [ ] Case-study notice present if this is a portfolio scenario
 
 ---
 
-*Reusable template derived from CGI-GAP-001 v1.0. Replace all bracketed values.*
+*Reusable template. Replace all bracketed values.*
