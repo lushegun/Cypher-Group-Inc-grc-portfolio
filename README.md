@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="GRC Portfolio — Governance, Risk and Compliance" width="100%">
+  <img src="assets/banner.svg" alt="GRC Portfolio: governance, risk and compliance, from ISO/IEC 27001 and SOC 2 to the EU AI Act and ISO/IEC 42001" width="100%">
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <b>Olushegun Shola Olugboye</b> · GRC Analyst · ISO/IEC 27001 · Risk · Third-Party Risk · AI Governance<br>
+  <b>Olushegun Shola Olugboye</b> · GRC Analyst · ISO/IEC 27001 · SOC 2 · Third-Party Risk · AI Governance<br>
   <a href="https://www.linkedin.com/in/olushegun-s">LinkedIn</a> ·
   <a href="https://app.notion.com/p/Cypher-Group-Inc-GRC-Project-hub-0a07ea37b633473d9a74cf24a3ada0ec">Notion project hub</a> ·
   <a href="templates/">Free templates</a> ·
@@ -31,22 +31,19 @@
 ## Start here — a 2-minute tour
 
 > [!TIP]
-> **Short on time?** Start with any of these:
-> 1. **[Project 01](01-security-policy-pack/)** — the AI-tools clause (§4.5) and the phishing-resistant MFA rule (§4.3.3) in the policy pack.
-> 2. **[Project 02](02-risk-register/)** — why two of five risks are deliberately left **High** after treatment, and what it would cost to fix them.
-> 3. **[Project 04](04-vendor-risk-management/)** — how AI tools bought on expenses were discovered and brought under control, and why CloudCo passed only with conditions that were all *ours*.
-> 4. **[Project 05](05-iso27001-readiness-soa/)** — why none of 88 applicable ISO 27001 controls is marked *Implemented*, and why that is the honest answer.
-> 5. **[Project 06](06-soc2-readiness-internal-audit/)** — the ten controls we hand our customers, and the four our cloud provider handed us that we never accepted.
-> 6. **[Project 07](07-aws-cloud-compliance/)** — why a cloud configuration review pushed the top cloud risk *up* from 12 to 20, and why the obvious reason for it is wrong.
-> 7. **[Project 08](08-ai-governance-eu-ai-act-iso42001/)** — why the EU AI Act turned out to be the small problem, and what the big one was.
-> 8. **[Templates](templates/)** — the same documents as blank, reusable templates you can download.
+> **Short on time? Start with these three.**
+> 1. **[Project 08](08-ai-governance-eu-ai-act-iso42001/)**: why the EU AI Act turned out to be the small problem, and what the big one was.
+> 2. **[Project 07](07-aws-cloud-compliance/)**: why a cloud configuration review pushed the top cloud risk *up* from 12 to 20, and why the obvious reason for it is wrong.
+> 3. **[Project 04](04-vendor-risk-management/)**: how a company that thought it had 5 vendors found 17, including AI tools bought on expenses.
+>
+> **Then:** [01](01-security-policy-pack/) the AI-tools clause · [02](02-risk-register/) two risks left High on purpose · [05](05-iso27001-readiness-soa/) why none of 88 ISO 27001 controls is *Implemented* · [06](06-soc2-readiness-internal-audit/) the controls we hand customers versus the ones our cloud provider handed us · [Templates](templates/) 19 free, reusable documents.
 
 ## Projects
 
 | # | Project | What it demonstrates | Headline result | Status |
 |:-:|---|---|---|:-:|
 | 01 | **[Startup Security Policy Pack](01-security-policy-pack/)** | Policy writing · framework mapping · policy governance | 5 policies · 38 ISO 27001 Annex A controls mapped · exception register · sign-off tracker | Published |
-| 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 risks · aggregate exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs | Published |
+| 02 | **[Master Information Security Risk Register](02-risk-register/)** | NIST SP 800-30 risk assessment · control mapping · treatment planning | 5 core risks · exposure 92 → 44 (−52%) · 10 treatment actions · 7 KRIs · grown to 16 risks by v1.3 | Published |
 | 03 | **[NIST CSF 2.0 Gap Assessment & Maturity Scorecard](03-nist-csf-gap-assessment/)** | Maturity scoring · gap analysis · roadmap | All 22 CSF Categories · maturity 1.23 → target 2.68 · 18 recommendations | Published |
 | 04 | **[Third-Party / Vendor Risk Management Programme](04-vendor-risk-management/)** | Vendor tiering · questionnaires · contract controls · AI vendor risk | 17 vendors tiered · 74-question questionnaire · 3 assessments · GV.SC 0 → 2 | Published |
 | 05 | **[ISO/IEC 27001:2022 Readiness & Statement of Applicability](05-iso27001-readiness-soa/)** | ISMS scoping · Statement of Applicability · certification readiness | 93 controls: 88 applicable, 0 / 45 / 43 · readiness 30.6%, Stage 1 NO-GO · realistic certificate Nov 2027 | Published |
@@ -58,43 +55,39 @@
 
 ## How the projects connect
 
-Every project builds on the ones before it, the way a real GRC programme does. The programme runs in four stages, from writing the rules to checking what the real systems do. **Solid arrows** show what each project uses; **dotted arrows** show where a later project changed the risk register.
+The programme runs in four stages, read left to right: write the rules, measure where the company stands, get ready for the auditor, then check what the real systems actually do. Each stage builds on the one before. Two threads run across all of them: the **risk register (02)** is kept live and updated by later projects (vendor risks from 04, the cloud re-score from 07, two AI risks from 08), and the **AI tools found in 04** are what Project 08 governs.
 
 ```mermaid
-flowchart TB
+%%{init: {"flowchart": {"rankSpacing": 45, "nodeSpacing": 18, "padding": 10, "wrappingWidth": 240}}}%%
+flowchart LR
     subgraph S1["1 · Set the rules and the risks"]
-        P1["01 · Policy pack<br/>the rules"]
-        P2["02 · Risk register<br/>what could go wrong"]
+        direction TB
+        P1["<b>01 · Policy pack</b><br/>the rules"] --> P2["<b>02 · Risk register</b><br/>what could go wrong<br/><i>updated by 04, 07 and 08</i>"]
     end
     subgraph S2["2 · Measure and look outside"]
-        P3["03 · CSF 2.0 gap assessment<br/>how mature are we"]
-        P4["04 · Vendor risk<br/>who else holds our data"]
+        direction TB
+        P3["<b>03 · NIST CSF 2.0</b><br/>how mature are we"] ~~~ P4["<b>04 · Vendor risk</b><br/>who else holds our data<br/><i>found the AI tools for 08</i>"]
     end
     subgraph S3["3 · Get ready for the auditor"]
-        P5["05 · ISO 27001 SoA<br/>which controls and why"]
-        P6["06 · SOC 2 readiness<br/>do they work over time"]
+        direction TB
+        P5["<b>05 · ISO 27001 SoA</b><br/>which controls and why"] --> P6["<b>06 · SOC 2 and audit</b><br/>do they work over time"]
     end
     subgraph S4["4 · Check the real systems"]
-        P7["07 · Cloud compliance<br/>is the cloud set up as claimed"]
-        P8["08 · AI governance<br/>what the AI says and decides"]
+        direction TB
+        P7["<b>07 · Cloud review</b><br/>is the cloud as claimed"] --> P8["<b>08 · AI governance</b><br/>what the AI says and decides"]
     end
-    P1 --> P2
-    P2 --> P3
-    P2 --> P4
-    P3 --> P5
-    P4 --> P5
-    P5 --> P6
-    P6 --> P7
-    P7 --> P8
-    P4 -->|AI tools found on expenses| P8
-    P4 -.->|VR-001 to VR-009| P2
-    P7 -.->|R-005 re-scored| P2
-    P8 -.->|AR-001, AR-002| P2
-    classDef ai fill:#E6F4EA,stroke:#2BAE66,color:#0B2545
+    S1 --> S2 --> S3 --> S4
+    classDef proj fill:#FFFFFF,stroke:#13315C,color:#0B2545
+    classDef ai fill:#E6F7F1,stroke:#2BAE8E,stroke-width:2px,color:#0B2545
+    class P1,P2,P3,P4,P5,P6,P7 proj
     class P8 ai
+    style S1 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
+    style S2 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
+    style S3 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
+    style S4 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
 ```
 
-## The scenario — Cypher Group Inc.
+## The scenario — Cypher Group Inc. (simulated)
 
 | | |
 |---|---|
@@ -155,7 +148,7 @@ I bring 15+ years across IT support, HR and people operations, IT and security-s
 
 **Credentials:** AWS Certified Solutions Architect – Associate (Aug 2026) · MSc Applied Economics and Data Analysis, Jönköping International Business School
 
-**Based in:** Sweden · **Open to:** GRC Analyst · Information Security / Compliance Analyst · IT Risk · Cloud Compliance roles internationally and remote
+**Based in:** Sweden · **Open to:** GRC Analyst · Information Security Analyst · Compliance Analyst · Cloud Compliance · AI Governance roles, internationally and remote
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/olushegun-s) · [Notion project hub](https://app.notion.com/p/Cypher-Group-Inc-GRC-Project-hub-0a07ea37b633473d9a74cf24a3ada0ec)
 

@@ -812,9 +812,9 @@ Three vendors, three outcomes, one method. Summary sheet: **`04_Assessments`** i
 
 | Assessment | Vendor | Tier | Applied | Met / Partial / Not Met / N/A | Deduction | Max | **Score** | Findings | Inherent | Residual | **Decision** |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|---|
-| VRA-2026-002 | ChatCo (CGI-VEN-004) | 1 | 74 | 41 / 14 / 17 / 2 | 98.5 | 282 | **65%** | 9 (5 Crit/High) | 12 High | **12 High** | 🔴 **FAIL — remediate or exit** |
-| VRA-2026-001 | CloudCo (CGI-VEN-001) | 1 | 74 | 62 / 9 / 3 / 0 | 32 | 288 | **89%** | 4 (1 High) | 10 High | 8 Medium | 🟠 **PASS WITH CONDITIONS** |
-| VRA-2026-003 | SchedulerCo (CGI-VEN-015) | 3 | 6 | 5 / 1 / 0 / 0 | 2.5 | 30 | **92%** | 1 observation | 4 Low | 4 Low | 🟢 **ACCEPTED — documented justification** |
+| VRA-2026-002 | ChatCo (CGI-VEN-004) | 1 | 74 | 41 / 14 / 17 / 2 | 98.5 | 282 | **65%** | 9 (5 Crit/High) | 12 High | **12 High** | **FAIL — remediate or exit** |
+| VRA-2026-001 | CloudCo (CGI-VEN-001) | 1 | 74 | 62 / 9 / 3 / 0 | 32 | 288 | **89%** | 4 (1 High) | 10 High | 8 Medium | **PASS WITH CONDITIONS** |
+| VRA-2026-003 | SchedulerCo (CGI-VEN-015) | 3 | 6 | 5 / 1 / 0 / 0 | 2.5 | 30 | **92%** | 1 observation | 4 Low | 4 Low | **ACCEPTED — documented justification** |
 
 ---
 
@@ -859,15 +859,15 @@ the "your vendor's certification is your vendor's control" error this programme 
 
 | ID | Sev | Finding | Question(s) | Evidence | Risk if unaddressed |
 |---|---|---|---|---|---|
-| **F-001** | 🔴 **Critical** | **No executed DPA.** Confidential data including incidental customer personal data is processed by a US-hosted processor with no Article 28 contract, no documented processing instructions, no Article 32 security obligation and no Article 46 transfer mechanism recorded. | VQ-27, VQ-28, VQ-29 | No DPA on file; hosting region confirmed United States | A present-tense GDPR Article 28 non-conformity. Any enterprise customer assessing Cypher Group Inc. would find it, and a supervisory authority would treat it as a failure of controller diligence. → **VR-001** |
-| **F-002** | 🔴 **Critical** | **No contractual breach-notification commitment and no named incident contact.** There is no agreed number of hours within which Cypher Group Inc. would be told of an incident, and no out-of-hours route. | VQ-51, VQ-52 | No contract; support portal only | **CGI-POL-005 §5.6.3 commits Cypher Group Inc. to notifying a supervisory authority within 72 hours of awareness. Without a vendor notification clause, "awareness" is outside the company's control.** The most consequential written commitment in the policy pack is unenforceable against this vendor. → **VR-004** |
-| **F-003** | 🟠 **High** | **No SCIM or automated deprovisioning on the current plan.** Account removal is manual and performed by a workspace admin. | VQ-19, VQ-20 | Plan feature matrix; no SSO federation configured | **CGI-POL-003 §4.5.2 requires revocation within four hours of a leaver event. On this vendor that SLA is not technically achievable**, so a control Cypher Group Inc. has published and relies upon in R-003's treatment does not operate here. → **VR-008** |
-| **F-004** | 🟠 **High** | **AI features process message content; training is not contractually prohibited and human review is not excluded.** | VQ-67, VQ-68, VQ-69 | No contract; vendor terms not reviewed at procurement | Message content includes security discussion, pasted credentials and customer detail. With no contractual prohibition there is no basis to assert to a customer where their content has been, and no route to recall it. → **VR-006** |
-| **F-005** | 🟠 **High** | **Unlimited message retention and no deletion-on-termination obligation or certification.** | VQ-25, VQ-73 | Workspace retention setting = unlimited | Every credential, screenshot and customer record ever pasted persists indefinitely, with no contractual deletion duty on exit. **This is a right-of-bang control: it does not make a breach likelier, it makes every breach maximally large.** |
-| **F-006** | 🟡 Medium | **Assurance artifact stale.** The SOC 2 Type II held covers a period ended 30 Nov 2025 — 9.5 months before this assessment — with no bridge letter. | VQ-12 | Report on file, period end date | The report describes a period that ended before three of this estate's current configurations existed. Assurance is asserted that no current evidence supports. → **VR-009** |
-| **F-007** | 🟡 Medium | **Carve-out method; carved-out sub-service organisations not enumerated and the CSOC list not reviewed.** | VQ-13, VQ-33 | Report Section 3 | Fourth-party exposure is invisible. The opinion held is narrower than it appears. → **VR-003** |
-| **F-008** | 🟡 Medium | **No customer-accessible audit log of administrative activity on the current plan.** | VQ-48 | Plan feature matrix | Cypher Group Inc. could not establish who did what in its own workspace during an investigation. Directly blocks **RS.AN** (CGI-GAP-001 GAP-018, currently 1). |
-| **F-009** | 🟢 Low | **No contractual right of audit;** attestation offered in lieu. | VQ-71 | Standard terms | Accepted as normal commercial practice for a vendor of this size. Recorded, not remediated. |
+| **F-001** | **Critical** | **No executed DPA.** Confidential data including incidental customer personal data is processed by a US-hosted processor with no Article 28 contract, no documented processing instructions, no Article 32 security obligation and no Article 46 transfer mechanism recorded. | VQ-27, VQ-28, VQ-29 | No DPA on file; hosting region confirmed United States | A present-tense GDPR Article 28 non-conformity. Any enterprise customer assessing Cypher Group Inc. would find it, and a supervisory authority would treat it as a failure of controller diligence. → **VR-001** |
+| **F-002** | **Critical** | **No contractual breach-notification commitment and no named incident contact.** There is no agreed number of hours within which Cypher Group Inc. would be told of an incident, and no out-of-hours route. | VQ-51, VQ-52 | No contract; support portal only | **CGI-POL-005 §5.6.3 commits Cypher Group Inc. to notifying a supervisory authority within 72 hours of awareness. Without a vendor notification clause, "awareness" is outside the company's control.** The most consequential written commitment in the policy pack is unenforceable against this vendor. → **VR-004** |
+| **F-003** | **High** | **No SCIM or automated deprovisioning on the current plan.** Account removal is manual and performed by a workspace admin. | VQ-19, VQ-20 | Plan feature matrix; no SSO federation configured | **CGI-POL-003 §4.5.2 requires revocation within four hours of a leaver event. On this vendor that SLA is not technically achievable**, so a control Cypher Group Inc. has published and relies upon in R-003's treatment does not operate here. → **VR-008** |
+| **F-004** | **High** | **AI features process message content; training is not contractually prohibited and human review is not excluded.** | VQ-67, VQ-68, VQ-69 | No contract; vendor terms not reviewed at procurement | Message content includes security discussion, pasted credentials and customer detail. With no contractual prohibition there is no basis to assert to a customer where their content has been, and no route to recall it. → **VR-006** |
+| **F-005** | **High** | **Unlimited message retention and no deletion-on-termination obligation or certification.** | VQ-25, VQ-73 | Workspace retention setting = unlimited | Every credential, screenshot and customer record ever pasted persists indefinitely, with no contractual deletion duty on exit. **This is a right-of-bang control: it does not make a breach likelier, it makes every breach maximally large.** |
+| **F-006** | Medium | **Assurance artifact stale.** The SOC 2 Type II held covers a period ended 30 Nov 2025 — 9.5 months before this assessment — with no bridge letter. | VQ-12 | Report on file, period end date | The report describes a period that ended before three of this estate's current configurations existed. Assurance is asserted that no current evidence supports. → **VR-009** |
+| **F-007** | Medium | **Carve-out method; carved-out sub-service organisations not enumerated and the CSOC list not reviewed.** | VQ-13, VQ-33 | Report Section 3 | Fourth-party exposure is invisible. The opinion held is narrower than it appears. → **VR-003** |
+| **F-008** | Medium | **No customer-accessible audit log of administrative activity on the current plan.** | VQ-48 | Plan feature matrix | Cypher Group Inc. could not establish who did what in its own workspace during an investigation. Directly blocks **RS.AN** (CGI-GAP-001 GAP-018, currently 1). |
+| **F-009** | Low | **No contractual right of audit;** attestation offered in lieu. | VQ-71 | Standard terms | Accepted as normal commercial practice for a vendor of this size. Recorded, not remediated. |
 
 #### Remediation plan
 
@@ -934,10 +934,10 @@ unassigned.
 
 | ID | Sev | Finding | Question(s) | Risk if unaddressed |
 |---|---|---|---|---|
-| **F-010** | 🟠 **High** | **Four Complementary User Entity Controls are unaccepted and unassigned.** The report assumes the customer (a) enables organisation-wide CloudTrail with log file validation, (b) enforces MFA on the root account and restricts its use, (c) applies least-privilege IAM with periodic review, and (d) manages encryption for customer-controlled data. **None is evidenced at Cypher Group Inc.** | VQ-13, VQ-15, VQ-16, VQ-46, VQ-48 | **The opinion in the report does not cover Cypher Group Inc.'s use of the service.** Presenting it to a customer as assurance over the platform would be materially misleading. Maps directly to **CG-03**, and to REC-01, REC-02, REC-07 and REC-11. |
-| **F-011** | 🟡 Medium | **Carve-out method; the CSOC list has never been reconciled** against Cypher Group Inc.'s actual architecture. | VQ-13 | Fourth-party controls are assumed rather than confirmed. |
-| **F-012** | 🟡 Medium | **The sub-processor change feed is published; Cypher Group Inc. is not subscribed** and has never reconciled the list. There is therefore no practical exercise of the right to object. | VQ-33, VQ-34 | A new sub-processor could enter the data path with formally valid notice that nobody at Cypher Group Inc. reads. → **VR-003** |
-| **F-013** | 🟡 Medium | **No Cypher Group Inc. RTO or RPO is declared, no restore has been tested, and the data-export path has never been exercised.** The provider's availability SLA exists; the customer's recovery capability does not. | VQ-56, VQ-57, VQ-59 | Confirms **CGI-GAP-001 GAP-021 (RC.RP = 1)** from the vendor side. An untested backup is an assumption. Closed by **REC-03**. → **VR-007** |
+| **F-010** | **High** | **Four Complementary User Entity Controls are unaccepted and unassigned.** The report assumes the customer (a) enables organisation-wide CloudTrail with log file validation, (b) enforces MFA on the root account and restricts its use, (c) applies least-privilege IAM with periodic review, and (d) manages encryption for customer-controlled data. **None is evidenced at Cypher Group Inc.** | VQ-13, VQ-15, VQ-16, VQ-46, VQ-48 | **The opinion in the report does not cover Cypher Group Inc.'s use of the service.** Presenting it to a customer as assurance over the platform would be materially misleading. Maps directly to **CG-03**, and to REC-01, REC-02, REC-07 and REC-11. |
+| **F-011** | Medium | **Carve-out method; the CSOC list has never been reconciled** against Cypher Group Inc.'s actual architecture. | VQ-13 | Fourth-party controls are assumed rather than confirmed. |
+| **F-012** | Medium | **The sub-processor change feed is published; Cypher Group Inc. is not subscribed** and has never reconciled the list. There is therefore no practical exercise of the right to object. | VQ-33, VQ-34 | A new sub-processor could enter the data path with formally valid notice that nobody at Cypher Group Inc. reads. → **VR-003** |
+| **F-013** | Medium | **No Cypher Group Inc. RTO or RPO is declared, no restore has been tested, and the data-export path has never been exercised.** The provider's availability SLA exists; the customer's recovery capability does not. | VQ-56, VQ-57, VQ-59 | Confirms **CGI-GAP-001 GAP-021 (RC.RP = 1)** from the vendor side. An untested backup is an assumption. Closed by **REC-03**. → **VR-007** |
 
 #### Conditions of the pass
 
@@ -993,7 +993,7 @@ model training, and a 30-day deletion-on-termination commitment. One partial, re
 
 | ID | Sev | Observation | Question | Treatment |
 |---|---|---|---|---|
-| **O-001** | ⚪ Observation | Data is processed in the United States and **no EU data-residency option is available on any plan.** Transfers rest on Standard Contractual Clauses with no transfer impact assessment performed by Cypher Group Inc. | VQ-28 | **Accepted.** The data is invitee name, email and subject line, volunteered by the invitee at the point of booking. A compensating configuration change is applied: booking pages must not request free-text detail beyond a subject line, so no Confidential context can be entered into the tool. |
+| **O-001** | Observation | Data is processed in the United States and **no EU data-residency option is available on any plan.** Transfers rest on Standard Contractual Clauses with no transfer impact assessment performed by Cypher Group Inc. | VQ-28 | **Accepted.** The data is invitee name, email and subject line, volunteered by the invitee at the point of booking. A compensating configuration change is applied: booking pages must not request free-text detail beyond a subject line, so no Confidential context can be entered into the tool. |
 
 #### Acceptance record ACC-V01
 
@@ -1323,7 +1323,6 @@ and it is what makes "is this tool approved?" a question with an answer.
 
 > **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
 > **Subject:** Who we depend on, what we know about them, and what we have signed
-> *(Simulated case study.)*
 
 ### We depend on 17 companies. We had assessed none of them.
 
@@ -1489,28 +1488,28 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 
 | Check | Result |
 |---|---|
-| Vendor count ≥ 15, including all five named stack providers | ✅ 17 vendors; CloudCo, CodeCo, ChatCo, OfficeCo and PaymentsCo all present |
-| All 17 mandated inventory columns present, in the required order, in columns A–Q | ✅ |
-| Extra governance columns appended **after** the mandated set | ✅ from column R |
-| Every tier recomputed from the published model, not hand-assigned | ✅ 7 / 6 / 4 |
-| Every tiering factor within 0–3; every likelihood and impact within 1–5 | ✅ |
-| Questionnaire ≥ 60 questions across ≥ 12 domains | ✅ **74 questions, 16 domains** |
-| Every question carries response type, evidence requirement, risk weight, ISO Annex A and CSF 2.0 | ✅ 74 of 74 on all five |
-| Three assessments at contrasting outcomes | ✅ Fail / conditional pass / accepted |
-| Assessment arithmetic reconciles (Met + Partial + Not Met + N/A = questions applied) | ✅ 74 / 74 / 6 |
-| Weighted scores recomputed from deduction ÷ maximum | ✅ 65% / 89% / 92% |
-| Addendum uses the identical 5 × 5 method and thresholds as CGI-RSK-001 | ✅ |
-| No risk has residual greater than inherent | ✅ 9 of 9 |
-| At least one risk honestly remains High after treatment | ✅ VR-004 residual 12 |
-| Every addendum risk declares NEW or REALISES | ✅ 8 new, 1 realises R-003 |
-| Merge arithmetic for CGI-RSK-001 v1.1 | ✅ 92+121=213 inherent, 44+78=122 residual, 43% reduction, mean residual 8.71 |
-| GV.SC movement reconciled against the CGI-GAP-001 declared target | ✅ 0 → 2, target 2, gap 0; overall 27÷22=1.23 → 29÷22=1.32 |
-| Workbook formulas are formulas, not hardcoded values | ✅ 207 formulas (rebuilt 16 Sep 2026) |
-| Workbook recalculated; zero `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?` | ✅ **0 errors across 9 sheets** |
-| Every owner is a job title, never a named individual | ✅ |
-| Case-study notice present on the document and the workbook | ✅ |
-| Real-company assurance and contract statuses labelled as invented | ✅ |
-| Tables paste cleanly — one value per cell, no merged cells | ✅ |
+| Vendor count ≥ 15, including all five named stack providers | Pass: 17 vendors; CloudCo, CodeCo, ChatCo, OfficeCo and PaymentsCo all present |
+| All 17 mandated inventory columns present, in the required order, in columns A–Q | Pass |
+| Extra governance columns appended **after** the mandated set | Pass: from column R |
+| Every tier recomputed from the published model, not hand-assigned | Pass: 7 / 6 / 4 |
+| Every tiering factor within 0–3; every likelihood and impact within 1–5 | Pass |
+| Questionnaire ≥ 60 questions across ≥ 12 domains | Pass: **74 questions, 16 domains** |
+| Every question carries response type, evidence requirement, risk weight, ISO Annex A and CSF 2.0 | Pass: 74 of 74 on all five |
+| Three assessments at contrasting outcomes | Pass: Fail / conditional pass / accepted |
+| Assessment arithmetic reconciles (Met + Partial + Not Met + N/A = questions applied) | Pass: 74 / 74 / 6 |
+| Weighted scores recomputed from deduction ÷ maximum | Pass: 65% / 89% / 92% |
+| Addendum uses the identical 5 × 5 method and thresholds as CGI-RSK-001 | Pass |
+| No risk has residual greater than inherent | Pass: 9 of 9 |
+| At least one risk honestly remains High after treatment | Pass: VR-004 residual 12 |
+| Every addendum risk declares NEW or REALISES | Pass: 8 new, 1 realises R-003 |
+| Merge arithmetic for CGI-RSK-001 v1.1 | Pass: 92+121=213 inherent, 44+78=122 residual, 43% reduction, mean residual 8.71 |
+| GV.SC movement reconciled against the CGI-GAP-001 declared target | Pass: 0 → 2, target 2, gap 0; overall 27÷22=1.23 → 29÷22=1.32 |
+| Workbook formulas are formulas, not hardcoded values | Pass: 207 formulas (rebuilt 16 Sep 2026) |
+| Workbook recalculated; zero `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?` | Pass: **0 errors across 9 sheets** |
+| Every owner is a job title, never a named individual | Pass |
+| Case-study notice present on the document and the workbook | Pass |
+| Real-company assurance and contract statuses labelled as invented | Pass |
+| Tables paste cleanly — one value per cell, no merged cells | Pass |
 
 ### A.2 Assumptions
 
@@ -1603,4 +1602,4 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 
 ---
 
-*End of CGI-TPR-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye. Simulated case study data.*
+*End of CGI-TPR-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye.*
