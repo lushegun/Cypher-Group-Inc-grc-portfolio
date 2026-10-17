@@ -55,36 +55,24 @@
 
 ## How the projects connect
 
-The programme runs in four stages, read left to right: write the rules, measure where the company stands, get ready for the auditor, then check what the real systems actually do. Each stage builds on the one before. Two threads run across all of them: the **risk register (02)** is kept live and updated by later projects (vendor risks from 04, the cloud re-score from 07, two AI risks from 08), and the **AI tools found in 04** are what Project 08 governs.
+Read left to right. Each project builds on the ones before it, the way a real GRC programme does: write the rules (01–02), measure and look outside (03–04), get ready for the auditor (05–06), then check what the real systems do (07–08). **Solid arrows** show what each project uses. **Dotted arrows** run back into the risk register (02), because later projects changed it: vendor risks from 04, the cloud re-score from 07 and two AI risks from 08.
 
 ```mermaid
-%%{init: {"flowchart": {"rankSpacing": 45, "nodeSpacing": 18, "padding": 10, "wrappingWidth": 240}}}%%
+%%{init: {"flowchart": {"rankSpacing": 26, "nodeSpacing": 18, "padding": 6}}}%%
 flowchart LR
-    subgraph S1["1 · Set the rules and the risks"]
-        direction TB
-        P1["<b>01 · Policy pack</b><br/>the rules"] --> P2["<b>02 · Risk register</b><br/>what could go wrong<br/><i>updated by 04, 07 and 08</i>"]
-    end
-    subgraph S2["2 · Measure and look outside"]
-        direction TB
-        P3["<b>03 · NIST CSF 2.0</b><br/>how mature are we"] ~~~ P4["<b>04 · Vendor risk</b><br/>who else holds our data<br/><i>found the AI tools for 08</i>"]
-    end
-    subgraph S3["3 · Get ready for the auditor"]
-        direction TB
-        P5["<b>05 · ISO 27001 SoA</b><br/>which controls and why"] --> P6["<b>06 · SOC 2 and audit</b><br/>do they work over time"]
-    end
-    subgraph S4["4 · Check the real systems"]
-        direction TB
-        P7["<b>07 · Cloud review</b><br/>is the cloud as claimed"] --> P8["<b>08 · AI governance</b><br/>what the AI says and decides"]
-    end
-    S1 --> S2 --> S3 --> S4
-    classDef proj fill:#FFFFFF,stroke:#13315C,color:#0B2545
-    classDef ai fill:#E6F7F1,stroke:#2BAE8E,stroke-width:2px,color:#0B2545
-    class P1,P2,P3,P4,P5,P6,P7 proj
-    class P8 ai
-    style S1 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
-    style S2 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
-    style S3 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
-    style S4 fill:#F3F6FA,stroke:#B9C8D8,color:#13315C
+    P1["01 · Policy pack<br/>the rules"] --> P2["02 · Risk register<br/>what could go wrong"]
+    P1 --> P3["03 · NIST CSF 2.0<br/>how mature are we"]
+    P2 --> P3
+    P2 --> P4["04 · Vendor risk<br/>who holds our data"]
+    P2 --> P5["05 · ISO 27001<br/>which controls, why"]
+    P3 --> P5
+    P5 --> P6["06 · SOC 2<br/>prove it works"]
+    P6 --> P7["07 · Cloud<br/>prove it in the cloud"]
+    P7 --> P8["08 · AI governance<br/>what the AI does"]
+    P4 -->|AI tools found| P8
+    P4 -.->|VR-001 to 009| P2
+    P7 -.->|R-005: 12 to 20| P2
+    P8 -.->|AR-001, AR-002| P2
 ```
 
 ## The scenario — Cypher Group Inc. (simulated)
