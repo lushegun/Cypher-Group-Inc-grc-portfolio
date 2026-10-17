@@ -197,7 +197,7 @@ recommendation is a wish.
 
 | Residual High risk | Driving control gap | Owning Category | Score | Consistent? |
 |---|---|---|:-:|---|
-| `[R-0XX]` | `[CG-0X]` | `[XX.YY]` | `[n]` | `[✅/❌]` |
+| `[R-0XX]` | `[CG-0X]` | `[XX.YY]` | `[n]` | `[Yes/No]` |
 
 **Verification checklist:**
 

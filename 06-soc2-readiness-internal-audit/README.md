@@ -62,4 +62,4 @@ Its own cloud provider wrote **four** such controls for Cypher Group Inc. **It h
 
 ---
 
-[← 05 ISO 27001 Readiness & SoA](../05-iso27001-readiness-soa/) · [Portfolio home](../README.md) · Next: 07 cloud compliance, CIS Benchmark (coming soon)
+[← 05 ISO 27001 Readiness & SoA](../05-iso27001-readiness-soa/) · [Portfolio home](../README.md) · [Next: 07 Cloud Compliance →](../07-aws-cloud-compliance/)
