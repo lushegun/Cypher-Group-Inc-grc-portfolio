@@ -1,0 +1,18 @@
+﻿Risk ID,Inherent,Residual v1.2,Rating v1.2,Residual v1.3,Rating v1.3,Change,Note
+R-001,20,6,Medium,6,Medium,0,Unchanged
+R-002,20,8,Medium,8,Medium,0,Unchanged
+R-003,12,6,Medium,6,Medium,0,Unchanged
+R-004,20,12,High,12,High,0,Unchanged
+R-005,20,20,Critical,20,Critical,0,Unchanged
+VR-001,16,8,Medium,8,Medium,0,Unchanged
+VR-002,10,8,Medium,8,Medium,0,Unchanged
+VR-003,12,8,Medium,8,Medium,0,Unchanged
+VR-004,15,12,High,12,High,0,Unchanged
+VR-005,12,9,Medium,9,Medium,0,Unchanged; residual flagged for Q1 2027 review (free web AI tools)
+VR-006,16,9,Medium,9,Medium,0,Unchanged
+VR-007,12,9,Medium,9,Medium,0,Unchanged
+VR-008,16,9,Medium,9,Medium,0,Unchanged
+VR-009,12,6,Medium,6,Medium,0,Unchanged
+AR-001,12,-,-,9,Medium,New,Added by CGI-AIG-001
+AR-002,8,-,-,8,Medium,New,Added by CGI-AIG-001
+TOTAL (16 risks),233,130,,147,,+17,"v1.2: 14 risks, inherent 213, residual 130"

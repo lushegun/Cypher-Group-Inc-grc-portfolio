@@ -1,0 +1,5 @@
+﻿Severity,Rule (published before grading)
+Critical,"Customer or personal data is processed by an AI system today under no contract of any kind, or a prohibited practice (Art. 5) is in use."
+High,"A legal duty in force today is unmet (GDPR Arts 13-14, 28, 35; AI Act Art. 4 with no measure at all), or customer content sits under no training or human-review prohibition, or Cypher cannot tell whether it has a prohibited or high-risk use."
+Medium,"An approved policy control or a required management-system process is absent or unevidenced, with no legal duty unmet today."
+Low,A documentation or customer-assurance gap with no exposure.
