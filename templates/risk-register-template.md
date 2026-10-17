@@ -1,9 +1,9 @@
-[← Portfolio home](../README.md) · [All templates](README.md)
+[← All templates](README.md)
 
 # [COMPANY LEGAL NAME] — Master Information Security Risk Register
 
 > [!TIP]
-> **How to use this template.** Replace every [BRACKETED] field. Delete any section that does not apply. Delete this note before issuing. Originally developed for a simulated portfolio scenario by O.S, 2026. Method: NIST SP 800-30 Rev. 1 semi-quantitative 5 x 5.
+> **How to use this template.** Replace every [BRACKETED] field. Delete any section that does not apply. Delete this note before issuing. Prepared by Olugboye Shola. Method: NIST SP 800-30 Rev. 1 semi-quantitative 5 x 5.
 
 ### Assessed under [METHODOLOGY, e.g. NIST SP 800-30 Rev. 1], with control cross-references to [YOUR POLICY SET ID RANGE, e.g. XXX-POL-001 to XXX-POL-005]
 
@@ -195,7 +195,7 @@
 4. **Control effectiveness is asserted, not tested.** [STATE WHETHER ANY TESTING HAS BEEN PERFORMED.]
 5. **Scope.** [RESTATE WHAT IS NOT COVERED.]
 
-**Assurance statement.** [IF THIS IS A PORTFOLIO ARTEFACT: state that all content is simulated and that no certification or attestation is claimed. IF REAL: state the review and approval status.]
+**Assurance statement.** [State the review and approval status, and whether any certification or attestation is claimed.]
 
 ---
 
@@ -226,5 +226,4 @@
 - [ ] Arithmetic verified: every score column equals Likelihood × Impact
 - [ ] Table pastes into a spreadsheet with one value per cell and no merged cells
 - [ ] Limitations section written honestly, including what the model cannot do
-- [ ] Case-study notice present if this is a portfolio artefact
 - [ ] Added to the document register with owner, approver and review dates
