@@ -10,7 +10,7 @@
 | Pack version | 1.0 |
 | Classification of this document | Internal |
 | Prepared by | O.S, GRC Analyst (engaged) |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Approval date | 01 September 2026 |
 | Effective date | 15 September 2026 |
 | Next scheduled review | 01 September 2027 |
@@ -79,7 +79,7 @@ referenced but maintained separately in the Cypher Group internal wiki.
 
 | Role | Name (simulated) | Policy responsibilities |
 |---|---|---|
-| Chief Executive Officer | Jerry Olugboye | Approves the pack; accountable for the security programme |
+| Chief Executive Officer | Jerry Gold | Approves the pack; accountable for the security programme |
 | Chief Technology Officer | Priya Raman | Owns technical policies; acts as Incident Commander; approves exceptions |
 | Head of People and Operations | Sofia Lindqvist | Owns the AUP; runs sign-off tracking; triggers joiner and leaver events |
 | IT Operations Manager | Tomas Whitfield | Executes provisioning and deprovisioning; runs access reviews |
@@ -97,7 +97,7 @@ referenced but maintained separately in the Cypher Group internal wiki.
 | Version | 1.0 |
 | Classification | Internal |
 | Policy owner | Sofia Lindqvist, Head of People and Operations |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Approval date | 01 September 2026 |
 | Effective date | 15 September 2026 |
 | Review cadence | Annually, or upon significant change |
@@ -108,7 +108,7 @@ referenced but maintained separately in the Cypher Group internal wiki.
 
 | Version | Date | Author | Summary of change | Approved by |
 |---|---|---|---|---|
-| 1.0 | 2026-09-01 | O.S | Initial issue | Jerry Olugboye |
+| 1.0 | 2026-09-01 | O.S | Initial issue | Jerry Gold |
 
 ## 1. Purpose
 
@@ -321,7 +321,7 @@ tracked in the Employee Policy Sign-off and Training Tracker.
 | Version | 1.0 |
 | Classification | Internal |
 | Policy owner | Priya Raman, Chief Technology Officer |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Approval date | 01 September 2026 |
 | Effective date | 15 September 2026 |
 | Review cadence | Annually, or upon significant change |
@@ -332,7 +332,7 @@ tracked in the Employee Policy Sign-off and Training Tracker.
 
 | Version | Date | Author | Summary of change | Approved by |
 |---|---|---|---|---|
-| 1.0 | 2026-09-01 | O.S | Initial issue. Aligned to NIST SP 800-63B-4. | Jerry Olugboye |
+| 1.0 | 2026-09-01 | O.S | Initial issue. Aligned to NIST SP 800-63B-4. | Jerry Gold |
 
 ## 1. Purpose
 
@@ -495,7 +495,7 @@ to the CTO. This report is retained as audit evidence.
 | Version | 1.0 |
 | Classification | Internal |
 | Policy owner | Priya Raman, Chief Technology Officer |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Approval date | 01 September 2026 |
 | Effective date | 15 September 2026 |
 | Review cadence | Annually, or upon significant change |
@@ -506,7 +506,7 @@ to the CTO. This report is retained as audit evidence.
 
 | Version | Date | Author | Summary of change | Approved by |
 |---|---|---|---|---|
-| 1.0 | 2026-09-01 | O.S | Initial issue | Jerry Olugboye |
+| 1.0 | 2026-09-01 | O.S | Initial issue | Jerry Gold |
 
 ## 1. Purpose
 
@@ -694,7 +694,7 @@ ticket, and percentage of access reviews completed on schedule.
 | Version | 1.0 |
 | Classification | Internal |
 | Policy owner | Priya Raman, Chief Technology Officer |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Approval date | 01 September 2026 |
 | Effective date | 15 September 2026 |
 | Review cadence | Annually, or upon significant change |
@@ -705,7 +705,7 @@ ticket, and percentage of access reviews completed on schedule.
 
 | Version | Date | Author | Summary of change | Approved by |
 |---|---|---|---|---|
-| 1.0 | 2026-09-01 | O.S | Initial issue. Four-tier model adopted. | Jerry Olugboye |
+| 1.0 | 2026-09-01 | O.S | Initial issue. Four-tier model adopted. | Jerry Gold |
 
 ## 1. Purpose
 
@@ -743,7 +743,7 @@ store, transmit or dispose of it.
 | Payment metadata and financial records | Finance Manager | Jonas Keller |
 | Source code and technical documentation | Chief Technology Officer | Priya Raman |
 | Employee and recruitment records | Head of People and Operations | Sofia Lindqvist |
-| Marketing and public communications | Chief Executive Officer | Jerry Olugboye |
+| Marketing and public communications | Chief Executive Officer | Jerry Gold |
 
 ## 4. Policy statements
 
@@ -876,7 +876,7 @@ evidence.
 | Version | 1.0 |
 | Classification | Internal |
 | Policy owner | Priya Raman, Chief Technology Officer |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Approval date | 01 September 2026 |
 | Effective date | 15 September 2026 |
 | Review cadence | Annually, and after every SEV1 or SEV2 incident |
@@ -887,7 +887,7 @@ evidence.
 
 | Version | Date | Author | Summary of change | Approved by |
 |---|---|---|---|---|
-| 1.0 | 2026-09-01 | O.S | Initial issue. Aligned to NIST SP 800-61 Rev. 3 and NIST CSF 2.0. | Jerry Olugboye |
+| 1.0 | 2026-09-01 | O.S | Initial issue. Aligned to NIST SP 800-61 Rev. 3 and NIST CSF 2.0. | Jerry Gold |
 
 ## 1. Purpose
 

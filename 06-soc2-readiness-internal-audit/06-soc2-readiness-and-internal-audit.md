@@ -19,7 +19,7 @@
 | Assessment and audit date | 25 September 2026 |
 | Simulated fieldwork | 21–25 September 2026 |
 | Prepared by | O.S — assessor and internal auditor |
-| Approving authority | Jerry Olugboye, Chief Executive Officer |
+| Approving authority | Jerry Gold, Chief Executive Officer |
 | Criteria | AICPA **2017 Trust Services Criteria** with the **2022 revised points of focus** — Security (CC1–CC9), Availability (A1), Confidentiality (C1) |
 | Audit criteria | ISO/IEC 27001:2022 incl. Amd 1:2024 clauses 4–10; the 88 applicable Annex A controls per CGI-ISO-001; CGI-POL-001 to -005 |
 | Inputs consumed | CGI-POL-001 to -005 v1.0 · CGI-TRK-001 · EXC-001 to -003 · CGI-RSK-001 v1.1 (14 risks) · CGI-GAP-001 v1.0 as updated by Project 4 · CGI-TPR-001 / -002 (17 vendors) · CGI-ISO-001 v1.0 draft (93-control SoA) |
@@ -749,7 +749,7 @@ four quarterly access reviews, two restore tests, a year of change records and a
 | Fieldwork | 21–25 September 2026 (simulated) |
 | Auditor | O.S |
 | **Independence** | **IMPAIRED AND DECLARED.** The auditor prepared CGI-ISO-001, including the SoA tested in WP-06. Affected workpapers: **WP-06** and **WP-13**. Compensating measure: the CEO reviews those two conclusions. Recommendation: ISO-12 is performed in May 2027 by an auditor independent of the preparer — this is finding **OFI-08** |
-| Reported to | Jerry Olugboye, Chief Executive Officer. There is no management review to report into, which is itself finding NC-07 |
+| Reported to | Jerry Gold, Chief Executive Officer. There is no management review to report into, which is itself finding NC-07 |
 | Audit programme | This audit is the first entry. A programme covering frequency, methods, responsibilities, criteria, scope and reporting does not exist — finding **NC-06** |
 
 #### 5.1.1 The dating rule, stated before any finding is graded
@@ -826,7 +826,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Context and interested parties are not documented. The climate-change relevance decision has never been made. |
 | **Findings raised** | NC-10 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-02 — Clause 4.3-4.4 Scope and the ISMS
 
@@ -845,7 +845,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Scope is drafted to an auditable standard but has not been approved by top management. The ISMS components (policies, register, gap assessment, vendor programme, SoA) do not yet operate as one system. |
 | **Findings raised** | NC-11; NC-18 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-03 — Clause 5.1-5.3 Leadership, policy and roles
 
@@ -864,7 +864,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | No information security policy exists at ISMS level. The USD 32,100 budget is costed but unapproved. Nobody is assigned responsibility for ISMS conformance or for reporting its performance to top management. |
 | **Findings raised** | NC-01; NC-12; NC-13 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-04 — Clause 6.1.1 and 6.3 ISMS risks, opportunities and change planning
 
@@ -883,7 +883,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Neither requirement has ever been addressed. The register's 14 risks are information security risks, not ISMS risks and opportunities. |
 | **Findings raised** | NC-14 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-05 — Clause 6.1.2 Risk assessment process
 
@@ -902,7 +902,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | The method is sound and has operated twice (v1.0 and v1.1). No risk acceptance criteria exist, so neither acceptance in force can be shown to be within appetite. Fraud has never been considered as a risk category. |
 | **Findings raised** | NC-02; OFI-11 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-06 — Clause 6.1.3 Risk treatment and the Statement of Applicability
 
@@ -921,7 +921,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | The SoA is complete, traceable and honest (0 Implemented, 45 Partial, 43 Not started). It has not been approved, no consolidated risk treatment plan exists, and the risk owners have not accepted the residual risk on R-004, R-005 or VR-004. |
 | **Findings raised** | NC-03 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-07 — Clause 6.2 Information security objectives
 
@@ -940,7 +940,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Indicators have been mistaken for objectives. An indicator reports a number; an objective states the number you intend to reach, by when and who owns it. |
 | **Findings raised** | NC-04 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-08 — Clause 7.1-7.2 Resources and competence
 
@@ -959,7 +959,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | No competence requirements and no documented evidence of competence exist for any role. Clause 7.2 d) requires the evidence to be retained. |
 | **Findings raised** | NC-05; NC-12 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-09 — Clause 7.3 and A.6.3 Awareness and training
 
@@ -978,7 +978,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | 40% of staff are bound by rules they have not acknowledged. The acknowledgement population is itself unverifiable, which is an information-produced-by-the-entity limitation recorded separately. |
 | **Findings raised** | NC-15; OFI-04; OFI-06 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-10 — Clause 7.4-7.5 Communication and documented information
 
@@ -997,7 +997,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Document control exists per document but not as a system. No ISMS communication plan defines what is communicated, when, to whom or how. |
 | **Findings raised** | NC-16; NC-19 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-11 — Clause 8.1-8.3 Operational planning, risk assessment and treatment performance
 
@@ -1016,7 +1016,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Clause 8.2 is the only requirement in clauses 4-10 fully met. Treatment actions are dated but not yet due at the audit date, so their non-completion is not a nonconformity. |
 | **Findings raised** | OFI-13 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-12 — Clause 9.1 Monitoring, measurement, analysis and evaluation
 
@@ -1035,7 +1035,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Measurement has occurred once, as a by-product of the vendor programme, and has never been reported. There is no monitoring programme and no analysis or evaluation step. |
 | **Findings raised** | NC-17 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-13 — Clause 9.2 Internal audit, and A.5.35 independent review
 
@@ -1054,7 +1054,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Clause 9.2 is wholly unmet. This dry run gives the organisation the method and the workpapers, not the conformity: the same person prepared the Statement of Applicability under test. |
 | **Findings raised** | NC-06; OFI-08 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-14 — Clause 9.3 Management review
 
@@ -1073,7 +1073,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | No management review has ever been held. The planned REC-10 forum is not yet a clause 9.3 review: its agenda covers KRIs, the scorecard and treatment status, and omits several required inputs. |
 | **Findings raised** | NC-07 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-15 — Clause 10.1-10.2 Improvement, nonconformity and corrective action
 
@@ -1092,7 +1092,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | An approved exception is a decision to depart from a rule. A nonconformity is a failure to meet a requirement. The organisation has a register for the first and none for the second. |
 | **Findings raised** | NC-08; NC-18 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-16 — A.5.1, A.5.4, A.5.36, A.5.37 Policy framework and compliance
 
@@ -1111,7 +1111,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | The policy layer is genuinely strong and is the best-evidenced part of the ISMS. Nothing beneath it has been built, and nothing above it checks it. |
 | **Findings raised** | NC-15; OFI-14 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-17 — A.5.15-A.5.18, A.6.5, A.8.2, A.8.5 Access control lifecycle
 
@@ -1130,7 +1130,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | The most important result in this audit is a negative one: the leaver population cannot be established, so the four-hour revocation control cannot be tested at all. An untestable control is not a passing control. |
 | **Findings raised** | OFI-06; OFI-15 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-18 — A.5.19-A.5.23 Supplier relationships and cloud services
 
@@ -1149,7 +1149,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Designed, not cycled. This is the clearest example in the ISMS of the difference between a control that exists and a control that operates. |
 | **Findings raised** | OFI-07; OFI-09 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-19 — A.5.20, A.5.34 Data processing agreements and protection of PII
 
@@ -1168,7 +1168,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | This is a present-tense legal non-compliance, not a future roadmap item. GDPR Article 28(3) requires the agreement to be in place before processing begins; the processing is already happening. The finding does not depend on the SoA target date of 31 October 2026. |
 | **Findings raised** | NC-09 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-20 — A.5.24-A.5.28, A.6.8 Incident management
 
@@ -1187,7 +1187,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Design is the strongest of any control family outside the policy pack. Zero occurrences means zero evidence: the walkthrough is all the assurance available, and inquiry plus a walkthrough is not sufficient evidence of operation. |
 | **Findings raised** | OFI-16 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-21 — A.5.29, A.5.30, A.8.13 Continuity and backup (CG-01)
 
@@ -1206,7 +1206,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Backups exist and have never been proven to restore. CGI-RSK-001 correctly takes no credit for them against R-002. The SoA target date of 15 December 2026 has not passed, so this is recorded as an opportunity for improvement that becomes a nonconformity on 16 December 2026. |
 | **Findings raised** | OFI-01 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-22 — A.8.3, A.8.4, A.8.8, A.8.19, A.8.25, A.8.26, A.8.28, A.8.29, A.8.31, A.8.32 Secure development (CG-02, R-004)
 
@@ -1225,7 +1225,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | Ten of the eleven code-path controls behind the organisation's joint-highest residual risk are Not started, and an eleventh (A.5.7 threat intelligence) is tested in WP-05. Engineers can commit directly to production with no second person. SoA target dates of 31 March 2027 have not passed, so the finding is recorded as an OFI that becomes a nonconformity on 01 April 2027. |
 | **Findings raised** | OFI-02; OFI-17 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-23 — A.8.9, A.8.15, A.8.16, A.8.20-A.8.22 Cloud configuration, logging and monitoring (CG-03, R-005)
 
@@ -1244,7 +1244,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | R-005 stays High for exactly this reason: the gap sits on the organisation's side of the shared-responsibility boundary, where no provider certificate reaches. Condition C1 is due 15 December 2026; if it is not met, the CloudCo conditional pass lapses to Fail. |
 | **Findings raised** | OFI-03; OFI-07 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 #### WP-24 — A.5.9, A.5.12, A.5.13, A.8.1, A.8.10-A.8.12 Asset, classification and data protection (CG-05)
 
@@ -1263,7 +1263,7 @@ was reached** — the workpaper records "not performed, population zero" and tes
 | **Conclusion** | A classification scheme with nothing classified is a document, not a control. The vendor inventory delivered by CGI-TPR-001 is an input to the asset inventory and is frequently mistaken for it. |
 | **Findings raised** | OFI-05; OFI-18 |
 | **Prepared by / date** | O.S / 25 September 2026 |
-| **Reviewed by** | Jerry Olugboye, Chief Executive Officer — see OFI-08 independence limitation |
+| **Reviewed by** | Jerry Gold, Chief Executive Officer — see OFI-08 independence limitation |
 
 ### 5.4 Findings register
 
@@ -1325,7 +1325,7 @@ response.
 
 ### 5.5 Internal audit report
 
-> **To:** Jerry Olugboye, Chief Executive Officer
+> **To:** Jerry Gold, Chief Executive Officer
 > **From:** O.S, Internal Auditor
 > **Date:** 25 September 2026
 > **Subject:** Internal audit of the information security management system — CGI-IAU-001
@@ -1507,7 +1507,7 @@ adding one.
 
 ## Part 8 — One-page executive summary
 
-> **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor and Internal Auditor
+> **To:** Jerry Gold, Chief Executive Officer · **From:** O.S, Assessor and Internal Auditor
 > **Date:** 25 September 2026
 > **Subject:** Can we sell against a SOC 2, and did our controls actually run?
 
@@ -1715,4 +1715,4 @@ entire Statement of Applicability to get there.
 | ISO/IEC 27001:2022 + Amd 1:2024 | Information security management systems — Requirements | 2022 | Referenced, paraphrased |
 | SSAE 18 / AT-C 105, 205 | Attestation standards | — | Referenced |
 
-*End of CGI-SOC-001 and CGI-IAU-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye.*
+*End of CGI-SOC-001 and CGI-IAU-001 v1.0. Prepared by O.S. For approval by Jerry Gold.*

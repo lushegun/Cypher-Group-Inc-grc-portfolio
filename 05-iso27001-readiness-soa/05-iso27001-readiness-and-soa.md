@@ -18,7 +18,7 @@
 | Status | Draft for approval (the SoA becomes v1.0 when the CEO approves it, action ISO-06) |
 | Assessment date | 16 September 2026 |
 | Prepared by (Assessor) | O.S |
-| Approving authority | Jerry Olugboye, Chief Executive Officer |
+| Approving authority | Jerry Gold, Chief Executive Officer |
 | Standard | ISO/IEC 27001:2022 including Amendment 1:2024; control guidance ISO/IEC 27002:2022 |
 | Inputs consumed | CGI-POL-001 to -005 v1.0 · CGI-TRK-001 · EXC-001 to -003 · CGI-RSK-001 v1.1 (R-001 to R-005, VR-001 to VR-009) · CGI-GAP-001 v1.0 (scores as updated by Project 4) · CGI-TPR-001 v1.0 and CGI-TPR-002 |
 | Next review | SoA: 30 September 2027, or on material change |
@@ -790,7 +790,7 @@ major nonconformity costs more time than it saves.
 
 ## Part 8 — One-page executive summary
 
-> **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 16 September 2026
+> **To:** Jerry Gold, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 16 September 2026
 > **Subject:** Can we get ISO 27001 certified, and when?
 
 **Answer: yes, in November 2027, not sooner. Booking an audit today would fail.**
@@ -957,4 +957,4 @@ restraint as Project 4 applies: **a prerequisite is not a score, and an approved
 | ISO/IEC 27002:2022 | Information security controls | 2022 | Referenced |
 | ISO/IEC 17021-1 / 27006-1 | Requirements for certification bodies | — | Referenced |
 
-*End of CGI-ISO-001 v1.0. Prepared by O.S. For approval by Jerry Olugboye.*
+*End of CGI-ISO-001 v1.0. Prepared by O.S. For approval by Jerry Gold.*
