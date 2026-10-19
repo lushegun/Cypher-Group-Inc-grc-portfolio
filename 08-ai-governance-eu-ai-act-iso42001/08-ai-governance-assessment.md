@@ -14,7 +14,7 @@
 | Status | Draft for approval |
 | Assessment date | 17 October 2026 |
 | Prepared by | O.S — assessor |
-| Approving authority | Jerry Olugboye, Chief Executive Officer |
+| Approving authority | Jerry Gold, Chief Executive Officer |
 | Laws and standards | **EU AI Act**, Regulation (EU) 2024/1689 as amended by the **Digital Omnibus on AI**, Regulation (EU) 2026/1744 · **ISO/IEC 42001:2023** · **NIST AI RMF 1.0** · GDPR, Regulation (EU) 2016/679 |
 | Mapped to | ISO/IEC 27001:2022 Annex A · SOC 2 Trust Services Criteria · NIST CSF 2.0 · CGI-RSK-001 risk IDs |
 | Inputs consumed | CGI-POL-001 §4.5 · CGI-RSK-001 v1.2 (14 risks) · CGI-GAP-001 (1.32) · CGI-TPR-001 (T2-f, questionnaire domain 15, CGI-VEN-012 and -013, VRA-2026-002 F-004) · CGI-ISO-001 (clause method, 93-control SoA) · CGI-SOC-001 / CGI-IAU-001 · CGI-AWS-001 (no AI service in the CloudCo accounts) |
@@ -676,7 +676,7 @@ The reduction falls because two risks enter with little or no credited control. 
 
 ## Part 11 — One-page executive summary
 
-**To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S · **Date:** 17 October 2026 · **Subject:** Are we using AI safely, and does the new EU AI law catch us?
+**To:** Jerry Gold, Chief Executive Officer · **From:** O.S · **Date:** 17 October 2026 · **Subject:** Are we using AI safely, and does the new EU AI law catch us?
 
 **In three sentences.**
 1. We use three AI tools, all bought from suppliers, and none of them is high-risk or banned under the EU AI Act, so the law asks two things of us today: train our people on the AI they use, and never use the practices it bans.

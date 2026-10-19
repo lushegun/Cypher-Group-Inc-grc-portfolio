@@ -14,7 +14,7 @@
 | Status | Draft for approval |
 | Review date | 16 October 2026 (simulated fieldwork 12-16 October 2026) |
 | Prepared by | O.S — reviewer |
-| Approving authority | Jerry Olugboye, Chief Executive Officer |
+| Approving authority | Jerry Gold, Chief Executive Officer |
 | Benchmark | **CIS Amazon Web Services Foundations Benchmark v5.0.0** — 63 recommendations, 5 sections |
 | Cloud provider | CloudCo (CGI-VEN-001), modelled on AWS, so AWS service names are used throughout |
 | Mapped to | ISO/IEC 27001:2022 Annex A · AICPA 2017 Trust Services Criteria (SOC 2) · NIST CSF 2.0 · CGI-RSK-001 risk IDs |
@@ -866,7 +866,7 @@ The tempting move is: "Block Public Access is off, so control effectiveness drop
 
 ## Part 10 — One-page executive summary
 
-**To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S · **Date:** 16 October 2026 · **Subject:** Is our cloud set up safely?
+**To:** Jerry Gold, Chief Executive Officer · **From:** O.S · **Date:** 16 October 2026 · **Subject:** Is our cloud set up safely?
 
 **In three sentences.**
 1. Our cloud passes 12 of the 60 industry-benchmark checks that apply to it (20%), and three failures are open doors today: an administrator port reachable from the whole internet, a former contractor's login with no second factor, and a former consultant's account that can still read a 2024 copy of our customer database.

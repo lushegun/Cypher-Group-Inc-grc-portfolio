@@ -29,7 +29,7 @@
 | Classification | Confidential |
 | Register owner (accountable) | Priya Raman, Chief Technology Officer |
 | Prepared by (assessor) | O.S, GRC Analyst (engaged) |
-| Approved by | Jerry Olugboye, Chief Executive Officer |
+| Approved by | Jerry Gold, Chief Executive Officer |
 | Assessment method | NIST SP 800-30 Rev. 1, semi-quantitative 5 × 5 (Appendix G assessment scales) |
 | Supporting standards referenced | ISO/IEC 27005:2022, ISO 31000:2018, NIST CSF 2.0 |
 | Assessment period | 07 – 08 September 2026 |
@@ -263,7 +263,7 @@ A register is a snapshot; key risk indicators are what tell you a score has move
 |---|---|---|---|
 | Prepared by | O.S, GRC Analyst (engaged) | Assessment performed and register drafted | 08 September 2026 |
 | Reviewed by | Priya Raman, Chief Technology Officer | Register owner; reviewed scoring and control mapping | 08 September 2026 |
-| Approved by | Jerry Olugboye, Chief Executive Officer | Accepted the two residual High risks pending completion of TP-07 to TP-10 | 08 September 2026 |
+| Approved by | Jerry Gold, Chief Executive Officer | Accepted the two residual High risks pending completion of TP-07 to TP-10 | 08 September 2026 |
 
 *Signature: ______________________  Date: ______________*
 

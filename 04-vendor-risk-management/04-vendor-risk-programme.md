@@ -18,7 +18,7 @@
 | Status | Final — issued for management review |
 | Assessment date | 15 September 2026 |
 | Prepared by (Assessor) | O.S |
-| Approving authority | Jerry Olugboye, Chief Executive Officer |
+| Approving authority | Jerry Gold, Chief Executive Officer |
 | Commissioned by | **CGI-GAP-001 REC-15**, following finding **GAP-006: GV.SC = 0 / 4** |
 | Frameworks | NIST CSF 2.0 (NIST CSWP 29) · ISO/IEC 27001:2022 Annex A · NIST SP 800-30 Rev. 1 · GDPR Articles 28, 30, 32, 33, 46 |
 | Risk method | Identical 5 × 5 semi-quantitative method and thresholds as CGI-RSK-001 v1.0 |
@@ -828,7 +828,7 @@ Three vendors, three outcomes, one method. Summary sheet: **`04_Assessments`** i
 | Business owner | IT Operations Manager |
 | Tier | **1** — trigger T1-e (named sub-processor); factor total 8 |
 | Assessment depth | Full 74-question VSQ, assurance artifact review, DPA review |
-| Assessor / Approver | O.S / Jerry Olugboye |
+| Assessor / Approver | O.S / Jerry Gold |
 | Date | 15 September 2026 |
 | Weighted score | **65%** (98.5 deducted from a maximum of 282, net of 2 N/A) |
 | Weight-5 questions Not Met | **7** — VQ-27, VQ-29, VQ-34, VQ-51, VQ-67, VQ-68, VQ-73 (against a Fail threshold of 2) |
@@ -900,7 +900,7 @@ CEO-approved, expiring risk acceptance on the CGI-RSK-001 **ACC-001** pattern.
 | Service | Cloud hosting and infrastructure for the production platform |
 | Business owner | Chief Technology Officer |
 | Tier | **1** — triggers T1-a, T1-b, T1-c, T1-d, T1-e (all five); factor total 12, the maximum |
-| Assessor / Approver | O.S / Jerry Olugboye |
+| Assessor / Approver | O.S / Jerry Gold |
 | Date | 15 September 2026 |
 | Weighted score | **89%** (32 deducted from a maximum of 288) |
 | Weight-5 questions Not Met | **0** |
@@ -1321,7 +1321,7 @@ and it is what makes "is this tool approved?" a question with an answer.
 
 ## Part 8 — One-page executive summary
 
-> **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
+> **To:** Jerry Gold, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
 > **Subject:** Who we depend on, what we know about them, and what we have signed
 
 ### We depend on 17 companies. We had assessed none of them.
@@ -1602,4 +1602,4 @@ spreadsheet engine before delivery. Nothing below was checked by eye.
 
 ---
 
-*End of CGI-TPR-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye.*
+*End of CGI-TPR-001 v1.0. Prepared by O.S. Approved by Jerry Gold.*
