@@ -18,7 +18,7 @@
 | Status | Final — issued for management review |
 | Assessment date | 15 September 2026 |
 | Prepared by (Assessor) | O.S |
-| Approving authority | Jerry Olugboye, Chief Executive Officer |
+| Approving authority | Jerry Gold, Chief Executive Officer |
 | Framework | NIST Cybersecurity Framework (CSF) 2.0 — NIST CSWP 29, published 26 February 2024 |
 | Assessment depth | Category level — all 22 Categories across all 6 Functions |
 | Maturity scale | 0–4 CMMI-style capability maturity (defined in §3) |
@@ -380,7 +380,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Organizational cybersecurity policy is established, communicated and enforced.
 
-**Current State Observation.** This is the company's strongest documented area and the direct output of Project 1: CGI-POL-001 to CGI-POL-005 v1.0 are written, approved by Jerry Olugboye and published, covering acceptable use, password and MFA, joiner-mover-leaver access control, data classification and incident reporting, with an Exception Register carrying EXC-001 to EXC-003. Enforcement is the gap, not authorship. CGI-TRK-001 evidences only 60% policy acknowledgement across 50 employees, meaning roughly 20 staff are bound by policies they have not read; the annual review cycle mandated in each policy's document control block has not yet run once, so no policy has a demonstrated review record. Three policies identified as necessary in CGI-RSK-001 - CGI-POL-006 Backup and Recovery, CGI-POL-007 Secure Development and Change Management and CGI-POL-008 Vulnerability Management - remain unwritten.
+**Current State Observation.** This is the company's strongest documented area and the direct output of Project 1: CGI-POL-001 to CGI-POL-005 v1.0 are written, approved by Jerry Gold and published, covering acceptable use, password and MFA, joiner-mover-leaver access control, data classification and incident reporting, with an Exception Register carrying EXC-001 to EXC-003. Enforcement is the gap, not authorship. CGI-TRK-001 evidences only 60% policy acknowledgement across 50 employees, meaning roughly 20 staff are bound by policies they have not read; the annual review cycle mandated in each policy's document control block has not yet run once, so no policy has a demonstrated review record. Three policies identified as necessary in CGI-RSK-001 - CGI-POL-006 Backup and Recovery, CGI-POL-007 Secure Development and Change Management and CGI-POL-008 Vulnerability Management - remain unwritten.
 
 | Field | Value |
 |---|---|
@@ -403,7 +403,7 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve and adjust the risk management strategy.
 
-**Current State Observation.** CGI-RSK-001 defines seven Key Risk Indicators with thresholds and named owners, which is the raw material for oversight, but not one of them has ever been measured or reported; no management review of the security programme has taken place, and no security item has appeared on a leadership agenda with minutes. The 52% inherent-to-residual risk reduction attributable to the Project 1 policy pack (aggregate 92 to 44, mean 18.4 to 8.8) is a strong, defensible performance figure that has never been presented to Jerry Olugboye, so leadership has no basis on which to adjust strategy or release the USD 32,100 budget.
+**Current State Observation.** CGI-RSK-001 defines seven Key Risk Indicators with thresholds and named owners, which is the raw material for oversight, but not one of them has ever been measured or reported; no management review of the security programme has taken place, and no security item has appeared on a leadership agenda with minutes. The 52% inherent-to-residual risk reduction attributable to the Project 1 policy pack (aggregate 92 to 44, mean 18.4 to 8.8) is a strong, defensible performance figure that has never been presented to Jerry Gold, so leadership has no basis on which to adjust strategy or release the USD 32,100 budget.
 
 | Field | Value |
 |---|---|
@@ -417,7 +417,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-004, R-005 |
 | **Risk if Unaddressed** | Leadership cannot fund, redirect or defend a programme whose performance it never sees, so security investment competes on anecdote rather than evidence. |
 | **Priority** | **P2** |
-| **Recommended Action** | Establish a minuted quarterly security review with Jerry Olugboye reporting the seven CGI-RSK-001 KRIs, this maturity scorecard and TP-01 to TP-10 status; retain the minutes as the oversight evidence record. |
+| **Recommended Action** | Establish a minuted quarterly security review with Jerry Gold reporting the seven CGI-RSK-001 KRIs, this maturity scorecard and TP-01 to TP-10 status; retain the minutes as the oversight evidence record. |
 | **Est. Effort** | S (Small) |
 | **Owner (Job Title)** | Chief Executive Officer |
 | **ISO 27001:2022 Annex A Mapping** | A.5.35 Independent review of information security; A.5.36 Compliance with policies, rules and standards (supports Clause 9.3 Management review) |
@@ -478,14 +478,14 @@ Each finding below carries all sixteen assessment columns in full.
 
 **Category Description (NIST CSF 2.0).** The cybersecurity risk to the organization, assets and individuals is understood by the organization.
 
-**Current State Observation.** This is the only Category at Cypher Group Inc. that demonstrates both design and operating effectiveness. CGI-RSK-001 v1.0 was performed end to end using NIST SP 800-30 Rev. 1, documents five scenarios (R-001 to R-005) in full threat-source to business-consequence form, records both inherent (20/20/12/20/20) and residual (6/8/6/12/12) scores, cites a specific CGI-POL clause for every mitigating control across more than 60 clause-level cross-references, applies all four treatment strategies including a formally documented acceptance and avoidance, and was approved by Jerry Olugboye. It is scored 3 rather than 4 because no metrics govern the process and because the identification input is incomplete: CSF Subcategory ID.RA-01 requires vulnerabilities in assets to be identified, and Cypher Group Inc. performs no vulnerability scanning of any kind (control gap CG-02), so the register's coverage rests on workshop judgement rather than on technical discovery.
+**Current State Observation.** This is the only Category at Cypher Group Inc. that demonstrates both design and operating effectiveness. CGI-RSK-001 v1.0 was performed end to end using NIST SP 800-30 Rev. 1, documents five scenarios (R-001 to R-005) in full threat-source to business-consequence form, records both inherent (20/20/12/20/20) and residual (6/8/6/12/12) scores, cites a specific CGI-POL clause for every mitigating control across more than 60 clause-level cross-references, applies all four treatment strategies including a formally documented acceptance and avoidance, and was approved by Jerry Gold. It is scored 3 rather than 4 because no metrics govern the process and because the identification input is incomplete: CSF Subcategory ID.RA-01 requires vulnerabilities in assets to be identified, and Cypher Group Inc. performs no vulnerability scanning of any kind (control gap CG-02), so the register's coverage rests on workshop judgement rather than on technical discovery.
 
 | Field | Value |
 |---|---|
 | **Ref ID** | GAP-008 |
 | **Function** | IDENTIFY |
 | **Category** | ID.RA Risk Assessment |
-| **Evidence Source** | CGI-RSK-001 v1.0 (approved, Jerry Olugboye); R-001 to R-005; CG-01 to CG-05; TP-01 to TP-10 |
+| **Evidence Source** | CGI-RSK-001 v1.0 (approved, Jerry Gold); R-001 to R-005; CG-01 to CG-05; TP-01 to TP-10 |
 | **Current Score (0–4)** | **3** — Defined and Operating |
 | **Target Score (0–4)** | 3 — Defined and Operating |
 | **Gap** | **0** |
@@ -815,7 +815,7 @@ Each finding below carries all sixteen assessment columns in full.
 | **Related Risk ID (CGI-RSK-001)** | R-002 |
 | **Risk if Unaddressed** | In a ransomware event the company would discover whether its backups restore at the worst possible moment, and an unrecoverable SaaS platform is an existential rather than a financial event for roughly 200 customers. |
 | **Priority** | **P1** |
-| **Recommended Action** | Perform and document a full restore test to a clean environment, publish CGI-POL-006 with declared RTO and RPO approved by Jerry Olugboye, and schedule the restore test to repeat every six months as a KRI. |
+| **Recommended Action** | Perform and document a full restore test to a clean environment, publish CGI-POL-006 with declared RTO and RPO approved by Jerry Gold, and schedule the restore test to repeat every six months as a KRI. |
 | **Est. Effort** | S (Small) |
 | **Owner (Job Title)** | IT Operations Manager |
 | **ISO 27001:2022 Annex A Mapping** | A.5.29 Information security during disruption; A.5.30 ICT readiness for business continuity; A.8.13 Information backup |
@@ -919,14 +919,14 @@ the primary sort key. Two deliberate overrides were applied and are stated in th
 |---|---|---|---|:-:|:-:|:-:|:-:|---|---|---|
 | **REC-01** | Complete MFA enrolment to 100% of accounts and retire the ACC-001 SMS exception ahead of its 03 Mar 2027 expiry, bringing practice into line with CGI-POL-002 §4.3.3 and §4.3.5. | R-001; TP-01 (partial) | PR.AA | P1 | S | 4 | **4.00** | IT Operations Manager | Q4 2026 | None |
 | **REC-02** | Execute and evidence the first quarterly privileged access review mandated by CGI-POL-003 §4.7.1, producing a dated, signed review record with actioned removals. | R-003; PR.AA maturity 2 to 3 | PR.AA | P1 | S | 4 | **4.00** | IT Operations Manager | Q4 2026 | Partial dependency on REC-05 for completeness |
-| **REC-03** | Perform and document a full backup restore test to a clean environment, then publish CGI-POL-006 Backup and Recovery with RTO and RPO approved by Jerry Olugboye. | R-002; CG-01 | RC.RP | P1 | S | 4 | **4.00** | IT Operations Manager | Q4 2026 | None |
+| **REC-03** | Perform and document a full backup restore test to a clean environment, then publish CGI-POL-006 Backup and Recovery with RTO and RPO approved by Jerry Gold. | R-002; CG-01 | RC.RP | P1 | S | 4 | **4.00** | IT Operations Manager | Q4 2026 | None |
 | **REC-04** | Drive CGI-TRK-001 policy acknowledgement from 60% to 100% and add a completion gate to the CGI-POL-003 joiner process so no new starter gains access before acknowledging. | R-001, R-002; GV.PO maturity 2 to 3 | GV.PO | P1 | S | 3 | **3.00** | Head of People and Operations | Q4 2026 | None |
 | **REC-05** | Build an asset and SaaS inventory covering CloudCo accounts and data stores, CodeCo repositories, OfficeCo shared drives, ChatCo workspaces, PaymentsCo objects and staff endpoints, labelled per CGI-POL-004. | R-003, R-005; ID.AM maturity 1 to 2 | ID.AM | P1 | M | 4 | **2.00** | IT Operations Manager | Q1 2027 | None |
 | **REC-06** | Publish CGI-POL-007 Secure Development and Change Management and enforce CodeCo branch protection with mandatory peer review and no direct commits to main. | R-004; CG-02 | PR.PS | P1 | M | 5 | **2.50** | Chief Technology Officer | Q1 2027 | None |
 | **REC-07** | Enable AWS CloudTrail organisation-wide with log file validation, centralise logs with defined retention, and alert on root usage, IAM policy change, public S3 exposure and mass data download. | R-003, R-005; CG-03, CG-05 (partial) | DE.CM, DE.AE | P1 | M | 5 | **2.50** | IT Operations Manager | Q1 2027 | None |
 | **REC-08** | Publish CGI-POL-008 Vulnerability Management and begin authenticated vulnerability scanning with severity-based remediation SLAs; feed results into the next CGI-RSK-001 revision. | R-002, R-004; CG-02 | PR.PS, ID.RA | P1 | M | 4 | **2.00** | Chief Technology Officer | Q1 2027 | None |
 | **REC-09** | Stand up an annual security awareness curriculum with an induction module and role-specific content for staff with production access, plus quarterly phishing simulations tracked in CGI-TRK-001. | R-001; CG-04 | PR.AT | P1 | M | 4 | **2.00** | Head of People and Operations | Q1 2027 | REC-04 (acknowledgement gate) |
-| **REC-10** | Establish a minuted quarterly security review with Jerry Olugboye reporting the seven CGI-RSK-001 KRIs, this maturity scorecard and TP-01 to TP-10 status. | GV.OV maturity 1 to 2 | GV.OV | P2 | S | 2 | **2.00** | Chief Executive Officer | Q1 2027 | None |
+| **REC-10** | Establish a minuted quarterly security review with Jerry Gold reporting the seven CGI-RSK-001 KRIs, this maturity scorecard and TP-01 to TP-10 status. | GV.OV maturity 1 to 2 | GV.OV | P2 | S | 2 | **2.00** | Chief Executive Officer | Q1 2027 | None |
 | **REC-11** | Apply a CIS AWS Foundations Benchmark baseline and enable continuous cloud security posture monitoring across all CloudCo accounts. | R-005; CG-03 | PR.IR | P1 | M | 5 | **2.50** | IT Operations Manager | Q2 2027 | REC-05 (asset inventory) |
 | **REC-12** | Run a SEV1 tabletop exercise against CGI-POL-005 covering ransomware and cloud exposure, rehearsing the §5.6.3 GDPR 72-hour path, with a written lessons-learned record. | R-002, R-005; ID.IM maturity 1 to 2 | RS.MA, RS.CO, ID.IM | P2 | S | 3 | **3.00** | Chief Technology Officer | Q2 2027 | REC-07 (something to detect with) |
 | **REC-13** | Add a CEO-approved risk appetite statement and a defined annual plus event-driven re-assessment cadence to CGI-RSK-001 v1.1; re-confirm ACC-001 against the stated appetite. | GV.RM maturity 2 to 3 | GV.RM, GV.OC | P2 | S | 2 | **2.00** | Chief Executive Officer | Q2 2027 | REC-10 (governance forum) |
@@ -974,7 +974,7 @@ declared target of 2.68.
 
 ## 8. Executive summary (one page)
 
-> **To:** Jerry Olugboye, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
+> **To:** Jerry Gold, Chief Executive Officer · **From:** O.S, Assessor · **Date:** 15 September 2026
 > **Subject:** NIST CSF 2.0 security maturity — where we stand and what to do first
 
 ### Overall maturity: 1.23 out of 4.00
@@ -1149,4 +1149,4 @@ control driving a residual High risk scores above 0:
 | NIST CSWP 29 | The NIST Cybersecurity Framework (CSF) 2.0 | 2.0 | Published 26 Feb 2024 |
 | ISO/IEC 27001:2022 | Information security management systems — Requirements | 2022 | Referenced for Annex A mapping |
 
-*End of CGI-GAP-001 v1.0. Prepared by O.S. Approved by Jerry Olugboye.*
+*End of CGI-GAP-001 v1.0. Prepared by O.S. Approved by Jerry Gold.*
