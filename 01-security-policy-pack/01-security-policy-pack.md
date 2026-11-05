@@ -390,7 +390,7 @@ accounts and non-human service accounts and API keys.
 
 4.2.1 All work credentials **shall** be stored in the Cypher Group-provided password manager.
 
-4.2.2 Credentials **shall not** be stored in browser password stores, spreadsheets, documents, notes applications, ChatCo messages, Jira tickets or source code.
+4.2.2 Credentials **shall not** be stored in browser password stores, spreadsheets, documents, notes applications, ChatCo messages, ticketing systems or source code.
 
 4.2.3 The password manager master password **shall** be a minimum of 16 characters, **shall** be unique, and **shall not** be recorded anywhere in electronic form.
 
