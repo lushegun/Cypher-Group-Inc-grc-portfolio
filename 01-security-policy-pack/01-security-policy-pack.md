@@ -916,7 +916,7 @@ outside working hours.
 | Term | Definition | Example at Cypher Group |
 |---|---|---|
 | Security event | Any observable occurrence that may have security relevance | A failed login alert; an unexpected MFA prompt |
-| Security incident | An event that actually or potentially compromises confidentiality, integrity or availability | An employee's Google account is accessed from an unrecognised country |
+| Security incident | An event that actually or potentially compromises confidentiality, integrity or availability | An employee's OfficeCo account is accessed from an unrecognised country |
 | Personal data breach | An incident leading to accidental or unlawful destruction, loss, alteration, or unauthorised disclosure of, or access to, personal data | Customer contact export emailed to the wrong recipient |
 | Near miss | An event that could have become an incident but did not | An employee spots and reports a phishing email before clicking |
 
